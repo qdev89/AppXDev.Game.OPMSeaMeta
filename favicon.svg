@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="opmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc00"/>
+      <stop offset="50%" stop-color="#ff3344"/>
+      <stop offset="100%" stop-color="#8c52ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="#0d0f17" stroke="url(#opmGrad)" stroke-width="6"/>
+  <!-- Punch Icon -->
+  <path d="M30 45 C30 35, 42 35, 45 42 C47 36, 56 36, 58 42 C60 36, 68 36, 70 45 C70 55, 60 70, 50 72 C40 70, 30 55, 30 45 Z" fill="#ffcc00"/>
+  <path d="M42 42 L42 60 M50 40 L50 62 M58 42 L58 60" stroke="#0d0f17" stroke-width="3" stroke-linecap="round"/>
+</svg>

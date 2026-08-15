@@ -183,9 +183,12 @@ export function App() {
             <div className="glass-panel p-6 sm:p-8 rounded-3xl relative overflow-hidden border border-opm-borderHighlight/80">
               <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div>
-                  <div className="flex items-center gap-2 mb-1.5">
+                  <div className="flex items-center gap-2 mb-1.5 flex-wrap">
                     <span className="px-2.5 py-0.5 text-xs font-black rounded-md bg-opm-yellow text-slate-950 uppercase tracking-wide">
                       {t('serverTag')}
+                    </span>
+                    <span className="px-2.5 py-0.5 text-xs font-black rounded-md bg-gradient-to-r from-amber-500/30 to-rose-500/30 text-amber-300 border border-amber-500/40 uppercase tracking-wide flex items-center gap-1 shadow-glow-yellow">
+                      👑 Created by LSB-Clan • Server 794
                     </span>
                     <span className="px-2.5 py-0.5 text-xs font-bold rounded-md bg-opm-card text-slate-300 border border-opm-border">
                       {filteredCharacters.length} / {characters.length} Heroes
@@ -450,16 +453,22 @@ export function App() {
       <Toast />
 
       {/* Footer */}
-      <footer className="mt-12 border-t border-opm-border/60 bg-opm-bg/90 backdrop-blur-md py-6 text-center text-xs text-slate-400">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="font-display font-black text-slate-200">OPM SEA META MANAGER</span>
-            <span>•</span>
-            <span>FingerFun Limited SEA Edition</span>
+      <footer className="mt-12 border-t border-opm-border/60 bg-opm-bg/95 backdrop-blur-md py-8 text-center text-xs text-slate-400">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-2">
+            <div className="flex items-center gap-2">
+              <span className="font-display font-black text-slate-200">OPM SEA META MANAGER</span>
+              <span>•</span>
+              <span className="px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-bold border border-amber-500/30">
+                Created by LSB-Clan • Server 794
+              </span>
+            </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 text-slate-400">
             <span>Bilingual EN / VI</span>
+            <span>•</span>
+            <span className="text-amber-400 font-bold">LSB-Clan S794 Community</span>
             <span>•</span>
             <span className="text-emerald-400 font-medium">GitHub Pages Ready</span>
           </div>

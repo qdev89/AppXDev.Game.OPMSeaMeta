@@ -79,6 +79,9 @@ export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
                   SEA
                 </span>
               </div>
+              <span className="text-[10px] font-black text-amber-400/90 block leading-tight tracking-wide">
+                LSB-Clan • Server 794
+              </span>
             </div>
           </div>
 

@@ -1,0 +1,470 @@
+[
+  {
+    "name": "Black Sperm",
+    "art": "he_100318_ur_plus__featured.webp"
+  },
+  {
+    "name": "Zombieman",
+    "art": "he_100317_ur_plus__featured.webp"
+  },
+  {
+    "name": "Overgrown Rover",
+    "art": "he_100316_ur_plus__featured.webp"
+  },
+  {
+    "name": "Bang &amp; Bomb",
+    "art": "he_100315_ur_plus__featured.webp"
+  },
+  {
+    "name": "G5",
+    "art": "he_100314_ur_plus__featured.webp"
+  },
+  {
+    "name": "Atomic Samurai",
+    "art": "he_100313_ur_plus__featured.webp"
+  },
+  {
+    "name": "Nyan",
+    "art": "he_100312_ur_plus__featured.webp"
+  },
+  {
+    "name": "Tatsumaki/Terrible Tornado",
+    "art": "he_100311_ur_plus__featured.webp"
+  },
+  {
+    "name": "Amai Mask",
+    "art": "he_100310_ur_plus__featured.webp"
+  },
+  {
+    "name": "Boros",
+    "art": "he_100309_ur_plus__featured.webp"
+  },
+  {
+    "name": "Genos",
+    "art": "he_100308_ur_plus__featured.webp"
+  },
+  {
+    "name": "Gyoro-Gyoro",
+    "art": "he_100307_ur__featured.webp"
+  },
+  {
+    "name": "Metal Bat V2",
+    "art": "he_100306_ur__featured.webp"
+  },
+  {
+    "name": "Sonic V2",
+    "art": "he_100305_ur__featured.webp"
+  },
+  {
+    "name": "Garou",
+    "art": "he_100304_ur__featured.webp"
+  },
+  {
+    "name": "Pig God",
+    "art": "he_100303_ur__featured.webp"
+  },
+  {
+    "name": "Carnage Kabuto",
+    "art": "he_100302_ur__featured.webp"
+  },
+  {
+    "name": "Subterranean King",
+    "art": "he_100301_ur__featured.webp"
+  },
+  {
+    "name": "Drive Knight",
+    "art": "he_100300_ur__featured.webp"
+  },
+  {
+    "name": "Hellish Blizzard",
+    "art": "he_100199_ur__featured.webp"
+  },
+  {
+    "name": "Deep Sea King",
+    "art": "he_100198_ur__featured.webp"
+  },
+  {
+    "name": "Child Emperor",
+    "art": "he_100196_ur__featured.webp"
+  },
+  {
+    "name": "Mosquito Girl",
+    "art": "he_100195_ur__featured.webp"
+  },
+  {
+    "name": "Flashy Flash",
+    "art": "he_100194_ur__featured.webp"
+  },
+  {
+    "name": "Gouketsu",
+    "art": "he_100193_ur__featured.webp"
+  },
+  {
+    "name": "Hellfire Flame",
+    "art": "he_100191_ur__featured.webp"
+  },
+  {
+    "name": "Melzargard",
+    "art": "he_100190_ur__featured.webp"
+  },
+  {
+    "name": "Gale Wind",
+    "art": "he_100189_ur__featured.webp"
+  },
+  {
+    "name": "King",
+    "art": "he_100187_ur__featured.webp"
+  },
+  {
+    "name": "Bom/Bengpu",
+    "art": "he_100186_ur__featured.webp"
+  },
+  {
+    "name": "Metal Bat",
+    "art": "he_100185_ur__featured.webp"
+  },
+  {
+    "name": "Suiryu",
+    "art": "he_100183_ur__featured.webp"
+  },
+  {
+    "name": "G4",
+    "art": "he_100182_ur__featured.webp"
+  },
+  {
+    "name": "Sonic V1",
+    "art": "he_100181_ur__featured.webp"
+  },
+  {
+    "name": "Superalloy Darkshine",
+    "art": "he_100177_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Metal Knight",
+    "art": "he_100176_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Puri-Puri Prisoner",
+    "art": "he_100175_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Groribas",
+    "art": "he_100174_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Watchdog Man",
+    "art": "he_100172_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Tank Top Master",
+    "art": "he_100170_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Phoenix Man",
+    "art": "he_100163_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Bang",
+    "art": "he_100160_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Geryuganshoop",
+    "art": "he_100159_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Monsterized Bakuzan",
+    "art": "he_100101_ssr_plus__featured.webp"
+  },
+  {
+    "name": "Choze",
+    "art": "he_100115_ssr__featured.webp"
+  },
+  {
+    "name": "Eyesight",
+    "art": "he_100149_ssr__featured.webp"
+  },
+  {
+    "name": "Speed-o-Sound Sonic V1",
+    "art": "he_100002_ssr__featured.webp"
+  },
+  {
+    "name": "Speed-o-Sound Sonic V2",
+    "art": "he_100069_ssr__featured.webp"
+  },
+  {
+    "name": "Tatsumaki/Terrible Tornado V1",
+    "art": "he_100004_ssr__featured.webp"
+  },
+  {
+    "name": "Tatsumaki/Terrible Tornado V2",
+    "art": "he_100151_ssr__featured.webp"
+  },
+  {
+    "name": "Vaccine Man V1",
+    "art": "he_100060_ssr__featured.webp"
+  },
+  {
+    "name": "Vaccine Man V2",
+    "art": "he_100085_ssr__featured.webp"
+  },
+  {
+    "name": "Armored Gorilla",
+    "art": "he_100047_sr__featured.webp"
+  },
+  {
+    "name": "Awakened Cockroach",
+    "art": "he_100135_sr__featured.webp"
+  },
+  {
+    "name": "Bakuzan",
+    "art": "he_100092_sr__featured.webp"
+  },
+  {
+    "name": "Beast King",
+    "art": "he_100049_sr__featured.webp"
+  },
+  {
+    "name": "Blue Fire",
+    "art": "he_100046_sr__featured.webp"
+  },
+  {
+    "name": "Bushidoriru",
+    "art": "he_100096_sr__featured.webp"
+  },
+  {
+    "name": "Butterfly DX",
+    "art": "he_100154_sr__featured.webp"
+  },
+  {
+    "name": "Death Gatling",
+    "art": "he_100136_sr__featured.webp"
+  },
+  {
+    "name": "Doctor Genus",
+    "art": "he_100083_sr__featured.webp"
+  },
+  {
+    "name": "Face Ripper",
+    "art": "he_100111_sr__featured.webp"
+  },
+  {
+    "name": "Fist Fight Djinn",
+    "art": "he_100097_sr__featured.webp"
+  },
+  {
+    "name": "Fukegao",
+    "art": "he_100084_sr__featured.webp"
+  },
+  {
+    "name": "Golden Ball",
+    "art": "he_100015_sr__featured.webp"
+  },
+  {
+    "name": "Hammerhead",
+    "art": "he_100007_sr__featured.webp"
+  },
+  {
+    "name": "Hamukichi",
+    "art": "he_100148_sr__featured.webp"
+  },
+  {
+    "name": "Heavy Tank Loincloth",
+    "art": "he_100110_sr__featured.webp"
+  },
+  {
+    "name": "Iairon",
+    "art": "he_100018_sr__featured.webp"
+  },
+  {
+    "name": "Konbu Infinity",
+    "art": "he_100063_sr__featured.webp"
+  },
+  {
+    "name": "Lightning Genji",
+    "art": "he_100051_sr__featured.webp"
+  },
+  {
+    "name": "Lightning Max",
+    "art": "he_100005_sr__featured.webp"
+  },
+  {
+    "name": "Magicman",
+    "art": "he_100091_sr__featured.webp"
+  },
+  {
+    "name": "Messenger of the Seafolk",
+    "art": "he_100034_sr__featured.webp"
+  },
+  {
+    "name": "Rinrin",
+    "art": "he_100120_sr__featured.webp"
+  },
+  {
+    "name": "Sky King",
+    "art": "he_100061_sr__featured.webp"
+  },
+  {
+    "name": "Smile Man",
+    "art": "he_100019_sr__featured.webp"
+  },
+  {
+    "name": "Snek",
+    "art": "he_100030_sr__featured.webp"
+  },
+  {
+    "name": "Spring Mustachio",
+    "art": "he_100016_sr__featured.webp"
+  },
+  {
+    "name": "Stinger",
+    "art": "he_100014_sr__featured.webp"
+  },
+  {
+    "name": "Subterranean",
+    "art": "he_100086_sr__featured.webp"
+  },
+  {
+    "name": "Tank Top Vegan",
+    "art": "he_100104_sr__featured.webp"
+  },
+  {
+    "name": "Bunbun Man",
+    "art": "he_100038_r__featured.webp"
+  },
+  {
+    "name": "Crablante",
+    "art": "he_100039_r__featured.webp"
+  },
+  {
+    "name": "D-pad",
+    "art": "he_100032_r__featured.webp"
+  },
+  {
+    "name": "Dark Matter Thief",
+    "art": "he_100068_r__featured.webp"
+  },
+  {
+    "name": "Eyelashes",
+    "art": "he_100021_r__featured.webp"
+  },
+  {
+    "name": "Funeral Suspenders",
+    "art": "he_100033_r__featured.webp"
+  },
+  {
+    "name": "Ground Dragon",
+    "art": "he_100065_r__featured.webp"
+  },
+  {
+    "name": "Jet Niceguy",
+    "art": "he_100050_r__featured.webp"
+  },
+  {
+    "name": "Kamakyuri",
+    "art": "he_100064_r__featured.webp"
+  },
+  {
+    "name": "Maiko Plasma",
+    "art": "he_100106_r__featured.webp"
+  },
+  {
+    "name": "Mumen Rider",
+    "art": "he_100031_r__featured.webp"
+  },
+  {
+    "name": "Sourface",
+    "art": "he_100093_r__featured.webp"
+  },
+  {
+    "name": "Tank Top Blackhole",
+    "art": "he_100035_r__featured.webp"
+  },
+  {
+    "name": "Tank Top Tiger",
+    "art": "he_100041_r__featured.webp"
+  },
+  {
+    "name": "Triple-Staff Lilly",
+    "art": "he_100020_r__featured.webp"
+  },
+  {
+    "name": "Wild Monkey",
+    "art": "he_100036_r__featured.webp"
+  },
+  {
+    "name": "YO649Z Mk. II",
+    "art": "he_100053_r__featured.webp"
+  },
+  {
+    "name": "Allback-man",
+    "art": "he_100042_n__featured.webp"
+  },
+  {
+    "name": "Charanko",
+    "art": "he_100067_n__featured.webp"
+  },
+  {
+    "name": "Clone",
+    "art": "he_200007_n__featured.webp"
+  },
+  {
+    "name": "Deep Sea Destroyer",
+    "art": "he_200010_n__featured.webp"
+  },
+  {
+    "name": "Deep Sea Invader",
+    "art": "he_200033_n__featured.webp"
+  },
+  {
+    "name": "Deep Sea Ravager",
+    "art": "he_200031_n__featured.webp"
+  },
+  {
+    "name": "Don Pacino",
+    "art": "he_200008_n__featured.webp"
+  },
+  {
+    "name": "Frog Man",
+    "art": "he_100022_n__featured.webp"
+  },
+  {
+    "name": "Men&#x27;s Esthetician Man",
+    "art": "he_200013_n__featured.webp"
+  },
+  {
+    "name": "Paradiser Footsoldier",
+    "art": "he_200001_n__featured.webp"
+  },
+  {
+    "name": "Paradiser Thug",
+    "art": "he_200026_n__featured.webp"
+  },
+  {
+    "name": "Paradiser Trooper",
+    "art": "he_200030_n__featured.webp"
+  },
+  {
+    "name": "Skyfolk Raider",
+    "art": "he_200009_n__featured.webp"
+  },
+  {
+    "name": "Skyfolk Rogue",
+    "art": "he_200018_n__featured.webp"
+  },
+  {
+    "name": "Skyfolk Striker",
+    "art": "he_200017_n__featured.webp"
+  },
+  {
+    "name": "Slugrus",
+    "art": "he_100023_n__featured.webp"
+  },
+  {
+    "name": "Subterranean Brute",
+    "art": "he_200011_n__featured.webp"
+  },
+  {
+    "name": "Subterranean Champion",
+    "art": "he_200027_n__featured.webp"
+  }
+]

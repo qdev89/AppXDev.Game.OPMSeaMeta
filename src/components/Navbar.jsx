@@ -59,34 +59,31 @@ export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-opm-bg/85 border-b border-opm-border/60 transition-all">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 sm:h-20 gap-4">
+    <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-opm-bg/90 border-b border-opm-border/60 transition-all">
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-5 lg:px-6">
+        <div className="flex items-center justify-between h-16 sm:h-18 gap-3">
           
           {/* Brand & Logo */}
-          <div className="flex items-center gap-3 cursor-pointer select-none shrink-0" onClick={() => setActiveTab('characters')}>
-            <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-opm-red via-opm-yellow to-opm-purple flex items-center justify-center shadow-glow-yellow p-0.5">
+          <div className="flex items-center gap-2.5 cursor-pointer select-none shrink-0" onClick={() => setActiveTab('characters')}>
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-opm-red via-opm-yellow to-opm-purple flex items-center justify-center shadow-glow-yellow p-0.5">
               <div className="w-full h-full bg-opm-card rounded-[10px] flex items-center justify-center">
-                <Flame className="w-6 h-6 text-opm-yellow animate-pulse" />
+                <Flame className="w-5 h-5 text-opm-yellow animate-pulse" />
               </div>
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <span className="font-display font-black text-base sm:text-lg tracking-tight bg-gradient-to-r from-opm-yellow via-amber-200 to-opm-red bg-clip-text text-transparent">
-                  ONE PUNCH MAN
+              <div className="flex items-center gap-1.5">
+                <span className="font-display font-black text-sm sm:text-base tracking-tight bg-gradient-to-r from-opm-yellow via-amber-200 to-opm-red bg-clip-text text-transparent">
+                  OPM SEA META
                 </span>
-                <span className="hidden sm:inline-block px-2 py-0.5 text-[10px] font-bold rounded-full bg-opm-red/20 text-opm-red border border-opm-red/30 uppercase tracking-wider">
-                  SEA Meta
+                <span className="hidden xl:inline-block px-1.5 py-0.2 text-[9px] font-bold rounded-full bg-opm-red/20 text-opm-red border border-opm-red/30 uppercase tracking-wider">
+                  SEA
                 </span>
               </div>
-              <p className="text-[11px] text-slate-400 font-medium hidden md:block">
-                The Strongest • FingerFun Database Manager
-              </p>
             </div>
           </div>
 
-          {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
+          {/* Desktop Navigation Links (Compact & Smooth) */}
+          <nav className="hidden lg:flex items-center gap-1 overflow-x-auto py-1">
             {navItems.map((item) => {
               const Icon = item.icon;
               const isActive = activeTab === item.id;
@@ -94,21 +91,21 @@ export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
                 <button
                   key={item.id}
                   onClick={() => setActiveTab(item.id)}
-                  className={`relative flex items-center gap-2 px-3.5 py-2 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                  className={`relative flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-bold transition-all duration-200 shrink-0 cursor-pointer ${
                     isActive
                       ? 'text-opm-yellow bg-opm-cardLight shadow-inner border border-opm-yellow/30'
                       : 'text-slate-300 hover:text-white hover:bg-opm-card/80'
                   }`}
                 >
-                  <Icon className={`w-4 h-4 ${isActive ? 'text-opm-yellow' : 'text-slate-400'}`} />
+                  <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-opm-yellow' : 'text-slate-400'}`} />
                   <span>{item.label}</span>
                   {item.badge && (
-                    <span className="px-1.5 py-0.2 text-[9px] font-black rounded bg-opm-yellow/20 text-opm-yellow border border-opm-yellow/40">
+                    <span className="px-1 py-0.2 text-[8px] font-black rounded bg-opm-yellow/20 text-opm-yellow border border-opm-yellow/40">
                       {item.badge}
                     </span>
                   )}
                   {isActive && (
-                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-8 h-0.5 bg-opm-yellow rounded-full" />
+                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-6 h-0.5 bg-opm-yellow rounded-full" />
                   )}
                 </button>
               );

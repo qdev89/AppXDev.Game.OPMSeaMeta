@@ -1,10 +1,9 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useLanguage } from './context/LanguageContext';
 import { useMetaData } from './context/MetaDataContext';
 import { Navbar } from './components/Navbar';
 import { CharacterCard } from './components/CharacterCard';
 import { CharacterModal } from './components/CharacterModal';
-import { CharacterEditorModal } from './components/CharacterEditorModal';
 import { TeamBuilder } from './components/TeamBuilder';
 import { TeamStrategyGuide } from './components/TeamStrategyGuide';
 import { NewbieGuide } from './components/NewbieGuide';
@@ -27,14 +26,15 @@ import {
   ShieldCheck,
   Flame,
   Github,
-  Heart
+  Heart,
+  Share2
 } from 'lucide-react';
 
 export function App() {
   const { language, getLocalized, t } = useLanguage();
-  const { characters, activeLineup, setSlotCharacter } = useMetaData();
+  const { characters, activeLineup, setSlotCharacter, showToast } = useMetaData();
 
-  // Active Main Tab: 'characters' | 'teambuilder' | 'tierlist' | 'gears' | 'banners' | 'metadata'
+  // Active Main Tab: 'characters' | 'newbie' | 'teambuilder' | 'teamguides' | 'damage' | 'mastery' | 'tierlist' | 'gears' | 'banners' | 'codes' | 'metadata'
   const [activeTab, setActiveTab] = useState('characters');
 
   // Filter States for Character Catalog
@@ -46,10 +46,61 @@ export function App() {
   const [onlyCores, setOnlyCores] = useState(false);
   const [sortBy, setSortBy] = useState('tier'); // 'tier' | 'rarity' | 'spd' | 'atk' | 'hp' | 'name'
 
-  // Modal States
+  // Modal State
   const [viewingCharacter, setViewingCharacter] = useState(null);
-  const [editingCharacter, setEditingCharacter] = useState(null);
-  const [isEditorOpen, setIsEditorOpen] = useState(false);
+
+  // Parse URL search parameters on initial load
+  useEffect(() => {
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const tabParam = urlParams.get('tab');
+      const heroParam = urlParams.get('hero');
+      const lineupParam = urlParams.get('lineup');
+
+      if (tabParam) {
+        setActiveTab(tabParam);
+      }
+
+      if (heroParam && characters.length > 0) {
+        const found = characters.find((c) => c.id === heroParam || c.id.toLowerCase() === heroParam.toLowerCase());
+        if (found) {
+          setViewingCharacter(found);
+        }
+      }
+
+      if (lineupParam) {
+        const slots = decodeURIComponent(lineupParam).split(',');
+        slots.slice(0, 6).forEach((charId, idx) => {
+          if (charId && charId !== 'empty') {
+            setSlotCharacter(idx, charId);
+          }
+        });
+      }
+    } catch (e) {
+      console.warn('Failed to parse URL query params:', e);
+    }
+  }, [characters]);
+
+  // Sync browser URL with active state
+  useEffect(() => {
+    try {
+      const url = new URL(window.location.href);
+      if (viewingCharacter) {
+        url.searchParams.set('hero', viewingCharacter.id);
+        url.searchParams.delete('tab');
+      } else {
+        url.searchParams.delete('hero');
+        if (activeTab !== 'characters') {
+          url.searchParams.set('tab', activeTab);
+        } else {
+          url.searchParams.delete('tab');
+        }
+      }
+      window.history.replaceState({}, '', url.toString());
+    } catch (e) {
+      // Ignored in non-browser environments
+    }
+  }, [activeTab, viewingCharacter]);
 
   // Rarity priority for sorting
   const rarityWeight = { 'UR+': 6, UR: 5, 'SSR+': 4, SSR: 3, SR: 2, R: 1 };
@@ -140,16 +191,6 @@ export function App() {
     setSelectedTier('All');
     setOnlyCores(false);
     setSortBy('tier');
-  };
-
-  const handleOpenCreateModal = () => {
-    setEditingCharacter(null);
-    setIsEditorOpen(true);
-  };
-
-  const handleOpenEditModal = (char) => {
-    setEditingCharacter(char);
-    setIsEditorOpen(true);
   };
 
   const handleQuickAddToLineup = (charId) => {
@@ -432,20 +473,11 @@ export function App() {
           character={viewingCharacter}
           isInTeam={activeLineup.includes(viewingCharacter.id)}
           onClose={() => setViewingCharacter(null)}
-          onEdit={(c) => {
-            setViewingCharacter(null);
-            handleOpenEditModal(c);
-          }}
           onAddToTeam={handleQuickAddToLineup}
-        />
-      )}
-
-      {/* Character Create/Edit CRUD Modal */}
-      {isEditorOpen && (
-        <CharacterEditorModal
-          character={editingCharacter}
-          isOpen={isEditorOpen}
-          onClose={() => setIsEditorOpen(false)}
+          onLoadTeam={() => {
+            setViewingCharacter(null);
+            setActiveTab('teambuilder');
+          }}
         />
       )}
 

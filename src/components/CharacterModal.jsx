@@ -1,5 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import { useMetaData } from '../context/MetaDataContext';
+import { defaultTeamGuides } from '../data/defaultTeamGuides';
 import { 
   X, 
   Shield, 
@@ -11,22 +13,27 @@ import {
   Flame, 
   Plus, 
   Check, 
-  Edit3,
-  BookOpen,
-  Award,
-  Layers,
-  Crosshair,
-  AlertTriangle
+  BookOpen, 
+  Award, 
+  Layers, 
+  Crosshair, 
+  AlertTriangle,
+  Share2,
+  ArrowRight,
+  ShieldCheck,
+  TrendingUp,
+  ExternalLink
 } from 'lucide-react';
 
 export const CharacterModal = ({ 
   character, 
   onClose, 
-  onEdit, 
   isInTeam = false, 
-  onAddToTeam 
+  onAddToTeam,
+  onLoadTeam
 }) => {
   const { language, getLocalized, t } = useLanguage();
+  const { characters, setSlotCharacter, showToast } = useMetaData();
 
   if (!character) return null;
 
@@ -35,6 +42,75 @@ export const CharacterModal = ({
     Duelist: <Swords className="w-4 h-4 text-red-400" />,
     HiTech: <Zap className="w-4 h-4 text-cyan-400" />,
     Esper: <Atom className="w-4 h-4 text-purple-400" />,
+  };
+
+  const handleShareHero = () => {
+    const shareUrl = `${window.location.origin}${window.location.pathname}?hero=${character.id}`;
+    navigator.clipboard.writeText(shareUrl);
+    showToast(
+      language === 'vi' 
+        ? `Đã sao chép link chia sẻ [${getLocalized(character.name)}]!` 
+        : `Copied share link for [${getLocalized(character.name)}]!`, 
+      'success'
+    );
+  };
+
+  const getHeroObj = (heroId) => {
+    return characters.find((c) => c.id === heroId);
+  };
+
+  // Find all preset teams containing this hero
+  const matchingGuides = defaultTeamGuides.filter((guide) => {
+    const allHeroes = [...guide.formation.frontRow, ...guide.formation.backRow];
+    return allHeroes.includes(character.id) || guide.coreHero.toLowerCase().includes(character.id.replace('ssr_plus_', '').replace('ur_', '').replace('urplus_', ''));
+  });
+
+  // Fallback synergy team generator if hero is not in defaultTeamGuides
+  const fallbackTeam = {
+    name: {
+      en: `${getLocalized(character.name)} Optimal Synergy Comp`,
+      vi: `Đội Hình Phối Hợp Tối Ưu Cho ${getLocalized(character.name)}`
+    },
+    tier: character.tier === 'SSS' ? 'SSS' : character.tier === 'SS' ? 'SS' : 'S',
+    coreHero: character.hasCore ? getLocalized(character.name) : 'Bomb Core / Doctor Genus Core',
+    formation: {
+      frontRow: ['ssr_superalloy', 'ssr_garou', 'ssr_plus_silverfang'],
+      backRow: [character.id, 'ur_tatsumaki', 'sr_goldenball']
+    },
+    strategy: {
+      en: `Optimized formation ensuring ${getLocalized(character.name)} receives front-row damage mitigation, core energy acceleration, and AoE shatter debuffs for maximum DPS conversion.`,
+      vi: `Đội hình tối ưu đảm bảo ${getLocalized(character.name)} nhận được sự bảo bọc kiên cố của hàng trước, nộ năng từ Lõi và hiệu ứng Vỡ Giáp diện rộng để phát huy tối đa 100% tiềm năng.`
+    }
+  };
+
+  const recommendedTeamsToDisplay = matchingGuides.length > 0 ? matchingGuides : [fallbackTeam];
+
+  const handleApplyLineupDirect = (team) => {
+    const slots = [
+      team.formation.frontRow[0],
+      team.formation.frontRow[1],
+      team.formation.frontRow[2],
+      team.formation.backRow[0],
+      team.formation.backRow[1],
+      team.formation.backRow[2],
+    ];
+
+    slots.forEach((charId, idx) => {
+      if (charId) {
+        setSlotCharacter(idx, charId);
+      }
+    });
+
+    showToast(
+      language === 'vi'
+        ? `Đã nạp đội hình [${getLocalized(team.name)}] vào Xếp Đội Hình!`
+        : `Loaded [${getLocalized(team.name)}] into Lineup Builder!`,
+      'success'
+    );
+
+    if (onLoadTeam) {
+      onLoadTeam();
+    }
   };
 
   return (
@@ -63,6 +139,7 @@ export const CharacterModal = ({
             <div>
               <div className="flex items-center gap-2 mb-1 flex-wrap">
                 <span className={`px-2.5 py-0.5 text-xs font-black rounded-md tracking-wider uppercase text-white ${
+                  character.rarity === 'UR+' ? 'rarity-badge-ur shadow-glow-ur bg-gradient-to-r from-purple-600 to-pink-600' :
                   character.rarity === 'UR' ? 'rarity-badge-ur' :
                   character.rarity === 'SSR+' ? 'rarity-badge-ssr-plus' :
                   character.rarity === 'SSR' ? 'rarity-badge-ssr text-black' :
@@ -81,6 +158,10 @@ export const CharacterModal = ({
                     <span>CORE MASTER</span>
                   </span>
                 )}
+
+                <span className="px-2 py-0.5 text-xs font-bold rounded-md bg-slate-800 text-slate-300 border border-slate-700">
+                  {character.faction} • {character.class}
+                </span>
               </div>
 
               <h2 className="font-display font-black text-xl sm:text-2xl text-slate-100">
@@ -92,31 +173,36 @@ export const CharacterModal = ({
             </div>
           </div>
 
-          {/* Close & Action Buttons */}
-          <div className="flex items-center gap-2 self-end sm:self-auto">
+          {/* Close & Action Buttons (Share & Add To Team - Edit/Delete Removed) */}
+          <div className="flex items-center gap-2 self-end sm:self-auto flex-wrap">
+            
+            {/* Share Link Button */}
             <button
-              onClick={() => onEdit(character)}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-opm-cardLight border border-opm-border hover:border-opm-yellow/50 text-xs font-bold text-slate-200 transition-colors"
+              onClick={handleShareHero}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-opm-cardLight border border-opm-border hover:border-opm-yellow/50 text-xs font-bold text-slate-200 hover:text-opm-yellow transition-all cursor-pointer"
+              title={language === 'vi' ? 'Sao chép link chia sẻ tướng này' : 'Copy share URL for this hero'}
             >
-              <Edit3 className="w-3.5 h-3.5 text-opm-yellow" />
-              <span>{t('common.edit')}</span>
+              <Share2 className="w-3.5 h-3.5 text-opm-yellow" />
+              <span>{language === 'vi' ? 'Chia Sẻ' : 'Share'}</span>
             </button>
 
+            {/* Quick Add To Team Button */}
             <button
               onClick={() => onAddToTeam && onAddToTeam(character.id)}
-              className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+              className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
                 isInTeam
                   ? 'bg-emerald-950 text-emerald-300 border border-emerald-500/50'
-                  : 'bg-opm-yellow hover:bg-amber-400 text-slate-950'
+                  : 'bg-opm-yellow hover:bg-amber-400 text-slate-950 shadow-glow-yellow'
               }`}
             >
               {isInTeam ? <Check className="w-3.5 h-3.5" /> : <Plus className="w-3.5 h-3.5" />}
               <span>{isInTeam ? t('common.inTeam') : t('common.addToTeam')}</span>
             </button>
 
+            {/* Close Button */}
             <button
               onClick={onClose}
-              className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors"
+              className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
@@ -124,8 +210,129 @@ export const CharacterModal = ({
         </div>
 
         {/* Scrollable Content Body */}
-        <div className="flex-1 overflow-y-auto p-5 sm:p-8 space-y-6">
+        <div className="flex-1 overflow-y-auto p-5 sm:p-8 space-y-7">
           
+          {/* SECTION 1: RECOMMENDED META TEAMS (ĐỘI HÌNH ĐỀ XUẤT) */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-opm-card to-amber-950/20 border border-amber-500/40 shadow-xl space-y-4">
+            <div className="flex items-center justify-between gap-2 border-b border-opm-border/80 pb-3">
+              <div className="flex items-center gap-2">
+                <ShieldCheck className="w-5 h-5 text-opm-yellow" />
+                <div>
+                  <h3 className="font-display font-black text-base sm:text-lg text-slate-100 uppercase tracking-wide">
+                    {language === 'vi' ? 'Đội Hình Đề Xuất (Recommended Meta Comps)' : 'Recommended Meta Lineups'}
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    {language === 'vi' ? 'Đội hình chiến thuật 6v6 chuẩn meta tối ưu hóa cho vị tướng này.' : 'Optimal 6v6 synergy formations tailored for this hero.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              {recommendedTeamsToDisplay.map((team, idx) => (
+                <div 
+                  key={idx} 
+                  className="p-4 rounded-2xl bg-opm-bg/80 border border-opm-border space-y-3 hover:border-amber-500/50 transition-all"
+                >
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <span className="px-2.5 py-0.5 rounded-lg bg-red-600/20 text-red-300 border border-red-500/30 text-[11px] font-black uppercase">
+                        {team.tier} Tier
+                      </span>
+                      <h4 className="font-display font-bold text-sm text-slate-100">
+                        {getLocalized(team.name)}
+                      </h4>
+                    </div>
+
+                    <button
+                      onClick={() => handleApplyLineupDirect(team)}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-opm-yellow hover:bg-amber-400 text-slate-950 text-xs font-black shadow-glow-yellow transition-all self-start sm:self-auto cursor-pointer"
+                    >
+                      <Plus className="w-3.5 h-3.5" />
+                      <span>{language === 'vi' ? 'Nạp Đội Hình Này' : 'Load Team'}</span>
+                    </button>
+                  </div>
+
+                  {/* 6-Hero Lineup Grid (Front & Back) */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                    
+                    {/* Front Row */}
+                    <div className="p-2.5 rounded-xl bg-slate-950/60 border border-opm-border/60">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase block mb-1.5">
+                        🛡️ {language === 'vi' ? 'Hàng Trước (Frontline Tank & Khống Chế):' : 'Frontline:'}
+                      </span>
+                      <div className="grid grid-cols-3 gap-2">
+                        {team.formation.frontRow.map((heroId, fIdx) => {
+                          const h = getHeroObj(heroId);
+                          const isCurrentHero = heroId === character.id;
+                          return (
+                            <div 
+                              key={fIdx} 
+                              className={`flex flex-col items-center p-1 rounded-xl border text-center ${
+                                isCurrentHero 
+                                  ? 'bg-amber-500/20 border-amber-400 shadow-glow-yellow' 
+                                  : 'bg-opm-card border-opm-border'
+                              }`}
+                            >
+                              <img 
+                                src={h?.avatar || "avatars/ur_saitama.webp"} 
+                                alt={h ? getLocalized(h.name) : heroId}
+                                className="w-9 h-9 rounded-lg object-cover mb-1"
+                                onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
+                              />
+                              <span className="text-[10px] font-bold text-slate-200 line-clamp-1">
+                                {h ? getLocalized(h.name) : heroId}
+                              </span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+
+                    {/* Back Row */}
+                    <div className="p-2.5 rounded-xl bg-slate-950/60 border border-opm-border/60">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase block mb-1.5">
+                        🎯 {language === 'vi' ? 'Hàng Sau (Carry & Dồn Sát Thương):' : 'Backline:'}
+                      </span>
+                      <div className="grid grid-cols-3 gap-2">
+                        {team.formation.backRow.map((heroId, bIdx) => {
+                          const h = getHeroObj(heroId);
+                          const isCurrentHero = heroId === character.id;
+                          return (
+                            <div 
+                              key={bIdx} 
+                              className={`flex flex-col items-center p-1 rounded-xl border text-center ${
+                                isCurrentHero 
+                                  ? 'bg-amber-500/20 border-amber-400 shadow-glow-yellow' 
+                                  : 'bg-opm-card border-opm-border'
+                              }`}
+                            >
+                              <img 
+                                src={h?.avatar || "avatars/ur_saitama.webp"} 
+                                alt={h ? getLocalized(h.name) : heroId}
+                                className="w-9 h-9 rounded-lg object-cover mb-1"
+                                onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
+                              />
+                              <span className="text-[10px] font-bold text-slate-200 line-clamp-1">
+                                {h ? getLocalized(h.name) : heroId}
+                              </span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+
+                  </div>
+
+                  {/* Strategy Note */}
+                  <p className="text-xs text-slate-300 leading-relaxed bg-slate-950/40 p-2.5 rounded-xl border border-opm-border/40">
+                    💡 <span className="font-semibold text-amber-300">{language === 'vi' ? 'Chiến thuật:' : 'Strategy:'}</span> {getLocalized(team.strategy)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Base Stats Matrix */}
           <div>
             <h3 className="font-display font-bold text-sm text-slate-300 uppercase tracking-wider mb-3 flex items-center gap-2">

@@ -205,35 +205,18 @@ export const CharacterCard = ({
           <Eye className="w-3.5 h-3.5" />
         </button>
 
-        {/* Edit Button */}
+        {/* Share Hero Link Button */}
         <button
-          onClick={() => onEdit(character)}
-          className="p-1.5 rounded-lg bg-opm-cardLight border border-opm-border hover:border-opm-yellow/50 text-slate-300 hover:text-opm-yellow transition-colors"
-          title={t('common.edit')}
-        >
-          <Edit3 className="w-3.5 h-3.5" />
-        </button>
-
-        {/* Clone Button */}
-        <button
-          onClick={() => cloneCharacter(character.id)}
-          className="p-1.5 rounded-lg bg-opm-cardLight border border-opm-border hover:border-purple-400/50 text-slate-300 hover:text-purple-400 transition-colors"
-          title={t('common.clone')}
-        >
-          <Copy className="w-3.5 h-3.5" />
-        </button>
-
-        {/* Delete Button */}
-        <button
-          onClick={() => {
-            if (window.confirm(`Delete ${getLocalized(character.name)}?`)) {
-              deleteCharacter(character.id);
-            }
+          onClick={(e) => {
+            e.stopPropagation();
+            const shareUrl = `${window.location.origin}${window.location.pathname}?hero=${character.id}`;
+            navigator.clipboard.writeText(shareUrl);
+            showToast(language === 'vi' ? `Đã sao chép link chia sẻ ${getLocalized(character.name)}!` : `Copied share link for ${getLocalized(character.name)}!`, 'success');
           }}
-          className="p-1.5 rounded-lg bg-opm-cardLight border border-opm-border hover:border-opm-red/50 text-slate-400 hover:text-opm-red transition-colors"
-          title={t('common.delete')}
+          className="p-1.5 rounded-lg bg-opm-cardLight border border-opm-border hover:border-opm-yellow/50 text-slate-300 hover:text-opm-yellow transition-colors"
+          title={language === 'vi' ? 'Chia sẻ link tướng' : 'Share hero link'}
         >
-          <Trash2 className="w-3.5 h-3.5" />
+          <Share2 className="w-3.5 h-3.5" />
         </button>
       </div>
     </div>

@@ -18,7 +18,8 @@ import {
   Filter,
   Layers,
   Crosshair,
-  Sprout
+  Sprout,
+  Share2
 } from 'lucide-react';
 
 export const TeamStrategyGuide = ({ onSwitchTab }) => {
@@ -172,13 +173,28 @@ export const TeamStrategyGuide = ({ onSwitchTab }) => {
                 </h2>
               </div>
 
-              <button
-                onClick={() => handleApplyLineup(guide)}
-                className="flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-opm-yellow hover:bg-amber-400 text-slate-950 font-black text-xs sm:text-sm shadow-glow-yellow transition-all cursor-pointer shrink-0"
-              >
-                <span>{language === 'vi' ? 'Nạp Vào Xếp Đội Hình' : 'Load into Builder'}</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
+              <div className="flex items-center gap-2 flex-wrap self-start sm:self-auto">
+                <button
+                  onClick={() => {
+                    const shareUrl = `${window.location.origin}${window.location.pathname}?tab=teamguides&team=${guide.id}`;
+                    navigator.clipboard.writeText(shareUrl);
+                    showToast(language === 'vi' ? `Đã sao chép link đội hình [${getLocalized(guide.name)}]!` : `Copied link for [${getLocalized(guide.name)}]!`, 'success');
+                  }}
+                  className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-2xl bg-opm-cardLight border border-opm-border hover:border-opm-yellow/50 text-slate-200 hover:text-opm-yellow text-xs font-bold transition-all cursor-pointer"
+                  title={language === 'vi' ? 'Chia sẻ link đội hình này' : 'Share team link'}
+                >
+                  <Share2 className="w-4 h-4 text-opm-yellow" />
+                  <span>{language === 'vi' ? 'Chia Sẻ' : 'Share'}</span>
+                </button>
+
+                <button
+                  onClick={() => handleApplyLineup(guide)}
+                  className="flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-opm-yellow hover:bg-amber-400 text-slate-950 font-black text-xs sm:text-sm shadow-glow-yellow transition-all cursor-pointer shrink-0"
+                >
+                  <span>{language === 'vi' ? 'Nạp Vào Xếp Đội Hình' : 'Load into Builder'}</span>
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </div>
             </div>
 
             {/* Formation Visual Grid (6 Slots) */}

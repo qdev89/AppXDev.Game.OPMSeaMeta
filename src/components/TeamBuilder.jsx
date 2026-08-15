@@ -84,16 +84,16 @@ export const TeamBuilder = ({ onOpenCharacterDetails }) => {
   };
 
   const handleShareLineup = () => {
-    const summary = [
-      `⚔️ OPM: The Strongest — SEA Lineup`,
-      `👑 Core: ${coreUnit ? getLocalized(coreUnit.name) : 'None'} (${isCoreActive ? 'ACTIVE' : 'INACTIVE'})`,
-      `🛡️ Front: ${lineupUnits.slice(0, 3).map((u) => (u ? getLocalized(u.name) : 'Empty')).join(' | ')}`,
-      `🎯 Back: ${lineupUnits.slice(3, 6).map((u) => (u ? getLocalized(u.name) : 'Empty')).join(' | ')}`,
-      `⚡ Turn 1 Order: ${speedSortedUnits.map((u, idx) => `${idx + 1}. ${getLocalized(u.name)} (${u.stats?.spd} SPD)`).join(' -> ')}`,
-    ].join('\n');
-
-    navigator.clipboard.writeText(summary);
-    showToast(t('common.copied'));
+    const lineupIds = activeLineup.map((id) => id || 'empty').join(',');
+    const shareUrl = `${window.location.origin}${window.location.pathname}?tab=teambuilder&lineup=${encodeURIComponent(lineupIds)}`;
+    
+    navigator.clipboard.writeText(shareUrl);
+    showToast(
+      language === 'vi' 
+        ? 'Đã sao chép liên kết chia sẻ Đội Hình 6v6!' 
+        : 'Copied 6v6 Lineup share URL to clipboard!', 
+      'success'
+    );
   };
 
   return (

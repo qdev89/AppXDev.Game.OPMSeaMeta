@@ -19,7 +19,8 @@ import {
   GraduationCap,
   Gift,
   Zap,
-  Layers
+  Layers,
+  Share2
 } from 'lucide-react';
 
 export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
@@ -152,13 +153,18 @@ export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
               />
             </label>
 
-            {/* Create Custom Character Button */}
+            {/* Share App Link Button */}
             <button
-              onClick={onOpenCreateModal}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 sm:py-2 rounded-xl bg-gradient-to-r from-opm-yellow to-amber-500 hover:from-amber-400 hover:to-opm-yellow text-slate-950 font-bold text-xs sm:text-sm shadow-glow-yellow transition-all active:scale-95"
+              onClick={() => {
+                const currentUrl = window.location.href;
+                navigator.clipboard.writeText(currentUrl);
+                showToast(language === 'vi' ? 'Đã sao chép link trang OPM SEA Meta!' : 'Copied OPM SEA Meta link!', 'success');
+              }}
+              className="flex items-center gap-1.5 px-3.5 py-1.5 sm:py-2 rounded-xl bg-gradient-to-r from-opm-yellow to-amber-500 hover:from-amber-400 hover:to-opm-yellow text-slate-950 font-bold text-xs sm:text-sm shadow-glow-yellow transition-all active:scale-95 cursor-pointer"
+              title={language === 'vi' ? 'Chia sẻ liên kết ứng dụng' : 'Share App Link'}
             >
-              <Sparkles className="w-4 h-4" />
-              <span className="hidden sm:inline">{t('common.create')}</span>
+              <Share2 className="w-4 h-4" />
+              <span className="hidden sm:inline">{language === 'vi' ? 'Chia Sẻ' : 'Share'}</span>
             </button>
 
             {/* Mobile Menu Toggle */}

@@ -99,7 +99,7 @@ export const CharacterCard = ({
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=150&auto=format&fit=crop&q=80";
+                  e.target.src = "avatars/ur_saitama.webp";
                 }}
               />
             ) : (

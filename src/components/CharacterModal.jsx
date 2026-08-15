@@ -50,12 +50,12 @@ export const CharacterModal = ({
           <div className="flex items-center gap-4">
             <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden border-2 border-opm-yellow/50 shadow-glow-yellow bg-slate-950 flex-shrink-0">
               <img 
-                src={character.avatar || "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=200&auto=format&fit=crop&q=80"} 
+                src={character.avatar || "avatars/ur_saitama.webp"} 
                 alt={getLocalized(character.name)}
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=200&auto=format&fit=crop&q=80";
+                  e.target.src = "avatars/ur_saitama.webp";
                 }}
               />
             </div>

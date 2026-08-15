@@ -219,9 +219,13 @@ export const TeamBuilder = ({ onOpenCharacterDetails }) => {
                       {/* Character Avatar & Badges */}
                       <div className="relative w-full h-24 rounded-xl overflow-hidden mt-4 border border-opm-border bg-slate-950">
                         <img
-                          src={unit.avatar || "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=150&auto=format&fit=crop&q=80"}
+                          src={unit.avatar || "avatars/ur_saitama.webp"}
                           alt={getLocalized(unit.name)}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = "avatars/ur_saitama.webp";
+                          }}
                         />
                         <span className={`absolute bottom-1 right-1 px-1.5 py-0.2 text-[9px] font-black rounded uppercase text-white ${
                           unit.rarity === 'UR' ? 'rarity-badge-ur' :
@@ -300,9 +304,13 @@ export const TeamBuilder = ({ onOpenCharacterDetails }) => {
                       {/* Character Avatar & Badges */}
                       <div className="relative w-full h-24 rounded-xl overflow-hidden mt-4 border border-opm-border bg-slate-950">
                         <img
-                          src={unit.avatar || "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=150&auto=format&fit=crop&q=80"}
+                          src={unit.avatar || "avatars/ur_saitama.webp"}
                           alt={getLocalized(unit.name)}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = "avatars/ur_saitama.webp";
+                          }}
                         />
                         <span className={`absolute bottom-1 right-1 px-1.5 py-0.2 text-[9px] font-black rounded uppercase text-white ${
                           unit.rarity === 'UR' ? 'rarity-badge-ur' :

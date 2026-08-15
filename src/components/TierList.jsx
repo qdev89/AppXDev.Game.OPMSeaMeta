@@ -173,9 +173,13 @@ export const TierList = ({ onSelectCharacter }) => {
                       {/* Avatar */}
                       <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden mb-1.5 border border-opm-border bg-slate-950">
                         <img
-                          src={char.avatar || "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=120&auto=format&fit=crop&q=80"}
+                          src={char.avatar || "avatars/ur_saitama.webp"}
                           alt={getLocalized(char.name)}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = "avatars/ur_saitama.webp";
+                          }}
                         />
                         <span className={`absolute bottom-0 right-0 px-1 text-[8px] font-black rounded uppercase text-white ${
                           char.rarity === 'UR' ? 'rarity-badge-ur' :

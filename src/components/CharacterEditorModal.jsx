@@ -128,7 +128,7 @@ export const CharacterEditorModal = ({
         nameVi: 'Tướng Meta Mới',
         titleEn: 'Hero / Villain Title',
         titleVi: 'Danh Hiệu Tướng',
-        avatar: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=300&auto=format&fit=crop&q=80',
+        avatar: 'avatars/ur_saitama.webp',
         rarity: 'UR',
         faction: 'Hero',
         class: 'Grappler',

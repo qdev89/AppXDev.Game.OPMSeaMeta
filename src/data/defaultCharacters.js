@@ -7,7 +7,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Grappler",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ur_saitama.webp",
     stats: { atk: 19800, hp: 125000, def: 9800, spd: 128 },
     hasCore: false,
     skills: {
@@ -68,7 +68,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Esper",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ur_tatsumaki.webp",
     stats: { atk: 20500, hp: 110000, def: 8900, spd: 132 },
     hasCore: false,
     skills: {
@@ -129,7 +129,7 @@ export const defaultCharacters = [
     faction: "Monster",
     class: "Esper",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1563089145-599997674d42?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ur_boros.webp",
     stats: { atk: 21200, hp: 130000, def: 9200, spd: 126 },
     hasCore: false,
     skills: {
@@ -190,7 +190,7 @@ export const defaultCharacters = [
     faction: "Outlaw",
     class: "Duelist",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ur_sonic.webp",
     stats: { atk: 21800, hp: 98000, def: 8100, spd: 145 },
     hasCore: false,
     skills: {
@@ -251,7 +251,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Duelist",
     tier: "SS",
-    avatar: "https://images.unsplash.com/photo-1514539079130-25950c84af65?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ssr_plus_atomic.webp",
     stats: { atk: 18400, hp: 105000, def: 8400, spd: 122 },
     hasCore: false,
     skills: {
@@ -312,7 +312,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Grappler",
     tier: "SS",
-    avatar: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ssr_plus_silverfang.webp",
     stats: { atk: 15200, hp: 148000, def: 11200, spd: 118 },
     hasCore: false,
     skills: {
@@ -373,7 +373,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Grappler",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/bomb_core.webp",
     stats: { atk: 14800, hp: 135000, def: 10500, spd: 115 },
     hasCore: true,
     skills: {
@@ -449,7 +449,7 @@ export const defaultCharacters = [
     faction: "Monster",
     class: "Esper",
     tier: "SS",
-    avatar: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/gyoro_core.webp",
     stats: { atk: 14200, hp: 142000, def: 9900, spd: 114 },
     hasCore: true,
     skills: {
@@ -525,7 +525,7 @@ export const defaultCharacters = [
     faction: "Monster",
     class: "Esper",
     tier: "SS",
-    avatar: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ssr_plus_mosquito.webp",
     stats: { atk: 18200, hp: 112000, def: 8600, spd: 125 },
     hasCore: false,
     skills: {
@@ -586,7 +586,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Grappler",
     tier: "S",
-    avatar: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/zombieman_core.webp",
     stats: { atk: 13900, hp: 145000, def: 10200, spd: 110 },
     hasCore: true,
     skills: {
@@ -662,7 +662,7 @@ export const defaultCharacters = [
     faction: "Monster",
     class: "Esper",
     tier: "SS",
-    avatar: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ssr_plus_geryu.webp",
     stats: { atk: 18900, hp: 108000, def: 8700, spd: 130 },
     hasCore: false,
     skills: {
@@ -723,7 +723,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "HiTech",
     tier: "A",
-    avatar: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/child_emperor_core.webp",
     stats: { atk: 14100, hp: 118000, def: 8600, spd: 120 },
     hasCore: true,
     skills: {
@@ -799,7 +799,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Grappler",
     tier: "A",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/amai_mask.webp",
     stats: { atk: 13500, hp: 95000, def: 7200, spd: 119 },
     hasCore: false,
     skills: {
@@ -860,7 +860,7 @@ export const defaultCharacters = [
     faction: "Monster",
     class: "Grappler",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/urplus_blacksperm.webp",
     stats: { atk: 22500, hp: 165000, def: 12000, spd: 132 },
     hasCore: false,
     skills: {
@@ -921,7 +921,7 @@ export const defaultCharacters = [
     faction: "Hero",
     class: "Duelist",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/urplus_zombieman.webp",
     stats: { atk: 18500, hp: 195000, def: 14500, spd: 125 },
     hasCore: true,
     skills: {
@@ -982,7 +982,7 @@ export const defaultCharacters = [
     faction: "Monster",
     class: "Esper",
     tier: "SSS",
-    avatar: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=300&auto=format&fit=crop&q=80",
+    avatar: "avatars/ur_gyoro.webp",
     stats: { atk: 20000, hp: 155000, def: 11000, spd: 130 },
     hasCore: true,
     skills: {

@@ -129,9 +129,13 @@ export const TeamStrategyGuide = ({ onSwitchTab }) => {
                       return (
                         <div key={idx} className="p-2 rounded-xl bg-slate-900 border border-opm-border flex flex-col items-center text-center">
                           <img
-                            src={hero?.avatar || 'avatars/saitama.jpg'}
+                            src={hero?.avatar || 'avatars/ur_saitama.webp'}
                             alt={hero?.name?.en || 'Hero'}
                             className="w-10 h-10 rounded-lg object-cover mb-1 border border-opm-border"
+                            onError={(e) => {
+                              e.target.onerror = null;
+                              e.target.src = "avatars/ur_saitama.webp";
+                            }}
                           />
                           <span className="text-[10px] font-bold text-slate-200 truncate w-full">
                             {hero ? getLocalized(hero.name) : id}
@@ -153,9 +157,13 @@ export const TeamStrategyGuide = ({ onSwitchTab }) => {
                       return (
                         <div key={idx} className="p-2 rounded-xl bg-slate-900 border border-opm-border flex flex-col items-center text-center">
                           <img
-                            src={hero?.avatar || 'avatars/saitama.jpg'}
+                            src={hero?.avatar || 'avatars/ur_saitama.webp'}
                             alt={hero?.name?.en || 'Hero'}
                             className="w-10 h-10 rounded-lg object-cover mb-1 border border-opm-border"
+                            onError={(e) => {
+                              e.target.onerror = null;
+                              e.target.src = "avatars/ur_saitama.webp";
+                            }}
                           />
                           <span className="text-[10px] font-bold text-slate-200 truncate w-full">
                             {hero ? getLocalized(hero.name) : id}

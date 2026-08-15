@@ -11,15 +11,23 @@ export const MetaDataProvider = ({ children }) => {
   const [characters, setCharacters] = useState(() => {
     const stored = getStoredItem(STORAGE_KEYS.CHARACTERS, null);
     if (!stored) return defaultCharacters;
-    // Auto-migrate any outdated unsplash placeholder avatars to authentic game art
-    return defaultCharacters.map(defChar => {
+    
+    // Auto-migrate avatar paths & ensure all default characters exist
+    const defaultIds = new Set(defaultCharacters.map(d => d.id));
+    const merged = defaultCharacters.map(defChar => {
       const existing = stored.find(s => s.id === defChar.id);
       if (!existing) return defChar;
-      if (!existing.avatar || existing.avatar.includes('unsplash')) {
-        return { ...existing, avatar: defChar.avatar };
-      }
-      return existing;
+      return {
+        ...defChar,
+        ...existing,
+        // Always enforce authentic local avatar
+        avatar: defChar.avatar
+      };
     });
+    
+    // Append any custom user-created characters
+    const customChars = stored.filter(s => !defaultIds.has(s.id));
+    return [...merged, ...customChars];
   });
 
   // Gears State

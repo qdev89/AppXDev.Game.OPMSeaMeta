@@ -1,1038 +1,1288 @@
 export const defaultCharacters = [
   {
-    id: "ur_saitama",
-    name: { en: "UR Saitama", vi: "Saitama UR" },
-    title: { en: "One Punch God", vi: "Thần Đấm Phát Chết Luôn" },
-    rarity: "UR",
-    faction: "Hero",
-    class: "Grappler",
-    tier: "SSS",
-    avatar: "avatars/ur_saitama.webp",
-    stats: { atk: 19800, hp: 125000, def: 9800, spd: 128 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Consecutive Normal Punches", vi: "Đấm Thường Liên Hoàn" },
-        desc: {
-          en: "Deals 180% ATK damage to a single enemy. Has 100% chance to inflict [Internal Injury] and shatter shields.",
-          vi: "Gây 180% sát thương Công lên mục tiêu đơn. 100% gây [Nội Thương] và phá vỡ lớp giáp hộ thân."
-        }
-      },
-      ultimate: {
-        name: { en: "Serious Punch: Extinction", vi: "Đấm Nghiêm Túc: Tuyệt Diệt" },
-        desc: {
-          en: "Deals 550% ATK damage to all enemies in the column. Ignores 50% DEF, bypasses unyielding, and dispels all positive buffs.",
-          vi: "Gây 550% Công lên toàn bộ kẻ địch theo hàng dọc. Bỏ qua 50% Phòng thủ, xuyên [Bất Khuất] và xóa sạch mọi bùa lợi có lợi."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Serious Series: Omnidirectional Punch", vi: "Tuyệt Kỹ Tối Thượng: Nghiêm Túc Đa Hướng" },
-        desc: {
-          en: "Requires Keepsake. Deals 800% ATK damage to all enemies. Guarantees Critical Hit and locks enemy ultimate energy for 2 turns.",
-          vi: "Cần Thần Binh. Gây 800% Công lên toàn thể quân địch. 100% bạo kích và khóa hoàn toàn thanh nộ năng lượng của đối thủ trong 2 lượt."
-        }
-      },
-      passive: {
-        name: { en: "Absolute Limitless", vi: "Phá Vỡ Giới Hạn Tuyệt Đối" },
-        desc: {
-          en: "Immune to all control effects (Stun, Freeze, Silence). When receiving fatal damage, restores 100% HP and gains 200% ATK bonus for 1 turn (triggers once per battle).",
-          vi: "Miễn nhiễm mọi hiệu ứng khống chế (Choáng, Đóng băng, Câm lặng). Khi nhận sát thương chí tử, hồi phục 100% Máu và nhận 200% tăng Công trong 1 lượt (kích hoạt 1 lần mỗi trận)."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Increases entire team Direct Damage by 35% and reduces damage taken from enemies by 25%.",
-          vi: "Tăng 35% Sát thương Trực tiếp cho toàn đội và giảm 25% sát thương nhận vào từ đối thủ."
+    "id": "ur_saitama",
+    "name": {
+      "en": "UR Saitama",
+      "vi": "Saitama UR"
+    },
+    "title": {
+      "en": "One Punch God",
+      "vi": "Thần Đấm Phát Chết Luôn"
+    },
+    "rarity": "UR",
+    "faction": "Hero",
+    "class": "Grappler",
+    "tier": "SSS",
+    "avatar": "avatars/ur_saitama.webp",
+    "stats": {
+      "atk": 19800,
+      "hp": 125000,
+      "def": 9800,
+      "spd": 128
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Consecutive Normal Punches",
+          "vi": "Đấm Thường Liên Hoàn"
         },
-        stage2: {
-          en: "At start of each round, grants 3 energy points and applies [Tenacity Shield] equal to 50% Max HP to allies.",
-          vi: "Đầu mỗi hiệp, hồi ngay 3 điểm nộ năng lượng và tạo [Khiên Kiên Cường] bằng 50% Máu tối đa cho toàn phe ta."
+        "desc": {
+          "en": "Deals 180% ATK damage to a single enemy. Has 100% chance to inflict [Internal Injury] and shatter shields.",
+          "vi": "Gây 180% sát thương Công lên mục tiêu đơn. 100% gây [Nội Thương] và phá vỡ lớp giáp hộ thân."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Serious Punch: Extinction",
+          "vi": "Đấm Nghiêm Túc: Tuyệt Diệt"
+        },
+        "desc": {
+          "en": "Deals 550% ATK damage to all enemies in the column. Ignores 50% DEF, bypasses unyielding, and dispels all positive buffs.",
+          "vi": "Gây 550% Công lên toàn bộ kẻ địch theo hàng dọc. Bỏ qua 50% Phòng thủ, xuyên [Bất Khuất] và xóa sạch mọi bùa lợi có lợi."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Serious Series: Omnidirectional Punch",
+          "vi": "Tuyệt Kỹ Tối Thượng: Nghiêm Túc Đa Hướng"
+        },
+        "desc": {
+          "en": "Requires Keepsake. Deals 800% ATK damage to all enemies. Guarantees Critical Hit and locks enemy ultimate energy for 2 turns.",
+          "vi": "Cần Thần Binh. Gây 800% Công lên toàn thể quân địch. 100% bạo kích và khóa hoàn toàn thanh nộ năng lượng của đối thủ trong 2 lượt."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Absolute Limitless",
+          "vi": "Phá Vỡ Giới Hạn Tuyệt Đối"
+        },
+        "desc": {
+          "en": "Immune to all control effects (Stun, Freeze, Silence). When receiving fatal damage, restores 100% HP and gains 200% ATK bonus for 1 turn (triggers once per battle).",
+          "vi": "Miễn nhiễm mọi hiệu ứng khống chế (Choáng, Đóng băng, Câm lặng). Khi nhận sát thương chí tử, hồi phục 100% Máu và nhận 200% tăng Công trong 1 lượt (kích hoạt 1 lần mỗi trận)."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases entire team Direct Damage by 35% and reduces damage taken from enemies by 25%.",
+          "vi": "Tăng 35% Sát thương Trực tiếp cho toàn đội và giảm 25% sát thương nhận vào từ đối thủ."
+        },
+        "stage2": {
+          "en": "At start of each round, grants 3 energy points and applies [Tenacity Shield] equal to 50% Max HP to allies.",
+          "vi": "Đầu mỗi hiệp, hồi ngay 3 điểm nộ năng lượng và tạo [Khiên Kiên Cường] bằng 50% Máu tối đa cho toàn phe ta."
         }
       }
     },
-    recommendedGears: ["Knight", "Primal", "Swordsman"],
-    synergies: {
-      en: "Pairs exceptionally well with Bomb Core, UR Tatsumaki, and SSR+ Silverfang for high-speed turn-1 board wipe.",
-      vi: "Cực kỳ ăn ý khi đi cùng Lõi Bomb, UR Tatsumaki và SSR+ Silverfang để quét sạch bàn cờ ngay lượt 1."
+    "recommendedGears": [
+      "Knight",
+      "Primal",
+      "Swordsman"
+    ],
+    "synergies": {
+      "en": "Pairs exceptionally well with Bomb Core, UR Tatsumaki, and SSR+ Silverfang for high-speed turn-1 board wipe.",
+      "vi": "Cực kỳ ăn ý khi đi cùng Lõi Bomb, UR Tatsumaki và SSR+ Silverfang để quét sạch bàn cờ ngay lượt 1."
     },
-    counters: {
-      en: "Weak to heavy unyielding stall comps with extreme damage reflection.",
-      vi: "Có thể gặp khó khăn trước đội hình siêu câu giờ bất khuất kết hợp phản sát thương cực đại."
+    "counters": {
+      "en": "Weak to heavy unyielding stall comps with extreme damage reflection.",
+      "vi": "Có thể gặp khó khăn trước đội hình siêu câu giờ bất khuất kết hợp phản sát thương cực đại."
     }
   },
   {
-    id: "ur_tatsumaki",
-    name: { en: "UR Tatsumaki", vi: "Tatsumaki UR" },
-    title: { en: "Tornado of Terror (Awakened)", vi: "Lốc Xoáy Kinh Hoàng (Thức Tỉnh)" },
-    rarity: "UR",
-    faction: "Hero",
-    class: "Esper",
-    tier: "SSS",
-    avatar: "avatars/ur_tatsumaki.webp",
-    stats: { atk: 20500, hp: 110000, def: 8900, spd: 132 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Psychic Crush", vi: "Đè Nén Siêu Năng" },
-        desc: {
-          en: "Deals 160% ATK damage to a single enemy and reduces their Speed by 25% for 2 turns.",
-          vi: "Gây 160% sát thương Công lên đơn mục tiêu và giảm 25% Tốc độ của địch trong 2 lượt."
-        }
-      },
-      ultimate: {
-        name: { en: "Cataclysmic Telekinesis", vi: "Siêu Lực Tận Thế" },
-        desc: {
-          en: "Attacks all 6 enemies dealing 320% ATK damage. Inflicts [Forcefield] on 3 random enemies, dealing 150% ATK damage when they take action.",
-          vi: "Tấn công toàn bộ 6 kẻ địch gây 320% Công. Gây [Trường Lực] lên 3 mục tiêu ngẫu nhiên, phát nổ 150% Công khi chúng hành động."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Planetary Meteor Slam", vi: "Thiên Thạch Trụy Lạc (Thần Binh)" },
-        desc: {
-          en: "Keepsake. Deals 480% ATK damage to all enemies. Increases Crit Rate by 50% and inflicts [Forcefield] on ALL 6 enemies.",
-          vi: "Thần Binh. Gây 480% Công toàn thể địch. Tăng 50% Tỉ lệ bạo kích và áp dụng [Trường Lực] lên TOÀN BỘ 6 kẻ địch."
-        }
-      },
-      passive: {
-        name: { en: "Empress Telekinesis", vi: "Nữ Hoàng Niệm Lực" },
-        desc: {
-          en: "Increases Critical Damage by 80%. When any enemy acts, Tatsumaki gains 1 stack of [Psychic Pressure], increasing next ultimate by 15% (max 6 stacks).",
-          vi: "Tăng 80% Sát thương bạo kích. Khi bất kỳ kẻ địch nào hành động, nhận 1 tầng [Áp Lực Niệm Lực], tăng 15% uy lực tuyệt kỹ kế tiếp (tối đa 6 tầng)."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Whenever an ally crits, Tatsumaki launches a pursuit attack dealing 150% ATK damage.",
-          vi: "Mỗi khi đồng minh bạo kích, Tatsumaki bồi thêm đòn truy kích gây 150% Công."
+    "id": "ur_tatsumaki",
+    "name": {
+      "en": "UR Tatsumaki",
+      "vi": "Tatsumaki UR"
+    },
+    "title": {
+      "en": "Tornado of Terror (Awakened)",
+      "vi": "Lốc Xoáy Kinh Hoàng (Thức Tỉnh)"
+    },
+    "rarity": "UR",
+    "faction": "Hero",
+    "class": "Esper",
+    "tier": "SSS",
+    "avatar": "avatars/ur_tatsumaki.webp",
+    "stats": {
+      "atk": 20500,
+      "hp": 110000,
+      "def": 8900,
+      "spd": 132
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Psychic Crush",
+          "vi": "Đè Nén Siêu Năng"
         },
-        stage2: {
-          en: "Forcefield damage penetrates 40% DEF and heals the weakest ally for 50% of the damage dealt.",
-          vi: "Sát thương Trường Lực xuyên 40% Giáp và hồi máu cho đồng đội yếu nhất bằng 50% lượng sát thương gây ra."
+        "desc": {
+          "en": "Deals 160% ATK damage to a single enemy and reduces their Speed by 25% for 2 turns.",
+          "vi": "Gây 160% sát thương Công lên đơn mục tiêu và giảm 25% Tốc độ của địch trong 2 lượt."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Cataclysmic Telekinesis",
+          "vi": "Siêu Lực Tận Thế"
+        },
+        "desc": {
+          "en": "Attacks all 6 enemies dealing 320% ATK damage. Inflicts [Forcefield] on 3 random enemies, dealing 150% ATK damage when they take action.",
+          "vi": "Tấn công toàn bộ 6 kẻ địch gây 320% Công. Gây [Trường Lực] lên 3 mục tiêu ngẫu nhiên, phát nổ 150% Công khi chúng hành động."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Planetary Meteor Slam",
+          "vi": "Thiên Thạch Trụy Lạc (Thần Binh)"
+        },
+        "desc": {
+          "en": "Keepsake. Deals 480% ATK damage to all enemies. Increases Crit Rate by 50% and inflicts [Forcefield] on ALL 6 enemies.",
+          "vi": "Thần Binh. Gây 480% Công toàn thể địch. Tăng 50% Tỉ lệ bạo kích và áp dụng [Trường Lực] lên TOÀN BỘ 6 kẻ địch."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Empress Telekinesis",
+          "vi": "Nữ Hoàng Niệm Lực"
+        },
+        "desc": {
+          "en": "Increases Critical Damage by 80%. When any enemy acts, Tatsumaki gains 1 stack of [Psychic Pressure], increasing next ultimate by 15% (max 6 stacks).",
+          "vi": "Tăng 80% Sát thương bạo kích. Khi bất kỳ kẻ địch nào hành động, nhận 1 tầng [Áp Lực Niệm Lực], tăng 15% uy lực tuyệt kỹ kế tiếp (tối đa 6 tầng)."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Whenever an ally crits, Tatsumaki launches a pursuit attack dealing 150% ATK damage.",
+          "vi": "Mỗi khi đồng minh bạo kích, Tatsumaki bồi thêm đòn truy kích gây 150% Công."
+        },
+        "stage2": {
+          "en": "Forcefield damage penetrates 40% DEF and heals the weakest ally for 50% of the damage dealt.",
+          "vi": "Sát thương Trường Lực xuyên 40% Giáp và hồi máu cho đồng đội yếu nhất bằng 50% lượng sát thương gây ra."
         }
       }
     },
-    recommendedGears: ["Knight", "Casual", "Lightning"],
-    synergies: {
-      en: "Synergizes with high-crit heroes and Gyoro-Gyoro / Bomb core for instant burst.",
-      vi: "Kết hợp tuyệt đỉnh cùng tướng bạo kích cao và Lõi Gyoro / Bomb để sốc sát thương diện rộng."
+    "recommendedGears": [
+      "Knight",
+      "Casual",
+      "Lightning"
+    ],
+    "synergies": {
+      "en": "Synergizes with high-crit heroes and Gyoro-Gyoro / Bomb core for instant burst.",
+      "vi": "Kết hợp tuyệt đỉnh cùng tướng bạo kích cao và Lõi Gyoro / Bomb để sốc sát thương diện rộng."
     },
-    counters: {
-      en: "Susceptible to direct speed outspeeders with single-target assassination (UR Sonic).",
-      vi: "Dễ bị bắt bài bởi tướng tốc độ cao dồn sát thương đơn mục tiêu như UR Sonic."
+    "counters": {
+      "en": "Susceptible to direct speed outspeeders with single-target assassination (UR Sonic).",
+      "vi": "Dễ bị bắt bài bởi tướng tốc độ cao dồn sát thương đơn mục tiêu như UR Sonic."
     }
   },
   {
-    id: "ur_boros",
-    name: { en: "UR Boros", vi: "Boros UR" },
-    title: { en: "Dominator of the Universe", vi: "Bá Chủ Vũ Trụ" },
-    rarity: "UR",
-    faction: "Monster",
-    class: "Esper",
-    tier: "SSS",
-    avatar: "avatars/ur_boros.webp",
-    stats: { atk: 21200, hp: 130000, def: 9200, spd: 126 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Meteoric Rush", vi: "Cú Lao Sao Băng" },
-        desc: {
-          en: "Deals 200% ATK damage to single target and absorbs 30% of target ATK for 1 round.",
-          vi: "Gây 200% Công lên mục tiêu đơn và hấp thụ 30% Công của địch trong 1 hiệp."
-        }
-      },
-      ultimate: {
-        name: { en: "Collapsing Star Roaring Cannon", vi: "Pháo Gầm Ngôi Sao Sụp Đổ" },
-        desc: {
-          en: "Consumes 20% current HP. Deals 600% ATK direct single-target damage with 150% splash damage to surrounding enemies.",
-          vi: "Tiêu hao 20% Máu hiện tại. Gây 600% Công sát thương đơn mục tiêu kèm 150% sát thương lan sang các mục tiêu xung quanh."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Supernova Roaring Cannon (Keepsake)", vi: "Siêu Tân Tinh Cuồng Nộ (Thần Binh)" },
-        desc: {
-          en: "Deals 900% ATK to main target, 300% splash. If target dies, resets cooldown and refunds 2 energy.",
-          vi: "Gây 900% Công lên mục tiêu chính, 300% lan. Nếu mục tiêu gục ngã, hồi ngay lập tức 2 điểm nộ."
-        }
-      },
-      passive: {
-        name: { en: "Latent Energy Regeneration", vi: "Tái Sinh Năng Lượng Tiềm Ẩn" },
-        desc: {
-          en: "At start of turn, restores 35% missing HP. Gains 50% Tenacity shield whenever casting Ultimate.",
-          vi: "Đầu lượt tự hồi phục 35% lượng máu đã mất. Nhận khiên Kiên Cường 50% mỗi khi tung Tuyệt kỹ."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Increases Monster faction ATK by 25% and splash damage efficiency by 40%.",
-          vi: "Tăng 25% Công cho toàn bộ phe Quái Nhân và tăng 40% hiệu suất sát thương lan."
+    "id": "ur_boros",
+    "name": {
+      "en": "UR Boros",
+      "vi": "Boros UR"
+    },
+    "title": {
+      "en": "Dominator of the Universe",
+      "vi": "Bá Chủ Vũ Trụ"
+    },
+    "rarity": "UR",
+    "faction": "Monster",
+    "class": "Esper",
+    "tier": "SSS",
+    "avatar": "avatars/ur_boros.webp",
+    "stats": {
+      "atk": 21200,
+      "hp": 130000,
+      "def": 9200,
+      "spd": 126
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Meteoric Rush",
+          "vi": "Cú Lao Sao Băng"
         },
-        stage2: {
-          en: "Survives fatal damage with 1 HP and enters Meteor Burst state for 2 turns (+50% SPD, +60% ATK).",
-          vi: "Chống chịu sát thương chí tử còn 1 Máu và kích hoạt trạng thái Bùng Nổ Sao Băng (+50% Tốc, +60% Công)."
+        "desc": {
+          "en": "Deals 200% ATK damage to single target and absorbs 30% of target ATK for 1 round.",
+          "vi": "Gây 200% Công lên mục tiêu đơn và hấp thụ 30% Công của địch trong 1 hiệp."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Collapsing Star Roaring Cannon",
+          "vi": "Pháo Gầm Ngôi Sao Sụp Đổ"
+        },
+        "desc": {
+          "en": "Consumes 20% current HP. Deals 600% ATK direct single-target damage with 150% splash damage to surrounding enemies.",
+          "vi": "Tiêu hao 20% Máu hiện tại. Gây 600% Công sát thương đơn mục tiêu kèm 150% sát thương lan sang các mục tiêu xung quanh."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Supernova Roaring Cannon (Keepsake)",
+          "vi": "Siêu Tân Tinh Cuồng Nộ (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 900% ATK to main target, 300% splash. If target dies, resets cooldown and refunds 2 energy.",
+          "vi": "Gây 900% Công lên mục tiêu chính, 300% lan. Nếu mục tiêu gục ngã, hồi ngay lập tức 2 điểm nộ."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Latent Energy Regeneration",
+          "vi": "Tái Sinh Năng Lượng Tiềm Ẩn"
+        },
+        "desc": {
+          "en": "At start of turn, restores 35% missing HP. Gains 50% Tenacity shield whenever casting Ultimate.",
+          "vi": "Đầu lượt tự hồi phục 35% lượng máu đã mất. Nhận khiên Kiên Cường 50% mỗi khi tung Tuyệt kỹ."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Monster faction ATK by 25% and splash damage efficiency by 40%.",
+          "vi": "Tăng 25% Công cho toàn bộ phe Quái Nhân và tăng 40% hiệu suất sát thương lan."
+        },
+        "stage2": {
+          "en": "Survives fatal damage with 1 HP and enters Meteor Burst state for 2 turns (+50% SPD, +60% ATK).",
+          "vi": "Chống chịu sát thương chí tử còn 1 Máu và kích hoạt trạng thái Bùng Nổ Sao Băng (+50% Tốc, +60% Công)."
         }
       }
     },
-    recommendedGears: ["Primal", "Suit", "Swordsman"],
-    synergies: {
-      en: "Excels in Monster comps with Gyoro-Gyoro core and Geryuganshoop+.",
-      vi: "Hoàn hảo trong đội hình Quái Nhân với Lõi Gyoro-Gyoro và Geryuganshoop+."
+    "recommendedGears": [
+      "Primal",
+      "Suit",
+      "Swordsman"
+    ],
+    "synergies": {
+      "en": "Excels in Monster comps with Gyoro-Gyoro core and Geryuganshoop+.",
+      "vi": "Hoàn hảo trong đội hình Quái Nhân với Lõi Gyoro-Gyoro và Geryuganshoop+."
     },
-    counters: {
-      en: "Heavy heal reduction and silence lock.",
-      vi: "Kém hiệu quả khi gặp hiệu ứng giảm hồi phục mạnh và câm lặng liên tục."
+    "counters": {
+      "en": "Heavy heal reduction and silence lock.",
+      "vi": "Kém hiệu quả khi gặp hiệu ứng giảm hồi phục mạnh và câm lặng liên tục."
     }
   },
   {
-    id: "ur_sonic",
-    name: { en: "UR Speed-o'-Sound Sonic", vi: "Sonic UR" },
-    title: { en: "Shadow Assassin", vi: "Sát Thủ Bóng Đêm" },
-    rarity: "UR",
-    faction: "Outlaw",
-    class: "Duelist",
-    tier: "SSS",
-    avatar: "avatars/ur_sonic.webp",
-    stats: { atk: 21800, hp: 98000, def: 8100, spd: 145 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Wind Blade Slash", vi: "Phong Trảm Kích" },
-        desc: {
-          en: "Deals 170% ATK damage to single target. 100% chance to inflict [Shatter] (+40% extra damage taken).",
-          vi: "Gây 170% Công lên mục tiêu đơn. 100% gây trạng thái [Vỡ Giáp] (+40% sát thương nhận thêm)."
-        }
-      },
-      ultimate: {
-        name: { en: "Ten Shadows Burial", vi: "Thập Trọng Ảnh Táng" },
-        desc: {
-          en: "Attacks the enemy with the highest ATK 5 times for a total of 650% ATK damage. Steals 30 Speed for 2 rounds.",
-          vi: "Tấn công kẻ địch có Công cao nhất 5 lần, tổng cộng 650% Công. Đánh cắp 30 điểm Tốc độ trong 2 hiệp."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Absolute Shadow Decapitation", vi: "Bóng Đêm Trảm Thủ (Thần Binh)" },
-        desc: {
-          en: "Keepsake. Deals 950% ATK damage to target. Bypasses 70% DEF and inflicts [Fear] (disables ultimate next turn).",
-          vi: "Thần Binh. Gây 950% Công lên mục tiêu. Bỏ qua 70% Giáp và áp dụng [Sợ Hãi] (cấm dùng nộ ở lượt kế)."
-        }
-      },
-      passive: {
-        name: { en: "Flash Speed Mastery", vi: "Tuyệt Kỹ Thần Tốc" },
-        desc: {
-          en: "Always gains 1st priority move in round 1. Whenever an ally is attacked, Sonic counters with 120% ATK damage (up to 3 times/round).",
-          vi: "Luôn được ưu tiên ra đòn đầu tiên ở hiệp 1. Khi đồng đội bị tấn công, Sonic phản kích 120% Công (tối đa 3 lần/hiệp)."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Increases entire team speed by 15. Counter attacks apply [Shatter].",
-          vi: "Tăng 15 Tốc độ cho toàn đội. Đòn phản kích luôn kích hoạt [Vỡ Giáp]."
+    "id": "ur_sonic",
+    "name": {
+      "en": "UR Speed-o'-Sound Sonic",
+      "vi": "Sonic UR"
+    },
+    "title": {
+      "en": "Shadow Assassin",
+      "vi": "Sát Thủ Bóng Đêm"
+    },
+    "rarity": "UR",
+    "faction": "Outlaw",
+    "class": "Duelist",
+    "tier": "SSS",
+    "avatar": "avatars/ur_sonic.webp",
+    "stats": {
+      "atk": 21800,
+      "hp": 98000,
+      "def": 8100,
+      "spd": 145
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Wind Blade Slash",
+          "vi": "Phong Trảm Kích"
         },
-        stage2: {
-          en: "When defeating an enemy, instantly takes another action and gains 100% Dodge for 1 turn.",
-          vi: "Khi tiêu diệt mục tiêu, lập tức nhận thêm 1 lượt hành động và tăng 100% Né Tránh trong 1 lượt."
+        "desc": {
+          "en": "Deals 170% ATK damage to single target. 100% chance to inflict [Shatter] (+40% extra damage taken).",
+          "vi": "Gây 170% Công lên mục tiêu đơn. 100% gây trạng thái [Vỡ Giáp] (+40% sát thương nhận thêm)."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Ten Shadows Burial",
+          "vi": "Thập Trọng Ảnh Táng"
+        },
+        "desc": {
+          "en": "Attacks the enemy with the highest ATK 5 times for a total of 650% ATK damage. Steals 30 Speed for 2 rounds.",
+          "vi": "Tấn công kẻ địch có Công cao nhất 5 lần, tổng cộng 650% Công. Đánh cắp 30 điểm Tốc độ trong 2 hiệp."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Absolute Shadow Decapitation",
+          "vi": "Bóng Đêm Trảm Thủ (Thần Binh)"
+        },
+        "desc": {
+          "en": "Keepsake. Deals 950% ATK damage to target. Bypasses 70% DEF and inflicts [Fear] (disables ultimate next turn).",
+          "vi": "Thần Binh. Gây 950% Công lên mục tiêu. Bỏ qua 70% Giáp và áp dụng [Sợ Hãi] (cấm dùng nộ ở lượt kế)."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Flash Speed Mastery",
+          "vi": "Tuyệt Kỹ Thần Tốc"
+        },
+        "desc": {
+          "en": "Always gains 1st priority move in round 1. Whenever an ally is attacked, Sonic counters with 120% ATK damage (up to 3 times/round).",
+          "vi": "Luôn được ưu tiên ra đòn đầu tiên ở hiệp 1. Khi đồng đội bị tấn công, Sonic phản kích 120% Công (tối đa 3 lần/hiệp)."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases entire team speed by 15. Counter attacks apply [Shatter].",
+          "vi": "Tăng 15 Tốc độ cho toàn đội. Đòn phản kích luôn kích hoạt [Vỡ Giáp]."
+        },
+        "stage2": {
+          "en": "When defeating an enemy, instantly takes another action and gains 100% Dodge for 1 turn.",
+          "vi": "Khi tiêu diệt mục tiêu, lập tức nhận thêm 1 lượt hành động và tăng 100% Né Tránh trong 1 lượt."
         }
       }
     },
-    recommendedGears: ["Lightning", "Knight", "Prisoner"],
-    synergies: {
-      en: "Deadly opening pick in Live Arena to assassinate enemy carry before they move.",
-      vi: "Quân bài mở màn nguy hiểm nhất Live Arena để bắt chết chủ lực đối thủ trước khi kịp ra chiêu."
+    "recommendedGears": [
+      "Lightning",
+      "Knight",
+      "Prisoner"
+    ],
+    "synergies": {
+      "en": "Deadly opening pick in Live Arena to assassinate enemy carry before they move.",
+      "vi": "Quân bài mở màn nguy hiểm nhất Live Arena để bắt chết chủ lực đối thủ trước khi kịp ra chiêu."
     },
-    counters: {
-      en: "Damage reflection and unyielding tank frontline (SSR+ Silverfang / Tanktop).",
-      vi: "Khắc chế bởi dàn chắn phản đòn và giáp bất khuất (SSR+ Silverfang / Áo Ba Lỗ)."
+    "counters": {
+      "en": "Damage reflection and unyielding tank frontline (SSR+ Silverfang / Tanktop).",
+      "vi": "Khắc chế bởi dàn chắn phản đòn và giáp bất khuất (SSR+ Silverfang / Áo Ba Lỗ)."
     }
   },
   {
-    id: "ssr_plus_atomic",
-    name: { en: "SSR+ Atomic Samurai", vi: "Atomic Samurai SSR+" },
-    title: { en: "Sword Saint Awakened", vi: "Kiếm Thánh Thức Tỉnh" },
-    rarity: "SSR+",
-    faction: "Hero",
-    class: "Duelist",
-    tier: "SS",
-    avatar: "avatars/ssr_plus_atomic.webp",
-    stats: { atk: 18400, hp: 105000, def: 8400, spd: 122 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Slash", vi: "Trảm" },
-        desc: {
-          en: "Deals 140% ATK damage to single enemy and inflicts [Shatter].",
-          vi: "Gây 140% Công lên mục tiêu đơn và tạo hiệu ứng [Vỡ Giáp]."
-        }
-      },
-      ultimate: {
-        name: { en: "Awakened Atomic Slash", vi: "Nguyên Tử Trảm Thức Tỉnh" },
-        desc: {
-          en: "Attacks all 6 enemies for 250% ATK damage. Follows up with 3 extra slashes on the weakest target.",
-          vi: "Tấn công toàn thể 6 kẻ địch gây 250% Công. Bồi thêm 3 nhát chém chí mạng vào mục tiêu yếu máu nhất."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Infinite Atomic Slash (Keepsake)", vi: "Vô Cực Nguyên Tử Trảm (Thần Binh)" },
-        desc: {
-          en: "Deals 360% ATK to all enemies. Increases Duelist allies damage by 40% and grants 3 follow-up pursuits.",
-          vi: "Gây 360% Công toàn thể. Tăng 40% sát thương cho đồng đội hệ Vũ Trang và cấp 3 lần truy kích liên hoàn."
-        }
-      },
-      passive: {
-        name: { en: "Sword Follow-Up", vi: "Kiếm Phái Truy Kích" },
-        desc: {
-          en: "Whenever a Duelist ally attacks, Atomic Samurai launches a follow-up attack dealing 160% ATK damage.",
-          vi: "Mỗi khi đồng minh hệ Vũ Trang tấn công, Atomic Samurai tung đòn truy kích gây 160% Công."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Follow-up attacks bypass shields and restore 15% HP to Atomic Samurai.",
-          vi: "Đòn truy kích xuyên qua mọi loại khiên và hồi 15% Máu cho Atomic Samurai."
+    "id": "urplus_blacksperm",
+    "name": {
+      "en": "UR+ Black Sperm",
+      "vi": "Tinh Trùng Đen UR+"
+    },
+    "title": {
+      "en": "Calamity Clone King",
+      "vi": "Đại Tông Sư Giác Đấu / Biến Phân Thân"
+    },
+    "rarity": "UR",
+    "faction": "Monster",
+    "class": "Grappler",
+    "tier": "SSS",
+    "avatar": "avatars/urplus_blacksperm.webp",
+    "stats": {
+      "atk": 22500,
+      "hp": 165000,
+      "def": 12000,
+      "spd": 132
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Cell Division Strike",
+          "vi": "Đòn Phân Tách Tế Bào"
         },
-        stage2: {
-          en: "When an enemy with Shatter is attacked, increases damage dealt by 50%.",
-          vi: "Tấn công kẻ địch đang bị Vỡ Giáp tăng 50% sát thương gây ra."
+        "desc": {
+          "en": "Deals 180% ATK damage to single target. Spawns 1 clone copy with 40% stats.",
+          "vi": "Gây 180% Công lên mục tiêu đơn. Tạo 1 phân thân sở hữu 40% chỉ số."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Trillion Clone Swarm",
+          "vi": "Bão Phân Thân Hàng Triệu Bản Thể"
+        },
+        "desc": {
+          "en": "Deals 380% ATK damage to all 6 enemies. Splits into 8 clone copies, granting [Specialized Unyielding] and multi-strike pursuit.",
+          "vi": "Gây 380% Công lên toàn bộ 6 kẻ địch. Tách thành 8 phân thân, nhận [Bất Khuất Chuyên Biệt] và liên tục truy kích."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Golden Sperm Fusion (Keepsake)",
+          "vi": "Hợp Thể Tinh Trùng Vàng (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 580% ATK to all enemies with 250% Specialized Direct DMG. Bypasses all Tenacity shields.",
+          "vi": "Gây 580% Công toàn thể kèm 250% Sát thương Trực tiếp Chuyên biệt. Xuyên thủng mọi loại khiên Kiên Cường."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Infinite Clone Multiplication",
+          "vi": "Nhân Bản Vô Hạn"
+        },
+        "desc": {
+          "en": "Each clone attacks when allies act. When fatal damage is taken, consumes 1 clone to restore 50% HP.",
+          "vi": "Mỗi phân thân tự động truy kích khi đồng đội đánh. Khi nhận sát thương chí tử, hy sinh 1 phân thân để hồi 50% Máu."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Monster faction Specialized Direct Damage by 40%.",
+          "vi": "Tăng 40% Sát thương Trực tiếp Chuyên biệt cho toàn bộ phe Quái Nhân."
+        },
+        "stage2": {
+          "en": "Clones inherit 75% of Black Sperm's Max HP and ATK.",
+          "vi": "Phân thân kế thừa 75% Máu tối đa và Công của Tinh Trùng Đen."
         }
       }
     },
-    recommendedGears: ["Knight", "Swordsman", "Casual"],
-    synergies: {
-      en: "Best in full Duelist synergy teams with Sonic, Flashy Flash, and Golden Ball.",
-      vi: "Hoàn hảo trong đội hình thuần Vũ Trang đi cùng Sonic, Flashy Flash và Golden Ball."
+    "recommendedGears": [
+      "Knight",
+      "Primal",
+      "Suit"
+    ],
+    "synergies": {
+      "en": "Supreme endgame Monster carry when paired with Gyoro Core and UR+ Zombieman.",
+      "vi": "Chủ lực Quái Nhân tối thượng khi kết hợp cùng Lõi Gyoro và Zombieman UR+."
     },
-    counters: {
-      en: "Heavy counter-attack and unyielding defenses.",
-      vi: "Bị giảm hiệu quả trước các đội hình phản đòn và phòng ngự trâu bò."
+    "counters": {
+      "en": "Extreme AoE multi-hit clearers and True Damage bypass.",
+      "vi": "Đòn quét diện rộng đa hit và sát thương chuẩn cực đại."
     }
   },
   {
-    id: "ssr_plus_silverfang",
-    name: { en: "SSR+ Silverfang (Bang)", vi: "Bang Băng Sơn SSR+" },
-    title: { en: "Water Stream Rock Smashing Master", vi: "Bậc Thầy Nước Chảy Đá Mòn" },
-    rarity: "SSR+",
-    faction: "Hero",
-    class: "Grappler",
-    tier: "SS",
-    avatar: "avatars/ssr_plus_silverfang.webp",
-    stats: { atk: 15200, hp: 148000, def: 11200, spd: 118 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Water Fist", vi: "Lưu Thủy Quyền" },
-        desc: {
-          en: "Deals 130% ATK damage and reduces target damage by 30% for 1 round.",
-          vi: "Gây 130% Công và giảm 30% sát thương của mục tiêu trong 1 hiệp."
-        }
-      },
-      ultimate: {
-        name: { en: "Awakened Water Stream Combo", vi: "Lưu Thủy Liên Hoàn Quyền Thức Tỉnh" },
-        desc: {
-          en: "Deals 280% ATK to single row and grants all allies [Block & Toughness] reducing damage taken by 40%.",
-          vi: "Gây 280% Công lên 1 hàng và cấp [Đỡ Đòn & Kiên Định] cho toàn đội giúp giảm 40% sát thương nhận vào."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Cross Fang Dragon Slayer Fist", vi: "Giao Nha Long Sát Quyền (Thần Binh)" },
-        desc: {
-          en: "Deals 400% ATK damage. Allies gain 50% Damage Reduction and reflect 40% of incoming damage.",
-          vi: "Gây 400% Công. Toàn đội nhận 50% Miễn thương và phản 40% sát thương nhận vào."
-        }
-      },
-      passive: {
-        name: { en: "Flowing Water Defense", vi: "Nước Chảy Phòng Hộ" },
-        desc: {
-          en: "Grants entire frontline [Unyielding] for 1 fatal hit per battle and counters enemy attacks.",
-          vi: "Cấp trạng thái [Bất Khuất] chống 1 đòn chí tử cho toàn bộ hàng trước và phản kích đòn đánh của địch."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Increases team Tenacity shield efficiency by 40%.",
-          vi: "Tăng 40% hiệu lực lớp khiên Kiên Cường của toàn đội."
+    "id": "urplus_zombieman",
+    "name": {
+      "en": "UR+ Zombieman",
+      "vi": "Zombieman UR+"
+    },
+    "title": {
+      "en": "Immortal Vanguard Awakened",
+      "vi": "Tiên Phong Bất Tử / Phục Sinh Vô Tận"
+    },
+    "rarity": "UR",
+    "faction": "Hero",
+    "class": "Duelist",
+    "tier": "SSS",
+    "avatar": "avatars/urplus_zombieman.webp",
+    "stats": {
+      "atk": 18500,
+      "hp": 195000,
+      "def": 14500,
+      "spd": 125
+    },
+    "hasCore": true,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Severing Blast",
+          "vi": "Nhát Chém Bắn Phá"
         },
-        stage2: {
-          en: "When blocking, dispels 1 debuff from all allies.",
-          vi: "Mỗi khi đỡ đòn thành công, giải trừ 1 hiệu ứng xấu cho toàn phe ta."
+        "desc": {
+          "en": "Deals 160% ATK damage and applies [Specialized Injury].",
+          "vi": "Gây 160% Công và gây [Nội Thương Chuyên Biệt]."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Immortal Blood Tempest",
+          "vi": "Huyết Bão Bất Tử"
+        },
+        "desc": {
+          "en": "Deals 320% ATK to enemy front row. Heals all allies for 30% of Zombieman Max HP and grants [Specialized Unyielding].",
+          "vi": "Gây 320% Công lên hàng trước của địch. Hồi 30% Máu tối đa của Zombieman cho toàn đội và ban [Bất Khuất Chuyên Biệt]."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Resurrection Cataclysm (Keepsake)",
+          "vi": "Tuyệt Diệt Phục Sinh (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 480% ATK damage. Allies gain 50% Specialized Damage Reduction and 6 revive counters.",
+          "vi": "Gây 480% Công. Toàn đội nhận 50% Miễn thương Chuyên biệt và cấp 6 lần hồi sinh liên hoàn."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Eternal Rebirth",
+          "vi": "Tái Sinh Vĩnh Cửu"
+        },
+        "desc": {
+          "en": "Revives indefinitely with 40% HP as long as at least 1 ally remains alive.",
+          "vi": "Hồi sinh vô hạn lần với 40% Máu miễn là trên sân còn ít nhất 1 đồng đội sống sót."
+        }
+      },
+      "coreSkill": {
+        "name": {
+          "en": "UR+ Immortal Evolution Core",
+          "vi": "Lõi Tiến Hóa Bất Tử UR+"
+        },
+        "requirement": {
+          "en": "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper",
+          "vi": "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng"
+        },
+        "basicEffect": {
+          "en": "Rounds 1-4: Gain 4 Energy per round. When allies revive, gain 2 bonus Energy.",
+          "vi": "Hiệp 1-4: Nhận 4 Năng lượng mỗi hiệp. Khi đồng minh hồi sinh, nhận thêm 2 Năng lượng."
+        },
+        "advancedEffect": {
+          "en": "Allies gain 40% Specialized Damage Reduction and 50% healing amplification.",
+          "vi": "Toàn đội nhận 40% Miễn thương Chuyên biệt và tăng 50% hiệu quả hồi phục máu."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "When an ally revives, dispels all debuffs and grants full rage bar.",
+          "vi": "Khi đồng minh hồi sinh, xóa sạch hiệu ứng xấu và làm đầy bình nộ."
+        },
+        "stage2": {
+          "en": "Immune to anti-revival skills and execute effects.",
+          "vi": "Kháng hoàn toàn kỹ năng cấm hồi sinh và hiệu ứng hành quyết."
         }
       }
     },
-    recommendedGears: ["Suit", "Casual", "Martial Arts"],
-    synergies: {
-      en: "Supreme frontline protector for Bomb / Gyoro cores and squishy carries.",
-      vi: "Lá chắn hàng đầu bảo vệ đồng đội cho Lõi Bomb / Gyoro và các sát thương chủ lực mỏng manh."
+    "recommendedGears": [
+      "Suit",
+      "Battle",
+      "Knight"
+    ],
+    "synergies": {
+      "en": "The supreme stall, sustain, and resurrection engine in SEA meta.",
+      "vi": "Động cơ câu giờ, hồi phục và hồi sinh mạnh nhất meta SEA."
     },
-    counters: {
-      en: "True damage and direct DEF bypass (UR Saitama).",
-      vi: "Sát thương chuẩn và đòn đánh xuyên giáp trực tiếp của UR Saitama."
+    "counters": {
+      "en": "Extreme multi-target true damage burst.",
+      "vi": "Đội hình dồn sát thương chuẩn đa mục tiêu cực nhanh."
     }
   },
   {
-    id: "bomb_core",
-    name: { en: "Bomb (Core Master)", vi: "Bomb (Thần Lõi)" },
-    title: { en: "Whirlwind Iron Cutting Master", vi: "Bậc Thầy Gió Lốc Cắt Sắt" },
-    rarity: "SSR",
-    faction: "Hero",
-    class: "Grappler",
-    tier: "SSS",
-    avatar: "avatars/bomb_core.webp",
-    stats: { atk: 14800, hp: 135000, def: 10500, spd: 115 },
-    hasCore: true,
-    skills: {
-      normal: {
-        name: { en: "Whirlwind Slash", vi: "Gió Lốc Cắt" },
-        desc: {
-          en: "Deals 120% ATK damage to single enemy.",
-          vi: "Gây 120% Công lên mục tiêu đơn."
-        }
-      },
-      ultimate: {
-        name: { en: "Whirlwind Iron Cutting Fist", vi: "Toàn Phong Thiết Trảm Quyền" },
-        desc: {
-          en: "Deals 220% ATK to enemy front row and increases team Block Rate by 30%.",
-          vi: "Gây 220% Công lên hàng trước của địch và tăng 30% Tỉ lệ Đỡ Đòn cho toàn đội."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Whirlwind Dragon Slash (Keepsake)", vi: "Toàn Phong Long Trảm (Thần Binh)" },
-        desc: {
-          en: "Deals 320% ATK to front row. Grants 40% Block Rate and applies [Internal Injury] to targets.",
-          vi: "Gây 320% Công lên hàng trước. Tăng 40% Đỡ Đòn và gây [Nội Thương] lên các mục tiêu."
-        }
-      },
-      passive: {
-        name: { en: "Martial Arts Bond", vi: "Liên Kết Võ Đạo" },
-        desc: {
-          en: "When Silverfang or Bomb is on the field, both gain 30% HP and 25% Damage Reduction.",
-          vi: "Khi có Bang hoặc Bomb trên sân, cả hai cùng nhận 30% Máu và 25% Miễn thương."
-        }
-      },
-      coreSkill: {
-        name: { en: "Whirlwind Defense Core (Bomb Core)", vi: "Lõi Phòng Ngự Toàn Phong (Bomb Core)" },
-        requirement: {
-          en: "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper in lineup",
-          vi: "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng trong đội hình"
+    "id": "ur_gyoro",
+    "name": {
+      "en": "UR Gyoro-Gyoro",
+      "vi": "Gyoro-Gyoro UR"
+    },
+    "title": {
+      "en": "Supreme Monster Association Brain",
+      "vi": "Bộ Não Hiệp Hội Quái Nhân"
+    },
+    "rarity": "UR",
+    "faction": "Monster",
+    "class": "Esper",
+    "tier": "SSS",
+    "avatar": "avatars/ur_gyoro.webp",
+    "stats": {
+      "atk": 20000,
+      "hp": 155000,
+      "def": 11000,
+      "spd": 130
+    },
+    "hasCore": true,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Psychic Ray Burst",
+          "vi": "Tia Năng Lượng Phóng Đại"
         },
-        basicEffect: {
-          en: "Rounds 1-3: Gain 3 Energy per round. When an ally blocks, gain 1 extra Energy (up to 2 times per round).",
-          vi: "Hiệp 1-3: Nhận 3 Năng lượng mỗi hiệp. Khi đồng minh đỡ đòn thành công, hồi thêm 1 Năng lượng (tối đa 2 lần/hiệp)."
-        },
-        advancedEffect: {
-          en: "At start of battle, grants all 6 allies [Tenacity Shield] equal to 35% of Bomb's Max HP and 25% Non-crit Damage Reduction.",
-          vi: "Đầu trận cấp [Khiên Kiên Cường] bằng 35% Máu tối đa của Bomb cho toàn bộ 6 tướng phe ta và 25% Miễn sát thương không bạo kích."
+        "desc": {
+          "en": "Deals 160% ATK damage and applies [Specialized Corrode].",
+          "vi": "Gây 160% Công và gây [Ăn Mòn Chuyên Biệt]."
         }
       },
-      awakening: {
-        stage1: {
-          en: "Increases Core Tenacity shield by an additional 20%.",
-          vi: "Tăng thêm 20% độ dày của Khiên Kiên Cường từ Lõi Core."
+      "ultimate": {
+        "name": {
+          "en": "Flesh Expansion Domain",
+          "vi": "Lãnh Địa Huyết Thịt Bành Trướng"
         },
-        stage2: {
-          en: "Shielded allies gain 30% ATK bonus while shields remain active.",
-          vi: "Đồng đội đang có khiên bảo hộ nhận thêm 30% Công."
+        "desc": {
+          "en": "Deals 280% ATK to all 6 enemies. Increases Monster allies Max HP by 40% and grants 30% Specialized Non-Crit DMG Reduction.",
+          "vi": "Gây 280% Công lên toàn bộ 6 kẻ địch. Tăng 40% Máu tối đa cho phe Quái Nhân và giảm 30% Sát thương Không bạo kích."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Abyssal Flesh Devastation (Keepsake)",
+          "vi": "Đại Nhãn Tận Diệt Huyết Thịt (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 420% ATK to all enemies. Monster allies deal bonus Specialized Direct DMG equal to 20% of their Max HP.",
+          "vi": "Gây 420% Công toàn thể. Đồng minh Quái Nhân gây thêm Sát thương Trực tiếp Chuyên biệt bằng 20% Máu tối đa."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Supreme Monster Commander",
+          "vi": "Chỉ Huy Quái Nhân Tối Cao"
+        },
+        "desc": {
+          "en": "When an ally receives fatal damage, revives them with 50% HP and 100% Rage (triggers twice per battle).",
+          "vi": "Khi đồng minh nhận đòn chí tử, hồi sinh với 50% Máu và đầy bình nộ (2 lần mỗi trận)."
+        }
+      },
+      "coreSkill": {
+        "name": {
+          "en": "UR Supreme Monster Core",
+          "vi": "Lõi Quái Nhân Tối Thượng UR"
+        },
+        "requirement": {
+          "en": "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper",
+          "vi": "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng"
+        },
+        "basicEffect": {
+          "en": "Rounds 1-4: Gain 4 Energy per round. When Tenacity triggers, gain 1 bonus Energy.",
+          "vi": "Hiệp 1-4: Nhận 4 Năng lượng mỗi hiệp. Khi tạo khiên Kiên Cường, nhận thêm 1 Năng lượng."
+        },
+        "advancedEffect": {
+          "en": "Entire team gains +40% Max HP and +35% Specialized Direct Damage.",
+          "vi": "Toàn đội nhận +40% Máu tối đa và +35% Sát thương Trực tiếp Chuyên biệt."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Monster Max HP scaling bonus from 20% to 30%.",
+          "vi": "Tăng sát thương phụ cộng theo Máu tối đa từ 20% lên 30%."
+        },
+        "stage2": {
+          "en": "Applies [Specialized Corrode] to all 6 enemies at start of battle.",
+          "vi": "Tự động gieo [Ăn Mòn Chuyên Biệt] lên toàn bộ 6 kẻ địch đầu trận."
         }
       }
     },
-    recommendedGears: ["Suit", "Casual", "Primal"],
-    synergies: {
-      en: "The #1 SEA defensive core. Pairs seamlessly with SSR+ Bang, UR Saitama, and UR Tatsumaki.",
-      vi: "Lõi phòng ngự số 1 máy chủ SEA. Phối hợp hoàn hảo cùng Bang SSR+, Saitama UR và Tatsumaki UR."
+    "recommendedGears": [
+      "Suit",
+      "Scholar",
+      "Battle"
+    ],
+    "synergies": {
+      "en": "The #1 core engine for all Monster faction meta compositions.",
+      "vi": "Động cơ Lõi số 1 cho mọi đội hình Quái Nhân cấp cao."
     },
-    counters: {
-      en: "Heavy shield-shattering attacks.",
-      vi: "Các đòn đánh phá khiên chuyên dụng."
+    "counters": {
+      "en": "High-speed turn-1 Hero burst wiping frontline.",
+      "vi": "Đội hình Anh Hùng tốc độ cao quét sạch hàng trước ngay lượt 1."
     }
   },
   {
-    id: "gyoro_core",
-    name: { en: "Gyoro-Gyoro (Monster Core)", vi: "Gyoro-Gyoro (Lõi Quái Nhân)" },
-    title: { en: "Monster Association Strategist", vi: "Quân Sư Hiệp Hội Quái Nhân" },
-    rarity: "SSR",
-    faction: "Monster",
-    class: "Esper",
-    tier: "SS",
-    avatar: "avatars/gyoro_core.webp",
-    stats: { atk: 14200, hp: 142000, def: 9900, spd: 114 },
-    hasCore: true,
-    skills: {
-      normal: {
-        name: { en: "Psychic Ray", vi: "Tia Siêu Năng" },
-        desc: {
-          en: "Deals 120% ATK damage to single enemy.",
-          vi: "Gây 120% Công lên mục tiêu đơn."
-        }
-      },
-      ultimate: {
-        name: { en: "Giant Eye Compression", vi: "Đại Nhãn Đè Nén" },
-        desc: {
-          en: "Deals 200% ATK damage to enemy row and increases all Monster allies Max HP by 25%.",
-          vi: "Gây 200% Công lên 1 hàng địch và tăng 25% Máu tối đa cho toàn bộ đồng minh Quái Nhân."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Abyssal Eye Cataclysm (Keepsake)", vi: "Đại Nhãn Diệt Thế (Thần Binh)" },
-        desc: {
-          en: "Deals 300% ATK damage to all enemies. Increases allies Max HP by 35% and boosts DoT by 40%.",
-          vi: "Gây 300% Công toàn thể. Tăng 35% Máu tối đa phe ta và tăng 40% sát thương DoT ăn mòn/thiêu đốt."
-        }
-      },
-      passive: {
-        name: { en: "Monster Resilience", vi: "Quái Thể Bền Bỉ" },
-        desc: {
-          en: "Whenever an ally receives fatal damage, grants them [Revival] with 30% HP (triggers once per battle).",
-          vi: "Khi đồng minh nhận sát thương chí tử, ban hiệu ứng [Hồi Sinh] với 30% Máu (1 lần mỗi trận)."
-        }
-      },
-      coreSkill: {
-        name: { en: "Monster Flesh Core (Gyoro Core)", vi: "Lõi Huyết Thịt Quái Nhân (Gyoro Core)" },
-        requirement: {
-          en: "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper in lineup",
-          vi: "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng trong đội hình"
+    "id": "urplus_rover",
+    "name": {
+      "en": "UR+ Overgrown Rover",
+      "vi": "Chó Rover UR+ (Quái Thú Siêu Năng)"
+    },
+    "title": {
+      "en": "Monster Association Sentinel",
+      "vi": "Hộ Vệ Hiệp Hội Quái Nhân"
+    },
+    "rarity": "UR",
+    "faction": "Monster",
+    "class": "Grappler",
+    "tier": "SSS",
+    "avatar": "avatars/urplus_rover.webp",
+    "stats": {
+      "atk": 19200,
+      "hp": 185000,
+      "def": 13500,
+      "spd": 122
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Energy Bomb",
+          "vi": "Bom Năng Lượng"
         },
-        basicEffect: {
-          en: "Rounds 1-3: Gain 3 Energy per round. When an ally triggers Tenacity/Heal, gain 1 bonus Energy.",
-          vi: "Hiệp 1-3: Hồi 3 Năng lượng mỗi hiệp. Khi phe ta nhận hồi máu hoặc tạo khiên, nhận thêm 1 Năng lượng."
-        },
-        advancedEffect: {
-          en: "Increases entire team Max HP by 30%. When an ally attacks, they deal bonus damage equal to 10% of their Max HP.",
-          vi: "Tăng 30% Máu tối đa cho toàn đội. Khi đồng minh tấn công, gây thêm sát thương phụ bằng 10% Máu tối đa của bản thân."
+        "desc": {
+          "en": "Deals 150% ATK damage and reduces target ATK by 25%.",
+          "vi": "Gây 150% Công và giảm 25% Công của mục tiêu."
         }
       },
-      awakening: {
-        stage1: {
-          en: "Increases HP scaling bonus damage from 10% to 16%.",
-          vi: "Tăng sát thương phụ cộng thêm theo Máu tối đa từ 10% lên 16%."
+      "ultimate": {
+        "name": {
+          "en": "Apocalyptic Energy Barrage",
+          "vi": "Bão Pháo Năng Lượng Tận Thế"
         },
-        stage2: {
-          en: "When an ally revives, they gain 100% Rage bar (immediate Ultimate next action).",
-          vi: "Khi đồng minh hồi sinh, nhận ngay 100% thanh nộ (tung tuyệt kỹ ngay lượt kế)."
+        "desc": {
+          "en": "Deals 320% ATK damage to all 6 enemies and applies [Tenacity Shield] equal to 40% Rover Max HP to entire team.",
+          "vi": "Gây 320% Công lên toàn thể 6 kẻ địch và cấp [Khiên Kiên Cường] 40% Máu tối đa của Rover cho toàn đội."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Supernova Beast Cannon (Keepsake)",
+          "vi": "Siêu Pháo Quái Thú (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 480% ATK to all enemies. Soaks 50% of all ally damage and counter-attacks for 200% ATK.",
+          "vi": "Gây 480% Công toàn thể. Hấp thụ 50% sát thương nhận vào của toàn đội và phản kích 200% Công."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Loyal Guardian Beast",
+          "vi": "Quái Thú Trung Thành Hộ Thể"
+        },
+        "desc": {
+          "en": "Passively reduces all AoE damage taken by allies by 35%. Heals 15% Max HP when casting skills.",
+          "vi": "Giảm 35% sát thương diện rộng cho toàn đội. Tự hồi 15% Máu tối đa mỗi khi dùng chiêu."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases team Damage Reduction from 35% to 50%.",
+          "vi": "Tăng miễn thương diện rộng cho toàn đội lên 50%."
+        },
+        "stage2": {
+          "en": "Revives with 100% HP and 100% Rage when defeated.",
+          "vi": "Hồi sinh với 100% Máu và đầy bình nộ khi bị hạ gục."
         }
       }
     },
-    recommendedGears: ["Suit", "Casual", "Monk"],
-    synergies: {
-      en: "The quintessential Monster Core engine. Pairs with Boros UR, SSR+ Mosquito Girl, and Carnage Kabuto+.",
-      vi: "Đầu tàu Lõi tối thượng của phe Quái Nhân. Đi cùng Boros UR, Mosquito Girl SSR+ và Carnage Kabuto+."
+    "recommendedGears": [
+      "Suit",
+      "Battle",
+      "Knight"
+    ],
+    "synergies": {
+      "en": "The supreme UR+ frontline shield engine for Gyoro and Boros UR comps.",
+      "vi": "Động cơ tạo khiên hàng trước UR+ tối thượng đi cùng Lõi Gyoro và Boros UR."
     },
-    counters: {
-      en: "Heavy anti-heal and single-turn burst wipes.",
-      vi: "Hiệu ứng giảm hồi máu sâu và đòn quét sạch trong 1 lượt."
+    "counters": {
+      "en": "Direct shield shattering and bypass.",
+      "vi": "Các đòn phá khiên trực tiếp."
     }
   },
   {
-    id: "ssr_plus_mosquito",
-    name: { en: "SSR+ Mosquito Girl", vi: "Nữ Chúa Muỗi SSR+" },
-    title: { en: "Blood Queen Awakened", vi: "Nữ Hoàng Máu Thức Tỉnh" },
-    rarity: "SSR+",
-    faction: "Monster",
-    class: "Esper",
-    tier: "SS",
-    avatar: "avatars/ssr_plus_mosquito.webp",
-    stats: { atk: 18200, hp: 112000, def: 8600, spd: 125 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Blood Drain", vi: "Hút Máu" },
-        desc: {
-          en: "Deals 150% ATK damage to single enemy and heals self for 100% of damage dealt.",
-          vi: "Gây 150% Công lên mục tiêu đơn và hồi phục bản thân 100% lượng sát thương gây ra."
-        }
-      },
-      ultimate: {
-        name: { en: "Blood Storm Swarm", vi: "Bão Đàn Muỗi Huyết Sát" },
-        desc: {
-          en: "Deals 260% ATK damage to all 6 enemies. Inflicts [Corrode] dealing 120% ATK damage per turn for 2 turns.",
-          vi: "Gây 260% Công lên toàn bộ 6 kẻ địch. Gây hiệu ứng [Ăn Mòn] 120% Công mỗi lượt trong 2 hiệp."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Crimson Swarm Devastation (Keepsake)", vi: "Huyết Triều Tận Diệt (Thần Binh)" },
-        desc: {
-          en: "Deals 380% ATK to all enemies. Corrode damage is increased to 200% ATK and heals all allies for 30% of DoT damage.",
-          vi: "Gây 380% Công toàn thể. Tăng sát thương Ăn Mòn lên 200% Công và hồi máu cho toàn phe ta bằng 30% sát thương DoT."
-        }
-      },
-      passive: {
-        name: { en: "Blood Feast", vi: "Đại Tiệc Huyết Nhục" },
-        desc: {
-          en: "Whenever any unit (ally or enemy) takes DoT or Corrode damage, Mosquito Girl recovers 15% HP and gains 10% ATK (max 5 stacks).",
-          vi: "Mỗi khi bất kỳ đơn vị nào nhận sát thương DoT hoặc Ăn Mòn, hồi 15% Máu và tăng 10% Công (tối đa 5 tầng)."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "At start of battle, applies [Corrode] to 2 random enemies automatically.",
-          vi: "Đầu trận tự động gieo rắc [Ăn Mòn] lên 2 kẻ địch ngẫu nhiên."
+    "id": "ur_flashy_flash",
+    "name": {
+      "en": "UR Flashy Flash",
+      "vi": "Flash Quang Tốc UR"
+    },
+    "title": {
+      "en": "Light Speed Sword Master",
+      "vi": "Kiếm Khách Tốc Độ Ánh Sáng"
+    },
+    "rarity": "UR",
+    "faction": "Hero",
+    "class": "Duelist",
+    "tier": "SSS",
+    "avatar": "avatars/ur_flashy_flash.webp",
+    "stats": {
+      "atk": 21500,
+      "hp": 102000,
+      "def": 8400,
+      "spd": 148
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Light Speed Thrust",
+          "vi": "Đâm Tốc Độ Ánh Sáng"
         },
-        stage2: {
-          en: "Corrode damage can now critically strike.",
-          vi: "Sát thương Ăn Mòn có thể gây Bạo Kích."
+        "desc": {
+          "en": "Deals 170% ATK damage and steals 20 Speed.",
+          "vi": "Gây 170% Công và cướp 20 Tốc độ của địch."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Flashy Slash Barrage",
+          "vi": "Quang Tốc Vô Ảnh Trảm"
+        },
+        "desc": {
+          "en": "Deals 350% ATK to all 6 enemies. Inflicts [Light Speed Disarm] reducing enemy Crit Rate by 50% and granting 3 extra pursuits.",
+          "vi": "Gây 350% Công lên toàn bộ 6 kẻ địch. Gây [Tước Khí Quang Tốc] giảm 50% bạo kích địch và cấp 3 lần truy kích."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Flowing Shadow Lightblade (Keepsake)",
+          "vi": "Lưu Ảnh Quang Kiếm (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 520% ATK to all enemies. Ignores 60% DEF and grants 100% Dodge for 2 turns.",
+          "vi": "Gây 520% Công toàn thể. Xuyên 60% Giáp và tăng 100% Né Tránh trong 2 hiệp."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Absolute Velocity",
+          "vi": "Vận Tốc Tuyệt Đối"
+        },
+        "desc": {
+          "en": "Increases entire team speed by 25. Whenever Flashy Flash dodges, counters for 200% ATK.",
+          "vi": "Tăng 25 Tốc độ cho toàn đội. Mỗi khi né đòn thành công, phản kích 200% Công."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Duelist allies Crit Damage by 50%.",
+          "vi": "Tăng 50% Sát thương Bạo kích cho đồng đội hệ Vũ Trang."
+        },
+        "stage2": {
+          "en": "When defeating an enemy, resets ultimate cooldown immediately.",
+          "vi": "Khi tiêu diệt mục tiêu, hồi ngay lập tức tuyệt kỹ."
         }
       }
     },
-    recommendedGears: ["Prisoner", "Casual", "Suit"],
-    synergies: {
-      en: "Key enabler of DoT / Corrode meta with Deep Sea King and Gyoro core.",
-      vi: "Trọng tâm của meta Ăn Mòn DoT kết hợp Vua Biển Sâu và Lõi Gyoro."
+    "recommendedGears": [
+      "Lightning",
+      "Knight",
+      "Prisoner"
+    ],
+    "synergies": {
+      "en": "Pairs with Sonic UR and Atomic Samurai for fastest turn-1 speed sweep.",
+      "vi": "Đi cùng Sonic UR và Atomic Samurai để giành quyền đi trước tuyệt đối."
     },
-    counters: {
-      en: "Heavy debuff dispels and rapid shield cleanse.",
-      vi: "Đội hình giải bùa xấu nhanh và khiên kháng hiệu ứng."
+    "counters": {
+      "en": "Heavy damage reflection tanks (Carnage / Silverfang).",
+      "vi": "Tướng phản sát thương cực đại như Bọ Hung và Silverfang."
     }
   },
   {
-    id: "zombieman_core",
-    name: { en: "Zombieman (Core Master)", vi: "Zombieman (Thần Bất Tử)" },
-    title: { en: "Immortal Detective", vi: "Thám Tử Bất Tử" },
-    rarity: "SSR",
-    faction: "Hero",
-    class: "Grappler",
-    tier: "S",
-    avatar: "avatars/zombieman_core.webp",
-    stats: { atk: 13900, hp: 145000, def: 10200, spd: 110 },
-    hasCore: true,
-    skills: {
-      normal: {
-        name: { en: "Dual Pistol Fire", vi: "Song Súng Bắn Phá" },
-        desc: {
-          en: "Deals 120% ATK damage to single enemy.",
-          vi: "Gây 120% Công lên mục tiêu đơn."
-        }
-      },
-      ultimate: {
-        name: { en: "Severing Blade & Shotgun", vi: "Trảm Kích Súng Hoa Cải" },
-        desc: {
-          en: "Deals 240% ATK to single target and inflicts [Internal Injury] dealing 100% ATK extra damage on hit.",
-          vi: "Gây 240% Công lên mục tiêu đơn và gieo [Nội Thương] nhận thêm 100% Công khi bị đánh."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Infinite Regeneration Burst (Keepsake)", vi: "Tái Sinh Vô Tận Bùng Nổ (Thần Binh)" },
-        desc: {
-          en: "Deals 340% ATK to single target, heals entire team for 20% of Zombieman's Max HP.",
-          vi: "Gây 340% Công lên mục tiêu đơn, hồi 20% Máu tối đa của Zombieman cho toàn phe ta."
-        }
-      },
-      passive: {
-        name: { en: "Infinite Regeneration", vi: "Tái Sinh Vĩnh Hằng" },
-        desc: {
-          en: "Revives up to 4 times upon defeat with 25% HP.",
-          vi: "Tự hồi sinh tối đa 4 lần khi bị hạ gục với 25% Máu."
-        }
-      },
-      coreSkill: {
-        name: { en: "Immortal Blood Core", vi: "Lõi Huyết Mạch Bất Tử (Zombieman Core)" },
-        requirement: {
-          en: "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper",
-          vi: "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng"
+    "id": "ur_fubuki",
+    "name": {
+      "en": "UR Hellish Blizzard (Fubuki)",
+      "vi": "Bão Tuyết Fubuki UR"
+    },
+    "title": {
+      "en": "Blizzard Group Leader Awakened",
+      "vi": "Thủ Lĩnh Nhóm Blizzard Thức Tỉnh"
+    },
+    "rarity": "UR",
+    "faction": "Hero",
+    "class": "Esper",
+    "tier": "SS",
+    "avatar": "avatars/ur_fubuki.webp",
+    "stats": {
+      "atk": 18800,
+      "hp": 135000,
+      "def": 9800,
+      "spd": 122
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Psychic Storm",
+          "vi": "Bão Niệm Lực"
         },
-        basicEffect: {
-          en: "Rounds 1-3: Gain 2 energy per round. Whenever an ally dies or revives, gain 2 extra energy.",
-          vi: "Hiệp 1-3: Hồi 2 năng lượng mỗi hiệp. Khi đồng minh gục ngã hoặc hồi sinh, nhận thêm 2 năng lượng."
-        },
-        advancedEffect: {
-          en: "When an ally takes fatal damage, survives with 1 HP for 1 turn and heals all allies for 15% HP.",
-          vi: "Khi đồng minh nhận sát thương chí tử, duy trì 1 Máu trong 1 hiệp và hồi 15% Máu cho toàn đội."
+        "desc": {
+          "en": "Deals 140% ATK damage and heals adjacent allies.",
+          "vi": "Gây 140% Công và hồi máu cho đồng minh liền kề."
         }
       },
-      awakening: {
-        stage1: {
-          en: "Increases team healing received by 30%.",
-          vi: "Tăng 30% hiệu ứng hồi máu nhận vào của toàn đội."
+      "ultimate": {
+        "name": {
+          "en": "Hellish Gale Hurricane",
+          "vi": "Cuồng Phong Địa Ngục Bão Tuyết"
         },
-        stage2: {
-          en: "Revives with 50% HP and full energy bar.",
-          vi: "Hồi sinh với 50% Máu và đầy bình nộ."
+        "desc": {
+          "en": "Deals 280% ATK to all enemies. Grants entire team [Tenacity Shield] equal to 30% Fubuki Max HP and 2 Energy points.",
+          "vi": "Gây 280% Công toàn thể. Cấp [Khiên Kiên Cường] 30% Máu tối đa của Fubuki cho toàn đội và hồi 2 điểm Năng lượng."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Absolute Blizzard Domain (Keepsake)",
+          "vi": "Tuyệt Đối Bão Tuyết Lãnh Địa (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 400% ATK to all enemies. Increases allies ATK by 40% and grants immunity to control effects for 2 rounds.",
+          "vi": "Gây 400% Công toàn thể. Tăng 40% Công cho toàn đội và miễn nhiễm khống chế trong 2 hiệp."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Blizzard Shield Barrier",
+          "vi": "Khiên Phòng Hộ Bão Tuyết"
+        },
+        "desc": {
+          "en": "While shielded, allies receive 30% less damage and deal 25% more damage.",
+          "vi": "Khi đang có khiên bảo hộ, đồng đội nhận ít hơn 30% sát thương và gây thêm 25% sát thương."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Tenacity shield thickness by 35%.",
+          "vi": "Tăng 35% độ dày của khiên Kiên Cường."
+        },
+        "stage2": {
+          "en": "When an ally shield breaks, damages all enemies for 150% ATK.",
+          "vi": "Khi khiên của đồng đội vỡ, gây 150% Công lên toàn bộ quân địch."
         }
       }
     },
-    recommendedGears: ["Suit", "Casual", "Martial Arts"],
-    synergies: {
-      en: "Classic stall and endurance core. Great with tanky frontlines and sustained DoT.",
-      vi: "Lõi câu giờ kinh điển. Rất hợp với hàng trước trâu bò và sát thương duy trì DoT."
+    "recommendedGears": [
+      "Suit",
+      "Scholar",
+      "Casual"
+    ],
+    "synergies": {
+      "en": "Top-tier support buffer for Esper teams and Bomb / Tatsumaki comps.",
+      "vi": "Hỗ trợ tạo khiên và hồi năng lượng hàng đầu cho hệ Siêu Năng và Lõi Bomb."
     },
-    counters: {
-      en: "True damage and anti-revival skills.",
-      vi: "Sát thương chuẩn và kỹ năng cấm hồi sinh."
+    "counters": {
+      "en": "Shield shattering and high single-target burst.",
+      "vi": "Đòn phá khiên và sát thương đơn dồn nhanh."
     }
   },
   {
-    id: "ssr_plus_geryu",
-    name: { en: "SSR+ Geryuganshoop", vi: "Geryuganshoop SSR+" },
-    title: { en: "Gravity Master", vi: "Bậc Thầy Trọng Lực" },
-    rarity: "SSR+",
-    faction: "Monster",
-    class: "Esper",
-    tier: "SS",
-    avatar: "avatars/ssr_plus_geryu.webp",
-    stats: { atk: 18900, hp: 108000, def: 8700, spd: 130 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Psychic Pebble", vi: "Sỏi Đá Siêu Năng" },
-        desc: {
-          en: "Deals 140% ATK damage and reduces target Energy by 1.",
-          vi: "Gây 140% Công và trừ 1 điểm Năng lượng của đối thủ."
-        }
-      },
-      ultimate: {
-        name: { en: "Telekinetic Gravity Storm", vi: "Bão Trọng Lực Niệm Lực" },
-        desc: {
-          en: "Deals 260% ATK to all enemies. Inflicts [Gravity Lock] disabling speed buffs for 2 turns.",
-          vi: "Gây 260% Công toàn thể. Gây [Khóa Trọng Lực] vô hiệu hóa bùa tăng tốc trong 2 hiệp."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Super Gravity Singularity (Keepsake)", vi: "Điểm Kỳ Dị Siêu Trọng Lực (Thần Binh)" },
-        desc: {
-          en: "Deals 380% ATK to all enemies. Steals 2 Energy and increases ally Esper damage by 40%.",
-          vi: "Gây 380% Công toàn thể. Cướp 2 điểm Năng lượng và tăng 40% sát thương cho tướng Siêu Năng phe ta."
-        }
-      },
-      passive: {
-        name: { en: "Gravitational Dampening", vi: "Trọng Lực Suy Giảm" },
-        desc: {
-          en: "Reduces all enemies Speed by 20 and increases Esper allies Effect Hit by 30%.",
-          vi: "Giảm 20 Tốc độ của toàn bộ phe địch và tăng 30% Tỉ lệ Trúng Hiệu Ứng cho phe Siêu Năng."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "When an enemy casts an ultimate, drains 1 extra energy point.",
-          vi: "Khi địch dùng tuyệt kỹ, rút thêm 1 điểm nộ năng lượng của địch."
+    "id": "ur_king",
+    "name": {
+      "en": "UR King",
+      "vi": "Vua May Mắn King UR"
+    },
+    "title": {
+      "en": "Strongest Man on Earth",
+      "vi": "Người Đàn Ông Mạnh Nhất Địa Cầu"
+    },
+    "rarity": "UR",
+    "faction": "Hero",
+    "class": "Esper",
+    "tier": "SSS",
+    "avatar": "avatars/ur_king.webp",
+    "stats": {
+      "atk": 19500,
+      "hp": 140000,
+      "def": 10200,
+      "spd": 128
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "King Engine Rumble",
+          "vi": "Tiếng Động Cơ King Engine"
         },
-        stage2: {
-          en: "Grants entire team 25% Damage Reduction against AoE attacks.",
-          vi: "Cấp 25% Miễn thương trước các đòn đánh diện rộng cho toàn đội."
+        "desc": {
+          "en": "Intimidates single enemy, sealing 1 energy point and healing self.",
+          "vi": "Uy hiếp mục tiêu đơn, khóa 1 điểm năng lượng và hồi máu bản thân."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "King Engine Overdrive",
+          "vi": "Động Cơ King Cuồng Nộ"
+        },
+        "desc": {
+          "en": "Locks 4 enemy energy points. Deals 300% ATK Specialized Direct DMG to all 6 enemies and heals entire team.",
+          "vi": "Khóa 4 điểm Năng lượng của đối thủ. Gây 300% Công Sát thương Trực tiếp Chuyên biệt lên toàn bộ 6 kẻ địch và hồi máu toàn đội."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Ultimate Purgatory Shockwave (Keepsake)",
+          "vi": "Luyện Ngục Sóng Âm Tuyệt Kỹ (Thần Binh)"
+        },
+        "desc": {
+          "en": "Seals ALL 6 enemy energy points for 2 turns. Deals 450% ATK damage and dispels all enemy buffs.",
+          "vi": "Khóa TOÀN BỘ 6 điểm Năng lượng của đối thủ trong 2 hiệp. Gây 450% Công và xóa toàn bộ bùa lợi đối thủ."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Aura of the Strongest",
+          "vi": "Khí Phách Kẻ Mạnh Nhất"
+        },
+        "desc": {
+          "en": "Reduces all enemies ATK by 30% and increases entire team healing received by 40%.",
+          "vi": "Giảm 30% Công của toàn bộ phe địch và tăng 40% hiệu ứng hồi máu nhận vào cho toàn đội."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Energy lock cannot be cleansed or resisted.",
+          "vi": "Hiệu ứng khóa nộ năng lượng không thể bị giải trừ hoặc kháng."
+        },
+        "stage2": {
+          "en": "Survives fatal hit with Unyielding and restores full team HP by 30%.",
+          "vi": "Kích hoạt Bất Khuất khi nhận sát thương chí tử và hồi 30% Máu cho toàn đội."
         }
       }
     },
-    recommendedGears: ["Knight", "Lightning", "Primal"],
-    synergies: {
-      en: "Speed-control god for Esper burst teams and Boros UR comps.",
-      vi: "Chúa tể khống chế tốc độ cho đội hình dồn sát thương Siêu Năng và Boros UR."
+    "recommendedGears": [
+      "Suit",
+      "Scholar",
+      "Knight"
+    ],
+    "synergies": {
+      "en": "Ultimate energy denial and stall engine in high-level PvP Live Arena.",
+      "vi": "Bá chủ khóa năng lượng tuyệt đối trong đấu trường PvP đỉnh cao."
     },
-    counters: {
-      en: "Single-target high burst Duelists (UR Sonic).",
-      vi: "Sát thủ Vũ Trang dồn sát thương đơn cực nhanh như UR Sonic."
+    "counters": {
+      "en": "Pure basic-attack hyper carries with unyielding.",
+      "vi": "Đội hình đánh thường siêu mạnh không phụ thuộc vào nộ."
     }
   },
   {
-    id: "child_emperor_core",
-    name: { en: "Child Emperor (Core Master)", vi: "Tiểu Bá Vương (Thần Lõi Sơ Cấp)" },
-    title: { en: "Genius Boy Prodigy", vi: "Thần Đồng Công Nghệ" },
-    rarity: "SSR",
-    faction: "Hero",
-    class: "HiTech",
-    tier: "A",
-    avatar: "avatars/child_emperor_core.webp",
-    stats: { atk: 14100, hp: 118000, def: 8600, spd: 120 },
-    hasCore: true,
-    skills: {
-      normal: {
-        name: { en: "Mechanical Arm Smash", vi: "Cánh Tay Cơ Khí Đập" },
-        desc: {
-          en: "Deals 120% ATK damage to single enemy.",
-          vi: "Gây 120% Công lên mục tiêu đơn."
-        }
-      },
-      ultimate: {
-        name: { en: "Underdog Robo Barrage", vi: "Robot Chó Con Bắn Phá" },
-        desc: {
-          en: "Deals 240% ATK to single row and inflicts [Shatter] on targets for 2 turns.",
-          vi: "Gây 240% Công lên 1 hàng và gây [Vỡ Giáp] lên mục tiêu trong 2 hiệp."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Brave Giant Cannon (Keepsake)", vi: "Đại Pháo Dũng Khí (Thần Binh)" },
-        desc: {
-          en: "Deals 340% ATK to single row. Grants adjacent allies [Berserk] (+30% ATK).",
-          vi: "Gây 340% Công lên 1 hàng. Cấp hiệu ứng [Cuồng Bạo] (+30% Công) cho đồng minh liền kề."
-        }
-      },
-      passive: {
-        name: { en: "Tactical Genius", vi: "Thiên Tài Chiến Thuật" },
-        desc: {
-          en: "When Child Emperor lands a Critical hit, grants 1 energy point and inflicts [Stun] for 1 turn (triggers once per round).",
-          vi: "Khi bạo kích, hồi ngay 1 điểm năng lượng và gây [Choáng] trong 1 lượt (1 lần mỗi hiệp)."
-        }
-      },
-      coreSkill: {
-        name: { en: "Genius Technology Core (CE Core)", vi: "Lõi Công Nghệ Thiên Tài (CE Core)" },
-        requirement: {
-          en: "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper",
-          vi: "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng"
+    "id": "bomb_core",
+    "name": {
+      "en": "Bomb (Core Master)",
+      "vi": "Bomb (Thần Lõi)"
+    },
+    "title": {
+      "en": "Whirlwind Iron Cutting Master",
+      "vi": "Bậc Thầy Gió Lốc Cắt Sắt"
+    },
+    "rarity": "SSR",
+    "faction": "Hero",
+    "class": "Grappler",
+    "tier": "SSS",
+    "avatar": "avatars/bomb_core.webp",
+    "stats": {
+      "atk": 14800,
+      "hp": 135000,
+      "def": 10500,
+      "spd": 115
+    },
+    "hasCore": true,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Whirlwind Slash",
+          "vi": "Gió Lốc Cắt"
         },
-        basicEffect: {
-          en: "Rounds 1-3: Whenever an ally lands a Critical Hit, gain 1 Energy (up to 4 times per round).",
-          vi: "Hiệp 1-3: Mỗi khi đồng minh Bạo Kích, nhận 1 Năng lượng (tối đa 4 lần mỗi hiệp)."
-        },
-        advancedEffect: {
-          en: "In Round 1, increases all allies Direct and Skill Damage by 30% and grants [Berserk].",
-          vi: "Ở hiệp 1, tăng 30% Sát thương Trực tiếp và Tuyệt kỹ cho toàn đội, đồng thời kích hoạt [Cuồng Bạo]."
+        "desc": {
+          "en": "Deals 120% ATK damage to single enemy.",
+          "vi": "Gây 120% Công lên mục tiêu đơn."
         }
       },
-      awakening: {
-        stage1: {
-          en: "Increases Critical Rate of all allies by 20% in Round 1.",
-          vi: "Tăng 20% Tỉ lệ Bạo Kích cho toàn đội trong Hiệp 1."
+      "ultimate": {
+        "name": {
+          "en": "Whirlwind Iron Cutting Fist",
+          "vi": "Toàn Phong Thiết Trảm Quyền"
         },
-        stage2: {
-          en: "Stun effect can no longer be resisted.",
-          vi: "Hiệu ứng Choáng không thể bị kháng cự."
+        "desc": {
+          "en": "Deals 220% ATK to enemy front row and increases team Block Rate by 30%.",
+          "vi": "Gây 220% Công lên hàng trước của địch và tăng 30% Tỉ lệ Đỡ Đòn cho toàn đội."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Whirlwind Dragon Slash (Keepsake)",
+          "vi": "Toàn Phong Long Trảm (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 320% ATK to front row. Grants 40% Block Rate and applies [Internal Injury] to targets.",
+          "vi": "Gây 320% Công lên hàng trước. Tăng 40% Đỡ Đòn và gây [Nội Thương] lên các mục tiêu."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Martial Arts Bond",
+          "vi": "Liên Kết Võ Đạo"
+        },
+        "desc": {
+          "en": "When Silverfang or Bomb is on the field, both gain 30% HP and 25% Damage Reduction.",
+          "vi": "Khi có Bang hoặc Bomb trên sân, cả hai cùng nhận 30% Máu và 25% Miễn thương."
+        }
+      },
+      "coreSkill": {
+        "name": {
+          "en": "Whirlwind Defense Core (Bomb Core)",
+          "vi": "Lõi Phòng Ngự Toàn Phong (Bomb Core)"
+        },
+        "requirement": {
+          "en": "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper in lineup",
+          "vi": "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng trong đội hình"
+        },
+        "basicEffect": {
+          "en": "Rounds 1-3: Gain 3 Energy per round. When an ally blocks, gain 1 extra Energy (up to 2 times per round).",
+          "vi": "Hiệp 1-3: Nhận 3 Năng lượng mỗi hiệp. Khi đồng minh đỡ đòn thành công, hồi thêm 1 Năng lượng (tối đa 2 lần/hiệp)."
+        },
+        "advancedEffect": {
+          "en": "At start of battle, grants all 6 allies [Tenacity Shield] equal to 35% of Bomb's Max HP and 25% Non-crit Damage Reduction.",
+          "vi": "Đầu trận cấp [Khiên Kiên Cường] bằng 35% Máu tối đa của Bomb cho toàn bộ 6 tướng phe ta và 25% Miễn sát thương không bạo kích."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Core Tenacity shield by an additional 20%.",
+          "vi": "Tăng thêm 20% độ dày của Khiên Kiên Cường từ Lõi Core."
+        },
+        "stage2": {
+          "en": "Shielded allies gain 30% ATK bonus while shields remain active.",
+          "vi": "Đồng đội đang có khiên bảo hộ nhận thêm 30% Công."
         }
       }
     },
-    recommendedGears: ["Knight", "Monk", "Casual"],
-    synergies: {
-      en: "The classic Round-1 critical speed burst engine for PvE and early PvP.",
-      vi: "Động cơ dồn sát thương bạo kích hiệp 1 kinh điển cho PvE và tân thủ PvP."
+    "recommendedGears": [
+      "Suit",
+      "Casual",
+      "Primal"
+    ],
+    "synergies": {
+      "en": "The #1 SEA defensive core. Pairs seamlessly with SSR+ Bang, UR Saitama, and UR Tatsumaki.",
+      "vi": "Lõi phòng ngự số 1 máy chủ SEA. Phối hợp hoàn hảo cùng Bang SSR+, Saitama UR và Tatsumaki UR."
     },
-    counters: {
-      en: "Anti-crit teams, Tenacity shield stall, and unyielding tank comps.",
-      vi: "Đội hình giảm bạo kích, khiên dầy và câu giờ bất khuất."
+    "counters": {
+      "en": "Heavy shield-shattering attacks.",
+      "vi": "Các đòn đánh phá khiên chuyên dụng."
     }
   },
   {
-    id: "amai_mask",
-    name: { en: "Amai Mask (Budget God)", vi: "Mặt Nạ Mật (Vua Sát Thương Đơn)" },
-    title: { en: "Handsomely Masked Sweet Mask", vi: "Mặt Nạ Đẹp Trai Ngọt Ngào" },
-    rarity: "SR",
-    faction: "Hero",
-    class: "Grappler",
-    tier: "A",
-    avatar: "avatars/amai_mask.webp",
-    stats: { atk: 13500, hp: 95000, def: 7200, spd: 119 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Face Punch", vi: "Đấm Thẳng Mặt" },
-        desc: {
-          en: "Deals 120% ATK damage to single enemy.",
-          vi: "Gây 120% Công lên mục tiêu đơn."
-        }
-      },
-      ultimate: {
-        name: { en: "Extinction Execution", vi: "Tuyệt Diệt Hành Quyết" },
-        desc: {
-          en: "Attacks backrow single target 2 to 5 times randomly, dealing 120% ATK damage per hit with high crit rate.",
-          vi: "Tấn công mục tiêu đơn hàng sau từ 2 đến 5 lần ngẫu nhiên, mỗi đòn gây 120% Công với tỉ lệ bạo kích cao."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Super Execution Chop (Keepsake)", vi: "Hành Quyết Tối Thượng (Thần Binh)" },
-        desc: {
-          en: "Guarantees 5 hits dealing 150% ATK per strike (total 750% ATK). Inflicts [Injury].",
-          vi: "Chắc chắn đánh đủ 5 hit, mỗi hit 150% Công (tổng 750% Công). Gây [Tổn Thương]."
-        }
-      },
-      passive: {
-        name: { en: "Aesthetic Justice", vi: "Công Lý Hoàn Mỹ" },
-        desc: {
-          en: "Deals 30% bonus damage to Monster faction enemies.",
-          vi: "Gây thêm 30% sát thương lên kẻ địch thuộc phe Quái Nhân."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Killing an enemy resets Amai Mask's rage bar to 100%.",
-          vi: "Hạ gục đối thủ lập tức đầy 100% thanh nộ."
+    "id": "ssr_plus_silverfang",
+    "name": {
+      "en": "SSR+ Silverfang (Bang)",
+      "vi": "Bang Băng Sơn SSR+"
+    },
+    "title": {
+      "en": "Water Stream Rock Smashing Master",
+      "vi": "Bậc Thầy Nước Chảy Đá Mòn"
+    },
+    "rarity": "SSR+",
+    "faction": "Hero",
+    "class": "Grappler",
+    "tier": "SS",
+    "avatar": "avatars/ssr_plus_silverfang.webp",
+    "stats": {
+      "atk": 15200,
+      "hp": 148000,
+      "def": 11200,
+      "spd": 118
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Water Fist",
+          "vi": "Lưu Thủy Quyền"
         },
-        stage2: {
-          en: "Attacks ignore 40% of target DEF.",
-          vi: "Đòn đánh bỏ qua 40% Giáp của mục tiêu."
+        "desc": {
+          "en": "Deals 130% ATK damage and reduces target damage by 30% for 1 round.",
+          "vi": "Gây 130% Công và giảm 30% sát thương của mục tiêu trong 1 hiệp."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Awakened Water Stream Combo",
+          "vi": "Lưu Thủy Liên Hoàn Quyền Thức Tỉnh"
+        },
+        "desc": {
+          "en": "Deals 280% ATK to single row and grants all allies [Block & Toughness] reducing damage taken by 40%.",
+          "vi": "Gây 280% Công lên 1 hàng và cấp [Đỡ Đòn & Kiên Định] cho toàn đội giúp giảm 40% sát thương nhận vào."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Cross Fang Dragon Slayer Fist",
+          "vi": "Giao Nha Long Sát Quyền (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 400% ATK damage. Allies gain 50% Damage Reduction and reflect 40% of incoming damage.",
+          "vi": "Gây 400% Công. Toàn đội nhận 50% Miễn thương và phản 40% sát thương nhận vào."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Flowing Water Defense",
+          "vi": "Nước Chảy Phòng Hộ"
+        },
+        "desc": {
+          "en": "Grants entire frontline [Unyielding] for 1 fatal hit per battle and counters enemy attacks.",
+          "vi": "Cấp trạng thái [Bất Khuất] chống 1 đòn chí tử cho toàn bộ hàng trước và phản kích đòn đánh của địch."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases team Tenacity shield efficiency by 40%.",
+          "vi": "Tăng 40% hiệu lực lớp khiên Kiên Cường của toàn đội."
+        },
+        "stage2": {
+          "en": "When blocking, dispels 1 debuff from all allies.",
+          "vi": "Mỗi khi đỡ đòn thành công, giải trừ 1 hiệu ứng xấu cho toàn phe ta."
         }
       }
     },
-    recommendedGears: ["Prisoner", "Knight", "Swordsman"],
-    synergies: {
-      en: "F2P backrow sniper god for Club Boss and Monster X-City trials.",
-      vi: "Thần bắn tỉa hàng sau chuẩn F2P cho Boss Bang Hội và Thử thách Quái Nhân."
+    "recommendedGears": [
+      "Suit",
+      "Casual",
+      "Martial Arts"
+    ],
+    "synergies": {
+      "en": "Supreme frontline protector for Bomb / Gyoro cores and squishy carries.",
+      "vi": "Lá chắn hàng đầu bảo vệ đồng đội cho Lõi Bomb / Gyoro và các sát thương chủ lực mỏng manh."
     },
-    counters: {
-      en: "Heavy unyielding and damage sharing tanks.",
-      vi: "Bị chặn bởi tướng chia sẻ sát thương và bất khuất."
+    "counters": {
+      "en": "True damage and direct DEF bypass (UR Saitama).",
+      "vi": "Sát thương chuẩn và đòn đánh xuyên giáp trực tiếp của UR Saitama."
     }
   },
   {
-    id: "urplus_blacksperm",
-    name: { en: "UR+ Black Sperm", vi: "Tinh Trùng Đen UR+" },
-    title: { en: "Combat Arts Grandmaster / Endless Swarm", vi: "Đại Tông Sư Giác Đấu / Biển Phân Thân" },
-    rarity: "UR+",
-    faction: "Monster",
-    class: "Grappler",
-    tier: "SSS",
-    avatar: "avatars/urplus_blacksperm.webp",
-    stats: { atk: 22500, hp: 165000, def: 12000, spd: 132 },
-    hasCore: false,
-    skills: {
-      normal: {
-        name: { en: "Swarm Strike", vi: "Đòn Đánh Phân Thân" },
-        desc: {
-          en: "Deals 120% ATK (+10) damage to a single enemy.",
-          vi: "Gây 120% ATK (+10) sát thương lên mục tiêu đơn."
-        }
-      },
-      ultimate: {
-        name: { en: "Swarm Divide Burst", vi: "Tuyệt Kỹ Phân Tách Trảm" },
-        desc: {
-          en: "Absorbs all active clones on field (+20% DMG per clone). Deals 2400% ATK Specialized Direct DMG divided across enemy row, ignores 45% Specialized Evasion & Non-Crit DMG Reduction, pierces Unyielding.",
-          vi: "Hấp thụ toàn bộ phân thân trên sân (+20% ST mỗi phân thân). Gây 2400% ATK Sát Thương Trực Tiếp Chuyên Biệt chia đều cho hàng địch, bỏ qua 45% Né Chuyên Biệt và Miễn ST Không Chí Mạng, xuyên Bất Khuất."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Omnidirectional Swarm Devastation", vi: "Siêu Tuyệt Kỹ: Đại Tuyệt Diệt Phân Thân" },
-        desc: {
-          en: "Requires Keepsake. Grants +20% All DMG Amp to self and reduces enemy row All DMG Red by 20%. Absorbs all clones (+30% DMG per clone). Deals 3000% ATK Specialized Direct DMG, ignores 60% Specialized Evasion, pierces Unyielding. Grants [Black Sperm's Revenge] to self and highest ATK ally (deals 800% max enemy HP damage).",
-          vi: "Cần Thần Binh. Tăng 20% Khuếch Đại Toàn ST cho bản thân và giảm 20% Giảm Toàn ST của hàng địch. Hấp thụ phân thân (+30% ST mỗi phân thân). Gây 3000% ATK Sát Thương Trực Tiếp Chuyên Biệt, bỏ qua 60% Né Chuyên Biệt, xuyên Bất Khuất. Bản thân và đồng đội có ATK cao nhất vĩnh viễn nhận [Báo Thù Của Tinh Trùng Đen] (gây 800% Máu tối đa của mục tiêu)."
-        }
-      },
-      passive: {
-        name: { en: "Undefeated Swarm Evolution", vi: "Nội Tại: Tiến Hóa Bất Bại" },
-        desc: {
-          en: "Starts combat with 80% Non-Crit DMG Reduction. In the first 9 rounds, when receiving fatal damage, enters [Undefeated] state absorbing all damage; on next turn heals to 100% HP up to 6 times.",
-          vi: "Khi vào trận nhận 80% Miễn Sát Thương Không Chí Mạng. Trong 9 lượt đầu, khi sắp bị hạ, vào trạng thái [Bất Bại] hấp thụ toàn bộ sát thương; đến lượt kế tiếp hồi 100% HP tối đa 6 lần."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "After any enemy acts, all active clones have 100% chance to pursue all enemies dealing 620% ATK Specialized Direct DMG. Splits 4 clones per hit taken up to 8 max.",
-          vi: "Sau khi bất kỳ địch nào hành động, toàn bộ phân thân có 100% tỉ lệ truy kích toàn thể địch gây 620% ATK ST Trực Tiếp Chuyên Biệt. Sau mỗi lần trúng đòn phân tách ra 4 phân thân, tối đa 8 con."
+    "id": "ssr_plus_atomic",
+    "name": {
+      "en": "SSR+ Atomic Samurai",
+      "vi": "Atomic Samurai SSR+"
+    },
+    "title": {
+      "en": "Sword Saint Awakened",
+      "vi": "Kiếm Thánh Thức Tỉnh"
+    },
+    "rarity": "SSR+",
+    "faction": "Hero",
+    "class": "Duelist",
+    "tier": "SS",
+    "avatar": "avatars/ssr_plus_atomic.webp",
+    "stats": {
+      "atk": 18400,
+      "hp": 105000,
+      "def": 8400,
+      "spd": 122
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Slash",
+          "vi": "Trảm"
         },
-        stage2: {
-          en: "Recovers +150 Energy Gauge per attack and permanently reduces all damage taken by 50%.",
-          vi: "Hồi phục +150 Chiến Ý (Nộ) mỗi đòn tấn công và vĩnh viễn giảm 50% toàn bộ sát thương phải chịu."
+        "desc": {
+          "en": "Deals 140% ATK damage to single enemy and inflicts [Shatter].",
+          "vi": "Gây 140% Công lên mục tiêu đơn và tạo hiệu ứng [Vỡ Giáp]."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Awakened Atomic Slash",
+          "vi": "Nguyên Tử Trảm Thức Tỉnh"
+        },
+        "desc": {
+          "en": "Attacks all 6 enemies for 250% ATK damage. Follows up with 3 extra slashes on the weakest target.",
+          "vi": "Tấn công toàn thể 6 kẻ địch gây 250% Công. Bồi thêm 3 nhát chém chí mạng vào mục tiêu yếu máu nhất."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Infinite Atomic Slash (Keepsake)",
+          "vi": "Vô Cực Nguyên Tử Trảm (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 360% ATK to all enemies. Increases Duelist allies damage by 40% and grants 3 follow-up pursuits.",
+          "vi": "Gây 360% Công toàn thể. Tăng 40% sát thương cho đồng đội hệ Vũ Trang và cấp 3 lần truy kích liên hoàn."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Sword Follow-Up",
+          "vi": "Kiếm Phái Truy Kích"
+        },
+        "desc": {
+          "en": "Whenever a Duelist ally attacks, Atomic Samurai launches a follow-up attack dealing 160% ATK damage.",
+          "vi": "Mỗi khi đồng minh hệ Vũ Trang tấn công, Atomic Samurai tung đòn truy kích gây 160% Công."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Follow-up attacks bypass shields and restore 15% HP to Atomic Samurai.",
+          "vi": "Đòn truy kích xuyên qua mọi loại khiên và hồi 15% Máu cho Atomic Samurai."
+        },
+        "stage2": {
+          "en": "When an enemy with Shatter is attacked, increases damage dealt by 50%.",
+          "vi": "Tấn công kẻ địch đang bị Vỡ Giáp tăng 50% sát thương gây ra."
         }
       }
     },
-    recommendedGears: ["Knight", "Primal", "Suit"],
-    synergies: {
-      en: "Unbeatable meta carry with UR Gyoro Core and Zombieman UR+.",
-      vi: "Carry tối thượng meta khi đi cùng Lõi Gyoro UR và Zombieman UR+."
+    "recommendedGears": [
+      "Knight",
+      "Swordsman",
+      "Casual"
+    ],
+    "synergies": {
+      "en": "Best in full Duelist synergy teams with Sonic, Flashy Flash, and Golden Ball.",
+      "vi": "Hoàn hảo trong đội hình thuần Vũ Trang đi cùng Sonic, Flashy Flash và Golden Ball."
     },
-    counters: {
-      en: "Requires extreme burst with Specialized Direct DMG or heal inversion.",
-      vi: "Cần dồn sát thương Chuyên Biệt cực đại hoặc hiệu ứng đảo ngược hồi máu."
-    }
-  },
-  {
-    id: "urplus_zombieman",
-    name: { en: "UR+ Zombieman", vi: "Zombieman UR+" },
-    title: { en: "Immortal Vanguard / Supreme Resurrection", vi: "Tiên Phong Bất Tử / Phục Sinh Vô Tận" },
-    rarity: "UR+",
-    faction: "Hero",
-    class: "Duelist",
-    tier: "SSS",
-    avatar: "avatars/urplus_zombieman.webp",
-    stats: { atk: 18500, hp: 195000, def: 14500, spd: 125 },
-    hasCore: true,
-    skills: {
-      normal: {
-        name: { en: "Desert Eagle Twin Burst", vi: "Song Súng Sa Mạc" },
-        desc: {
-          en: "Deals 140% ATK damage to a single enemy. 100% chance to inflict [Internal Injury].",
-          vi: "Gây 140% Công lên mục tiêu đơn. 100% gây [Nội Thương]."
-        }
-      },
-      ultimate: {
-        name: { en: "Regenerative Gunblade Carnage", vi: "Xả Súng Bất Tử" },
-        desc: {
-          en: "Deals 500% ATK damage to enemy column and heals entire team by 25% of their Max HP.",
-          vi: "Gây 500% Công lên hàng dọc đối phương và hồi phục 25% Máu tối đa cho toàn đội."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Immortal Arsenal Annihilation", vi: "Tuyệt Kỹ Tối Thượng: Kho Vũ Khí Vô Tận" },
-        desc: {
-          en: "Requires Keepsake. Deals 750% ATK damage to enemy column and grants 2-turn [Specialized Unyielding] to adjacent allies.",
-          vi: "Cần Thần Binh. Gây 750% Công lên hàng dọc đối phương và ban [Bất Khuất Chuyên Biệt] 2 lượt cho đồng minh lân cận."
-        }
-      },
-      passive: {
-        name: { en: "Endless Cell Resurgence", vi: "Tế Bào Tái Sinh Bất Tận" },
-        desc: {
-          en: "Revives with 100% HP up to 6 times upon taking fatal damage. Each resurrection generates +1 Team Energy.",
-          vi: "Hồi sinh với 100% Máu tối đa 6 lần khi chịu đòn chí tử. Mỗi lần hồi sinh tạo thêm +1 Năng Lượng cho toàn đội."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Grants entire team +35% Non-Crit DMG Free and +20% Reflect DMG.",
-          vi: "Tăng cho toàn đội 35% Miễn ST Không Chí Mạng và 20% Phản Sát Thương."
-        },
-        stage2: {
-          en: "Core Refinement Lv17: Team gains 4 round-1 energy and immunity to Energy Seal.",
-          vi: "Tinh Luyện Lõi Lv17: Đội hình nhận 4 Năng lượng hiệp 1 và miễn nhiễm Khóa Nộ."
-        }
-      }
-    },
-    recommendedGears: ["Suit", "Battle", "Knight"],
-    synergies: {
-      en: "The undisputed defensive core anchor of the UR+ era.",
-      vi: "Trụ cột Lõi phòng thủ số 1 không thể thay thế thời đại UR+."
-    },
-    counters: {
-      en: "Specialized Direct DMG nukes that bypass Unyielding.",
-      vi: "Đòn Sát Thương Chuyên Biệt xuyên thẳng qua Bất Khuất."
-    }
-  },
-  {
-    id: "ur_gyoro",
-    name: { en: "UR Gyoro-Gyoro", vi: "Gyoro-Gyoro UR" },
-    title: { en: "Monster Association Brain", vi: "Bộ Não Hiệp Hội Quái Nhân" },
-    rarity: "UR",
-    faction: "Monster",
-    class: "Esper",
-    tier: "SSS",
-    avatar: "avatars/ur_gyoro.webp",
-    stats: { atk: 20000, hp: 155000, def: 11000, spd: 130 },
-    hasCore: true,
-    skills: {
-      normal: {
-        name: { en: "Psychic Force Pulse", vi: "Sóng Xung Kích Siêu Năng" },
-        desc: {
-          en: "Deals 130% ATK damage and applies [Forcefield] to target.",
-          vi: "Gây 130% Công và áp hiệu ứng [Trường Lực] lên mục tiêu."
-        }
-      },
-      ultimate: {
-        name: { en: "Meat Dome Crush", vi: "Khối Thịt Đè Nén" },
-        desc: {
-          en: "Deals 400% ATK damage to enemy row and boosts frontrow allies Max HP by 50%.",
-          vi: "Gây 400% Công lên hàng ngang địch và tăng 50% Máu tối đa cho hàng trước."
-        }
-      },
-      ultraUltimate: {
-        name: { en: "Cosmic Meat Singularity", vi: "Siêu Tuyệt Kỹ: Hố Đen Thịt Thần Tốc" },
-        desc: {
-          en: "Deals 620% ATK damage to all enemies and applies 40% Specialized Corrode for 2 turns.",
-          vi: "Gây 620% Công lên toàn bộ quân địch và gán 40% Ăn Mòn Chuyên Biệt trong 2 lượt."
-        }
-      },
-      passive: {
-        name: { en: "Tactical Supreme Command", vi: "Chỉ Huy Tác Chiến Tối Cao" },
-        desc: {
-          en: "Monster faction allies gain +35% All DMG Amplification and +30% Max HP.",
-          vi: "Đồng minh phe Quái Nhân nhận thêm 35% Khuếch Đại Toàn ST và 30% Máu tối đa."
-        }
-      },
-      awakening: {
-        stage1: {
-          en: "Provides 4 round 1 team energy and +20 Speed to all Esper allies.",
-          vi: "Cấp 4 Năng lượng hiệp 1 cho đội và +20 Tốc độ cho toàn bộ hệ Dị Năng."
-        },
-        stage2: {
-          en: "Increases entire team Tenacity Shield absorption capacity by 40%.",
-          vi: "Tăng 40% sức chứa hấp thụ khiên Kiên Cường cho toàn đội."
-        }
-      }
-    },
-    recommendedGears: ["Suit", "Scholar", "Battle"],
-    synergies: {
-      en: "Best core for UR+ Black Sperm, UR Rover, and Monster DoT lineups.",
-      vi: "Lõi mạnh nhất kích hoạt sức mạnh Tinh Trùng Đen UR+ và đội hình Quái Nhân DoT."
-    },
-    counters: {
-      en: "High-speed turn 1 single-target Duelist burst.",
-      vi: "Sốc sát thương đơn mục tiêu tốc độ cao của hệ Vũ Trang."
+    "counters": {
+      "en": "Heavy counter-attack and unyielding defenses.",
+      "vi": "Bị giảm hiệu quả trước các đội hình phản đòn và phòng ngự trâu bò."
     }
   },
   {
@@ -1212,6 +1462,500 @@ export const defaultCharacters = [
     }
   },
   {
+    "id": "gyoro_core",
+    "name": {
+      "en": "Gyoro-Gyoro (Monster Core)",
+      "vi": "Gyoro-Gyoro (Lõi Quái Nhân)"
+    },
+    "title": {
+      "en": "Monster Association Strategist",
+      "vi": "Quân Sư Hiệp Hội Quái Nhân"
+    },
+    "rarity": "SSR",
+    "faction": "Monster",
+    "class": "Esper",
+    "tier": "SS",
+    "avatar": "avatars/gyoro_core.webp",
+    "stats": {
+      "atk": 14200,
+      "hp": 142000,
+      "def": 9900,
+      "spd": 114
+    },
+    "hasCore": true,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Psychic Ray",
+          "vi": "Tia Siêu Năng"
+        },
+        "desc": {
+          "en": "Deals 120% ATK damage to single enemy.",
+          "vi": "Gây 120% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Giant Eye Compression",
+          "vi": "Đại Nhãn Đè Nén"
+        },
+        "desc": {
+          "en": "Deals 200% ATK damage to enemy row and increases all Monster allies Max HP by 25%.",
+          "vi": "Gây 200% Công lên 1 hàng địch và tăng 25% Máu tối đa cho toàn bộ đồng minh Quái Nhân."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Abyssal Eye Cataclysm (Keepsake)",
+          "vi": "Đại Nhãn Diệt Thế (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 300% ATK damage to all enemies. Increases allies Max HP by 35% and boosts DoT by 40%.",
+          "vi": "Gây 300% Công toàn thể. Tăng 35% Máu tối đa phe ta và tăng 40% sát thương DoT ăn mòn/thiêu đốt."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Monster Resilience",
+          "vi": "Quái Thể Bền Bỉ"
+        },
+        "desc": {
+          "en": "Whenever an ally receives fatal damage, grants them [Revival] with 30% HP (triggers once per battle).",
+          "vi": "Khi đồng minh nhận sát thương chí tử, ban hiệu ứng [Hồi Sinh] với 30% Máu (1 lần mỗi trận)."
+        }
+      },
+      "coreSkill": {
+        "name": {
+          "en": "Monster Flesh Core (Gyoro Core)",
+          "vi": "Lõi Huyết Thịt Quái Nhân (Gyoro Core)"
+        },
+        "requirement": {
+          "en": "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper in lineup",
+          "vi": "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng trong đội hình"
+        },
+        "basicEffect": {
+          "en": "Rounds 1-3: Gain 3 Energy per round. When an ally triggers Tenacity/Heal, gain 1 bonus Energy.",
+          "vi": "Hiệp 1-3: Hồi 3 Năng lượng mỗi hiệp. Khi phe ta nhận hồi máu hoặc tạo khiên, nhận thêm 1 Năng lượng."
+        },
+        "advancedEffect": {
+          "en": "Increases entire team Max HP by 30%. When an ally attacks, they deal bonus damage equal to 10% of their Max HP.",
+          "vi": "Tăng 30% Máu tối đa cho toàn đội. Khi đồng minh tấn công, gây thêm sát thương phụ bằng 10% Máu tối đa của bản thân."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases HP scaling bonus damage from 10% to 16%.",
+          "vi": "Tăng sát thương phụ cộng thêm theo Máu tối đa từ 10% lên 16%."
+        },
+        "stage2": {
+          "en": "When an ally revives, they gain 100% Rage bar (immediate Ultimate next action).",
+          "vi": "Khi đồng minh hồi sinh, nhận ngay 100% thanh nộ (tung tuyệt kỹ ngay lượt kế)."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Suit",
+      "Casual",
+      "Monk"
+    ],
+    "synergies": {
+      "en": "The quintessential Monster Core engine. Pairs with Boros UR, SSR+ Mosquito Girl, and Carnage Kabuto+.",
+      "vi": "Đầu tàu Lõi tối thượng của phe Quái Nhân. Đi cùng Boros UR, Mosquito Girl SSR+ và Carnage Kabuto+."
+    },
+    "counters": {
+      "en": "Heavy anti-heal and single-turn burst wipes.",
+      "vi": "Hiệu ứng giảm hồi máu sâu và đòn quét sạch trong 1 lượt."
+    }
+  },
+  {
+    "id": "ssr_plus_mosquito",
+    "name": {
+      "en": "SSR+ Mosquito Girl",
+      "vi": "Nữ Chúa Muỗi SSR+"
+    },
+    "title": {
+      "en": "Blood Queen Awakened",
+      "vi": "Nữ Hoàng Máu Thức Tỉnh"
+    },
+    "rarity": "SSR+",
+    "faction": "Monster",
+    "class": "Esper",
+    "tier": "SS",
+    "avatar": "avatars/ssr_plus_mosquito.webp",
+    "stats": {
+      "atk": 18200,
+      "hp": 112000,
+      "def": 8600,
+      "spd": 125
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Blood Drain",
+          "vi": "Hút Máu"
+        },
+        "desc": {
+          "en": "Deals 150% ATK damage to single enemy and heals self for 100% of damage dealt.",
+          "vi": "Gây 150% Công lên mục tiêu đơn và hồi phục bản thân 100% lượng sát thương gây ra."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Blood Storm Swarm",
+          "vi": "Bão Đàn Muỗi Huyết Sát"
+        },
+        "desc": {
+          "en": "Deals 260% ATK damage to all 6 enemies. Inflicts [Corrode] dealing 120% ATK damage per turn for 2 turns.",
+          "vi": "Gây 260% Công lên toàn bộ 6 kẻ địch. Gây hiệu ứng [Ăn Mòn] 120% Công mỗi lượt trong 2 hiệp."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Crimson Swarm Devastation (Keepsake)",
+          "vi": "Huyết Triều Tận Diệt (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 380% ATK to all enemies. Corrode damage is increased to 200% ATK and heals all allies for 30% of DoT damage.",
+          "vi": "Gây 380% Công toàn thể. Tăng sát thương Ăn Mòn lên 200% Công và hồi máu cho toàn phe ta bằng 30% sát thương DoT."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Blood Feast",
+          "vi": "Đại Tiệc Huyết Nhục"
+        },
+        "desc": {
+          "en": "Whenever any unit (ally or enemy) takes DoT or Corrode damage, Mosquito Girl recovers 15% HP and gains 10% ATK (max 5 stacks).",
+          "vi": "Mỗi khi bất kỳ đơn vị nào nhận sát thương DoT hoặc Ăn Mòn, hồi 15% Máu và tăng 10% Công (tối đa 5 tầng)."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "At start of battle, applies [Corrode] to 2 random enemies automatically.",
+          "vi": "Đầu trận tự động gieo rắc [Ăn Mòn] lên 2 kẻ địch ngẫu nhiên."
+        },
+        "stage2": {
+          "en": "Corrode damage can now critically strike.",
+          "vi": "Sát thương Ăn Mòn có thể gây Bạo Kích."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Prisoner",
+      "Casual",
+      "Suit"
+    ],
+    "synergies": {
+      "en": "Key enabler of DoT / Corrode meta with Deep Sea King and Gyoro core.",
+      "vi": "Trọng tâm của meta Ăn Mòn DoT kết hợp Vua Biển Sâu và Lõi Gyoro."
+    },
+    "counters": {
+      "en": "Heavy debuff dispels and rapid shield cleanse.",
+      "vi": "Đội hình giải bùa xấu nhanh và khiên kháng hiệu ứng."
+    }
+  },
+  {
+    "id": "zombieman_core",
+    "name": {
+      "en": "Zombieman (Core Master)",
+      "vi": "Zombieman (Thần Bất Tử)"
+    },
+    "title": {
+      "en": "Immortal Detective",
+      "vi": "Thám Tử Bất Tử"
+    },
+    "rarity": "SSR",
+    "faction": "Hero",
+    "class": "Grappler",
+    "tier": "S",
+    "avatar": "avatars/zombieman_core.webp",
+    "stats": {
+      "atk": 13900,
+      "hp": 145000,
+      "def": 10200,
+      "spd": 110
+    },
+    "hasCore": true,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Dual Pistol Fire",
+          "vi": "Song Súng Bắn Phá"
+        },
+        "desc": {
+          "en": "Deals 120% ATK damage to single enemy.",
+          "vi": "Gây 120% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Severing Blade & Shotgun",
+          "vi": "Trảm Kích Súng Hoa Cải"
+        },
+        "desc": {
+          "en": "Deals 240% ATK to single target and inflicts [Internal Injury] dealing 100% ATK extra damage on hit.",
+          "vi": "Gây 240% Công lên mục tiêu đơn và gieo [Nội Thương] nhận thêm 100% Công khi bị đánh."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Infinite Regeneration Burst (Keepsake)",
+          "vi": "Tái Sinh Vô Tận Bùng Nổ (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 340% ATK to single target, heals entire team for 20% of Zombieman's Max HP.",
+          "vi": "Gây 340% Công lên mục tiêu đơn, hồi 20% Máu tối đa của Zombieman cho toàn phe ta."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Infinite Regeneration",
+          "vi": "Tái Sinh Vĩnh Hằng"
+        },
+        "desc": {
+          "en": "Revives up to 4 times upon defeat with 25% HP.",
+          "vi": "Tự hồi sinh tối đa 4 lần khi bị hạ gục với 25% Máu."
+        }
+      },
+      "coreSkill": {
+        "name": {
+          "en": "Immortal Blood Core",
+          "vi": "Lõi Huyết Mạch Bất Tử (Zombieman Core)"
+        },
+        "requirement": {
+          "en": "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper",
+          "vi": "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng"
+        },
+        "basicEffect": {
+          "en": "Rounds 1-3: Gain 2 energy per round. Whenever an ally dies or revives, gain 2 extra energy.",
+          "vi": "Hiệp 1-3: Hồi 2 năng lượng mỗi hiệp. Khi đồng minh gục ngã hoặc hồi sinh, nhận thêm 2 năng lượng."
+        },
+        "advancedEffect": {
+          "en": "When an ally takes fatal damage, survives with 1 HP for 1 turn and heals all allies for 15% HP.",
+          "vi": "Khi đồng minh nhận sát thương chí tử, duy trì 1 Máu trong 1 hiệp và hồi 15% Máu cho toàn đội."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases team healing received by 30%.",
+          "vi": "Tăng 30% hiệu ứng hồi máu nhận vào của toàn đội."
+        },
+        "stage2": {
+          "en": "Revives with 50% HP and full energy bar.",
+          "vi": "Hồi sinh với 50% Máu và đầy bình nộ."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Suit",
+      "Casual",
+      "Martial Arts"
+    ],
+    "synergies": {
+      "en": "Classic stall and endurance core. Great with tanky frontlines and sustained DoT.",
+      "vi": "Lõi câu giờ kinh điển. Rất hợp với hàng trước trâu bò và sát thương duy trì DoT."
+    },
+    "counters": {
+      "en": "True damage and anti-revival skills.",
+      "vi": "Sát thương chuẩn và kỹ năng cấm hồi sinh."
+    }
+  },
+  {
+    "id": "ssr_plus_geryu",
+    "name": {
+      "en": "SSR+ Geryuganshoop",
+      "vi": "Geryuganshoop SSR+"
+    },
+    "title": {
+      "en": "Gravity Master",
+      "vi": "Bậc Thầy Trọng Lực"
+    },
+    "rarity": "SSR+",
+    "faction": "Monster",
+    "class": "Esper",
+    "tier": "SS",
+    "avatar": "avatars/ssr_plus_geryu.webp",
+    "stats": {
+      "atk": 18900,
+      "hp": 108000,
+      "def": 8700,
+      "spd": 130
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Psychic Pebble",
+          "vi": "Sỏi Đá Siêu Năng"
+        },
+        "desc": {
+          "en": "Deals 140% ATK damage and reduces target Energy by 1.",
+          "vi": "Gây 140% Công và trừ 1 điểm Năng lượng của đối thủ."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Telekinetic Gravity Storm",
+          "vi": "Bão Trọng Lực Niệm Lực"
+        },
+        "desc": {
+          "en": "Deals 260% ATK to all enemies. Inflicts [Gravity Lock] disabling speed buffs for 2 turns.",
+          "vi": "Gây 260% Công toàn thể. Gây [Khóa Trọng Lực] vô hiệu hóa bùa tăng tốc trong 2 hiệp."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Super Gravity Singularity (Keepsake)",
+          "vi": "Điểm Kỳ Dị Siêu Trọng Lực (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 380% ATK to all enemies. Steals 2 Energy and increases ally Esper damage by 40%.",
+          "vi": "Gây 380% Công toàn thể. Cướp 2 điểm Năng lượng và tăng 40% sát thương cho tướng Siêu Năng phe ta."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Gravitational Dampening",
+          "vi": "Trọng Lực Suy Giảm"
+        },
+        "desc": {
+          "en": "Reduces all enemies Speed by 20 and increases Esper allies Effect Hit by 30%.",
+          "vi": "Giảm 20 Tốc độ của toàn bộ phe địch và tăng 30% Tỉ lệ Trúng Hiệu Ứng cho phe Siêu Năng."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "When an enemy casts an ultimate, drains 1 extra energy point.",
+          "vi": "Khi địch dùng tuyệt kỹ, rút thêm 1 điểm nộ năng lượng của địch."
+        },
+        "stage2": {
+          "en": "Grants entire team 25% Damage Reduction against AoE attacks.",
+          "vi": "Cấp 25% Miễn thương trước các đòn đánh diện rộng cho toàn đội."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Knight",
+      "Lightning",
+      "Primal"
+    ],
+    "synergies": {
+      "en": "Speed-control god for Esper burst teams and Boros UR comps.",
+      "vi": "Chúa tể khống chế tốc độ cho đội hình dồn sát thương Siêu Năng và Boros UR."
+    },
+    "counters": {
+      "en": "Single-target high burst Duelists (UR Sonic).",
+      "vi": "Sát thủ Vũ Trang dồn sát thương đơn cực nhanh như UR Sonic."
+    }
+  },
+  {
+    "id": "child_emperor_core",
+    "name": {
+      "en": "Child Emperor (Core Master)",
+      "vi": "Tiểu Bá Vương (Thần Lõi Sơ Cấp)"
+    },
+    "title": {
+      "en": "Genius Boy Prodigy",
+      "vi": "Thần Đồng Công Nghệ"
+    },
+    "rarity": "SSR",
+    "faction": "Hero",
+    "class": "HiTech",
+    "tier": "A",
+    "avatar": "avatars/child_emperor_core.webp",
+    "stats": {
+      "atk": 14100,
+      "hp": 118000,
+      "def": 8600,
+      "spd": 120
+    },
+    "hasCore": true,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Mechanical Arm Smash",
+          "vi": "Cánh Tay Cơ Khí Đập"
+        },
+        "desc": {
+          "en": "Deals 120% ATK damage to single enemy.",
+          "vi": "Gây 120% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Underdog Robo Barrage",
+          "vi": "Robot Chó Con Bắn Phá"
+        },
+        "desc": {
+          "en": "Deals 240% ATK to single row and inflicts [Shatter] on targets for 2 turns.",
+          "vi": "Gây 240% Công lên 1 hàng và gây [Vỡ Giáp] lên mục tiêu trong 2 hiệp."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Brave Giant Cannon (Keepsake)",
+          "vi": "Đại Pháo Dũng Khí (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 340% ATK to single row. Grants adjacent allies [Berserk] (+30% ATK).",
+          "vi": "Gây 340% Công lên 1 hàng. Cấp hiệu ứng [Cuồng Bạo] (+30% Công) cho đồng minh liền kề."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Tactical Genius",
+          "vi": "Thiên Tài Chiến Thuật"
+        },
+        "desc": {
+          "en": "When Child Emperor lands a Critical hit, grants 1 energy point and inflicts [Stun] for 1 turn (triggers once per round).",
+          "vi": "Khi bạo kích, hồi ngay 1 điểm năng lượng và gây [Choáng] trong 1 lượt (1 lần mỗi hiệp)."
+        }
+      },
+      "coreSkill": {
+        "name": {
+          "en": "Genius Technology Core (CE Core)",
+          "vi": "Lõi Công Nghệ Thiên Tài (CE Core)"
+        },
+        "requirement": {
+          "en": "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper",
+          "vi": "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng"
+        },
+        "basicEffect": {
+          "en": "Rounds 1-3: Whenever an ally lands a Critical Hit, gain 1 Energy (up to 4 times per round).",
+          "vi": "Hiệp 1-3: Mỗi khi đồng minh Bạo Kích, nhận 1 Năng lượng (tối đa 4 lần mỗi hiệp)."
+        },
+        "advancedEffect": {
+          "en": "In Round 1, increases all allies Direct and Skill Damage by 30% and grants [Berserk].",
+          "vi": "Ở hiệp 1, tăng 30% Sát thương Trực tiếp và Tuyệt kỹ cho toàn đội, đồng thời kích hoạt [Cuồng Bạo]."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Critical Rate of all allies by 20% in Round 1.",
+          "vi": "Tăng 20% Tỉ lệ Bạo Kích cho toàn đội trong Hiệp 1."
+        },
+        "stage2": {
+          "en": "Stun effect can no longer be resisted.",
+          "vi": "Hiệu ứng Choáng không thể bị kháng cự."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Knight",
+      "Monk",
+      "Casual"
+    ],
+    "synergies": {
+      "en": "The classic Round-1 critical speed burst engine for PvE and early PvP.",
+      "vi": "Động cơ dồn sát thương bạo kích hiệp 1 kinh điển cho PvE và tân thủ PvP."
+    },
+    "counters": {
+      "en": "Anti-crit teams, Tenacity shield stall, and unyielding tank comps.",
+      "vi": "Đội hình giảm bạo kích, khiên dầy và câu giờ bất khuất."
+    }
+  },
+  {
     "id": "ssr_carnage",
     "name": {
       "en": "Carnage Kabuto UR",
@@ -1300,10 +2044,98 @@ export const defaultCharacters = [
     }
   },
   {
+    "id": "sr_beast_king",
+    "name": {
+      "en": "Beast King (Pursuit King)",
+      "vi": "Vua Thú (Vua Truy Kích)"
+    },
+    "title": {
+      "en": "House of Evolution Alpha Predator",
+      "vi": "Kẻ Săn Mồi Đầu Đàn Nhà Tiến Hóa"
+    },
+    "rarity": "SR",
+    "faction": "Monster",
+    "class": "Grappler",
+    "tier": "S",
+    "avatar": "avatars/sr_beast_king.webp",
+    "stats": {
+      "atk": 14500,
+      "hp": 96000,
+      "def": 7400,
+      "spd": 118
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Lion Slash",
+          "vi": "Trảo Sư Tử"
+        },
+        "desc": {
+          "en": "Deals 130% ATK damage to single enemy.",
+          "vi": "Gây 130% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Lion Slash: Meteor Barrage",
+          "vi": "Trảo Sư Tử: Thiên Thạch Liên Hoàn"
+        },
+        "desc": {
+          "en": "Attacks target row dealing 240% ATK damage and applies [Injury].",
+          "vi": "Gây 240% Công lên 1 hàng địch và gây [Tổn Thương]."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Lion King Rampage (Keepsake)",
+          "vi": "Sư Vương Cuồng Nộ (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 340% ATK to row. Increases pursuit attack damage by 50%.",
+          "vi": "Gây 340% Công lên hàng. Tăng 50% uy lực cho các đòn đánh truy kích."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Predator Pursuit",
+          "vi": "Kẻ Săn Mồi Truy Kích"
+        },
+        "desc": {
+          "en": "Whenever an enemy with [Injury] or [Internal Injury] is attacked by an ally, Beast King immediately launches a free follow-up pursuit attack dealing 100% ATK damage (up to 5 times per round).",
+          "vi": "Mỗi khi kẻ địch đang bị [Tổn Thương] hoặc [Nội Thương] bị đồng đội tấn công, Vua Thú lập tức bồi thêm đòn truy kích miễn phí 100% Công (tối đa 5 lần mỗi hiệp)."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases pursuit attack damage from 100% to 140% ATK.",
+          "vi": "Tăng sát thương truy kích từ 100% lên 140% Công."
+        },
+        "stage2": {
+          "en": "Pursuit attacks can critically strike and ignore 30% DEF.",
+          "vi": "Đòn truy kích có thể gây Bạo Kích và xuyên 30% Giáp."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Prisoner",
+      "Knight",
+      "Swordsman"
+    ],
+    "synergies": {
+      "en": "The #1 F2P damage dealer for Club Boss, PvE Trials, and Early/Mid game paired with Golden Ball, Amai Mask, or Doctor Genus.",
+      "vi": "Tướng gây sát thương F2P số 1 để đánh Boss Bang Hội, Vượt Ải và đầu/giữa game đi cùng Bi Vàng, Mặt Nạ Mật hoặc Doctor Genus."
+    },
+    "counters": {
+      "en": "Tenacity shields and debuff immunity.",
+      "vi": "Lớp khiên Kiên Cường và miễn nhiễm hiệu ứng Tổn Thương."
+    }
+  },
+  {
     "id": "sr_goldenball",
     "name": {
-      "en": "Golden Ball (F2P God)",
-      "vi": "Bi Vàng (Vua Vỡ Giáp F2P)"
+      "en": "Golden Ball (AoE Shatter)",
+      "vi": "Bi Vàng (Vua Vỡ Giáp)"
     },
     "title": {
       "en": "Precision Slingshot Marksman",
@@ -1385,6 +2217,200 @@ export const defaultCharacters = [
     "counters": {
       "en": "Tenacity shields and cleanse.",
       "vi": "Lớp khiên Kiên Cường và giải bùa xấu."
+    }
+  },
+  {
+    "id": "amai_mask",
+    "name": {
+      "en": "Amai Mask (Single Target God)",
+      "vi": "Mặt Nạ Mật (Vua Sát Thương Đơn)"
+    },
+    "title": {
+      "en": "Handsomely Masked Sweet Mask",
+      "vi": "Mặt Nạ Đẹp Trai Ngọt Ngào"
+    },
+    "rarity": "SR",
+    "faction": "Hero",
+    "class": "Grappler",
+    "tier": "A",
+    "avatar": "avatars/amai_mask.webp",
+    "stats": {
+      "atk": 13500,
+      "hp": 95000,
+      "def": 7200,
+      "spd": 119
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Face Punch",
+          "vi": "Đấm Thẳng Mặt"
+        },
+        "desc": {
+          "en": "Deals 120% ATK damage to single enemy.",
+          "vi": "Gây 120% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Extinction Execution",
+          "vi": "Tuyệt Diệt Hành Quyết"
+        },
+        "desc": {
+          "en": "Attacks backrow single target 2 to 5 times randomly, dealing 120% ATK damage per hit with high crit rate.",
+          "vi": "Tấn công mục tiêu đơn hàng sau từ 2 đến 5 lần ngẫu nhiên, mỗi đòn gây 120% Công với tỉ lệ bạo kích cao."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Super Execution Chop (Keepsake)",
+          "vi": "Hành Quyết Tối Thượng (Thần Binh)"
+        },
+        "desc": {
+          "en": "Guarantees 5 hits dealing 150% ATK per strike (total 750% ATK). Inflicts [Injury].",
+          "vi": "Chắc chắn đánh đủ 5 hit, mỗi hit 150% Công (tổng 750% Công). Gây [Tổn Thương]."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Aesthetic Justice",
+          "vi": "Công Lý Hoàn Mỹ"
+        },
+        "desc": {
+          "en": "Deals 30% bonus damage to Monster faction enemies.",
+          "vi": "Gây thêm 30% sát thương lên kẻ địch thuộc phe Quái Nhân."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Killing an enemy resets Amai Mask's rage bar to 100%.",
+          "vi": "Hạ gục đối thủ lập tức đầy 100% thanh nộ."
+        },
+        "stage2": {
+          "en": "Attacks ignore 40% of target DEF.",
+          "vi": "Đòn đánh bỏ qua 40% Giáp của mục tiêu."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Prisoner",
+      "Knight",
+      "Swordsman"
+    ],
+    "synergies": {
+      "en": "F2P backrow sniper god for Club Boss and Monster X-City trials.",
+      "vi": "Thần bắn tỉa hàng sau chuẩn F2P cho Boss Bang Hội và Thử thách Quái Nhân."
+    },
+    "counters": {
+      "en": "Heavy unyielding and damage sharing tanks.",
+      "vi": "Bị chặn bởi tướng chia sẻ sát thương và bất khuất."
+    }
+  },
+  {
+    "id": "sr_doctor_genus",
+    "name": {
+      "en": "Doctor Genus (Clone Core)",
+      "vi": "Tiến Sĩ Genus (Lõi Phân Thân F2P)"
+    },
+    "title": {
+      "en": "House of Evolution Founder",
+      "vi": "Người Sáng Lập Nhà Tiến Hóa"
+    },
+    "rarity": "SR",
+    "faction": "Monster",
+    "class": "HiTech",
+    "tier": "A",
+    "avatar": "avatars/sr_doctor_genus.webp",
+    "stats": {
+      "atk": 12200,
+      "hp": 105000,
+      "def": 7800,
+      "spd": 110
+    },
+    "hasCore": true,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Test Tube Throw",
+          "vi": "Ném Ống Nghiệm"
+        },
+        "desc": {
+          "en": "Deals 110% ATK damage to single enemy.",
+          "vi": "Gây 110% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Genetic Cloning",
+          "vi": "Nhân Bản Vô Tính"
+        },
+        "desc": {
+          "en": "Summons 1 Clone with 60% stats in frontline and heals entire team for 15% Max HP.",
+          "vi": "Triệu hồi 1 Phân thân sở hữu 60% chỉ số ở hàng trước và hồi 15% Máu tối đa cho toàn đội."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Evolution Overdrive (Keepsake)",
+          "vi": "Tiến Hóa Bùng Nổ (Thần Binh)"
+        },
+        "desc": {
+          "en": "Summons 2 Clones and grants all allies [Berserk] (+30% ATK).",
+          "vi": "Triệu hồi 2 Phân thân và cấp hiệu ứng [Cuồng Bạo] (+30% Công) cho toàn phe ta."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Genetic Surge",
+          "vi": "Kích Hoạt Gen Di Truyền"
+        },
+        "desc": {
+          "en": "Whenever an ally is healed, increases their ATK by 20% for 1 turn (up to 3 times per round).",
+          "vi": "Mỗi khi đồng minh được hồi máu, tăng 20% Công cho mục tiêu trong 1 hiệp (tối đa 3 lần/hiệp)."
+        }
+      },
+      "coreSkill": {
+        "name": {
+          "en": "Genetic Cloning Core",
+          "vi": "Lõi Nhân Bản Gen (Genus Core)"
+        },
+        "requirement": {
+          "en": "Requires: 1 Grappler, 1 Duelist, 1 Hi-Tech, 1 Esper",
+          "vi": "Yêu cầu: 1 Cách Đấu, 1 Vũ Trang, 1 Khoa Học, 1 Siêu Năng"
+        },
+        "basicEffect": {
+          "en": "Rounds 1-3: Gain 2 Energy per round. When a clone or summoned unit appears, gain 2 bonus Energy.",
+          "vi": "Hiệp 1-3: Nhận 2 Năng lượng mỗi hiệp. Khi phân thân hoặc đơn vị triệu hồi xuất hiện, nhận thêm 2 Năng lượng."
+        },
+        "advancedEffect": {
+          "en": "At start of battle, summons 1 Clone to absorb frontline damage and increases team ATK by 20%.",
+          "vi": "Đầu trận tự triệu hồi 1 Phân thân đỡ đòn hàng trước và tăng 20% Công cho toàn đội."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases passive ATK buff from 20% to 30%.",
+          "vi": "Tăng bùa Công từ hồi máu từ 20% lên 30%."
+        },
+        "stage2": {
+          "en": "Clones explode on defeat, dealing 150% ATK damage to enemies.",
+          "vi": "Phân thân phát nổ khi gục ngã, gây 150% Công lên đối thủ."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Suit",
+      "Casual",
+      "Monk"
+    ],
+    "synergies": {
+      "en": "The best early-game F2P core engine paired with Beast King and Smile Man for infinite energy and ATK buff stacking.",
+      "vi": "Động cơ Lõi F2P đầu game tốt nhất khi đi cùng Vua Thú và Người Mặt Cười để hồi năng lượng và cộng dồn tăng Công liên tục."
+    },
+    "counters": {
+      "en": "AoE burst wiping clones immediately.",
+      "vi": "Sát thương diện rộng quét sạch phân thân."
     }
   },
   {
@@ -1564,91 +2590,267 @@ export const defaultCharacters = [
     }
   },
   {
-    "id": "urplus_rover",
+    "id": "sr_sky_king",
     "name": {
-      "en": "UR+ Overgrown Rover",
-      "vi": "Chó Rover UR+ (Quái Thú Siêu Năng)"
+      "en": "Sky King (Damage Amp Aura)",
+      "vi": "Vua Bầu Trời (Hào Quang Tăng Sát Thương)"
     },
     "title": {
-      "en": "Monster Association Sentinel",
-      "vi": "Hộ Vệ Hiệp Hội Quái Nhân"
+      "en": "Ruler of the Skies",
+      "vi": "Thống Trị Bầu Trời"
     },
-    "rarity": "UR",
+    "rarity": "SR",
     "faction": "Monster",
-    "class": "Grappler",
-    "tier": "SSS",
-    "avatar": "avatars/urplus_rover.webp",
+    "class": "Esper",
+    "tier": "A",
+    "avatar": "avatars/sr_sky_king.webp",
     "stats": {
-      "atk": 19200,
-      "hp": 185000,
-      "def": 13500,
-      "spd": 122
+      "atk": 13100,
+      "hp": 92000,
+      "def": 7100,
+      "spd": 116
     },
     "hasCore": false,
     "skills": {
       "normal": {
         "name": {
-          "en": "Energy Bomb",
-          "vi": "Bom Năng Lượng"
+          "en": "Feather Shot",
+          "vi": "Lông Vũ Bắn Phá"
         },
         "desc": {
-          "en": "Deals 150% ATK damage and reduces target ATK by 25%.",
-          "vi": "Gây 150% Công và giảm 25% Công của mục tiêu."
+          "en": "Deals 120% ATK damage to single enemy.",
+          "vi": "Gây 120% Công lên mục tiêu đơn."
         }
       },
       "ultimate": {
         "name": {
-          "en": "Apocalyptic Energy Barrage",
-          "vi": "Bão Pháo Năng Lượng Tận Thế"
+          "en": "Sky King Hurricane",
+          "vi": "Cuồng Phong Bầu Trời"
         },
         "desc": {
-          "en": "Deals 320% ATK damage to all 6 enemies and applies [Tenacity Shield] equal to 40% Rover Max HP to entire team.",
-          "vi": "Gây 320% Công lên toàn thể 6 kẻ địch và cấp [Khiên Kiên Cường] 40% Máu tối đa của Rover cho toàn đội."
+          "en": "Deals 220% ATK to single row and inflicts [Stun] on 1 random target.",
+          "vi": "Gây 220% Công lên 1 hàng và gây [Choáng] 1 mục tiêu ngẫu nhiên."
         }
       },
       "ultraUltimate": {
         "name": {
-          "en": "Supernova Beast Cannon (Keepsake)",
-          "vi": "Siêu Pháo Quái Thú (Thần Binh)"
+          "en": "Celestial Feather Tempest (Keepsake)",
+          "vi": "Thiên Vũ Bão Tố (Thần Binh)"
         },
         "desc": {
-          "en": "Deals 480% ATK to all enemies. Soaks 50% of all ally damage and counter-attacks for 200% ATK.",
-          "vi": "Gây 480% Công toàn thể. Hấp thụ 50% sát thương nhận vào của toàn đội và phản kích 200% Công."
+          "en": "Deals 320% ATK to row. 100% chance to stun 2 enemies.",
+          "vi": "Gây 320% Công lên hàng. 100% làm choáng 2 kẻ địch."
         }
       },
       "passive": {
         "name": {
-          "en": "Loyal Guardian Beast",
-          "vi": "Quái Thú Trung Thành Hộ Thể"
+          "en": "Sky Sovereign Domain",
+          "vi": "Uy Áp Bầu Trời (Hào Quang)"
         },
         "desc": {
-          "en": "Passively reduces all AoE damage taken by allies by 35%. Heals 15% Max HP when casting skills.",
-          "vi": "Giảm 35% sát thương diện rộng cho toàn đội. Tự hồi 15% Máu tối đa mỗi khi dùng chiêu."
+          "en": "Increases entire team Extra Damage and DoT by 20% (passive aura, stays active even after Sky King dies).",
+          "vi": "Tăng 20% Sát thương Phụ và sát thương DoT cho toàn đội (hào quang nội tại, vẫn có hiệu lực ngay cả khi Vua Bầu Trời tử trận)."
         }
       },
       "awakening": {
         "stage1": {
-          "en": "Increases team Damage Reduction from 35% to 50%.",
-          "vi": "Tăng miễn thương diện rộng cho toàn đội lên 50%."
+          "en": "Increases team Extra Damage aura from 20% to 30%.",
+          "vi": "Tăng hào quang sát thương phụ từ 20% lên 30%."
         },
         "stage2": {
-          "en": "Revives with 100% HP and 100% Rage when defeated.",
-          "vi": "Hồi sinh với 100% Máu và đầy bình nộ khi bị hạ gục."
+          "en": "When an enemy is stunned, damages them for 100% ATK.",
+          "vi": "Khi đối thủ bị choáng, gây thêm 100% Công."
         }
       }
     },
     "recommendedGears": [
-      "Suit",
-      "Battle",
-      "Knight"
+      "Knight",
+      "Prisoner",
+      "Casual"
     ],
     "synergies": {
-      "en": "The supreme UR+ frontline shield engine for Gyoro and Boros UR comps.",
-      "vi": "Động cơ tạo khiên hàng trước UR+ tối thượng đi cùng Lõi Gyoro và Boros UR."
+      "en": "Top tier damage amplifier aura hero for Beast King, Amai Mask, and DoT teams.",
+      "vi": "Tướng buff hào quang sát thương cực mạnh cho Vua Thú, Mặt Nạ Mật và đội hình DoT."
     },
     "counters": {
-      "en": "Direct shield shattering and bypass.",
-      "vi": "Các đòn phá khiên trực tiếp."
+      "en": "High burst single target assassinations.",
+      "vi": "Sát thủ dồn sát thương nhanh."
+    }
+  },
+  {
+    "id": "sr_konbu_infinity",
+    "name": {
+      "en": "Konbu Infinity",
+      "vi": "Tảo Bẹ Vô Tận (Ăn Mòn F2P)"
+    },
+    "title": {
+      "en": "Kelp Monster",
+      "vi": "Quái Vật Rong Biển"
+    },
+    "rarity": "SR",
+    "faction": "Monster",
+    "class": "Esper",
+    "tier": "A",
+    "avatar": "avatars/sr_konbu_infinity.webp",
+    "stats": {
+      "atk": 12900,
+      "hp": 94000,
+      "def": 7300,
+      "spd": 117
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Tentacle Whip",
+          "vi": "Xúc Tu Tảo Biển Quất"
+        },
+        "desc": {
+          "en": "Deals 120% ATK damage to single enemy.",
+          "vi": "Gây 120% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Kelp Tangle Tempest",
+          "vi": "Bão Tảo Biển Trói Buộc"
+        },
+        "desc": {
+          "en": "Deals 200% ATK damage to all 6 enemies and has 100% chance to inflict [Corrode] on 2 enemies for 2 turns.",
+          "vi": "Gây 200% Công lên toàn bộ 6 kẻ địch và 100% gieo [Ăn Mòn] lên 2 mục tiêu trong 2 hiệp."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Infinite Kelp Ocean (Keepsake)",
+          "vi": "Đại Dương Tảo Bẹ Vô Tận (Thần Binh)"
+        },
+        "desc": {
+          "en": "Deals 300% ATK to all enemies. Inflicts [Corrode] on 4 enemies.",
+          "vi": "Gây 300% Công toàn thể. Gieo [Ăn Mòn] lên 4 mục tiêu."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Kelp Photosynthesis",
+          "vi": "Quang Hợp Tảo Biển"
+        },
+        "desc": {
+          "en": "Whenever an enemy takes Corrode damage, heals self for 15% Max HP.",
+          "vi": "Mỗi khi địch nhận sát thương Ăn Mòn, tự hồi 15% Máu tối đa."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Corrode damage by 30%.",
+          "vi": "Tăng 30% sát thương Ăn Mòn."
+        },
+        "stage2": {
+          "en": "Corrode can spread to adjacent enemies when targets act.",
+          "vi": "Ăn Mòn có thể lây lan sang kẻ địch liền kề."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Prisoner",
+      "Casual",
+      "Suit"
+    ],
+    "synergies": {
+      "en": "Crucial early-game F2P Corrode enabler with Vaccine Man and Deep Sea King core.",
+      "vi": "Tướng gieo Ăn Mòn F2P cốt lõi đầu game kết hợp Vaccine Man và Lõi Vua Biển Sâu."
+    },
+    "counters": {
+      "en": "Debuff cleanse and high speed AoE wipes.",
+      "vi": "Giải bùa xấu và quét bàn cờ nhanh."
+    }
+  },
+  {
+    "id": "r_mumen_rider",
+    "name": {
+      "en": "Mumen Rider (Berserk Buffer #1)",
+      "vi": "Hiệp Sĩ Không Bằng Lái (Vua Tăng Tốc F2P)"
+    },
+    "title": {
+      "en": "Cyclist for Justice",
+      "vi": "Chiến Binh Xe Đạp Công Lý"
+    },
+    "rarity": "R",
+    "faction": "Hero",
+    "class": "Grappler",
+    "tier": "A",
+    "avatar": "avatars/r_mumen_rider.webp",
+    "stats": {
+      "atk": 10500,
+      "hp": 85000,
+      "def": 6500,
+      "spd": 135
+    },
+    "hasCore": false,
+    "skills": {
+      "normal": {
+        "name": {
+          "en": "Justice Punch",
+          "vi": "Cú Đấm Công Lý"
+        },
+        "desc": {
+          "en": "Deals 100% ATK damage to single enemy.",
+          "vi": "Gây 100% Công lên mục tiêu đơn."
+        }
+      },
+      "ultimate": {
+        "name": {
+          "en": "Justice Roar",
+          "vi": "Tiếng Gầm Công Lý (Tăng Tốc & Cuồng Bạo)"
+        },
+        "desc": {
+          "en": "Grants 1 target ally [Berserk] (+30% ATK) and increases their Speed by 20% for 1 turn (costs 0 energy with proper passive).",
+          "vi": "Cấp trạng thái [Cuồng Bạo] (+30% Công) và tăng 20% Tốc độ cho 1 đồng minh chỉ định trong 1 hiệp."
+        }
+      },
+      "ultraUltimate": {
+        "name": {
+          "en": "Supreme Justice Charge (Keepsake)",
+          "vi": "Xung Kích Công Lý Tối Thượng (Thần Binh)"
+        },
+        "desc": {
+          "en": "Grants [Berserk] (+40% ATK) and +30% Speed to target ally and self.",
+          "vi": "Cấp [Cuồng Bạo] (+40% Công) và +30% Tốc độ cho đồng minh chỉ định và bản thân."
+        }
+      },
+      "passive": {
+        "name": {
+          "en": "Unyielding Justice",
+          "vi": "Ý Chí Công Lý Bất Khuất"
+        },
+        "desc": {
+          "en": "Survives fatal hit with [Unyielding] for 1 round. Grants entire team 10 Speed at start of battle.",
+          "vi": "Chống chịu đòn chí tử với [Bất Khuất] trong 1 hiệp. Tăng 10 Tốc độ cho toàn đội đầu trận."
+        }
+      },
+      "awakening": {
+        "stage1": {
+          "en": "Increases Berserk ATK buff from 30% to 45%.",
+          "vi": "Tăng hiệu ứng Cuồng Bạo từ 30% lên 45% Công."
+        },
+        "stage2": {
+          "en": "Ultimate skill costs 0 energy in Round 1.",
+          "vi": "Tuyệt kỹ tiêu hao 0 điểm Năng lượng ở Hiệp 1."
+        }
+      }
+    },
+    "recommendedGears": [
+      "Lightning",
+      "Suit",
+      "Casual"
+    ],
+    "synergies": {
+      "en": "The #1 budget support in Day-1 to Day-30. Boosts Amai Mask or Golden Ball speed to act first and wipe key threats.",
+      "vi": "Tướng hỗ trợ số 1 từ Ngày 1 đến Ngày 30. Giúp Mặt Nạ Mật hoặc Bi Vàng tăng tốc ra đòn trước để dọn dẹp đối thủ."
+    },
+    "counters": {
+      "en": "Direct speed outspeeders and energy draining teams.",
+      "vi": "Tướng out tốc độ và hút năng lượng."
     }
   }
 ];

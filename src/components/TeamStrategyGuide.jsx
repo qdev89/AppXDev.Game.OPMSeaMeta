@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useMetaData } from '../context/MetaDataContext';
 import { defaultTeamGuides } from '../data/defaultTeamGuides';
@@ -13,12 +13,27 @@ import {
   TrendingUp,
   Award,
   Crown,
-  ChevronRight
+  ChevronRight,
+  Search,
+  Filter,
+  Layers,
+  Crosshair,
+  Sprout
 } from 'lucide-react';
 
 export const TeamStrategyGuide = ({ onSwitchTab }) => {
   const { language, getLocalized } = useLanguage();
   const { characters, setSlotCharacter, showToast } = useMetaData();
+  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const categories = [
+    { id: 'all', label: { en: 'All Builds (13)', vi: 'Tất Cả (13)' }, icon: Layers },
+    { id: 'endgame', label: { en: '🔥 SSS Endgame Meta', vi: '🔥 SSS Endgame Meta' }, icon: Crown },
+    { id: 'midgame', label: { en: '⚔️ Mid-Game Transition', vi: '⚔️ Mid-Game Chuyển Giao' }, icon: Swords },
+    { id: 'early', label: { en: '🌱 Early / F2P Starter', vi: '🌱 Tân Thủ / F2P Đầu Game' }, icon: Sprout },
+    { id: 'boss', label: { en: '👑 Club Boss & PvE', vi: '👑 Săn Boss & Vượt Ải' }, icon: Crosshair },
+  ];
 
   const getHeroObj = (heroId) => {
     return characters.find((c) => c.id === heroId);
@@ -52,6 +67,25 @@ export const TeamStrategyGuide = ({ onSwitchTab }) => {
     }
   };
 
+  const filteredGuides = defaultTeamGuides.filter((guide) => {
+    // Category filter
+    if (selectedCategory === 'endgame' && guide.tier !== 'SSS' && !guide.id.includes('burst')) return false;
+    if (selectedCategory === 'midgame' && guide.tier !== 'SS') return false;
+    if (selectedCategory === 'early' && guide.tier !== 'A') return false;
+    if (selectedCategory === 'boss' && !guide.id.includes('boss') && !guide.id.includes('xcity')) return false;
+
+    // Search query
+    if (!searchQuery.trim()) return true;
+    const q = searchQuery.toLowerCase();
+    const nameMatch = getLocalized(guide.name).toLowerCase().includes(q);
+    const coreMatch = guide.coreHero.toLowerCase().includes(q);
+    const heroMatch = [...guide.formation.frontRow, ...guide.formation.backRow].some(hId => {
+      const hero = getHeroObj(hId);
+      return hero && getLocalized(hero.name).toLowerCase().includes(q);
+    });
+    return nameMatch || coreMatch || heroMatch;
+  });
+
   return (
     <div className="space-y-8 animate-fadeIn">
       
@@ -64,7 +98,7 @@ export const TeamStrategyGuide = ({ onSwitchTab }) => {
               <span>META META STRATEGY BLUEPRINT</span>
             </span>
             <span className="px-2.5 py-0.5 text-xs font-bold rounded-full bg-slate-800 text-slate-300 border border-slate-700 uppercase">
-              {language === 'vi' ? 'Cẩm Nang Build Đội Hình' : 'Meta Team Builds'}
+              {language === 'vi' ? 'Cẩm Nang Toàn Bộ Đội Hình' : 'All Meta Lineups'}
             </span>
           </div>
           <h1 className="font-display font-black text-2xl sm:text-3xl text-slate-100 mb-2">
@@ -72,15 +106,52 @@ export const TeamStrategyGuide = ({ onSwitchTab }) => {
           </h1>
           <p className="text-sm text-slate-300 leading-relaxed">
             {language === 'vi'
-              ? 'Phân tích các trường phái đội hình đỉnh cao của giải đấu SEA: Bomb Burst, Tinh Trùng Đen Quái Nhân, và đội hình F2P tiết kiệm tài nguyên.'
-              : 'Detailed breakdown of top competitive SEA tournament archetypes, speed sequencing, core mechanics, and 1-click loading into Lineup Builder.'}
+              ? 'Tuyển tập 13+ đội hình chuẩn chỉ qua từng giai đoạn: Tân thủ F2P Ngày 1-30, Đội hình Chuyển giao Giữa game, SSS Meta Đỉnh cao và Săn Boss Bang Hội / Vượt Ải.'
+              : 'Complete repository of 13+ battle-tested lineups covering Early Game F2P starters, Mid-Game transitions, SSS Endgame tournament builds, and Club Boss/Trial clearers.'}
           </p>
+        </div>
+      </div>
+
+      {/* Filter & Search Bar */}
+      <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 p-4 rounded-3xl bg-opm-card border border-opm-border">
+        {/* Categories */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-2 md:pb-0 scrollbar-thin">
+          {categories.map((cat) => {
+            const Icon = cat.icon;
+            const isActive = selectedCategory === cat.id;
+            return (
+              <button
+                key={cat.id}
+                onClick={() => setSelectedCategory(cat.id)}
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-2xl text-xs font-black whitespace-nowrap transition-all cursor-pointer ${
+                  isActive
+                    ? 'bg-opm-yellow text-slate-950 shadow-glow-yellow'
+                    : 'bg-slate-900/80 text-slate-300 hover:text-white hover:bg-slate-800 border border-opm-border'
+                }`}
+              >
+                <Icon className="w-3.5 h-3.5" />
+                <span>{getLocalized(cat.label)}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Search Input */}
+        <div className="relative min-w-[240px]">
+          <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={language === 'vi' ? 'Tìm đội hình, tướng, lõi...' : 'Search build, hero, core...'}
+            className="w-full pl-9.5 pr-4 py-2 text-xs rounded-2xl bg-opm-bg border border-opm-border focus:border-opm-yellow focus:outline-none text-slate-100 placeholder:text-slate-500"
+          />
         </div>
       </div>
 
       {/* Guide Cards Grid */}
       <div className="space-y-8">
-        {defaultTeamGuides.map((guide) => (
+        {filteredGuides.map((guide) => (
           <div
             key={guide.id}
             className="p-6 sm:p-8 rounded-3xl bg-opm-card border border-opm-borderHighlight shadow-2xl space-y-6"

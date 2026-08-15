@@ -210,7 +210,6 @@ export function App() {
       <Navbar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
-        onOpenCreateModal={handleOpenCreateModal}
       />
 
       {/* Main App Container */}

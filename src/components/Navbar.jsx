@@ -23,7 +23,7 @@ import {
   Share2
 } from 'lucide-react';
 
-export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
+export const Navbar = ({ activeTab, setActiveTab }) => {
   const { language, toggleLanguage, t } = useLanguage();
   const { exportAllData, importAllData, showToast } = useMetaData();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

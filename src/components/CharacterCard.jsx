@@ -11,9 +11,7 @@ import {
   Plus, 
   Check, 
   Eye, 
-  Edit3, 
-  Copy, 
-  Trash2,
+  Share2,
   Gauge
 } from 'lucide-react';
 

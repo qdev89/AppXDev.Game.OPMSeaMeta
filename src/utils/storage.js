@@ -1,6 +1,6 @@
 const STORAGE_KEYS = {
   LANGUAGE: 'opm_sea_lang',
-  CHARACTERS: 'opm_sea_characters_v2',
+  CHARACTERS: 'opm_sea_characters_v3',
   GEARS: 'opm_sea_gears',
   BANNERS: 'opm_sea_banners',
   LINEUP: 'opm_sea_active_lineup',

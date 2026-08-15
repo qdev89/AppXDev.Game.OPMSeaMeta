@@ -9,7 +9,17 @@ const MetaDataContext = createContext();
 export const MetaDataProvider = ({ children }) => {
   // Characters State
   const [characters, setCharacters] = useState(() => {
-    return getStoredItem(STORAGE_KEYS.CHARACTERS, defaultCharacters);
+    const stored = getStoredItem(STORAGE_KEYS.CHARACTERS, null);
+    if (!stored) return defaultCharacters;
+    // Auto-migrate any outdated unsplash placeholder avatars to authentic game art
+    return defaultCharacters.map(defChar => {
+      const existing = stored.find(s => s.id === defChar.id);
+      if (!existing) return defChar;
+      if (!existing.avatar || existing.avatar.includes('unsplash')) {
+        return { ...existing, avatar: defChar.avatar };
+      }
+      return existing;
+    });
   });
 
   // Gears State

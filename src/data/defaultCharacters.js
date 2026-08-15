@@ -851,5 +851,189 @@ export const defaultCharacters = [
       en: "Heavy unyielding and damage sharing tanks.",
       vi: "Bị chặn bởi tướng chia sẻ sát thương và bất khuất."
     }
+  },
+  {
+    id: "urplus_blacksperm",
+    name: { en: "UR+ Black Sperm", vi: "Tinh Trùng Đen UR+" },
+    title: { en: "Combat Arts Grandmaster / Endless Swarm", vi: "Đại Tông Sư Giác Đấu / Biển Phân Thân" },
+    rarity: "UR+",
+    faction: "Monster",
+    class: "Grappler",
+    tier: "SSS",
+    avatar: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=300&auto=format&fit=crop&q=80",
+    stats: { atk: 22500, hp: 165000, def: 12000, spd: 132 },
+    hasCore: false,
+    skills: {
+      normal: {
+        name: { en: "Swarm Strike", vi: "Đòn Đánh Phân Thân" },
+        desc: {
+          en: "Deals 120% ATK (+10) damage to a single enemy.",
+          vi: "Gây 120% ATK (+10) sát thương lên mục tiêu đơn."
+        }
+      },
+      ultimate: {
+        name: { en: "Swarm Divide Burst", vi: "Tuyệt Kỹ Phân Tách Trảm" },
+        desc: {
+          en: "Absorbs all active clones on field (+20% DMG per clone). Deals 2400% ATK Specialized Direct DMG divided across enemy row, ignores 45% Specialized Evasion & Non-Crit DMG Reduction, pierces Unyielding.",
+          vi: "Hấp thụ toàn bộ phân thân trên sân (+20% ST mỗi phân thân). Gây 2400% ATK Sát Thương Trực Tiếp Chuyên Biệt chia đều cho hàng địch, bỏ qua 45% Né Chuyên Biệt và Miễn ST Không Chí Mạng, xuyên Bất Khuất."
+        }
+      },
+      ultraUltimate: {
+        name: { en: "Omnidirectional Swarm Devastation", vi: "Siêu Tuyệt Kỹ: Đại Tuyệt Diệt Phân Thân" },
+        desc: {
+          en: "Requires Keepsake. Grants +20% All DMG Amp to self and reduces enemy row All DMG Red by 20%. Absorbs all clones (+30% DMG per clone). Deals 3000% ATK Specialized Direct DMG, ignores 60% Specialized Evasion, pierces Unyielding. Grants [Black Sperm's Revenge] to self and highest ATK ally (deals 800% max enemy HP damage).",
+          vi: "Cần Thần Binh. Tăng 20% Khuếch Đại Toàn ST cho bản thân và giảm 20% Giảm Toàn ST của hàng địch. Hấp thụ phân thân (+30% ST mỗi phân thân). Gây 3000% ATK Sát Thương Trực Tiếp Chuyên Biệt, bỏ qua 60% Né Chuyên Biệt, xuyên Bất Khuất. Bản thân và đồng đội có ATK cao nhất vĩnh viễn nhận [Báo Thù Của Tinh Trùng Đen] (gây 800% Máu tối đa của mục tiêu)."
+        }
+      },
+      passive: {
+        name: { en: "Undefeated Swarm Evolution", vi: "Nội Tại: Tiến Hóa Bất Bại" },
+        desc: {
+          en: "Starts combat with 80% Non-Crit DMG Reduction. In the first 9 rounds, when receiving fatal damage, enters [Undefeated] state absorbing all damage; on next turn heals to 100% HP up to 6 times.",
+          vi: "Khi vào trận nhận 80% Miễn Sát Thương Không Chí Mạng. Trong 9 lượt đầu, khi sắp bị hạ, vào trạng thái [Bất Bại] hấp thụ toàn bộ sát thương; đến lượt kế tiếp hồi 100% HP tối đa 6 lần."
+        }
+      },
+      awakening: {
+        stage1: {
+          en: "After any enemy acts, all active clones have 100% chance to pursue all enemies dealing 620% ATK Specialized Direct DMG. Splits 4 clones per hit taken up to 8 max.",
+          vi: "Sau khi bất kỳ địch nào hành động, toàn bộ phân thân có 100% tỉ lệ truy kích toàn thể địch gây 620% ATK ST Trực Tiếp Chuyên Biệt. Sau mỗi lần trúng đòn phân tách ra 4 phân thân, tối đa 8 con."
+        },
+        stage2: {
+          en: "Recovers +150 Energy Gauge per attack and permanently reduces all damage taken by 50%.",
+          vi: "Hồi phục +150 Chiến Ý (Nộ) mỗi đòn tấn công và vĩnh viễn giảm 50% toàn bộ sát thương phải chịu."
+        }
+      }
+    },
+    recommendedGears: ["Knight", "Primal", "Suit"],
+    synergies: {
+      en: "Unbeatable meta carry with UR Gyoro Core and Zombieman UR+.",
+      vi: "Carry tối thượng meta khi đi cùng Lõi Gyoro UR và Zombieman UR+."
+    },
+    counters: {
+      en: "Requires extreme burst with Specialized Direct DMG or heal inversion.",
+      vi: "Cần dồn sát thương Chuyên Biệt cực đại hoặc hiệu ứng đảo ngược hồi máu."
+    }
+  },
+  {
+    id: "urplus_zombieman",
+    name: { en: "UR+ Zombieman", vi: "Zombieman UR+" },
+    title: { en: "Immortal Vanguard / Supreme Resurrection", vi: "Tiên Phong Bất Tử / Phục Sinh Vô Tận" },
+    rarity: "UR+",
+    faction: "Hero",
+    class: "Duelist",
+    tier: "SSS",
+    avatar: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300&auto=format&fit=crop&q=80",
+    stats: { atk: 18500, hp: 195000, def: 14500, spd: 125 },
+    hasCore: true,
+    skills: {
+      normal: {
+        name: { en: "Desert Eagle Twin Burst", vi: "Song Súng Sa Mạc" },
+        desc: {
+          en: "Deals 140% ATK damage to a single enemy. 100% chance to inflict [Internal Injury].",
+          vi: "Gây 140% Công lên mục tiêu đơn. 100% gây [Nội Thương]."
+        }
+      },
+      ultimate: {
+        name: { en: "Regenerative Gunblade Carnage", vi: "Xả Súng Bất Tử" },
+        desc: {
+          en: "Deals 500% ATK damage to enemy column and heals entire team by 25% of their Max HP.",
+          vi: "Gây 500% Công lên hàng dọc đối phương và hồi phục 25% Máu tối đa cho toàn đội."
+        }
+      },
+      ultraUltimate: {
+        name: { en: "Immortal Arsenal Annihilation", vi: "Tuyệt Kỹ Tối Thượng: Kho Vũ Khí Vô Tận" },
+        desc: {
+          en: "Requires Keepsake. Deals 750% ATK damage to enemy column and grants 2-turn [Specialized Unyielding] to adjacent allies.",
+          vi: "Cần Thần Binh. Gây 750% Công lên hàng dọc đối phương và ban [Bất Khuất Chuyên Biệt] 2 lượt cho đồng minh lân cận."
+        }
+      },
+      passive: {
+        name: { en: "Endless Cell Resurgence", vi: "Tế Bào Tái Sinh Bất Tận" },
+        desc: {
+          en: "Revives with 100% HP up to 6 times upon taking fatal damage. Each resurrection generates +1 Team Energy.",
+          vi: "Hồi sinh với 100% Máu tối đa 6 lần khi chịu đòn chí tử. Mỗi lần hồi sinh tạo thêm +1 Năng Lượng cho toàn đội."
+        }
+      },
+      awakening: {
+        stage1: {
+          en: "Grants entire team +35% Non-Crit DMG Free and +20% Reflect DMG.",
+          vi: "Tăng cho toàn đội 35% Miễn ST Không Chí Mạng và 20% Phản Sát Thương."
+        },
+        stage2: {
+          en: "Core Refinement Lv17: Team gains 4 round-1 energy and immunity to Energy Seal.",
+          vi: "Tinh Luyện Lõi Lv17: Đội hình nhận 4 Năng lượng hiệp 1 và miễn nhiễm Khóa Nộ."
+        }
+      }
+    },
+    recommendedGears: ["Suit", "Battle", "Knight"],
+    synergies: {
+      en: "The undisputed defensive core anchor of the UR+ era.",
+      vi: "Trụ cột Lõi phòng thủ số 1 không thể thay thế thời đại UR+."
+    },
+    counters: {
+      en: "Specialized Direct DMG nukes that bypass Unyielding.",
+      vi: "Đòn Sát Thương Chuyên Biệt xuyên thẳng qua Bất Khuất."
+    }
+  },
+  {
+    id: "ur_gyoro",
+    name: { en: "UR Gyoro-Gyoro", vi: "Gyoro-Gyoro UR" },
+    title: { en: "Monster Association Brain", vi: "Bộ Não Hiệp Hội Quái Nhân" },
+    rarity: "UR",
+    faction: "Monster",
+    class: "Esper",
+    tier: "SSS",
+    avatar: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=300&auto=format&fit=crop&q=80",
+    stats: { atk: 20000, hp: 155000, def: 11000, spd: 130 },
+    hasCore: true,
+    skills: {
+      normal: {
+        name: { en: "Psychic Force Pulse", vi: "Sóng Xung Kích Siêu Năng" },
+        desc: {
+          en: "Deals 130% ATK damage and applies [Forcefield] to target.",
+          vi: "Gây 130% Công và áp hiệu ứng [Trường Lực] lên mục tiêu."
+        }
+      },
+      ultimate: {
+        name: { en: "Meat Dome Crush", vi: "Khối Thịt Đè Nén" },
+        desc: {
+          en: "Deals 400% ATK damage to enemy row and boosts frontrow allies Max HP by 50%.",
+          vi: "Gây 400% Công lên hàng ngang địch và tăng 50% Máu tối đa cho hàng trước."
+        }
+      },
+      ultraUltimate: {
+        name: { en: "Cosmic Meat Singularity", vi: "Siêu Tuyệt Kỹ: Hố Đen Thịt Thần Tốc" },
+        desc: {
+          en: "Deals 620% ATK damage to all enemies and applies 40% Specialized Corrode for 2 turns.",
+          vi: "Gây 620% Công lên toàn bộ quân địch và gán 40% Ăn Mòn Chuyên Biệt trong 2 lượt."
+        }
+      },
+      passive: {
+        name: { en: "Tactical Supreme Command", vi: "Chỉ Huy Tác Chiến Tối Cao" },
+        desc: {
+          en: "Monster faction allies gain +35% All DMG Amplification and +30% Max HP.",
+          vi: "Đồng minh phe Quái Nhân nhận thêm 35% Khuếch Đại Toàn ST và 30% Máu tối đa."
+        }
+      },
+      awakening: {
+        stage1: {
+          en: "Provides 4 round 1 team energy and +20 Speed to all Esper allies.",
+          vi: "Cấp 4 Năng lượng hiệp 1 cho đội và +20 Tốc độ cho toàn bộ hệ Dị Năng."
+        },
+        stage2: {
+          en: "Increases entire team Tenacity Shield absorption capacity by 40%.",
+          vi: "Tăng 40% sức chứa hấp thụ khiên Kiên Cường cho toàn đội."
+        }
+      }
+    },
+    recommendedGears: ["Suit", "Scholar", "Battle"],
+    synergies: {
+      en: "Best core for UR+ Black Sperm, UR Rover, and Monster DoT lineups.",
+      vi: "Lõi mạnh nhất kích hoạt sức mạnh Tinh Trùng Đen UR+ và đội hình Quái Nhân DoT."
+    },
+    counters: {
+      en: "High-speed turn 1 single-target Duelist burst.",
+      vi: "Sốc sát thương đơn mục tiêu tốc độ cao của hệ Vũ Trang."
+    }
   }
 ];
+

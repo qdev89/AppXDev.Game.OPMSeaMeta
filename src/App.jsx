@@ -6,6 +6,11 @@ import { CharacterCard } from './components/CharacterCard';
 import { CharacterModal } from './components/CharacterModal';
 import { CharacterEditorModal } from './components/CharacterEditorModal';
 import { TeamBuilder } from './components/TeamBuilder';
+import { TeamStrategyGuide } from './components/TeamStrategyGuide';
+import { NewbieGuide } from './components/NewbieGuide';
+import { DamageMechanics } from './components/DamageMechanics';
+import { MasteryRefinement } from './components/MasteryRefinement';
+import { GiftCodes } from './components/GiftCodes';
 import { TierList } from './components/TierList';
 import { GearPlanner } from './components/GearPlanner';
 import { BannerPlanner } from './components/BannerPlanner';
@@ -47,7 +52,7 @@ export function App() {
   const [isEditorOpen, setIsEditorOpen] = useState(false);
 
   // Rarity priority for sorting
-  const rarityWeight = { UR: 5, 'SSR+': 4, SSR: 3, SR: 2, R: 1 };
+  const rarityWeight = { 'UR+': 6, UR: 5, 'SSR+': 4, SSR: 3, SR: 2, R: 1 };
   const tierWeight = { SSS: 5, SS: 4, S: 3, A: 2, B: 1 };
 
   // Filtered & Sorted Characters
@@ -275,6 +280,7 @@ export function App() {
                     className="w-full px-3 py-1.5 rounded-xl bg-opm-bg border border-opm-border text-xs text-white"
                   >
                     <option value="All">{t('common.all')} ({characters.length})</option>
+                    <option value="UR+">UR+ (Supreme UR)</option>
                     <option value="UR">UR (Ultra Rare)</option>
                     <option value="SSR+">SSR+ (Awakened)</option>
                     <option value="SSR">SSR</option>
@@ -377,23 +383,42 @@ export function App() {
           </div>
         )}
 
-        {/* TAB 2: Team Lineup Builder */}
+        {/* TAB: Newbie & Beginner 14-Day Roadmap */}
+        {activeTab === 'newbie' && (
+          <NewbieGuide onSwitchTab={(tab) => setActiveTab(tab)} />
+        )}
+
+        {/* TAB: Team Lineup Builder */}
         {activeTab === 'teambuilder' && (
           <TeamBuilder onOpenCharacterDetails={(c) => setViewingCharacter(c)} />
         )}
 
-        {/* TAB 3: Tier List Matrix */}
+        {/* TAB: Meta Team Strategy Guide */}
+        {activeTab === 'teamguides' && (
+          <TeamStrategyGuide onSwitchTab={(tab) => setActiveTab(tab)} />
+        )}
+
+        {/* TAB: Damage Mechanics Engine */}
+        {activeTab === 'damage' && <DamageMechanics />}
+
+        {/* TAB: Mastery & Core Refinement */}
+        {activeTab === 'mastery' && <MasteryRefinement />}
+
+        {/* TAB: Tier List Matrix */}
         {activeTab === 'tierlist' && (
           <TierList onSelectCharacter={(c) => setViewingCharacter(c)} />
         )}
 
-        {/* TAB 4: Gear & Sets Planner */}
+        {/* TAB: Gear & Sets Planner */}
         {activeTab === 'gears' && <GearPlanner />}
 
-        {/* TAB 5: SEA Banner Roadmap */}
+        {/* TAB: SEA Banner Roadmap */}
         {activeTab === 'banners' && <BannerPlanner />}
 
-        {/* TAB 6: Metadata & Database Center */}
+        {/* TAB: Active Gift Codes */}
+        {activeTab === 'codes' && <GiftCodes />}
+
+        {/* TAB: Metadata & Database Center */}
         {activeTab === 'metadata' && <MetaDataManager />}
 
       </main>

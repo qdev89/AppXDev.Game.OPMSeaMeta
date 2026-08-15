@@ -5,10 +5,15 @@ export const translations = {
     serverTag: "SEA Server (FingerFun)",
     nav: {
       characters: "Characters",
+      newbie: "Newbie Guide",
       teamBuilder: "Lineup Builder",
+      teamGuides: "Team Builds",
+      damage: "Damage Engine",
+      mastery: "Mastery & Core",
       tierList: "Tier List",
       gears: "Gear & Sets",
       banners: "SEA Roadmap",
+      codes: "Gift Codes",
       metadata: "Data Manager",
     },
     common: {
@@ -175,10 +180,15 @@ export const translations = {
     serverTag: "Bản Đông Nam Á (FingerFun SEA)",
     nav: {
       characters: "Danh Sách Tướng",
+      newbie: "Cẩm Nang Tân Thủ",
       teamBuilder: "Xếp Đội Hình",
+      teamGuides: "Build Đội Hình",
+      damage: "Công Thức Sát Thương",
+      mastery: "Tinh Thông & Lõi",
       tierList: "Bảng Xếp Hạng Tier",
       gears: "Trang Bị & Set",
       banners: "Lịch Banner SEA",
+      codes: "Gift Code",
       metadata: "Quản Lý Dữ Liệu",
     },
     common: {

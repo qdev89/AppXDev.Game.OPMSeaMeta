@@ -14,7 +14,12 @@ import {
   Menu, 
   X,
   Flame,
-  Sparkles
+  Sparkles,
+  BookOpen,
+  GraduationCap,
+  Gift,
+  Zap,
+  Layers
 } from 'lucide-react';
 
 export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
@@ -24,10 +29,15 @@ export const Navbar = ({ activeTab, setActiveTab, onOpenCreateModal }) => {
 
   const navItems = [
     { id: 'characters', label: t('nav.characters'), icon: Users },
+    { id: 'newbie', label: t('nav.newbie'), icon: GraduationCap, badge: 'HOT' },
     { id: 'teambuilder', label: t('nav.teamBuilder'), icon: ShieldCheck, badge: '6v6' },
+    { id: 'teamguides', label: t('nav.teamGuides'), icon: BookOpen, badge: 'META' },
+    { id: 'damage', label: t('nav.damage'), icon: Flame, badge: 'ENGINE' },
+    { id: 'mastery', label: t('nav.mastery'), icon: Zap },
     { id: 'tierlist', label: t('nav.tierList'), icon: Trophy },
     { id: 'gears', label: t('nav.gears'), icon: Sword },
     { id: 'banners', label: t('nav.banners'), icon: CalendarDays },
+    { id: 'codes', label: t('nav.codes'), icon: Gift, badge: 'GIFT' },
     { id: 'metadata', label: t('nav.metadata'), icon: Database },
   ];
 

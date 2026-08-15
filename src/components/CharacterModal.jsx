@@ -22,7 +22,12 @@ import {
   ArrowRight,
   ShieldCheck,
   TrendingUp,
-  ExternalLink
+  Target,
+  Gauge,
+  Compass,
+  Lightbulb,
+  CheckCircle2,
+  HelpCircle
 } from 'lucide-react';
 
 export const CharacterModal = ({ 
@@ -113,6 +118,15 @@ export const CharacterModal = ({
     }
   };
 
+  const gameplay = character.gameplayGuide || {
+    role: { en: "Versatile Combatant", vi: "Tướng Chiến Đấu Toàn Năng" },
+    positioning: { en: "Flexible Grid Position", vi: "Vị trí linh hoạt theo đội hình" },
+    speedOrder: { en: "Speed #2 - #4", vi: "Tốc độ #2 - #4" },
+    statPriority: { en: ["ATK%", "HP%", "SPD", "Crit Rate%"], vi: ["Công %", "Máu %", "Tốc Độ", "Tỉ Lệ Bạo %"] },
+    comboTips: { en: "Coordinate with Core skills and apply debuffs before executing burst damage.", vi: "Kết hợp kích hoạt kỹ năng Lõi và dồn sát thương khi địch bị suy yếu." },
+    proTips: { en: "Equip matching gear sets to maximize synergy effects.", vi: "Lắp đủ 4 món trang bị kích hoạt dòng ẩn để phát huy uy lực." }
+  };
+
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
       <div 
@@ -159,7 +173,7 @@ export const CharacterModal = ({
                   </span>
                 )}
 
-                <span className="px-2 py-0.5 text-xs font-bold rounded-md bg-slate-800 text-slate-300 border border-slate-700">
+                <span className="px-2.5 py-0.5 text-xs font-bold rounded-md bg-slate-800 text-slate-300 border border-slate-700">
                   {character.faction} • {character.class}
                 </span>
               </div>
@@ -212,7 +226,102 @@ export const CharacterModal = ({
         {/* Scrollable Content Body */}
         <div className="flex-1 overflow-y-auto p-5 sm:p-8 space-y-7">
           
-          {/* SECTION 1: RECOMMENDED META TEAMS (ĐỘI HÌNH ĐỀ XUẤT) */}
+          {/* SECTION 1: DETAILED GAMEPLAY & PLAYSTYLE GUIDE (CHI TIẾT CÁCH CHƠI) */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-opm-card to-cyan-950/20 border border-cyan-500/40 shadow-xl space-y-4">
+            <div className="flex items-center justify-between gap-2 border-b border-opm-border/80 pb-3">
+              <div className="flex items-center gap-2">
+                <Target className="w-5 h-5 text-cyan-400" />
+                <div>
+                  <h3 className="font-display font-black text-base sm:text-lg text-slate-100 uppercase tracking-wide">
+                    {language === 'vi' ? 'Hướng Dẫn Cách Chơi & Vận Hành Trận Đấu' : 'Comprehensive Gameplay & Tactical Playstyle'}
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    {language === 'vi' ? 'Vai trò chiến thuật, vị trí đứng, thứ tự tốc độ và chuỗi combo kỹ năng.' : 'Tactical role, grid positioning, turn speed sequencing, and skill combos.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Grid 4 Gameplay Pillars */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              
+              {/* Pillar 1: Role & Positioning */}
+              <div className="p-4 rounded-2xl bg-opm-bg/80 border border-opm-border space-y-2">
+                <div className="flex items-center gap-2 text-xs font-black text-amber-400 uppercase">
+                  <Compass className="w-4 h-4 text-amber-400" />
+                  <span>{language === 'vi' ? 'Vai Trò & Vị Trí Đứng:' : 'Role & Positioning:'}</span>
+                </div>
+                <div className="space-y-1.5 text-xs text-slate-200">
+                  <div className="flex items-start gap-1.5">
+                    <span className="text-slate-400 font-bold shrink-0">{language === 'vi' ? '• Vai trò:' : '• Role:'}</span>
+                    <span className="font-bold text-amber-300">{getLocalized(gameplay.role)}</span>
+                  </div>
+                  <div className="flex items-start gap-1.5">
+                    <span className="text-slate-400 font-bold shrink-0">{language === 'vi' ? '• Vị trí:' : '• Grid:'}</span>
+                    <span className="text-slate-300">{getLocalized(gameplay.positioning)}</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Pillar 2: Speed Order & Turn Sequencing */}
+              <div className="p-4 rounded-2xl bg-opm-bg/80 border border-opm-border space-y-2">
+                <div className="flex items-center gap-2 text-xs font-black text-cyan-400 uppercase">
+                  <Gauge className="w-4 h-4 text-cyan-400" />
+                  <span>{language === 'vi' ? 'Thứ Tự Tốc Độ (Speed Tuning):' : 'Speed Priority Sequencing:'}</span>
+                </div>
+                <div className="space-y-1.5 text-xs text-slate-200">
+                  <div className="flex items-start gap-1.5">
+                    <span className="text-slate-400 font-bold shrink-0">{language === 'vi' ? '• Thứ tự:' : '• Speed Order:'}</span>
+                    <span className="font-bold text-cyan-300">{getLocalized(gameplay.speedOrder)}</span>
+                  </div>
+                  <div className="flex items-start gap-1.5">
+                    <span className="text-slate-400 font-bold shrink-0">{language === 'vi' ? '• Tốc cơ bản:' : '• Base SPD:'}</span>
+                    <span className="text-slate-300">{character.stats?.spd} SPD</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Pillar 3: Substat Priority */}
+              <div className="p-4 rounded-2xl bg-opm-bg/80 border border-opm-border space-y-2">
+                <div className="flex items-center gap-2 text-xs font-black text-emerald-400 uppercase">
+                  <TrendingUp className="w-4 h-4 text-emerald-400" />
+                  <span>{language === 'vi' ? 'Ưu Tiên Dòng Phụ Trang Bị:' : 'Gear Substat Priority:'}</span>
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  {(getLocalized(gameplay.statPriority) || []).map((stat, sIdx) => (
+                    <span key={sIdx} className="px-2.5 py-1 rounded-xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-300 text-[11px] font-black">
+                      #{sIdx + 1} {stat}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Pillar 4: Pro Strategy Tips */}
+              <div className="p-4 rounded-2xl bg-opm-bg/80 border border-opm-border space-y-2">
+                <div className="flex items-center gap-2 text-xs font-black text-purple-400 uppercase">
+                  <Lightbulb className="w-4 h-4 text-purple-400" />
+                  <span>{language === 'vi' ? 'Mẹo Trang Bị Đỉnh Cao:' : 'Gear & Synergies Pro Tip:'}</span>
+                </div>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  {getLocalized(gameplay.proTips)}
+                </p>
+              </div>
+
+            </div>
+
+            {/* Combo & Rotation Breakdown */}
+            <div className="p-4 rounded-2xl bg-slate-950/70 border border-cyan-500/30 text-xs text-slate-200 leading-relaxed space-y-1.5">
+              <div className="flex items-center gap-2 text-cyan-300 font-black text-xs uppercase">
+                <Zap className="w-4 h-4 text-opm-yellow" />
+                <span>{language === 'vi' ? 'Chuỗi Combo Kỹ Năng & Vận Hành Trận Đấu:' : 'Skill Rotation & Combat Execution:'}</span>
+              </div>
+              <p className="text-slate-300">
+                {getLocalized(gameplay.comboTips)}
+              </p>
+            </div>
+          </div>
+
+          {/* SECTION 2: RECOMMENDED META TEAMS (ĐỘI HÌNH ĐỀ XUẤT) */}
           <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-opm-card to-amber-950/20 border border-amber-500/40 shadow-xl space-y-4">
             <div className="flex items-center justify-between gap-2 border-b border-opm-border/80 pb-3">
               <div className="flex items-center gap-2">

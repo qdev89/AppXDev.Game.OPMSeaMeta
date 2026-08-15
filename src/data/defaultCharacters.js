@@ -85,6 +85,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Extreme unyielding stall comps with reflect.",
       "vi": "Đội hình siêu câu giờ bất khuất kết hợp phản sát thương."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Siêu Carry Tuyệt Đối — Dọn Sạch Bàn Cờ"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Dùng Tuyệt Kỹ Đấm Nghiêm Túc xóa sạch bùa lợi và xuyên Bất Khuất. Đi lượt 1-2 để dọn hàng trước đối phương lập tức."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -173,6 +209,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -261,6 +333,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Bất Tử Phục Sinh & Siêu Hồi Phục Toàn Đội"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Tận dụng Bất Tử để hồi sinh không giới hạn. Khi đồng đội bị bạo kích sẽ lập tức hồi máu và kích hoạt nộ phản công."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -349,6 +457,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -437,6 +581,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -525,6 +705,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -613,6 +829,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -701,6 +953,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -789,6 +1077,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Bão Sát Thương Diện Rộng & Gieo Trường Lực (Forcefield)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Gieo Trường Lực lên toàn thể 6 tướng địch. Mỗi khi địch hành động sẽ tự động nổ sát thương cực đại."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -877,6 +1201,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -965,6 +1325,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -1053,6 +1449,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -1141,6 +1573,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -1229,6 +1697,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -1317,6 +1821,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -1405,6 +1945,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -1493,6 +2069,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -1581,6 +2193,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -1669,6 +2317,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Khóa Sạch Thanh Nộ & Cướp Năng Lượng Lượt 1"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Cướp 2-4 điểm nộ lượt đầu khiến đối thủ hoàn toàn bất lực không thể tung Tuyệt Kỹ."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -1757,6 +2441,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -1845,6 +2565,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -1933,6 +2689,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Khóa Sạch Thanh Nộ & Cướp Năng Lượng Lượt 1"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Cướp 2-4 điểm nộ lượt đầu khiến đối thủ hoàn toàn bất lực không thể tung Tuyệt Kỹ."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -2021,6 +2813,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -2109,6 +2937,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -2197,6 +3061,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -2285,6 +3185,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -2373,6 +3309,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -2461,6 +3433,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -2549,6 +3557,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -2637,6 +3681,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Khóa Sạch Thanh Nộ & Cướp Năng Lượng Lượt 1"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Cướp 2-4 điểm nộ lượt đầu khiến đối thủ hoàn toàn bất lực không thể tung Tuyệt Kỹ."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -2725,6 +3805,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -2813,6 +3929,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -2901,6 +4053,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -2989,6 +4177,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -3077,6 +4301,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -3165,6 +4425,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -3253,6 +4549,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -3341,6 +4673,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -3429,6 +4797,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -3517,6 +4921,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -3605,6 +5045,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -3693,6 +5169,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -3781,6 +5293,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -3869,6 +5417,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -3957,6 +5541,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -4045,6 +5665,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -4133,6 +5789,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -4221,6 +5913,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -4309,6 +6037,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -4397,6 +6161,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Bão Sát Thương Diện Rộng & Gieo Trường Lực (Forcefield)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Gieo Trường Lực lên toàn thể 6 tướng địch. Mỗi khi địch hành động sẽ tự động nổ sát thương cực đại."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -4485,6 +6285,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Bão Sát Thương Diện Rộng & Gieo Trường Lực (Forcefield)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Gieo Trường Lực lên toàn thể 6 tướng địch. Mỗi khi địch hành động sẽ tự động nổ sát thương cực đại."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -4573,6 +6409,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -4661,6 +6533,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -4749,6 +6657,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -4837,6 +6781,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -4925,6 +6905,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -5013,6 +7029,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Khóa Sạch Thanh Nộ & Cướp Năng Lượng Lượt 1"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Cướp 2-4 điểm nộ lượt đầu khiến đối thủ hoàn toàn bất lực không thể tung Tuyệt Kỹ."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -5101,6 +7153,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -5189,6 +7277,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -5277,6 +7401,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -5365,6 +7525,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -5453,6 +7649,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -5541,6 +7773,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -5629,6 +7897,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -5717,6 +8021,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -5805,6 +8145,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -5893,6 +8269,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -5981,6 +8393,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -6069,6 +8517,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -6157,6 +8641,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -6245,6 +8765,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -6333,6 +8889,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -6421,6 +9013,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Hỗ Trợ Tăng Tốc, Khống Chế & Khóa Năng Lượng"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Xuất chiêu ngay lượt 1 để khóa nộ đối phương hoặc buff +30% Công & Tốc cho toàn đội trước khi đối thủ kịp hành động."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -6509,6 +9137,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -6597,6 +9261,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -6685,6 +9385,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -6773,6 +9509,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Tactical Buffer & Energy Controller",
+        "vi": "Khóa Sạch Thanh Nộ & Cướp Năng Lượng Lượt 1"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4) or Front Flank (Slot 1)",
+        "vi": "Hàng Sau (Vị trí 4) hoặc Hàng Trước cánh (Vị trí 1)"
+      },
+      "speedOrder": {
+        "en": "Speed #1 (Fastest unit to dictate tempo)",
+        "vi": "Tốc độ #1 (Đi đầu tiên toàn trận để nắm quyền chủ động)"
+      },
+      "statPriority": {
+        "en": [
+          "Speed",
+          "Effect HIT%",
+          "HP%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Tốc Độ (SPD)",
+          "Chính Xác Hiệu Ứng %",
+          "Máu %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Cast skill turn-1 to seal enemy energy or grant teamwide +30% ATK & SPD boost before enemy damage dealers act.",
+        "vi": "Cướp 2-4 điểm nộ lượt đầu khiến đối thủ hoàn toàn bất lực không thể tung Tuyệt Kỹ."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
+        "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
+      }
     }
   },
   {
@@ -6861,6 +9633,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -6949,6 +9757,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7037,6 +9881,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -7125,6 +10005,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -7213,6 +10129,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -7301,6 +10253,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7389,6 +10377,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7477,6 +10501,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7565,6 +10625,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7653,6 +10749,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7741,6 +10873,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7829,6 +10997,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -7917,6 +11121,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8005,6 +11245,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8093,6 +11369,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8181,6 +11493,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8269,6 +11617,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8357,6 +11741,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8445,6 +11865,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8533,6 +11989,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8621,6 +12113,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8709,6 +12237,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8797,6 +12361,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8885,6 +12485,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -8973,6 +12609,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9061,6 +12733,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9149,6 +12857,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -9237,6 +12981,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -9325,6 +13105,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Core Tactical Engine & Support",
+        "vi": "Lõi Đội Hình & Chỉ Huy Chiến Thuật"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 2/3) or Protected Back Row",
+        "vi": "Hàng Trước (Vị trí 2/3) hoặc Hàng Sau bảo hộ"
+      },
+      "speedOrder": {
+        "en": "Speed #1 or #5 (Depending on Energy need)",
+        "vi": "Tốc độ #1 (Nếu cần buff mở đầu) hoặc #5 (Lấy nộ bị động)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Speed",
+          "Block Rate%",
+          "Effect RES%"
+        ],
+        "vi": [
+          "Máu %",
+          "Tốc Độ",
+          "Đỡ Đòn %",
+          "Kháng Hiệu Ứng %"
+        ]
+      },
+      "comboTips": {
+        "en": "Align 1 Grappler, 1 Duelist, 1 HiTech, and 1 Esper in team to activate Advanced Core Effects. Trigger core energy recharge every round.",
+        "vi": "Luôn xếp đủ 1 Cách Đấu, 1 Vũ Trang, 1 Công Nghệ, 1 Siêu Năng để kích hoạt Lõi Nâng Cao. Tận dụng tối đa lượng nộ hồi mỗi hiệp."
+      },
+      "proTips": {
+        "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
+        "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
+      }
     }
   },
   {
@@ -9413,6 +13229,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9501,6 +13353,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9589,6 +13477,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9677,6 +13601,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9765,6 +13725,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9853,6 +13849,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -9941,6 +13973,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -10029,6 +14097,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -10117,6 +14221,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -10205,6 +14345,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Main Vanguard Tank & Damage Soak",
+        "vi": "Đỡ Đòn Tiên Phong & Chống Chịu Hàng Trước"
+      },
+      "positioning": {
+        "en": "Front Row (Slot 1, 2, or 3)",
+        "vi": "Hàng Trước (Vị trí 1, 2 hoặc 3) — Hút hỏa lực đối phương"
+      },
+      "speedOrder": {
+        "en": "Speed #4 - #6 (Late turn sustain)",
+        "vi": "Tốc độ #4 - #6 (Hành động cuối để hồi phục/duy trì khiên)"
+      },
+      "statPriority": {
+        "en": [
+          "HP%",
+          "Block Rate%",
+          "DEF%",
+          "DMG Reflect%"
+        ],
+        "vi": [
+          "Máu %",
+          "Đỡ Đòn %",
+          "Phòng Thủ %",
+          "Phản Sát Thương %"
+        ]
+      },
+      "comboTips": {
+        "en": "Position directly opposite enemy main carry to absorb burst damage. Utilize passive shields and counter-attack triggers.",
+        "vi": "Đứng đối diện trực diện với carry mạnh nhất của địch để che chắn sát thương. Tận dụng nội tại tạo khiên và phản đòn khi bị tấn công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
+        "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
+      }
     }
   },
   {
@@ -10293,6 +14469,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   },
   {
@@ -10381,6 +14593,42 @@ export const defaultCharacters = [
     "counters": {
       "en": "Countered by high speed initiative and direct damage dispels.",
       "vi": "Khắc chế bởi các đội hình out tốc độ và giải trừ hiệu ứng trực tiếp."
+    },
+    "gameplayGuide": {
+      "role": {
+        "en": "Primary Burst DPS",
+        "vi": "Sát Thương Chủ Lực (Carry)"
+      },
+      "positioning": {
+        "en": "Back Row (Slot 4 - 6)",
+        "vi": "Hàng Sau (Vị trí 4 - 6) — Tránh nhận sát thương trực tiếp"
+      },
+      "speedOrder": {
+        "en": "Speed #2 or #3 (After buffer/debuffer)",
+        "vi": "Tốc độ #2 hoặc #3 (Sau tướng buff/gieo vỡ giáp)"
+      },
+      "statPriority": {
+        "en": [
+          "ATK%",
+          "Speed",
+          "Crit Rate%",
+          "Crit DMG%"
+        ],
+        "vi": [
+          "Công %",
+          "Tốc Độ",
+          "Tỉ Lệ Bạo %",
+          "Sát Thương Bạo %"
+        ]
+      },
+      "comboTips": {
+        "en": "Open with Ultimate to apply massive AoE burst or single-target execute. Ensure teammates apply Shatter or Tenacity strips beforehand.",
+        "vi": "Mở đầu trận bằng Tuyệt Kỹ để dồn sát thương sốc nổ. Đảm bảo đồng đội đã đi trước để gieo hiệu ứng Vỡ Giáp hoặc buff Công."
+      },
+      "proTips": {
+        "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
+        "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
+      }
     }
   }
 ];

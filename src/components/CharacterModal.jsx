@@ -32,7 +32,9 @@ import {
   BookmarkCheck,
   CheckSquare,
   ShieldAlert,
-  Star
+  Star,
+  ShieldOff,
+  Skull
 } from 'lucide-react';
 
 export const CharacterModal = ({ 
@@ -162,6 +164,14 @@ export const CharacterModal = ({
         }
       ]
     }
+  };
+
+  const counterMatchups = character.counterMatchups || {
+    counteredByHeroes: [],
+    countersHeroes: [],
+    counteredByTeams: [],
+    countersTeams: [],
+    survivalProTip: { vi: '', en: '' }
   };
 
   return (
@@ -720,6 +730,159 @@ export const CharacterModal = ({
             </div>
           </div>
 
+          {/* SECTION 6: COUNTER HEROES & COUNTER TEAMS (TƯỚNG KHẮC CHẾ & ĐỘI HÌNH KHẮC CHẾ) */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-opm-card to-rose-950/20 border border-rose-500/40 shadow-xl space-y-5">
+            <div className="flex items-center justify-between gap-2 border-b border-opm-border/80 pb-3">
+              <div className="flex items-center gap-2">
+                <ShieldAlert className="w-5 h-5 text-rose-400" />
+                <div>
+                  <h3 className="font-display font-black text-base sm:text-lg text-slate-100 uppercase tracking-wide">
+                    {language === 'vi' ? '6. Khắc Tinh & Đối Kháng Meta (Counters & Matchups)' : '6. Counter Matchups & Counters Guide'}
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    {language === 'vi' ? 'Tướng sợ nhất, tướng đè bẹp, đội hình khắc chế và mẹo phá giải thế cờ.' : 'Hard counter heroes, favored victims, counter comps, and survival counter-measures.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Sub-grid 1: Counter Heroes (Sợ Ai & Đè Bẹp Ai) */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              
+              {/* Box A: Countered By Heroes (Tướng Khắc Tinh - Sợ Nhất) */}
+              <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-500/30 space-y-3">
+                <div className="flex items-center gap-2 text-rose-400 text-xs font-black uppercase">
+                  <Skull className="w-4 h-4 text-rose-400" />
+                  <span>{language === 'vi' ? 'Tướng Khắc Tinh (Sợ Ai Nhất):' : 'Hard Countered By Heroes:'}</span>
+                </div>
+
+                <div className="space-y-2.5">
+                  {(counterMatchups.counteredByHeroes || []).map((ch, chIdx) => {
+                    const h = getHeroObj(ch.heroId);
+                    return (
+                      <div key={chIdx} className="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-950/70 border border-rose-900/40">
+                        <div className="relative w-10 h-10 rounded-lg overflow-hidden border border-rose-500/40 bg-slate-950 flex-shrink-0">
+                          <img 
+                            src={h?.avatar || "avatars/ur_saitama.webp"} 
+                            alt={h ? getLocalized(h.name) : ch.heroId}
+                            className="w-full h-full object-cover"
+                            onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
+                          />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-1.5 flex-wrap">
+                            <span className="font-bold text-xs text-rose-300">
+                              {h ? getLocalized(h.name) : ch.heroId}
+                            </span>
+                            {h?.rarity && (
+                              <span className="px-1.5 py-0.2 text-[9px] font-black rounded bg-rose-950 text-rose-300 border border-rose-800/40">
+                                {h.rarity}
+                              </span>
+                            )}
+                          </div>
+                          <p className="text-[11px] text-slate-300 leading-relaxed mt-0.5">
+                            {getLocalized(ch.reason)}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Box B: Counters Heroes (Tướng Bị Khắc Chế - Đè Bẹp Ai) */}
+              <div className="p-4 rounded-2xl bg-emerald-950/30 border border-emerald-500/30 space-y-3">
+                <div className="flex items-center gap-2 text-emerald-400 text-xs font-black uppercase">
+                  <Target className="w-4 h-4 text-emerald-400" />
+                  <span>{language === 'vi' ? 'Tướng Bị Khắc Chế (Đè Bẹp Ai):' : 'Favored Targets (Counters Heroes):'}</span>
+                </div>
+
+                <div className="space-y-2.5">
+                  {(counterMatchups.countersHeroes || []).map((ch, chIdx) => {
+                    const h = getHeroObj(ch.heroId);
+                    return (
+                      <div key={chIdx} className="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-950/70 border border-emerald-900/40">
+                        <div className="relative w-10 h-10 rounded-lg overflow-hidden border border-emerald-500/40 bg-slate-950 flex-shrink-0">
+                          <img 
+                            src={h?.avatar || "avatars/ur_saitama.webp"} 
+                            alt={h ? getLocalized(h.name) : ch.heroId}
+                            className="w-full h-full object-cover"
+                            onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
+                          />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-1.5 flex-wrap">
+                            <span className="font-bold text-xs text-emerald-300">
+                              {h ? getLocalized(h.name) : ch.heroId}
+                            </span>
+                            {h?.rarity && (
+                              <span className="px-1.5 py-0.2 text-[9px] font-black rounded bg-emerald-950 text-emerald-300 border border-emerald-800/40">
+                                {h.rarity}
+                              </span>
+                            )}
+                          </div>
+                          <p className="text-[11px] text-slate-300 leading-relaxed mt-0.5">
+                            {getLocalized(ch.reason)}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+            </div>
+
+            {/* Sub-grid 2: Counter Teams & Favorable Teams */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              
+              {/* Box C: Countered By Teams */}
+              <div className="p-4 rounded-2xl bg-opm-bg/80 border border-rose-500/20 space-y-2">
+                <span className="text-xs font-black text-rose-400 uppercase flex items-center gap-1.5">
+                  🛡️ {language === 'vi' ? 'Đội Hình Khắc Chế (Sợ Đội Hình Nào):' : 'Hard Counter Teams:'}
+                </span>
+                {(counterMatchups.counteredByTeams || []).map((ct, ctIdx) => (
+                  <div key={ctIdx} className="p-3 rounded-xl bg-slate-950/60 border border-rose-950 space-y-1">
+                    <span className="font-bold text-xs text-slate-200 block">{getLocalized(ct.teamName)}</span>
+                    <span className="text-[10px] text-rose-300 font-semibold block">Core: {ct.core}</span>
+                    <p className="text-[11px] text-slate-400">{getLocalized(ct.reason)}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Box D: Counters Teams */}
+              <div className="p-4 rounded-2xl bg-opm-bg/80 border border-emerald-500/20 space-y-2">
+                <span className="text-xs font-black text-emerald-400 uppercase flex items-center gap-1.5">
+                  ⚔️ {language === 'vi' ? 'Đội Hình Bị Đè Bẹp (Đè Bẹp Đội Hình Nào):' : 'Favored Matchup Teams:'}
+                </span>
+                {(counterMatchups.countersTeams || []).map((ct, ctIdx) => (
+                  <div key={ctIdx} className="p-3 rounded-xl bg-slate-950/60 border border-emerald-950 space-y-1">
+                    <span className="font-bold text-xs text-slate-200 block">{getLocalized(ct.teamName)}</span>
+                    <span className="text-[10px] text-emerald-300 font-semibold block">Core: {ct.core}</span>
+                    <p className="text-[11px] text-slate-400">{getLocalized(ct.reason)}</p>
+                  </div>
+                ))}
+              </div>
+
+            </div>
+
+            {/* Survival & Counter-Strategy Pro Tip */}
+            {counterMatchups.survivalProTip && (
+              <div className="p-4 rounded-2xl bg-slate-950/80 border border-amber-500/40 flex items-start gap-3">
+                <Lightbulb className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+                <div className="space-y-1">
+                  <span className="text-xs font-black text-amber-300 uppercase tracking-wide">
+                    {language === 'vi' ? 'Bí Kíp Sinh Tồn & Phá Giải Khắc Chế:' : 'Survival & Counter-Play Strategy:'}
+                  </span>
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    {getLocalized(counterMatchups.survivalProTip)}
+                  </p>
+                </div>
+              </div>
+            )}
+
+          </div>
+
           {/* Core Skill (If applicable) */}
           {character.hasCore && character.skills?.coreSkill && (
             <div className="p-5 rounded-2xl bg-gradient-to-r from-cyan-950/40 via-opm-bg to-cyan-950/20 border border-cyan-500/40 shadow-glow-cyan">
@@ -796,19 +959,6 @@ export const CharacterModal = ({
               </p>
             </div>
           </div>
-
-          {/* Counters */}
-          {character.counters && (
-            <div className="p-4 rounded-2xl bg-rose-950/20 border border-rose-800/40">
-              <h4 className="font-bold text-xs text-rose-400 uppercase tracking-wider mb-1.5 flex items-center gap-2">
-                <AlertTriangle className="w-4 h-4" />
-                <span>{t('common.counters')}</span>
-              </h4>
-              <p className="text-xs text-slate-300 leading-relaxed">
-                {getLocalized(character.counters)}
-              </p>
-            </div>
-          )}
 
         </div>
       </div>

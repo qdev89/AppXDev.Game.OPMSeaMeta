@@ -198,7 +198,110 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Xuyên Bất Khuất]",
+        "[Xóa Sạch Bùa Lợi]",
+        "[Khóa Nộ Năng Lượng]",
+        "[Miễn Nhiễm Mọi Khống Chế]",
+        "[Hồi Sinh 100% Máu]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Ultimate unstoppable damage mechanic. Bypasses 50% DEF and pierces directly through enemy [Unyielding] immortality. Keepsake expands damage to all 6 enemies and seals enemy ultimate energy for 2 turns.",
+        "vi": "Cơ chế sát thương tối thượng độc nhất vô nhị. Khi tung Tuyệt Kỹ, Saitama bỏ qua 50% Phòng thủ và xuyên thẳng qua trạng thái [Bất Khuất] của đối thủ — khiến kẻ địch không thể câu giờ sống sót với 1 HP. Thần Binh nâng cấp đòn đánh lên phạm vi toàn thể 6 tướng và khóa hoàn toàn thanh nộ năng lượng của đối phương trong 2 lượt."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "black_sperm_urplus",
@@ -399,7 +502,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "zombieman_urplus",
@@ -600,7 +805,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Bất Tử Vô Hạn Lần]",
+        "[Siêu Hồi Phục Khi Bạo Kích]",
+        "[Phục Sinh Toàn Đội]",
+        "[Cung Cấp Năng Lượng Bị Động]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Infinite resurrection mechanics. Restores 100% HP upon lethal damage. When any ally receives a Critical Hit, the entire team heals for 20% Max HP.",
+        "vi": "Cơ chế [Bất Tử Phục Sinh] cho phép hồi sinh với 100% Máu sau khi nhận sát thương chí tử (tối đa theo số tầng phục sinh). Nội tại liên kết toàn đội: Bất cứ khi nào đồng minh hoặc bản thân bị dính đòn Bạo Kích, toàn đội lập tức được hồi phục 20% Máu tối đa và tích lũy nộ phản công."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "overgrown_rover_urplus",
@@ -801,7 +1108,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "bang_bomb_urplus",
@@ -1002,7 +1411,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Lõi Tối Thượng Thống Trị]",
+        "[Khiên Kiên Cường +40%]",
+        "[Khuếch Đại Sát Thương Bộc Phát]",
+        "[Nộ Năng Khởi Đầu]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Supreme Core Engine providing +40% Max HP Tenacity shields to all 6 allies at match start and amplifying burst damage by +30% for 2 rounds.",
+        "vi": "Cơ chế Lõi Thế Hệ Mới (Bomb Core) cung cấp cho toàn bộ 6 vị tướng lớp khiên Kiên Cường bằng 40% Máu tối đa ngay khi vào trận, đồng thời tăng 30% sát thương bộc phát trong 2 hiệp đầu tiên. Đây là nền tảng của mọi đội hình leo Top 1 Live Arena."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "g5_urplus",
@@ -1203,7 +1714,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "atomic_samurai_urplus",
@@ -1404,7 +2017,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "nyan_urplus",
@@ -1605,7 +2320,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "tatsumaki_terrible_tornado_urplus",
@@ -1806,7 +2623,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Trường Lực Forcefield]",
+        "[Vỡ Giáp Diện Rộng]",
+        "[Bão Bạo Kích Hàng Sau]",
+        "[Khuếch Đại Sát Thương Siêu Năng]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Forcefield deployment mechanic coats all 6 enemy units. Each time an enemy takes their turn, the Forcefield detonates dealing massive passive damage equal to 160% ATK.",
+        "vi": "Cơ chế [Trường Lực Forcefield] phủ lên toàn thể 6 vị trí của kẻ địch. Mỗi khi một tướng địch đến lượt hành động, Trường Lực sẽ phát nổ gây sát thương gián tiếp cực đại bằng 160% Công của Tatsumaki mà không tốn thêm bất kỳ điểm năng lượng nào."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "amai_mask_urplus",
@@ -2007,7 +2926,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "boros_urplus",
@@ -2208,7 +3229,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "genos_urplus",
@@ -2409,7 +3532,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "gyoro_gyoro_ur",
@@ -2610,7 +3835,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "metal_bat_v2_ur",
@@ -2811,7 +4138,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "sonic_v2_ur",
@@ -3012,7 +4441,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "garou_ur",
@@ -3213,7 +4744,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "pig_god_ur",
@@ -3414,7 +5047,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "carnage_kabuto_ur",
@@ -3615,7 +5350,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "subterranean_king_ur",
@@ -3816,7 +5653,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Khóa Nộ Lượt 1]",
+        "[Cướp Năng Lượng Nộ]",
+        "[Hồi Máu Theo Lượt]",
+        "[Hoảng Loạn Đối Phương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Turn-1 Energy Denial mechanic drains 2-4 energy points from the enemy, completely preventing enemy hyper carries from casting ultimate skills on turn 1.",
+        "vi": "Cơ chế [Phong Tỏa Năng Lượng] làm cạn kiệt thanh nộ của đối phương ngay từ lượt 1. Khóa từ 2 đến 4 điểm nộ khiến đội hình đối thủ không thể tung bất kỳ Tuyệt Kỹ nào trong vòng đầu tiên, hoàn toàn vô hiệu hóa chiến thuật sốc sát thương của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "drive_knight_ur",
@@ -4017,7 +5956,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "hellish_blizzard_ur",
@@ -4218,7 +6259,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "deep_sea_king_ur",
@@ -4419,7 +6562,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Khóa Nộ Lượt 1]",
+        "[Cướp Năng Lượng Nộ]",
+        "[Hồi Máu Theo Lượt]",
+        "[Hoảng Loạn Đối Phương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Turn-1 Energy Denial mechanic drains 2-4 energy points from the enemy, completely preventing enemy hyper carries from casting ultimate skills on turn 1.",
+        "vi": "Cơ chế [Phong Tỏa Năng Lượng] làm cạn kiệt thanh nộ của đối phương ngay từ lượt 1. Khóa từ 2 đến 4 điểm nộ khiến đội hình đối thủ không thể tung bất kỳ Tuyệt Kỹ nào trong vòng đầu tiên, hoàn toàn vô hiệu hóa chiến thuật sốc sát thương của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "child_emperor_ur",
@@ -4620,7 +6865,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "mosquito_girl_ur",
@@ -4821,7 +7168,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "flashy_flash_ur",
@@ -5022,7 +7471,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "gouketsu_ur",
@@ -5223,7 +7774,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "hellfire_flame_ur",
@@ -5424,7 +8077,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "melzargard_ur",
@@ -5625,7 +8380,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "gale_wind_ur",
@@ -5826,7 +8683,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "king_ur",
@@ -6027,7 +8986,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Khóa Nộ Lượt 1]",
+        "[Cướp Năng Lượng Nộ]",
+        "[Hồi Máu Theo Lượt]",
+        "[Hoảng Loạn Đối Phương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Turn-1 Energy Denial mechanic drains 2-4 energy points from the enemy, completely preventing enemy hyper carries from casting ultimate skills on turn 1.",
+        "vi": "Cơ chế [Phong Tỏa Năng Lượng] làm cạn kiệt thanh nộ của đối phương ngay từ lượt 1. Khóa từ 2 đến 4 điểm nộ khiến đội hình đối thủ không thể tung bất kỳ Tuyệt Kỹ nào trong vòng đầu tiên, hoàn toàn vô hiệu hóa chiến thuật sốc sát thương của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "bom_bengpu_ur",
@@ -6228,7 +9289,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Lõi Tối Thượng Thống Trị]",
+        "[Khiên Kiên Cường +40%]",
+        "[Khuếch Đại Sát Thương Bộc Phát]",
+        "[Nộ Năng Khởi Đầu]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Supreme Core Engine providing +40% Max HP Tenacity shields to all 6 allies at match start and amplifying burst damage by +30% for 2 rounds.",
+        "vi": "Cơ chế Lõi Thế Hệ Mới (Bomb Core) cung cấp cho toàn bộ 6 vị tướng lớp khiên Kiên Cường bằng 40% Máu tối đa ngay khi vào trận, đồng thời tăng 30% sát thương bộc phát trong 2 hiệp đầu tiên. Đây là nền tảng của mọi đội hình leo Top 1 Live Arena."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "metal_bat_ur",
@@ -6429,7 +9592,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "suiryu_ur",
@@ -6630,7 +9895,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "g4_ur",
@@ -6831,7 +10198,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "sonic_v1_ur",
@@ -7032,7 +10501,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "BẮT BUỘC PHẢI CÓ (Ưu tiên SSS)",
+            "en": "MUST-HAVE (SSS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "superalloy_darkshine_ssrplus",
@@ -7233,7 +10804,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "metal_knight_ssrplus",
@@ -7434,7 +11107,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "puri_puri_prisoner_ssrplus",
@@ -7635,7 +11410,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "groribas_ssrplus",
@@ -7836,7 +11713,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "watchdog_man_ssrplus",
@@ -8037,7 +12016,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "tank_top_master_ssrplus",
@@ -8238,7 +12319,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "phoenix_man_ssrplus",
@@ -8439,7 +12622,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "bang_ssrplus",
@@ -8640,7 +12925,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "geryuganshoop_ssrplus",
@@ -8841,7 +13228,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "monsterized_bakuzan_ssrplus",
@@ -9042,7 +13531,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "RẤT ĐÁNG ĐẦU TƯ (Ưu tiên SS)",
+            "en": "HIGH VALUE (SS Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "choze_ssr",
@@ -9243,7 +13834,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "eyesight_ssr",
@@ -9444,7 +14137,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "speed_o_sound_sonic_v1_ssr",
@@ -9645,7 +14440,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "speed_o_sound_sonic_v2_ssr",
@@ -9846,7 +14743,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "tatsumaki_terrible_tornado_v1_ssr",
@@ -10047,7 +15046,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Trường Lực Forcefield]",
+        "[Vỡ Giáp Diện Rộng]",
+        "[Bão Bạo Kích Hàng Sau]",
+        "[Khuếch Đại Sát Thương Siêu Năng]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Forcefield deployment mechanic coats all 6 enemy units. Each time an enemy takes their turn, the Forcefield detonates dealing massive passive damage equal to 160% ATK.",
+        "vi": "Cơ chế [Trường Lực Forcefield] phủ lên toàn thể 6 vị trí của kẻ địch. Mỗi khi một tướng địch đến lượt hành động, Trường Lực sẽ phát nổ gây sát thương gián tiếp cực đại bằng 160% Công của Tatsumaki mà không tốn thêm bất kỳ điểm năng lượng nào."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "tatsumaki_terrible_tornado_v2_ssr",
@@ -10248,7 +15349,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Trường Lực Forcefield]",
+        "[Vỡ Giáp Diện Rộng]",
+        "[Bão Bạo Kích Hàng Sau]",
+        "[Khuếch Đại Sát Thương Siêu Năng]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Forcefield deployment mechanic coats all 6 enemy units. Each time an enemy takes their turn, the Forcefield detonates dealing massive passive damage equal to 160% ATK.",
+        "vi": "Cơ chế [Trường Lực Forcefield] phủ lên toàn thể 6 vị trí của kẻ địch. Mỗi khi một tướng địch đến lượt hành động, Trường Lực sẽ phát nổ gây sát thương gián tiếp cực đại bằng 160% Công của Tatsumaki mà không tốn thêm bất kỳ điểm năng lượng nào."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "vaccine_man_v1_ssr",
@@ -10449,7 +15652,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "vaccine_man_v2_ssr",
@@ -10650,7 +15955,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "armored_gorilla_sr",
@@ -10851,7 +16258,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "awakened_cockroach_sr",
@@ -11052,7 +16561,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "bakuzan_sr",
@@ -11253,7 +16864,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "beast_king_sr",
@@ -11454,7 +17167,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Khóa Nộ Lượt 1]",
+        "[Cướp Năng Lượng Nộ]",
+        "[Hồi Máu Theo Lượt]",
+        "[Hoảng Loạn Đối Phương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Turn-1 Energy Denial mechanic drains 2-4 energy points from the enemy, completely preventing enemy hyper carries from casting ultimate skills on turn 1.",
+        "vi": "Cơ chế [Phong Tỏa Năng Lượng] làm cạn kiệt thanh nộ của đối phương ngay từ lượt 1. Khóa từ 2 đến 4 điểm nộ khiến đội hình đối thủ không thể tung bất kỳ Tuyệt Kỹ nào trong vòng đầu tiên, hoàn toàn vô hiệu hóa chiến thuật sốc sát thương của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "blue_fire_sr",
@@ -11655,7 +17470,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "bushidoriru_sr",
@@ -11856,7 +17773,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "butterfly_dx_sr",
@@ -12057,7 +18076,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "death_gatling_sr",
@@ -12258,7 +18379,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "doctor_genus_sr",
@@ -12459,7 +18682,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "face_ripper_sr",
@@ -12660,7 +18985,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "fist_fight_djinn_sr",
@@ -12861,7 +19288,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "fukegao_sr",
@@ -13062,7 +19591,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "golden_ball_sr",
@@ -13263,7 +19894,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Vỡ Giáp Diện Rộng]",
+        "[Tăng +30% Sát Thương Nhận Vào]",
+        "[Bắn Nhanh Lượt Đầu]",
+        "[Kích Hoạt Truy Kích]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Teamwide Shatter mechanic debuffs the entire enemy team, increasing all incoming damage taken by +30% for subsequent ally attacks.",
+        "vi": "Cơ chế [Vỡ Giáp Toàn Sân] (Shatter). Tuyệt Kỹ bắn bi kim loại gieo hiệu ứng Vỡ Giáp lên toàn bộ hàng sau hoặc toàn thể quân địch, khiến đối thủ nhận thêm +30% sát thương từ mọi nguồn tấn công tiếp theo của đồng đội."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "hammerhead_sr",
@@ -13464,7 +20197,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "hamukichi_sr",
@@ -13665,7 +20500,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "heavy_tank_loincloth_sr",
@@ -13866,7 +20803,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "iairon_sr",
@@ -14067,7 +21106,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "konbu_infinity_sr",
@@ -14268,7 +21409,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Diện Rộng (AoE)]",
+        "[Hiệu Ứng Bất Lợi]",
+        "[Trường Lực & Ăn Mòn]",
+        "[Khống Chế Tinh Thần]"
+      ],
+      "mechanicsExplanation": {
+        "en": "AoE damage and crowd control mechanics impacting multiple targets with debuffs and sustained damage over time.",
+        "vi": "Cơ chế sát thương diện rộng và gieo hiệu ứng bất lợi toàn sân. Tác động lên nhiều mục tiêu cùng lúc, làm suy yếu chỉ số và bào mòn sinh lực của toàn bộ đội hình địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "lightning_genji_sr",
@@ -14469,7 +21712,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "lightning_max_sr",
@@ -14670,7 +22015,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Hỗ Trợ Chiến Thuật]",
+        "[Khống Chế & Tăng Tốc]",
+        "[Cung Cấp Năng Lượng]",
+        "[Buff Chỉ Số Toàn Đội]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Tactical support and tempo regulation mechanics boosting team speed, energy regeneration, and disrupting enemy rotations.",
+        "vi": "Cơ chế hỗ trợ công nghệ và điều tiết nhịp độ trận đấu. Tăng tốc độ hành động, hồi phục nộ năng lượng hoặc gieo các hiệu ứng khống chế làm gián đoạn chuỗi combo của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "magicman_sr",
@@ -14871,7 +22318,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "messenger_of_the_seafolk_sr",
@@ -15072,7 +22621,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "rinrin_sr",
@@ -15273,7 +22924,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "sky_king_sr",
@@ -15474,7 +23227,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Khóa Nộ Lượt 1]",
+        "[Cướp Năng Lượng Nộ]",
+        "[Hồi Máu Theo Lượt]",
+        "[Hoảng Loạn Đối Phương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Turn-1 Energy Denial mechanic drains 2-4 energy points from the enemy, completely preventing enemy hyper carries from casting ultimate skills on turn 1.",
+        "vi": "Cơ chế [Phong Tỏa Năng Lượng] làm cạn kiệt thanh nộ của đối phương ngay từ lượt 1. Khóa từ 2 đến 4 điểm nộ khiến đội hình đối thủ không thể tung bất kỳ Tuyệt Kỹ nào trong vòng đầu tiên, hoàn toàn vô hiệu hóa chiến thuật sốc sát thương của địch."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "smile_man_sr",
@@ -15675,7 +23530,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "snek_sr",
@@ -15876,7 +23833,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "spring_mustachio_sr",
@@ -16077,7 +24136,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "stinger_sr",
@@ -16278,7 +24439,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "subterranean_sr",
@@ -16479,7 +24742,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "tank_top_vegan_sr",
@@ -16680,7 +25045,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "bunbun_man_r",
@@ -16881,7 +25348,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "crablante_r",
@@ -17082,7 +25651,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "d_pad_r",
@@ -17283,7 +25954,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "dark_matter_thief_r",
@@ -17484,7 +26257,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "eyelashes_r",
@@ -17685,7 +26560,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "funeral_suspenders_r",
@@ -17886,7 +26863,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "ground_dragon_r",
@@ -18087,7 +27166,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "jet_niceguy_r",
@@ -18288,7 +27469,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "kamakyuri_r",
@@ -18489,7 +27772,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "maiko_plasma_r",
@@ -18690,7 +28075,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "mumen_rider_r",
@@ -18891,7 +28378,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "sourface_r",
@@ -19092,7 +28681,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "tank_top_blackhole_r",
@@ -19293,7 +28984,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "tank_top_tiger_r",
@@ -19494,7 +29287,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "triple_staff_lilly_r",
@@ -19695,7 +29590,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "wild_monkey_r",
@@ -19896,7 +29893,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "yo649z_mk_ii_r",
@@ -20097,7 +30196,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "allback_man_ssr",
@@ -20298,7 +30499,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "charanko_ssr",
@@ -20499,7 +30802,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "clone_ssr",
@@ -20700,7 +31105,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "deep_sea_destroyer_ssr",
@@ -20901,7 +31408,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "deep_sea_invader_ssr",
@@ -21102,7 +31711,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "deep_sea_ravager_ssr",
@@ -21303,7 +32014,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "don_pacino_ssr",
@@ -21504,7 +32317,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "frog_man_ssr",
@@ -21705,7 +32620,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "men_x27_s_esthetician_man_ssr",
@@ -21906,7 +32923,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "paradiser_footsoldier_ssr",
@@ -22107,7 +33226,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "paradiser_thug_ssr",
@@ -22308,7 +33529,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "paradiser_trooper_ssr",
@@ -22509,7 +33832,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "skyfolk_raider_ssr",
@@ -22710,7 +34135,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "skyfolk_rogue_ssr",
@@ -22911,7 +34438,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "skyfolk_striker_ssr",
@@ -23112,7 +34741,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "slugrus_ssr",
@@ -23313,7 +35044,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Chống Chịu Hàng Trước]",
+        "[Khiên Kiên Cường]",
+        "[Phản Đòn Cận Chiến]",
+        "[Hút Sát Thương]"
+      ],
+      "mechanicsExplanation": {
+        "en": "Frontline vanguard tank mechanics utilizing high HP and Block Rate to soak direct enemy burst and protect backline allies.",
+        "vi": "Cơ chế phòng thủ và bảo hộ hàng trước. Tận dụng chỉ số Máu và Đỡ Đòn vượt trội để hấp thụ sát thương trực tiếp từ đối thủ, chuyển hóa phòng ngự thành khiên bảo vệ cho hàng sau."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "subterranean_brute_ssr",
@@ -23514,7 +35347,109 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   },
   {
     "id": "subterranean_champion_ssr",
@@ -23715,6 +35650,108 @@ export const defaultCharacters = [
           "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
         }
       }
-    ]
+    ],
+    "mechanics": {
+      "coreTags": [
+        "[Sát Thương Bộc Phát]",
+        "[Xuyên Giáp Đơn Mục Tiêu]",
+        "[Bạo Kích Cao]",
+        "[Kết Liễu Chủ Lực]"
+      ],
+      "mechanicsExplanation": {
+        "en": "High-speed single-target burst mechanics designed to punch through enemy frontline defenses and eliminate key threats.",
+        "vi": "Cơ chế sốc sát thương tốc độ cao. Dồn toàn bộ chỉ số Công và Bạo Kích để xuyên phá hàng phòng ngự và kết liễu mục tiêu trọng yếu của đối phương trong 1 lượt đánh."
+      },
+      "skillAnalysis": {
+        "normal": {
+          "tacticalUse": {
+            "vi": "Sử dụng khi cần tiết kiệm 2 điểm nộ năng lượng cho Carry chính ở hàng sau, hoặc khi mục tiêu đã dính Vỡ Giáp/Tổn Thương để bồi thêm sát thương.",
+            "en": "Use to conserve 2 energy points for your main carry in the backline, or to finish off low-HP shattered targets."
+          },
+          "mechanicDetails": {
+            "vi": "Gây sát thương vật lý trực tiếp dựa trên chỉ số Công cơ bản. Tích lũy nộ bị động cho lượt kế tiếp.",
+            "en": "Deals direct damage scaling with base ATK stat while building passive energy for subsequent turns."
+          }
+        },
+        "ultimate": {
+          "tacticalUse": {
+            "vi": "Kỹ năng sát thương chủ lực dồn nộ. Luôn xả nộ ở lượt 1 hoặc lượt 2 ngay sau khi đồng đội đã gieo hiệu ứng Vỡ Giáp hoặc buff Công toàn đội.",
+            "en": "Primary burst execution skill. Cast immediately on turn 1 or 2 after allies have applied Shatter or ATK buffs."
+          },
+          "mechanicDetails": {
+            "vi": "Hệ số sát thương cực đại, kích hoạt các hiệu ứng đặc quyền (Xuyên giáp, Gieo Trường Lực, Gây Nội Thương hoặc Khóa Nộ).",
+            "en": "High-multiplier damage output triggering unique class mechanics (Armor Pierce, Forcefield, Internal Injury, or Energy Seal)."
+          }
+        },
+        "ultraUltimate": {
+          "tacticalUse": {
+            "vi": "Mở khóa khi trang bị Thần Binh độc quyền. Nâng cấp vượt bậc về sát thương, mở rộng phạm vi đánh và bổ sung hiệu ứng khống chế tuyệt đối.",
+            "en": "Unlocked via exclusive Keepsake Weapon. Drastically boosts damage multipliers, expands target range, and adds guaranteed control."
+          },
+          "keepsakePriority": {
+            "vi": "TÙY CHỌN / TIẾT KIỆM (Ưu tiên S/A)",
+            "en": "SITUATIONAL / OPTIONAL (S/A Priority)"
+          }
+        },
+        "passive": {
+          "tacticalUse": {
+            "vi": "Kỹ năng nội tại hoạt động tự động trong suốt trận đấu. Cung cấp khiên bảo vệ, miễn khống chế, hoặc phản đòn truy kích khi đạt điều kiện.",
+            "en": "Passive ability active throughout the entire match. Provides survivability shields, control immunity, or counter-attacks."
+          },
+          "mechanicDetails": {
+            "vi": "Đột phá lên 5 sao giúp nâng cấp chỉ số nội tại lên mức tối đa và kích hoạt các hiệu ứng phụ trợ toàn đội.",
+            "en": "5-Star breakthrough maximizes passive scaling and unlocks teamwide supportive perks."
+          }
+        }
+      },
+      "skillPriority": {
+        "order": {
+          "vi": "Tuyệt Kỹ (Ultimate) > Nội Tại (Passive) > Thức Tỉnh (Awakening) > Đòn Thường (Normal)",
+          "en": "Ultimate Skill > Passive Talent > Awakening Stages > Normal Attack"
+        },
+        "powerSpikes": [
+          {
+            "stage": {
+              "vi": "⭐ 3 Sao Cơ Bản",
+              "en": "⭐ 3-Star Baseline"
+            },
+            "effect": {
+              "vi": "Mở khóa toàn bộ chỉ số cơ bản và đủ điều kiện tham gia phó bản viễn chinh.",
+              "en": "Unlocks baseline stats and qualifies for expedition trials."
+            }
+          },
+          {
+            "stage": {
+              "vi": "⭐⭐⭐⭐⭐ 5 Sao Đột Phá",
+              "en": "⭐⭐⭐⭐⭐ 5-Star Breakthrough"
+            },
+            "effect": {
+              "vi": "Nâng cấp Nội Tại Bị Động lên cấp tối đa, mở khóa khả năng sinh tồn và hỗ trợ toàn diện.",
+              "en": "Maximizes Passive talent scaling and unlocks full survivability."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🗡️ Thần Binh 3 Sao (Keepsake)",
+              "en": "🗡️ 3-Star Keepsake Weapon"
+            },
+            "effect": {
+              "vi": "Kích hoạt Siêu Tuyệt Kỹ Tối Thượng — Biến đổi hoàn toàn sức mạnh và cơ chế xả sát thương.",
+              "en": "Unlocks Ultra Ultimate — fundamentally evolves combat burst and mechanics."
+            }
+          },
+          {
+            "stage": {
+              "vi": "🔥 Thức Tỉnh Sao Đỏ Giai Đoạn 2",
+              "en": "🔥 Red Star Awakening Stage 2"
+            },
+            "effect": {
+              "vi": "Tăng 35% Sát thương Trực tiếp và tạo khiên Kiên Cường 50% Máu toàn đội.",
+              "en": "Grants +35% Direct DMG boost and 50% Max HP Tenacity shields to all allies."
+            }
+          }
+        ]
+      }
+    }
   }
 ];

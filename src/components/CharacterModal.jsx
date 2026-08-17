@@ -27,7 +27,12 @@ import {
   Compass,
   Lightbulb,
   CheckCircle2,
-  HelpCircle
+  HelpCircle,
+  Activity,
+  BookmarkCheck,
+  CheckSquare,
+  ShieldAlert,
+  Star
 } from 'lucide-react';
 
 export const CharacterModal = ({ 
@@ -118,6 +123,45 @@ export const CharacterModal = ({
     statPriority: { en: ["ATK%", "HP%", "SPD", "Crit Rate%"], vi: ["Công %", "Máu %", "Tốc Độ", "Tỉ Lệ Bạo %"] },
     comboTips: { en: "Coordinate with Core skills and apply debuffs before executing burst damage.", vi: "Kết hợp kích hoạt kỹ năng Lõi và dồn sát thương khi địch bị suy yếu." },
     proTips: { en: "Equip matching gear sets to maximize synergy effects.", vi: "Lắp đủ 4 món trang bị kích hoạt dòng ẩn để phát huy uy lực." }
+  };
+
+  const mechanics = character.mechanics || {
+    coreTags: ['[Sát Thương Vật Lý]', '[Tích Nộ Cơ Bản]'],
+    mechanicsExplanation: {
+      vi: 'Cơ chế chiến đấu tiêu chuẩn dựa trên tương quan công thủ và kích hoạt nộ năng lượng.',
+      en: 'Standard combat mechanics based on ATK/DEF scaling and energy generation.'
+    },
+    skillAnalysis: {
+      normal: {
+        tacticalUse: { vi: 'Sử dụng để tích nộ và nhường điểm nộ cho Carry.', en: 'Use to conserve energy and generate turns.' }
+      },
+      ultimate: {
+        tacticalUse: { vi: 'Xả nộ dồn sát thương chính của nhân vật.', en: 'Primary burst skill execution.' }
+      },
+      ultraUltimate: {
+        tacticalUse: { vi: 'Nâng cấp chỉ số và phạm vi kỹ năng.', en: 'Enhanced scaling and range.' },
+        keepsakePriority: { vi: 'TÙY CHỌN / TIẾT KIỆM', en: 'OPTIONAL' }
+      },
+      passive: {
+        tacticalUse: { vi: 'Duy trì hiệu ứng bị động suốt trận đấu.', en: 'Permanent passive combat perks.' }
+      }
+    },
+    skillPriority: {
+      order: {
+        vi: 'Tuyệt Kỹ > Nội Tại > Thức Tỉnh > Đòn Thường',
+        en: 'Ultimate > Passive > Awakening > Normal Attack'
+      },
+      powerSpikes: [
+        {
+          stage: { vi: '⭐ 3 Sao Cơ Bản', en: '⭐ 3-Star Baseline' },
+          effect: { vi: 'Mở khóa toàn bộ chỉ số cơ bản.', en: 'Unlocks base stat pool.' }
+        },
+        {
+          stage: { vi: '⭐⭐⭐⭐⭐ 5 Sao Đột Phá', en: '⭐⭐⭐⭐⭐ 5-Star Breakthrough' },
+          effect: { vi: 'Tối đa hóa hiệu ứng Nội Tại Bị Động.', en: 'Maximizes Passive scaling.' }
+        }
+      ]
+    }
   };
 
   return (
@@ -226,7 +270,7 @@ export const CharacterModal = ({
                 <Target className="w-5 h-5 text-cyan-400" />
                 <div>
                   <h3 className="font-display font-black text-base sm:text-lg text-slate-100 uppercase tracking-wide">
-                    {language === 'vi' ? 'Hướng Dẫn Cách Chơi & Vận Hành Trận Đấu' : 'Comprehensive Gameplay & Tactical Playstyle'}
+                    {language === 'vi' ? '1. Hướng Dẫn Cách Chơi & Vận Hành Trận Đấu' : '1. Comprehensive Gameplay & Tactical Playstyle'}
                   </h3>
                   <p className="text-xs text-slate-400">
                     {language === 'vi' ? 'Vai trò chiến thuật, vị trí đứng, thứ tự tốc độ và chuỗi combo kỹ năng.' : 'Tactical role, grid positioning, turn speed sequencing, and skill combos.'}
@@ -314,14 +358,223 @@ export const CharacterModal = ({
             </div>
           </div>
 
-          {/* SECTION 2: RECOMMENDED META TEAMS (ĐỘI HÌNH ĐỀ XUẤT) */}
+          {/* SECTION 2: EXCLUSIVE COMBAT MECHANICS (GIẢI THÍCH CƠ CHẾ CHIẾN ĐẤU CỐT LÕI) */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-opm-card to-purple-950/30 border border-purple-500/40 shadow-xl space-y-4">
+            <div className="flex items-center justify-between gap-2 border-b border-opm-border/80 pb-3">
+              <div className="flex items-center gap-2">
+                <Activity className="w-5 h-5 text-purple-400" />
+                <div>
+                  <h3 className="font-display font-black text-base sm:text-lg text-slate-100 uppercase tracking-wide">
+                    {language === 'vi' ? '2. Cơ Chế Chiến Đấu Độc Quyền (Combat Mechanics)' : '2. Exclusive Combat Mechanics & Identity'}
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    {language === 'vi' ? 'Bản chất cơ chế tương tác trong trận, khả năng xuyên giáp/khiên và đối kháng meta.' : 'Fundamental damage interaction, shield piercing mechanisms, and meta matchup dynamics.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Key Mechanics Badges */}
+            <div className="flex flex-wrap gap-2">
+              {(mechanics.coreTags || []).map((tag, tIdx) => (
+                <span 
+                  key={tIdx} 
+                  className="px-3 py-1 rounded-xl bg-purple-950/70 text-purple-300 border border-purple-500/50 text-xs font-black tracking-wide uppercase shadow-sm"
+                >
+                  ⚡ {tag}
+                </span>
+              ))}
+            </div>
+
+            {/* In-depth Mechanics Explanation Card */}
+            <div className="p-4 rounded-2xl bg-slate-950/80 border border-purple-500/30 text-xs text-slate-200 leading-relaxed space-y-2">
+              <div className="flex items-center gap-2 text-purple-300 font-bold uppercase text-[11px]">
+                <BookmarkCheck className="w-4 h-4 text-purple-400" />
+                <span>{language === 'vi' ? 'Phân Tích Cơ Chế Hoạt Động Trong Game:' : 'In-Game Mechanics Breakdown:'}</span>
+              </div>
+              <p className="text-slate-300 text-xs leading-relaxed">
+                {getLocalized(mechanics.mechanicsExplanation)}
+              </p>
+            </div>
+          </div>
+
+          {/* SECTION 3: IN-DEPTH SKILLS BREAKDOWN & TACTICAL ANALYSIS (PHÂN TÍCH KỸ NĂNG & MẸO THỰC CHIẾN) */}
+          <div>
+            <div className="flex items-center gap-2 mb-3">
+              <Swords className="w-5 h-5 text-opm-red" />
+              <div>
+                <h3 className="font-display font-black text-sm sm:text-base text-slate-200 uppercase tracking-wider">
+                  {language === 'vi' ? '3. Chi Tiết Kỹ Năng & Phân Tích Thực Chiến' : '3. Deep Skill Breakdown & Combat Notes'}
+                </h3>
+                <p className="text-[11px] text-slate-400">
+                  {language === 'vi' ? 'Hệ số sát thương, hiệu ứng phụ và hướng dẫn sử dụng từng kỹ năng.' : 'Damage multipliers, side-effects, and combat usage instructions.'}
+                </p>
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              
+              {/* Normal Attack */}
+              {character.skills?.normal && (
+                <div className="p-4 rounded-2xl bg-opm-bg/80 border border-opm-border space-y-2.5">
+                  <div className="flex items-center justify-between gap-2 border-b border-slate-800 pb-2">
+                    <span className="px-2 py-0.5 text-[10px] font-black rounded bg-slate-800 text-slate-300 uppercase">
+                      {t('skills.normal')}
+                    </span>
+                    <span className="font-bold text-xs text-amber-300">
+                      {getLocalized(character.skills.normal.name)}
+                    </span>
+                  </div>
+                  
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    {getLocalized(character.skills.normal.desc)}
+                  </p>
+
+                  <div className="p-2.5 rounded-xl bg-slate-950/60 border border-slate-800 text-[11px] text-slate-300 space-y-1">
+                    <span className="font-bold text-amber-400 flex items-center gap-1">
+                      💡 {language === 'vi' ? 'Mẹo Thực Chiến:' : 'Combat Note:'}
+                    </span>
+                    <p className="text-slate-400">
+                      {getLocalized(mechanics.skillAnalysis?.normal?.tacticalUse) || (language === 'vi' ? 'Dùng khi cần tiết kiệm nộ cho chủ lực.' : 'Conserves energy for main carry.')}
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {/* Ultimate Skill */}
+              {character.skills?.ultimate && (
+                <div className="p-4 rounded-2xl bg-opm-bg/80 border border-amber-500/40 shadow-sm space-y-2.5">
+                  <div className="flex items-center justify-between gap-2 border-b border-amber-500/20 pb-2">
+                    <span className="px-2 py-0.5 text-[10px] font-black rounded bg-amber-950 text-amber-300 border border-amber-500/40 uppercase">
+                      {t('skills.ultimate')}
+                    </span>
+                    <span className="font-bold text-xs text-amber-300">
+                      {getLocalized(character.skills.ultimate.name)}
+                    </span>
+                  </div>
+                  
+                  <p className="text-xs text-slate-200 leading-relaxed">
+                    {getLocalized(character.skills.ultimate.desc)}
+                  </p>
+
+                  <div className="p-2.5 rounded-xl bg-amber-950/30 border border-amber-500/30 text-[11px] text-slate-300 space-y-1">
+                    <span className="font-bold text-amber-300 flex items-center gap-1">
+                      ⚔️ {language === 'vi' ? 'Thời Điểm Xả Nộ:' : 'Burst Execution:'}
+                    </span>
+                    <p className="text-slate-300">
+                      {getLocalized(mechanics.skillAnalysis?.ultimate?.tacticalUse) || (language === 'vi' ? 'Kích hoạt dồn sát thương sốc nổ sau khi địch bị Vỡ Giáp.' : 'Cast burst after enemy is shattered.')}
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {/* Keepsake / Ultra Ultimate */}
+              {character.skills?.ultraUltimate && (
+                <div className="p-4 rounded-2xl bg-gradient-to-br from-rose-950/40 via-opm-bg to-rose-950/20 border border-rose-500/50 shadow-md space-y-2.5">
+                  <div className="flex items-center justify-between gap-2 border-b border-rose-500/30 pb-2">
+                    <span className="px-2 py-0.5 text-[10px] font-black rounded bg-rose-900 text-rose-200 border border-rose-400/40 flex items-center gap-1 uppercase">
+                      <Sparkles className="w-3 h-3 text-rose-300" />
+                      {t('skills.ultraUltimate')}
+                    </span>
+                    <span className="font-bold text-xs text-rose-300">
+                      {getLocalized(character.skills.ultraUltimate.name)}
+                    </span>
+                  </div>
+                  
+                  <p className="text-xs text-slate-200 leading-relaxed">
+                    {getLocalized(character.skills.ultraUltimate.desc)}
+                  </p>
+
+                  <div className="p-2.5 rounded-xl bg-rose-950/50 border border-rose-500/40 text-[11px] text-slate-200 space-y-1">
+                    <div className="flex items-center justify-between">
+                      <span className="font-black text-rose-300 flex items-center gap-1">
+                        💎 {language === 'vi' ? 'Đánh Giá Thần Binh:' : 'Keepsake Value:'}
+                      </span>
+                      <span className="font-black text-[10px] text-amber-300 bg-black/40 px-2 py-0.5 rounded border border-rose-500/30">
+                        {getLocalized(mechanics.skillAnalysis?.ultraUltimate?.keepsakePriority)}
+                      </span>
+                    </div>
+                    <p className="text-slate-300">
+                      {getLocalized(mechanics.skillAnalysis?.ultraUltimate?.tacticalUse)}
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {/* Passive Talent */}
+              {character.skills?.passive && (
+                <div className="p-4 rounded-2xl bg-opm-bg/80 border border-purple-500/40 space-y-2.5">
+                  <div className="flex items-center justify-between gap-2 border-b border-purple-500/20 pb-2">
+                    <span className="px-2 py-0.5 text-[10px] font-black rounded bg-purple-950 text-purple-300 border border-purple-500/40 uppercase">
+                      {t('skills.passive')}
+                    </span>
+                    <span className="font-bold text-xs text-purple-300">
+                      {getLocalized(character.skills.passive.name)}
+                    </span>
+                  </div>
+                  
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    {getLocalized(character.skills.passive.desc)}
+                  </p>
+
+                  <div className="p-2.5 rounded-xl bg-purple-950/40 border border-purple-500/30 text-[11px] text-slate-300 space-y-1">
+                    <span className="font-bold text-purple-300 flex items-center gap-1">
+                      🛡️ {language === 'vi' ? 'Cơ Chế Kích Hoạt:' : 'Trigger Mechanic:'}
+                    </span>
+                    <p className="text-slate-400">
+                      {getLocalized(mechanics.skillAnalysis?.passive?.tacticalUse)}
+                    </p>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* SECTION 4: SKILL LEVELING PRIORITY & POWER SPIKE ROADMAP (THỨ TỰ NÂNG CẤP & MỐC ĐỘT PHÁ) */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-opm-card to-emerald-950/20 border border-emerald-500/40 shadow-xl space-y-4">
+            <div className="flex items-center justify-between gap-2 border-b border-opm-border/80 pb-3">
+              <div className="flex items-center gap-2">
+                <Star className="w-5 h-5 text-emerald-400" />
+                <div>
+                  <h3 className="font-display font-black text-base sm:text-lg text-slate-100 uppercase tracking-wide">
+                    {language === 'vi' ? '4. Thứ Tự Nâng Cấp & Mốc Đột Phá Sức Mạnh' : '4. Skill Leveling Priority & Power Spikes'}
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    {language === 'vi' ? 'Lộ trình dồn tài nguyên và các mốc sao mở khóa ngưỡng sức mạnh quan trọng.' : 'Resource allocation sequence and crucial milestone power spikes.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Priority Sequence Banner */}
+            <div className="p-3.5 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 flex items-center gap-2 text-xs text-emerald-200">
+              <span className="font-black text-amber-400 shrink-0">⭐ {language === 'vi' ? 'Thứ Tự Ưu Tiên:' : 'Skill Priority:'}</span>
+              <span className="font-bold">{getLocalized(mechanics.skillPriority?.order)}</span>
+            </div>
+
+            {/* Power Spikes Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {(mechanics.skillPriority?.powerSpikes || []).map((spike, spIdx) => (
+                <div key={spIdx} className="p-3 rounded-xl bg-slate-950/60 border border-emerald-500/20 space-y-1">
+                  <span className="font-black text-xs text-emerald-300 block">
+                    {getLocalized(spike.stage)}
+                  </span>
+                  <p className="text-[11px] text-slate-300 leading-relaxed">
+                    {getLocalized(spike.effect)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* SECTION 5: RECOMMENDED META TEAMS (ĐỘI HÌNH ĐỀ XUẤT) */}
           <div className="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-opm-card to-amber-950/20 border border-amber-500/40 shadow-xl space-y-4">
             <div className="flex items-center justify-between gap-2 border-b border-opm-border/80 pb-3">
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-opm-yellow" />
                 <div>
                   <h3 className="font-display font-black text-base sm:text-lg text-slate-100 uppercase tracking-wide">
-                    {language === 'vi' ? 'Đội Hình Đề Xuất (Recommended Meta Comps)' : 'Recommended Meta Lineups'}
+                    {language === 'vi' ? '5. Đội Hình Đề Xuất (Recommended Meta Comps)' : '5. Recommended Meta Lineups'}
                   </h3>
                   <p className="text-xs text-slate-400">
                     {language === 'vi' ? 'Đội hình chiến thuật 6v6 chuẩn meta tối ưu hóa cho vị tướng này.' : 'Optimal 6v6 synergy formations tailored for this hero.'}
@@ -464,120 +717,6 @@ export const CharacterModal = ({
                   </p>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* Base Stats Matrix */}
-          <div>
-            <h3 className="font-display font-bold text-sm text-slate-300 uppercase tracking-wider mb-3 flex items-center gap-2">
-              <Award className="w-4 h-4 text-opm-yellow" />
-              <span>{t('common.stats')}</span>
-            </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-              <div className="p-3 rounded-2xl bg-opm-bg/80 border border-opm-border">
-                <span className="text-[11px] font-semibold text-slate-400 uppercase">ATK</span>
-                <p className="font-mono font-black text-xl text-amber-400 mt-0.5">
-                  {character.stats?.atk?.toLocaleString() || '--'}
-                </p>
-              </div>
-              <div className="p-3 rounded-2xl bg-opm-bg/80 border border-opm-border">
-                <span className="text-[11px] font-semibold text-slate-400 uppercase">HP</span>
-                <p className="font-mono font-black text-xl text-emerald-400 mt-0.5">
-                  {character.stats?.hp?.toLocaleString() || '--'}
-                </p>
-              </div>
-              <div className="p-3 rounded-2xl bg-opm-bg/80 border border-opm-border">
-                <span className="text-[11px] font-semibold text-slate-400 uppercase">DEF</span>
-                <p className="font-mono font-black text-xl text-sky-400 mt-0.5">
-                  {character.stats?.def?.toLocaleString() || '--'}
-                </p>
-              </div>
-              <div className="p-3 rounded-2xl bg-opm-bg/80 border border-opm-border">
-                <span className="text-[11px] font-semibold text-slate-400 uppercase">SPD (Tốc Độ)</span>
-                <p className="font-mono font-black text-xl text-cyan-300 mt-0.5">
-                  {character.stats?.spd || '--'}
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Combat Skills Breakdown */}
-          <div>
-            <h3 className="font-display font-bold text-sm text-slate-300 uppercase tracking-wider mb-3 flex items-center gap-2">
-              <Swords className="w-4 h-4 text-opm-red" />
-              <span>{t('common.skills')}</span>
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              
-              {/* Normal Attack */}
-              {character.skills?.normal && (
-                <div className="p-4 rounded-2xl bg-opm-bg/60 border border-opm-border">
-                  <div className="flex items-center justify-between gap-2 mb-1.5">
-                    <span className="px-2 py-0.5 text-[10px] font-bold rounded bg-slate-800 text-slate-300">
-                      {t('skills.normal')}
-                    </span>
-                    <span className="font-bold text-xs text-amber-300">
-                      {getLocalized(character.skills.normal.name)}
-                    </span>
-                  </div>
-                  <p className="text-xs text-slate-300 leading-relaxed">
-                    {getLocalized(character.skills.normal.desc)}
-                  </p>
-                </div>
-              )}
-
-              {/* Ultimate Skill */}
-              {character.skills?.ultimate && (
-                <div className="p-4 rounded-2xl bg-opm-bg/60 border border-amber-500/30 shadow-sm">
-                  <div className="flex items-center justify-between gap-2 mb-1.5">
-                    <span className="px-2 py-0.5 text-[10px] font-bold rounded bg-amber-950 text-amber-300 border border-amber-500/40">
-                      {t('skills.ultimate')}
-                    </span>
-                    <span className="font-bold text-xs text-amber-300">
-                      {getLocalized(character.skills.ultimate.name)}
-                    </span>
-                  </div>
-                  <p className="text-xs text-slate-300 leading-relaxed">
-                    {getLocalized(character.skills.ultimate.desc)}
-                  </p>
-                </div>
-              )}
-
-              {/* Keepsake / Ultra Ultimate */}
-              {character.skills?.ultraUltimate && (
-                <div className="p-4 rounded-2xl bg-gradient-to-br from-rose-950/30 to-opm-bg border border-rose-500/40">
-                  <div className="flex items-center justify-between gap-2 mb-1.5">
-                    <span className="px-2 py-0.5 text-[10px] font-bold rounded bg-rose-900 text-rose-200 border border-rose-400/40 flex items-center gap-1">
-                      <Sparkles className="w-3 h-3 text-rose-300" />
-                      {t('skills.ultraUltimate')}
-                    </span>
-                    <span className="font-bold text-xs text-rose-300">
-                      {getLocalized(character.skills.ultraUltimate.name)}
-                    </span>
-                  </div>
-                  <p className="text-xs text-slate-200 leading-relaxed">
-                    {getLocalized(character.skills.ultraUltimate.desc)}
-                  </p>
-                </div>
-              )}
-
-              {/* Passive Talent */}
-              {character.skills?.passive && (
-                <div className="p-4 rounded-2xl bg-opm-bg/60 border border-purple-500/30">
-                  <div className="flex items-center justify-between gap-2 mb-1.5">
-                    <span className="px-2 py-0.5 text-[10px] font-bold rounded bg-purple-950 text-purple-300 border border-purple-500/40">
-                      {t('skills.passive')}
-                    </span>
-                    <span className="font-bold text-xs text-purple-300">
-                      {getLocalized(character.skills.passive.name)}
-                    </span>
-                  </div>
-                  <p className="text-xs text-slate-300 leading-relaxed">
-                    {getLocalized(character.skills.passive.desc)}
-                  </p>
-                </div>
-              )}
             </div>
           </div>
 

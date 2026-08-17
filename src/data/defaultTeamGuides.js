@@ -6,17 +6,17 @@ export const defaultTeamGuides = [
       "vi": "Đội Hình Bomb Core Sốc Sát Thương Lượt 1"
     },
     "tier": "SSS",
-    "coreHero": "SSR+ Silverfang / Bomb Core",
+    "coreHero": "Bom/Bengpu UR & Bang SSR+",
     "formation": {
       "frontRow": [
-        "ssr_plus_silverfang",
-        "ssr_superalloy",
-        "ssr_garou"
+        "bang_ssrplus",
+        "superalloy_darkshine_ssrplus",
+        "garou_ur"
       ],
       "backRow": [
         "ur_saitama",
-        "ur_tatsumaki",
-        "ssr_plus_atomic"
+        "tatsumaki_terrible_tornado_urplus",
+        "atomic_samurai_urplus"
       ]
     },
     "speedOrder": [
@@ -27,27 +27,27 @@ export const defaultTeamGuides = [
       },
       {
         "order": 2,
-        "hero": "ssr_plus_atomic",
+        "hero": "atomic_samurai_urplus",
         "note": "AoE Shatter debuff on enemy team"
       },
       {
         "order": 3,
-        "hero": "ur_tatsumaki",
+        "hero": "tatsumaki_terrible_tornado_urplus",
         "note": "Full field wipe with Forcefield crash"
       },
       {
         "order": 4,
-        "hero": "ssr_garou",
+        "hero": "garou_ur",
         "note": "Internal injury clean-up & counter"
       },
       {
         "order": 5,
-        "hero": "ssr_plus_silverfang",
+        "hero": "bang_ssrplus",
         "note": "Team Tenacity barrier & core energy"
       },
       {
         "order": 6,
-        "hero": "ssr_superalloy",
+        "hero": "superalloy_darkshine_ssrplus",
         "note": "Damage share soak tank"
       }
     ],
@@ -58,751 +58,209 @@ export const defaultTeamGuides = [
     "recommendedGears": [
       "Knight",
       "Primal",
-      "Suit"
-    ]
+      "Swordsman"
+    ],
+    "counters": {
+      "en": "Extreme unyielding stall comps with reflect.",
+      "vi": "Đội hình siêu câu giờ bất khuất kết hợp phản sát thương."
+    }
   },
   {
     "id": "meta_gyoro_blacksperm",
     "name": {
-      "en": "UR+ Black Sperm & Gyoro Swarm Dominance",
-      "vi": "Đội Hình Tinh Trùng Đen UR+ & Gyoro Phân Thân"
+      "en": "Gyoro Monster Direct DMG Corrode Stall",
+      "vi": "Tinh Trùng Đen & Gyoro Phân Thân Bào Mòn"
     },
     "tier": "SSS",
-    "coreHero": "UR Gyoro-Gyoro",
+    "coreHero": "Gyoro-Gyoro UR",
     "formation": {
       "frontRow": [
-        "urplus_blacksperm",
-        "urplus_rover",
-        "ssr_carnage"
+        "black_sperm_urplus",
+        "overgrown_rover_urplus",
+        "carnage_kabuto_ur"
       ],
       "backRow": [
-        "ur_gyoro",
-        "urplus_zombieman",
-        "ur_boros"
+        "gyoro_gyoro_ur",
+        "zombieman_urplus",
+        "boros_urplus"
       ]
     },
     "speedOrder": [
       {
         "order": 1,
-        "hero": "ur_gyoro",
-        "note": "Row Max HP buff & Corrode"
+        "hero": "gyoro_gyoro_ur",
+        "note": "Turn-1 monster max HP boost & ally share"
       },
       {
         "order": 2,
-        "hero": "urplus_blacksperm",
-        "note": "Clone burst & Specialized Direct DMG"
+        "hero": "black_sperm_urplus",
+        "note": "Specialized Direct DMG clone split"
       },
       {
         "order": 3,
-        "hero": "urplus_zombieman",
-        "note": "Team heal & Specialized Unyielding"
+        "hero": "boros_urplus",
+        "note": "Massive single-target nuke on enemy carry"
       },
       {
         "order": 4,
-        "hero": "ur_boros",
-        "note": "Targeted single-burst finisher"
+        "hero": "zombieman_urplus",
+        "note": "Team heal trigger upon crit"
       },
       {
         "order": 5,
-        "hero": "urplus_rover",
-        "note": "Team damage absorption"
+        "hero": "carnage_kabuto_ur",
+        "note": "Reflects 30% all damage received"
       },
       {
         "order": 6,
-        "hero": "ssr_carnage",
-        "note": "Reflect damage frontline"
+        "hero": "overgrown_rover_urplus",
+        "note": "Row shield and monster defense buff"
       }
     ],
     "strategy": {
-      "en": "The supreme endgame monster archetype. Black Sperm splits into 8 copies, launching infinite Pursuit strikes while backed by Gyoro's +35% Monster DMG Amp and Zombieman's resurrection shield.",
-      "vi": "Đội hình Quái Nhân tối thượng. Tinh Trùng Đen phân tách 8 phân thân liên tục truy kích kẻ địch, được bảo kê bởi lượng Máu khổng lồ của Gyoro và khiên hồi sinh bất tử của Zombieman UR+."
+      "en": "Specialized Direct Damage bypasses Tenacity shields entirely. Black Sperm clones multiply and chip down enemies while Gyoro increases team HP by 80%.",
+      "vi": "Sát thương trực tiếp chuyên biệt xuyên thẳng qua khiên Kiên Cường. Phân thân Tinh Trùng Đen liên tục bào mòn đối thủ trong khi Gyoro tăng 80% Máu toàn đội."
     },
     "recommendedGears": [
       "Suit",
-      "Battle",
-      "Knight"
-    ]
+      "Primal",
+      "Casual"
+    ],
+    "counters": {
+      "en": "Direct energy lock and high-speed dispel.",
+      "vi": "Đội hình cướp tốc độ khóa nộ và xóa sạch buff."
+    }
   },
   {
     "id": "meta_tatsumaki_speed",
     "name": {
-      "en": "UR+ Tatsumaki & Sonic Extreme Speed Burst",
-      "vi": "Đội Hình Tatsumaki & Sonic Tốc Độ Quang Tốc"
+      "en": "Tatsumaki UR+ Forcefield Blitz",
+      "vi": "Bão Lốc Tatsumaki UR+ Tốc Độ Tuyệt Đối"
     },
     "tier": "SSS",
-    "coreHero": "Bomb Core / Flashy Flash",
+    "coreHero": "Drive Knight UR Core",
     "formation": {
       "frontRow": [
-        "ssr_plus_silverfang",
-        "ur_fubuki",
-        "ssr_superalloy"
+        "bang_ssrplus",
+        "hellish_blizzard_ur",
+        "superalloy_darkshine_ssrplus"
       ],
       "backRow": [
-        "ur_sonic",
-        "ur_flashy_flash",
-        "ur_tatsumaki"
+        "sonic_v2_ur",
+        "flashy_flash_ur",
+        "tatsumaki_terrible_tornado_urplus"
       ]
     },
     "speedOrder": [
       {
         "order": 1,
-        "hero": "ur_flashy_flash",
-        "note": "Speed aura + Light speed thrust"
+        "hero": "sonic_v2_ur",
+        "note": "Turn-1 Shatter and speed boost to allies"
       },
       {
         "order": 2,
-        "hero": "ur_sonic",
-        "note": "First priority assassinate enemy carry"
+        "hero": "flashy_flash_ur",
+        "note": "Stun key backline enemy and strip shields"
       },
       {
         "order": 3,
-        "hero": "ur_tatsumaki",
-        "note": "Planetary meteor slam full board clear"
+        "hero": "tatsumaki_terrible_tornado_urplus",
+        "note": "Cast Ultra Ultimate and apply Forcefield"
       },
       {
         "order": 4,
-        "hero": "ur_fubuki",
-        "note": "Tenacity shield & ally energy regen"
+        "hero": "hellish_blizzard_ur",
+        "note": "Barrier protection for Tatsumaki"
       },
       {
         "order": 5,
-        "hero": "ssr_plus_silverfang",
-        "note": "Frontline toughness & block"
+        "hero": "bang_ssrplus",
+        "note": "Frontline counter and tenacity"
       },
       {
         "order": 6,
-        "hero": "ssr_superalloy",
-        "note": "Heavy armor damage share"
+        "hero": "superalloy_darkshine_ssrplus",
+        "note": "Absorbs incoming burst"
       }
     ],
     "strategy": {
-      "en": "Hyper-speed turn-1 initiative build. Flashy Flash and Sonic ensure your team moves first, eliminating the enemy primary carry before they take a single turn.",
-      "vi": "Đội hình cướp lượt đầu cực đại. Flash Quang Tốc và Sonic đảm bảo đội bạn luôn xuất chiêu trước, dứt điểm carry chủ lực đối phương trước khi chúng kịp hành động."
+      "en": "Ultra-fast Esper blitz. Sonic and Flash guarantee speed priority, allowing Tatsumaki to coat all enemies with Forcefield.",
+      "vi": "Lối chơi tốc độ vũ bão hệ Siêu Năng. Sonic và Flash cướp lượt đầu giúp Tatsumaki phủ Trường Lực lên toàn bộ 6 vị trí của địch."
     },
     "recommendedGears": [
       "Lightning",
       "Knight",
-      "Prisoner"
-    ]
-  },
-  {
-    "id": "meta_stall_reflect",
-    "name": {
-      "en": "Extreme Stall & Reflect Bleed Defense",
-      "vi": "Đội Hình Siêu Câu Giờ & Phản Sát Thương Tu La"
-    },
-    "tier": "SSS",
-    "coreHero": "UR+ Zombieman Core",
-    "formation": {
-      "frontRow": [
-        "ssr_carnage",
-        "urplus_rover",
-        "ssr_plus_silverfang"
-      ],
-      "backRow": [
-        "urplus_zombieman",
-        "ur_king",
-        "urplus_blacksperm"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "ur_king",
-        "note": "Seals enemy energy bar & intimidates"
-      },
-      {
-        "order": 2,
-        "hero": "urplus_zombieman",
-        "note": "Specialized unyielding & team heal"
-      },
-      {
-        "order": 3,
-        "hero": "urplus_rover",
-        "note": "AoE Tenacity barrier & damage soak"
-      },
-      {
-        "order": 4,
-        "hero": "ssr_carnage",
-        "note": "Asura reflect 60% incoming damage"
-      },
-      {
-        "order": 5,
-        "hero": "urplus_blacksperm",
-        "note": "Clone swarm pursuit & survival"
-      },
-      {
-        "order": 6,
-        "hero": "ssr_plus_silverfang",
-        "note": "Unyielding wall & block counter"
-      }
+      "Monk"
     ],
-    "strategy": {
-      "en": "Impenetrable defense team. Carnage Kabuto reflects 60% of all enemy damage while King locks their ultimate energy, forcing opponents to slowly destroy themselves.",
-      "vi": "Đội hình phòng thủ bất khả xâm phạm. Bọ Hung phản lại 60% sát thương nhận vào trong khi King khóa toàn bộ năng lượng của địch, buộc đối phương tự diệt."
-    },
-    "recommendedGears": [
-      "Suit",
-      "Battle",
-      "Casual"
-    ]
-  },
-  {
-    "id": "meta_monster_corrode",
-    "name": {
-      "en": "Gyoro Corrode & Splash Monster Engine",
-      "vi": "Đội Hình Ăn Mòn & Sát Thương Lan Quái Nhân"
-    },
-    "tier": "SS",
-    "coreHero": "Gyoro-Gyoro SSR Core",
-    "formation": {
-      "frontRow": [
-        "ssr_carnage",
-        "ssr_garou",
-        "ssr_superalloy"
-      ],
-      "backRow": [
-        "gyoro_core",
-        "ssr_plus_mosquito",
-        "ssr_plus_geryu"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "ssr_plus_geryu",
-        "note": "Gravity lock & speed control"
-      },
-      {
-        "order": 2,
-        "hero": "gyoro_core",
-        "note": "Max HP buff & row compression"
-      },
-      {
-        "order": 3,
-        "hero": "ssr_plus_mosquito",
-        "note": "Blood storm AoE Corrode DoT"
-      },
-      {
-        "order": 4,
-        "hero": "ssr_garou",
-        "note": "Internal injury counter & clean-up"
-      },
-      {
-        "order": 5,
-        "hero": "ssr_carnage",
-        "note": "Reflect frontline sponge"
-      },
-      {
-        "order": 6,
-        "hero": "ssr_superalloy",
-        "note": "Bodyguard damage share"
-      }
-    ],
-    "strategy": {
-      "en": "The staple mid-game monster composition. Mosquito Girl and Geryuganshoop stack Corrode DoT, amplified by Gyoro's +30% Max HP bonus damage scaling.",
-      "vi": "Đội hình Quái Nhân chuẩn mực giai đoạn giữa game. Nữ Chúa Muỗi và Geryu gieo rắc Ăn Mòn, được khuếch đại bởi lượng Máu khổng lồ từ Lõi Gyoro."
-    },
-    "recommendedGears": [
-      "Prisoner",
-      "Suit",
-      "Casual"
-    ]
-  },
-  {
-    "id": "meta_zombieman_endurance",
-    "name": {
-      "en": "Zombieman Tenacity & Injury Counter",
-      "vi": "Đội Hình Zombieman Kiên Cường & Phản Đòn Nội Thương"
-    },
-    "tier": "SS",
-    "coreHero": "Zombieman SSR Core",
-    "formation": {
-      "frontRow": [
-        "ssr_plus_silverfang",
-        "ssr_superalloy",
-        "ssr_garou"
-      ],
-      "backRow": [
-        "zombieman_core",
-        "amai_mask",
-        "sr_goldenball"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "sr_goldenball",
-        "note": "AoE Shatter debuff opener"
-      },
-      {
-        "order": 2,
-        "hero": "amai_mask",
-        "note": "Single-target backrow assassination"
-      },
-      {
-        "order": 3,
-        "hero": "ssr_garou",
-        "note": "Internal injury pursuit & counter"
-      },
-      {
-        "order": 4,
-        "hero": "zombieman_core",
-        "note": "Team sustain heal & rage recovery"
-      },
-      {
-        "order": 5,
-        "hero": "ssr_plus_silverfang",
-        "note": "Tenacity shield & unyielding"
-      },
-      {
-        "order": 6,
-        "hero": "ssr_superalloy",
-        "note": "Damage share protection"
-      }
-    ],
-    "strategy": {
-      "en": "Endurance attrition comp. Silverfang and Superalloy provide immense survivability, while Garou and Amai Mask chip down high-value targets round after round.",
-      "vi": "Đội hình công thủ toàn diện. Bang và Darkshine bảo vệ đồng đội sống sót, trong khi Garou và Mặt Nạ Mật tỉa từng mục tiêu chủ lực của đối phương."
-    },
-    "recommendedGears": [
-      "Suit",
-      "Casual",
-      "Prisoner"
-    ]
-  },
-  {
-    "id": "meta_duelist_pursuit",
-    "name": {
-      "en": "Duelist Pursuit Storm & Multi-Strike",
-      "vi": "Đội Hình Bão Vũ Trang & Truy Kích Liên Hoàn"
-    },
-    "tier": "SS",
-    "coreHero": "Child Emperor Core",
-    "formation": {
-      "frontRow": [
-        "ssr_plus_silverfang",
-        "sr_armoredgorilla",
-        "ssr_superalloy"
-      ],
-      "backRow": [
-        "ssr_plus_atomic",
-        "sr_goldenball",
-        "sr_beast_king"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "sr_goldenball",
-        "note": "AoE Shatter & Injury application"
-      },
-      {
-        "order": 2,
-        "hero": "ssr_plus_atomic",
-        "note": "Atomic Slash AoE & Duelist pursuit trigger"
-      },
-      {
-        "order": 3,
-        "hero": "sr_beast_king",
-        "note": "5x Free follow-up pursuit claws"
-      },
-      {
-        "order": 4,
-        "hero": "ssr_plus_silverfang",
-        "note": "Frontline toughness & stun"
-      },
-      {
-        "order": 5,
-        "hero": "sr_armoredgorilla",
-        "note": "Tenacity shield & defensive soak"
-      },
-      {
-        "order": 6,
-        "hero": "ssr_superalloy",
-        "note": "Damage share bodyguard"
-      }
-    ],
-    "strategy": {
-      "en": "Devastating multi-action pursuit build. Golden Ball triggers Beast King's 5 consecutive free strikes while Atomic Samurai launches follow-up slashes on every attack.",
-      "vi": "Đội hình truy kích liên hoàn cực gắt. Bi Vàng mở Tổn Thương kích hoạt 5 đòn cào miễn phí của Vua Thú, trong khi Atomic Samurai liên tục chém ké."
-    },
-    "recommendedGears": [
-      "Knight",
-      "Prisoner",
-      "Swordsman"
-    ]
-  },
-  {
-    "id": "meta_f2p_shatter",
-    "name": {
-      "en": "F2P Shatter & Single Target Execution",
-      "vi": "Đội Hình F2P Vỡ Giáp & Dứt Điểm Đơn Mục Tiêu"
-    },
-    "tier": "A",
-    "coreHero": "Doctor Genus Core / Genos Core",
-    "formation": {
-      "frontRow": [
-        "ssr_superalloy",
-        "sr_smileman",
-        "sr_armoredgorilla"
-      ],
-      "backRow": [
-        "sr_goldenball",
-        "amai_mask",
-        "ssr_plus_atomic"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "sr_goldenball",
-        "note": "Applies 100% AoE Shatter"
-      },
-      {
-        "order": 2,
-        "hero": "ssr_plus_atomic",
-        "note": "Exploits Shatter for bonus AoE damage"
-      },
-      {
-        "order": 3,
-        "hero": "amai_mask",
-        "note": "Snipes backrow enemy carry"
-      },
-      {
-        "order": 4,
-        "hero": "ssr_superalloy",
-        "note": "Protects backrow squishy DPS"
-      },
-      {
-        "order": 5,
-        "hero": "sr_smileman",
-        "note": "Team sustain heal on block"
-      },
-      {
-        "order": 6,
-        "hero": "sr_armoredgorilla",
-        "note": "Secondary tank and stunner"
-      }
-    ],
-    "strategy": {
-      "en": "The most cost-effective F2P archetype. Golden Ball lands Shatter, enabling Amai Mask and Atomic Samurai to eliminate high-value targets without requiring UR investment.",
-      "vi": "Đội hình thân thiện nhất cho dân cày F2P. Bi Vàng mở hiệu ứng Vỡ Giáp, giúp Amai Mask và Atomic Samurai dứt điểm nhanh carry chủ lực của đối thủ."
-    },
-    "recommendedGears": [
-      "Prisoner",
-      "Knight",
-      "Casual"
-    ]
+    "counters": {
+      "en": "Heavy reflect and unyielding counter-attack teams.",
+      "vi": "Đội hình siêu phản sát thương kết hợp bất khuất."
+    }
   },
   {
     "id": "meta_f2p_starter_burst",
     "name": {
-      "en": "F2P Day-1 Starter Speed Burst",
-      "vi": "Đội Hình Tân Thủ Ngày 1 Dồn Tốc Độ Sốc Sát Thương"
+      "en": "F2P Starter Shatter & Pursuit Core",
+      "vi": "Đội Hình F2P Vỡ Giáp & Truy Kích Tân Thủ"
     },
-    "tier": "A",
-    "coreHero": "Genos Starter Core",
+    "tier": "S",
+    "coreHero": "Doctor Genus SR / Mumen Rider",
     "formation": {
       "frontRow": [
-        "r_mumen_rider",
-        "sr_armoredgorilla",
-        "sr_smileman"
+        "mumen_rider_r",
+        "armored_gorilla_sr",
+        "smile_man_sr"
       ],
       "backRow": [
-        "sr_goldenball",
-        "amai_mask",
-        "sr_beast_king"
+        "golden_ball_sr",
+        "amai_mask_urplus",
+        "beast_king_sr"
       ]
     },
     "speedOrder": [
       {
         "order": 1,
-        "hero": "r_mumen_rider",
-        "note": "Justice Roar buffs Amai Mask (+30% ATK & Speed)"
+        "hero": "mumen_rider_r",
+        "note": "Buff Golden Ball SPD & ATK with Justice Roar"
       },
       {
         "order": 2,
-        "hero": "amai_mask",
-        "note": "Executes enemy backrow carry immediately"
+        "hero": "golden_ball_sr",
+        "note": "Apply AoE Shatter to entire enemy team"
       },
       {
         "order": 3,
-        "hero": "sr_goldenball",
-        "note": "AoE Shatter debuff on remaining units"
+        "hero": "amai_mask_urplus",
+        "note": "Execute backline enemy carry"
       },
       {
         "order": 4,
-        "hero": "sr_beast_king",
-        "note": "Follow-up pursuit claws on injured targets"
+        "hero": "beast_king_sr",
+        "note": "Trigger 5x Lion Slash Pursuit on shattered targets"
       },
       {
         "order": 5,
-        "hero": "sr_smileman",
-        "note": "Frontline sustain & heal on block"
+        "hero": "armored_gorilla_sr",
+        "note": "Frontline tank & counter-shield"
       },
       {
         "order": 6,
-        "hero": "sr_armoredgorilla",
-        "note": "Tenacity shield & stun"
+        "hero": "smile_man_sr",
+        "note": "AoE team heal on row"
       }
     ],
     "strategy": {
-      "en": "The ultimate 100% free Day-1 squad. Mumen Rider accelerates Amai Mask to act before any enemy moves, securing an instant 5-hit elimination on the opponent's strongest backrow unit.",
-      "vi": "Đội hình tân thủ miễn phí 100% mạnh nhất từ Ngày 1. Mumen Rider buff Tốc & Cuồng Bạo cho Mặt Nạ Mật bắt chết chủ lực hàng sau đối thủ ngay lập tức."
+      "en": "The gold standard starter comp for every new player. Mumen Rider speeds up Golden Ball to inflict AoE Shatter, triggering Beast King's 5x pursuit attacks.",
+      "vi": "Đội hình vàng tiêu chuẩn cho mọi tân thủ. Mumen Rider tăng tốc cho Bi Vàng bắn Vỡ Giáp toàn sân, kích hoạt Vua Thú cào liên hoàn 5 phát."
     },
     "recommendedGears": [
-      "Lightning",
-      "Prisoner",
-      "Suit"
-    ]
-  },
-  {
-    "id": "meta_f2p_infinite_energy",
-    "name": {
-      "en": "Doctor Genus Clone & Infinite Energy Sustain",
-      "vi": "Đội Hình Tiến Sĩ Genus Phân Thân & Vô Tận Năng Lượng"
-    },
-    "tier": "A",
-    "coreHero": "Doctor Genus Core",
-    "formation": {
-      "frontRow": [
-        "sr_doctor_genus",
-        "sr_smileman",
-        "sr_armoredgorilla"
-      ],
-      "backRow": [
-        "sr_beast_king",
-        "amai_mask",
-        "sr_goldenball"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "sr_goldenball",
-        "note": "AoE Shatter & trigger core energy"
-      },
-      {
-        "order": 2,
-        "hero": "amai_mask",
-        "note": "Inflicts Injury on key target"
-      },
-      {
-        "order": 3,
-        "hero": "sr_beast_king",
-        "note": "5x Pursuit claw attacks"
-      },
-      {
-        "order": 4,
-        "hero": "sr_doctor_genus",
-        "note": "Summons clone to absorb hits & grant +2 Energy"
-      },
-      {
-        "order": 5,
-        "hero": "sr_smileman",
-        "note": "Team heal & trigger Genus +20% ATK passive"
-      },
-      {
-        "order": 6,
-        "hero": "sr_armoredgorilla",
-        "note": "Frontline tank & stun"
-      }
-    ],
-    "strategy": {
-      "en": "F2P infinite energy engine. Every summoned clone generates +2 Energy, while Smile Man's heals trigger Doctor Genus's +20% ATK teamwide steroid.",
-      "vi": "Động cơ vô hạn năng lượng F2P. Mỗi phân thân tạo ra +2 nộ, đồng thời các đòn hồi máu của Người Mặt Cười kích hoạt bùa tăng 20% Công toàn đội của Genus."
-    },
-    "recommendedGears": [
-      "Suit",
-      "Prisoner",
+      "Knight",
+      "Monk",
       "Casual"
-    ]
-  },
-  {
-    "id": "meta_f2p_corrode_starter",
-    "name": {
-      "en": "Deep Sea King Corrosion Starter",
-      "vi": "Đội Hình Ăn Mòn DoT Khởi Đầu (Vua Biển Sâu)"
-    },
-    "tier": "A",
-    "coreHero": "Deep Sea King Core",
-    "formation": {
-      "frontRow": [
-        "sr_armoredgorilla",
-        "sr_smileman",
-        "ssr_superalloy"
-      ],
-      "backRow": [
-        "sr_konbu_infinity",
-        "ssr_plus_mosquito",
-        "sr_sky_king"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "sr_konbu_infinity",
-        "note": "AoE Corrode on enemy front row"
-      },
-      {
-        "order": 2,
-        "hero": "ssr_plus_mosquito",
-        "note": "Blood storm Corrode DoT stack"
-      },
-      {
-        "order": 3,
-        "hero": "sr_sky_king",
-        "note": "+20% Extra damage & DoT aura"
-      },
-      {
-        "order": 4,
-        "hero": "ssr_superalloy",
-        "note": "Bodyguard damage share"
-      },
-      {
-        "order": 5,
-        "hero": "sr_smileman",
-        "note": "Block heal & sustain"
-      },
-      {
-        "order": 6,
-        "hero": "sr_armoredgorilla",
-        "note": "Frontline shield tank"
-      }
     ],
-    "strategy": {
-      "en": "Classic early-game DoT burn team. Konbu Infinity and Mosquito Girl inflict massive corrosion, amplified by Sky King's +20% extra damage aura.",
-      "vi": "Đội hình Ăn Mòn đốt máu kinh điển đầu game. Tảo Bẹ và Nữ Chúa Muỗi gieo rắc ăn mòn liên tục, được khuếch đại thêm 20% sát thương từ hào quang Vua Bầu Trời."
-    },
-    "recommendedGears": [
-      "Prisoner",
-      "Casual",
-      "Suit"
-    ]
-  },
-  {
-    "id": "meta_club_boss_single",
-    "name": {
-      "en": "Club Boss & Single-Target Titan Killer",
-      "vi": "Đội Hình Săn Boss Bang Hội & Dồn Sát Thương Đơn Cực Đại"
-    },
-    "tier": "SSS",
-    "coreHero": "Bomb Core / Child Emperor Core",
-    "formation": {
-      "frontRow": [
-        "ssr_plus_silverfang",
-        "ssr_superalloy",
-        "ssr_garou"
-      ],
-      "backRow": [
-        "amai_mask",
-        "sr_beast_king",
-        "ur_boros"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "amai_mask",
-        "note": "Inflicts Injury & lands 5-hit strike"
-      },
-      {
-        "order": 2,
-        "hero": "sr_beast_king",
-        "note": "Launches 5x Pursuit attacks each round"
-      },
-      {
-        "order": 3,
-        "hero": "ur_boros",
-        "note": "900% ATK Collapsing Star single nuke"
-      },
-      {
-        "order": 4,
-        "hero": "ssr_garou",
-        "note": "Internal Injury & counter strike"
-      },
-      {
-        "order": 5,
-        "hero": "ssr_plus_silverfang",
-        "note": "Team Tenacity barrier & defense"
-      },
-      {
-        "order": 6,
-        "hero": "ssr_superalloy",
-        "note": "Damage share protection"
-      }
-    ],
-    "strategy": {
-      "en": "The highest single-target DPS combination in the game for Club Boss, Boros World Boss, and Monster X-City. Beast King dishes out 5 free pursuit strikes every round.",
-      "vi": "Đội hình dồn sát thương đơn mục tiêu cao nhất game cho Boss Bang Hội và Boss Thế Giới. Vua Thú tung 5 đòn cào miễn phí mỗi hiệp khi đi cùng Amai Mask."
-    },
-    "recommendedGears": [
-      "Prisoner",
-      "Knight",
-      "Swordsman"
-    ]
-  },
-  {
-    "id": "meta_monster_xcity",
-    "name": {
-      "en": "Monster X-City & PvE Trial Clearer",
-      "vi": "Đội Hình Vượt Ải Viễn Chinh & Phó Bản Thử Thách"
-    },
-    "tier": "SS",
-    "coreHero": "Gyoro-Gyoro Core",
-    "formation": {
-      "frontRow": [
-        "ssr_carnage",
-        "urplus_rover",
-        "ssr_superalloy"
-      ],
-      "backRow": [
-        "ur_tatsumaki",
-        "child_emperor_core",
-        "ur_saitama"
-      ]
-    },
-    "speedOrder": [
-      {
-        "order": 1,
-        "hero": "child_emperor_core",
-        "note": "Row Shatter & Round 1 Berserk buff"
-      },
-      {
-        "order": 2,
-        "hero": "ur_saitama",
-        "note": "One-punch column clear & DEF break"
-      },
-      {
-        "order": 3,
-        "hero": "ur_tatsumaki",
-        "note": "Planetary AoE meteor field wipe"
-      },
-      {
-        "order": 4,
-        "hero": "ssr_carnage",
-        "note": "Asura reflect frontline"
-      },
-      {
-        "order": 5,
-        "hero": "urplus_rover",
-        "note": "Tenacity team shield"
-      },
-      {
-        "order": 6,
-        "hero": "ssr_superalloy",
-        "note": "Bodyguard soak tank"
-      }
-    ],
-    "strategy": {
-      "en": "Ultra-fast automated 3-star clearance team for Monster X-City, Conqueror's Challenge, and Hero X Monster trials.",
-      "vi": "Đội hình dọn ải 3 sao siêu tốc tự động cho Viễn Chinh Quái Nhân, Khiêu Chiến Nhà Vô Địch và Thử Thách Anh Hùng."
-    },
-    "recommendedGears": [
-      "Knight",
-      "Casual",
-      "Suit"
-    ]
+    "counters": {
+      "en": "High speed UR burst teams.",
+      "vi": "Đội hình UR tốc độ cao sốc sát thương lượt 1."
+    }
   }
 ];

@@ -61,34 +61,27 @@ export const CharacterModal = ({
   };
 
   const getHeroObj = (heroId) => {
-    return characters.find((c) => c.id === heroId);
-  };
-
-  // Find all preset teams containing this hero
-  const matchingGuides = defaultTeamGuides.filter((guide) => {
-    const allHeroes = [...guide.formation.frontRow, ...guide.formation.backRow];
-    return allHeroes.includes(character.id) || guide.coreHero.toLowerCase().includes(character.id.replace('ssr_plus_', '').replace('ur_', '').replace('urplus_', ''));
-  });
-
-  // Fallback synergy team generator if hero is not in defaultTeamGuides
-  const fallbackTeam = {
-    name: {
-      en: `${getLocalized(character.name)} Optimal Synergy Comp`,
-      vi: `Đội Hình Phối Hợp Tối Ưu Cho ${getLocalized(character.name)}`
-    },
-    tier: character.tier === 'SSS' ? 'SSS' : character.tier === 'SS' ? 'SS' : 'S',
-    coreHero: character.hasCore ? getLocalized(character.name) : 'Bomb Core / Doctor Genus Core',
-    formation: {
-      frontRow: ['ssr_superalloy', 'ssr_garou', 'ssr_plus_silverfang'],
-      backRow: [character.id, 'ur_tatsumaki', 'sr_goldenball']
-    },
-    strategy: {
-      en: `Optimized formation ensuring ${getLocalized(character.name)} receives front-row damage mitigation, core energy acceleration, and AoE shatter debuffs for maximum DPS conversion.`,
-      vi: `Đội hình tối ưu đảm bảo ${getLocalized(character.name)} nhận được sự bảo bọc kiên cố của hàng trước, nộ năng từ Lõi và hiệu ứng Vỡ Giáp diện rộng để phát huy tối đa 100% tiềm năng.`
+    if (!heroId) return null;
+    let found = characters.find((c) => c.id === heroId);
+    if (!found) {
+      found = characters.find((c) => c.id.includes(heroId) || heroId.includes(c.id));
     }
+    return found;
   };
 
-  const recommendedTeamsToDisplay = matchingGuides.length > 0 ? matchingGuides : [fallbackTeam];
+  // 1. Check if character has its own bespoke recommendedTeams list (3 curated teams)
+  // 2. Fallback to defaultTeamGuides if matched
+  let recommendedTeamsToDisplay = character.recommendedTeams || [];
+  
+  if (!recommendedTeamsToDisplay || recommendedTeamsToDisplay.length === 0) {
+    const matchingGuides = defaultTeamGuides.filter((guide) => {
+      const allHeroes = [...guide.formation.frontRow, ...guide.formation.backRow];
+      return allHeroes.includes(character.id);
+    });
+    if (matchingGuides.length > 0) {
+      recommendedTeamsToDisplay = matchingGuides;
+    }
+  }
 
   const handleApplyLineupDirect = (team) => {
     const slots = [
@@ -366,9 +359,9 @@ export const CharacterModal = ({
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                     
                     {/* Front Row */}
-                    <div className="p-2.5 rounded-xl bg-slate-950/60 border border-opm-border/60">
-                      <span className="text-[10px] font-bold text-slate-400 uppercase block mb-1.5">
-                        🛡️ {language === 'vi' ? 'Hàng Trước (Frontline Tank & Khống Chế):' : 'Frontline:'}
+                    <div className="p-3 rounded-2xl bg-slate-950/70 border border-opm-border/60 shadow-inner">
+                      <span className="text-[10px] font-black text-amber-400 uppercase tracking-wider block mb-2 flex items-center gap-1.5">
+                        🛡️ {language === 'vi' ? 'Hàng Trước (Tiền Trận 1 - 3):' : 'Frontline (Slots 1 - 3):'}
                       </span>
                       <div className="grid grid-cols-3 gap-2">
                         {team.formation.frontRow.map((heroId, fIdx) => {
@@ -377,20 +370,36 @@ export const CharacterModal = ({
                           return (
                             <div 
                               key={fIdx} 
-                              className={`flex flex-col items-center p-1 rounded-xl border text-center ${
+                              className={`flex flex-col items-center p-1.5 rounded-xl border text-center transition-all ${
                                 isCurrentHero 
-                                  ? 'bg-amber-500/20 border-amber-400 shadow-glow-yellow' 
-                                  : 'bg-opm-card border-opm-border'
+                                  ? 'bg-amber-500/25 border-amber-400 shadow-glow-yellow ring-2 ring-amber-400/50' 
+                                  : 'bg-opm-card/90 border-opm-border hover:border-slate-600'
                               }`}
                             >
-                              <img 
-                                src={h?.avatar || "avatars/ur_saitama.webp"} 
-                                alt={h ? getLocalized(h.name) : heroId}
-                                className="w-9 h-9 rounded-lg object-cover mb-1"
-                                onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
-                              />
-                              <span className="text-[10px] font-bold text-slate-200 line-clamp-1">
+                              <div className="relative w-10 h-10 rounded-lg overflow-hidden mb-1 border border-slate-700/80 bg-slate-950 flex-shrink-0">
+                                <img 
+                                  src={h?.avatar || "avatars/ur_saitama.webp"} 
+                                  alt={h ? getLocalized(h.name) : heroId}
+                                  className="w-full h-full object-cover"
+                                  onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
+                                />
+                                {h?.rarity && (
+                                  <span className={`absolute bottom-0 right-0 px-1 text-[8px] font-black leading-tight rounded-tl text-white ${
+                                    h.rarity === 'UR+' ? 'bg-gradient-to-r from-purple-600 to-pink-600' :
+                                    h.rarity === 'UR' ? 'bg-purple-600' :
+                                    h.rarity === 'SSR+' ? 'bg-amber-500 text-black' :
+                                    h.rarity === 'SSR' ? 'bg-amber-400 text-black' :
+                                    h.rarity === 'SR' ? 'bg-purple-500' : 'bg-blue-500'
+                                  }`}>
+                                    {h.rarity}
+                                  </span>
+                                )}
+                              </div>
+                              <span className="text-[10px] font-bold text-slate-100 line-clamp-1">
                                 {h ? getLocalized(h.name) : heroId}
+                              </span>
+                              <span className="text-[9px] text-slate-400">
+                                #{fIdx + 1} • {h?.class || 'Hero'}
                               </span>
                             </div>
                           );
@@ -399,9 +408,9 @@ export const CharacterModal = ({
                     </div>
 
                     {/* Back Row */}
-                    <div className="p-2.5 rounded-xl bg-slate-950/60 border border-opm-border/60">
-                      <span className="text-[10px] font-bold text-slate-400 uppercase block mb-1.5">
-                        🎯 {language === 'vi' ? 'Hàng Sau (Carry & Dồn Sát Thương):' : 'Backline:'}
+                    <div className="p-3 rounded-2xl bg-slate-950/70 border border-opm-border/60 shadow-inner">
+                      <span className="text-[10px] font-black text-cyan-400 uppercase tracking-wider block mb-2 flex items-center gap-1.5">
+                        🎯 {language === 'vi' ? 'Hàng Sau (Hậu Trận 4 - 6):' : 'Backline (Slots 4 - 6):'}
                       </span>
                       <div className="grid grid-cols-3 gap-2">
                         {team.formation.backRow.map((heroId, bIdx) => {
@@ -410,20 +419,36 @@ export const CharacterModal = ({
                           return (
                             <div 
                               key={bIdx} 
-                              className={`flex flex-col items-center p-1 rounded-xl border text-center ${
+                              className={`flex flex-col items-center p-1.5 rounded-xl border text-center transition-all ${
                                 isCurrentHero 
-                                  ? 'bg-amber-500/20 border-amber-400 shadow-glow-yellow' 
-                                  : 'bg-opm-card border-opm-border'
+                                  ? 'bg-amber-500/25 border-amber-400 shadow-glow-yellow ring-2 ring-amber-400/50' 
+                                  : 'bg-opm-card/90 border-opm-border hover:border-slate-600'
                               }`}
                             >
-                              <img 
-                                src={h?.avatar || "avatars/ur_saitama.webp"} 
-                                alt={h ? getLocalized(h.name) : heroId}
-                                className="w-9 h-9 rounded-lg object-cover mb-1"
-                                onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
-                              />
-                              <span className="text-[10px] font-bold text-slate-200 line-clamp-1">
+                              <div className="relative w-10 h-10 rounded-lg overflow-hidden mb-1 border border-slate-700/80 bg-slate-950 flex-shrink-0">
+                                <img 
+                                  src={h?.avatar || "avatars/ur_saitama.webp"} 
+                                  alt={h ? getLocalized(h.name) : heroId}
+                                  className="w-full h-full object-cover"
+                                  onError={(e) => { e.target.src = "avatars/ur_saitama.webp"; }}
+                                />
+                                {h?.rarity && (
+                                  <span className={`absolute bottom-0 right-0 px-1 text-[8px] font-black leading-tight rounded-tl text-white ${
+                                    h.rarity === 'UR+' ? 'bg-gradient-to-r from-purple-600 to-pink-600' :
+                                    h.rarity === 'UR' ? 'bg-purple-600' :
+                                    h.rarity === 'SSR+' ? 'bg-amber-500 text-black' :
+                                    h.rarity === 'SSR' ? 'bg-amber-400 text-black' :
+                                    h.rarity === 'SR' ? 'bg-purple-500' : 'bg-blue-500'
+                                  }`}>
+                                    {h.rarity}
+                                  </span>
+                                )}
+                              </div>
+                              <span className="text-[10px] font-bold text-slate-100 line-clamp-1">
                                 {h ? getLocalized(h.name) : heroId}
+                              </span>
+                              <span className="text-[9px] text-slate-400">
+                                #{bIdx + 4} • {h?.class || 'Hero'}
                               </span>
                             </div>
                           );

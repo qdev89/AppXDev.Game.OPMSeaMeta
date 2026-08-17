@@ -121,7 +121,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "ur_saitama_comp_1",
+        "name": {
+          "en": "Bomb Core Turn-1 Absolute Destruction",
+          "vi": "Đội Hình Bomb Core Sốc Sát Thương Lượt 1"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "atomic_samurai_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Bomb Core grants +40% Tenacity shields. UR Saitama strips frontline unyielding buffs so Tatsumaki can wipe the entire board.",
+          "vi": "Lõi Bomb cung cấp khiên Kiên Cường +40%. UR Saitama xuyên Bất Khuất dọn hàng trước để Tatsumaki quét sạch 6 tướng địch."
+        }
+      },
+      {
+        "id": "ur_saitama_comp_2",
+        "name": {
+          "en": "UR Saitama Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Saitama UR"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "ur_saitama",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "ur_saitama_comp_3",
+        "name": {
+          "en": "UR Saitama F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Saitama UR"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "ur_saitama",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "black_sperm_urplus",
@@ -245,7 +322,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "black_sperm_urplus_comp_1",
+        "name": {
+          "en": "Gyoro Monster Specialized Direct DMG",
+          "vi": "Đội Hình Gyoro & Phân Thân Tinh Trùng Đen Bào Mòn"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "black_sperm_urplus",
+            "overgrown_rover_urplus",
+            "carnage_kabuto_ur"
+          ],
+          "backRow": [
+            "gyoro_gyoro_ur",
+            "zombieman_urplus",
+            "boros_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Gyoro core boosts Monster HP. Black Sperm clones deal Specialized Direct DMG bypassing Tenacity shields.",
+          "vi": "Lõi Gyoro tăng Máu Quái Vật. Phân thân Tinh Trùng Đen gây Sát Thương Trực Tiếp Chuyên Biệt đánh thẳng vào Máu xuyên qua mọi loại khiên."
+        }
+      },
+      {
+        "id": "black_sperm_urplus_comp_2",
+        "name": {
+          "en": "Black Sperm UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tinh Trùng Đen (Black Sperm) [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "black_sperm_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "black_sperm_urplus_comp_3",
+        "name": {
+          "en": "Black Sperm UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tinh Trùng Đen (Black Sperm) [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "black_sperm_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "zombieman_urplus",
@@ -369,7 +523,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "zombieman_urplus_comp_1",
+        "name": {
+          "en": "Zombieman UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Thám Tử Bất Tử Zombieman [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "zombieman_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Zombieman UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Thám Tử Bất Tử Zombieman [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "zombieman_urplus_comp_2",
+        "name": {
+          "en": "Zombieman UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Thám Tử Bất Tử Zombieman [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "zombieman_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "zombieman_urplus_comp_3",
+        "name": {
+          "en": "Zombieman UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Thám Tử Bất Tử Zombieman [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "zombieman_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "overgrown_rover_urplus",
@@ -493,7 +724,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "overgrown_rover_urplus_comp_1",
+        "name": {
+          "en": "Overgrown Rover UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Chó Quái Thú Rover [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "overgrown_rover_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Overgrown Rover UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Chó Quái Thú Rover [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "overgrown_rover_urplus_comp_2",
+        "name": {
+          "en": "Overgrown Rover UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Chó Quái Thú Rover [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "overgrown_rover_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "overgrown_rover_urplus_comp_3",
+        "name": {
+          "en": "Overgrown Rover UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Chó Quái Thú Rover [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "overgrown_rover_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "bang_bomb_urplus",
@@ -617,7 +925,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "bang_bomb_urplus_comp_1",
+        "name": {
+          "en": "Bang & Bomb UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Song Tông Sư Bang & Bomb [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_bomb_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Bang & Bomb UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Song Tông Sư Bang & Bomb [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "bang_bomb_urplus_comp_2",
+        "name": {
+          "en": "Bang & Bomb UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Song Tông Sư Bang & Bomb [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "bang_bomb_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "bang_bomb_urplus_comp_3",
+        "name": {
+          "en": "Bang & Bomb UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Song Tông Sư Bang & Bomb [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "bang_bomb_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "g5_urplus",
@@ -741,7 +1126,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "g5_urplus_comp_1",
+        "name": {
+          "en": "G5 UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Robot Ma Thần G5 [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "g5_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting G5 UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Robot Ma Thần G5 [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "g5_urplus_comp_2",
+        "name": {
+          "en": "G5 UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Robot Ma Thần G5 [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "g5_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "g5_urplus_comp_3",
+        "name": {
+          "en": "G5 UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Robot Ma Thần G5 [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "g5_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "atomic_samurai_urplus",
@@ -865,7 +1327,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "atomic_samurai_urplus_comp_1",
+        "name": {
+          "en": "Atomic Samurai UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Kiếm Thánh Atomic Samurai [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "atomic_samurai_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Atomic Samurai UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Kiếm Thánh Atomic Samurai [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "atomic_samurai_urplus_comp_2",
+        "name": {
+          "en": "Atomic Samurai UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Kiếm Thánh Atomic Samurai [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "atomic_samurai_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "atomic_samurai_urplus_comp_3",
+        "name": {
+          "en": "Atomic Samurai UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Kiếm Thánh Atomic Samurai [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "atomic_samurai_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "nyan_urplus",
@@ -989,7 +1528,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "nyan_urplus_comp_1",
+        "name": {
+          "en": "Nyan UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Miêu Vương Nyan [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "nyan_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Nyan UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Miêu Vương Nyan [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "nyan_urplus_comp_2",
+        "name": {
+          "en": "Nyan UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Miêu Vương Nyan [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "nyan_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "nyan_urplus_comp_3",
+        "name": {
+          "en": "Nyan UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Miêu Vương Nyan [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "nyan_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "tatsumaki_terrible_tornado_urplus",
@@ -1113,7 +1729,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "tatsumaki_terrible_tornado_urplus_comp_1",
+        "name": {
+          "en": "Forcefield Speed Blitzkrieg",
+          "vi": "Đội Hình Bão Trường Lực Tốc Độ Cao"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "hellish_blizzard_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "sonic_v2_ur",
+            "flashy_flash_ur",
+            "tatsumaki_terrible_tornado_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sonic & Flash apply turn-1 shatter, Tatsumaki drops catastrophic Forcefields onto all 6 enemies.",
+          "vi": "Sonic và Flash cướp tốc gieo Vỡ Giáp, Tatsumaki thả bão Trường Lực quét sạch toàn bộ đội hình đối phương."
+        }
+      },
+      {
+        "id": "tatsumaki_terrible_tornado_urplus_comp_2",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Lốc Xoáy Kinh Hoàng Tatsumaki [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "tatsumaki_terrible_tornado_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "tatsumaki_terrible_tornado_urplus_comp_3",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Lốc Xoáy Kinh Hoàng Tatsumaki [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "tatsumaki_terrible_tornado_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "amai_mask_urplus",
@@ -1237,7 +1930,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "amai_mask_urplus_comp_1",
+        "name": {
+          "en": "Amai Mask UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Mặt Nạ Mật Amai Mask [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "amai_mask_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Amai Mask UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Mặt Nạ Mật Amai Mask [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "amai_mask_urplus_comp_2",
+        "name": {
+          "en": "Amai Mask UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Mặt Nạ Mật Amai Mask [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "amai_mask_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "amai_mask_urplus_comp_3",
+        "name": {
+          "en": "Amai Mask UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Mặt Nạ Mật Amai Mask [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "amai_mask_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "boros_urplus",
@@ -1361,7 +2131,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "boros_urplus_comp_1",
+        "name": {
+          "en": "Boros UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bá Chủ Vũ Trụ Boros [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "boros_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Boros UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bá Chủ Vũ Trụ Boros [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "boros_urplus_comp_2",
+        "name": {
+          "en": "Boros UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bá Chủ Vũ Trụ Boros [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "boros_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "boros_urplus_comp_3",
+        "name": {
+          "en": "Boros UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bá Chủ Vũ Trụ Boros [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "boros_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "genos_urplus",
@@ -1485,7 +2332,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "genos_urplus_comp_1",
+        "name": {
+          "en": "Genos UR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Cyborg Hủy Diệt Genos [UR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "genos_urplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Genos UR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Cyborg Hủy Diệt Genos [UR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "genos_urplus_comp_2",
+        "name": {
+          "en": "Genos UR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Cyborg Hủy Diệt Genos [UR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "genos_urplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "genos_urplus_comp_3",
+        "name": {
+          "en": "Genos UR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Cyborg Hủy Diệt Genos [UR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "genos_urplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "gyoro_gyoro_ur",
@@ -1609,7 +2533,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "gyoro_gyoro_ur_comp_1",
+        "name": {
+          "en": "Gyoro-Gyoro UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Quân Sư Gyoro-Gyoro [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "gyoro_gyoro_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Gyoro-Gyoro UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Quân Sư Gyoro-Gyoro [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "gyoro_gyoro_ur_comp_2",
+        "name": {
+          "en": "Gyoro-Gyoro UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Quân Sư Gyoro-Gyoro [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "gyoro_gyoro_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "gyoro_gyoro_ur_comp_3",
+        "name": {
+          "en": "Gyoro-Gyoro UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Quân Sư Gyoro-Gyoro [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "gyoro_gyoro_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "metal_bat_v2_ur",
@@ -1733,7 +2734,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "metal_bat_v2_ur_comp_1",
+        "name": {
+          "en": "Metal Bat V2 UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Chày Sắt Metal Bat V2 [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "metal_bat_v2_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Metal Bat V2 UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Chày Sắt Metal Bat V2 [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "metal_bat_v2_ur_comp_2",
+        "name": {
+          "en": "Metal Bat V2 UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Chày Sắt Metal Bat V2 [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "metal_bat_v2_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "metal_bat_v2_ur_comp_3",
+        "name": {
+          "en": "Metal Bat V2 UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Chày Sắt Metal Bat V2 [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "metal_bat_v2_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "sonic_v2_ur",
@@ -1857,7 +2935,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "sonic_v2_ur_comp_1",
+        "name": {
+          "en": "Sonic V2 UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Sonic V2 Siêu Thanh [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "sonic_v2_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Sonic V2 UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Sonic V2 Siêu Thanh [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "sonic_v2_ur_comp_2",
+        "name": {
+          "en": "Sonic V2 UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Sonic V2 Siêu Thanh [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "sonic_v2_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "sonic_v2_ur_comp_3",
+        "name": {
+          "en": "Sonic V2 UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Sonic V2 Siêu Thanh [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "sonic_v2_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "garou_ur",
@@ -1981,7 +3136,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "garou_ur_comp_1",
+        "name": {
+          "en": "Garou UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Kẻ Săn Anh Hùng Garou [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "garou_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Garou UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Kẻ Săn Anh Hùng Garou [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "garou_ur_comp_2",
+        "name": {
+          "en": "Garou UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Kẻ Săn Anh Hùng Garou [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "garou_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "garou_ur_comp_3",
+        "name": {
+          "en": "Garou UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Kẻ Săn Anh Hùng Garou [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "garou_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "pig_god_ur",
@@ -2105,7 +3337,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "pig_god_ur_comp_1",
+        "name": {
+          "en": "Pig God UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Thần Ăn Pig God [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "pig_god_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Pig God UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Thần Ăn Pig God [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "pig_god_ur_comp_2",
+        "name": {
+          "en": "Pig God UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Thần Ăn Pig God [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "pig_god_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "pig_god_ur_comp_3",
+        "name": {
+          "en": "Pig God UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Thần Ăn Pig God [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "pig_god_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "carnage_kabuto_ur",
@@ -2229,7 +3538,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "carnage_kabuto_ur_comp_1",
+        "name": {
+          "en": "Carnage Kabuto UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bọ Hung Carnage Kabuto [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "carnage_kabuto_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Carnage Kabuto UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bọ Hung Carnage Kabuto [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "carnage_kabuto_ur_comp_2",
+        "name": {
+          "en": "Carnage Kabuto UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bọ Hung Carnage Kabuto [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "carnage_kabuto_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "carnage_kabuto_ur_comp_3",
+        "name": {
+          "en": "Carnage Kabuto UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bọ Hung Carnage Kabuto [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "carnage_kabuto_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "subterranean_king_ur",
@@ -2353,7 +3739,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "subterranean_king_ur_comp_1",
+        "name": {
+          "en": "Subterranean King UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Vua Lòng Đất [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "subterranean_king_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Subterranean King UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Vua Lòng Đất [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "subterranean_king_ur_comp_2",
+        "name": {
+          "en": "Subterranean King UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Vua Lòng Đất [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "subterranean_king_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "subterranean_king_ur_comp_3",
+        "name": {
+          "en": "Subterranean King UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Vua Lòng Đất [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "subterranean_king_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "drive_knight_ur",
@@ -2477,7 +3940,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "drive_knight_ur_comp_1",
+        "name": {
+          "en": "Drive Knight UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Hiệp Sĩ Cơ Giới Drive Knight [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "drive_knight_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Drive Knight UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Hiệp Sĩ Cơ Giới Drive Knight [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "drive_knight_ur_comp_2",
+        "name": {
+          "en": "Drive Knight UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Hiệp Sĩ Cơ Giới Drive Knight [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "drive_knight_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "drive_knight_ur_comp_3",
+        "name": {
+          "en": "Drive Knight UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Hiệp Sĩ Cơ Giới Drive Knight [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "drive_knight_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "hellish_blizzard_ur",
@@ -2601,7 +4141,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "hellish_blizzard_ur_comp_1",
+        "name": {
+          "en": "Hellish Blizzard UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bão Tuyết Fubuki [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "hellish_blizzard_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Hellish Blizzard UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bão Tuyết Fubuki [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "hellish_blizzard_ur_comp_2",
+        "name": {
+          "en": "Hellish Blizzard UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bão Tuyết Fubuki [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "hellish_blizzard_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "hellish_blizzard_ur_comp_3",
+        "name": {
+          "en": "Hellish Blizzard UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bão Tuyết Fubuki [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "hellish_blizzard_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "deep_sea_king_ur",
@@ -2725,7 +4342,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "deep_sea_king_ur_comp_1",
+        "name": {
+          "en": "Deep Sea King UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Vua Biển Sâu [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_king_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Deep Sea King UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Vua Biển Sâu [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "deep_sea_king_ur_comp_2",
+        "name": {
+          "en": "Deep Sea King UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Vua Biển Sâu [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_king_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "deep_sea_king_ur_comp_3",
+        "name": {
+          "en": "Deep Sea King UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Vua Biển Sâu [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "deep_sea_king_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "child_emperor_ur",
@@ -2849,7 +4543,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "child_emperor_ur_comp_1",
+        "name": {
+          "en": "Child Emperor UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tiểu Bá Vương Child Emperor [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "child_emperor_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Child Emperor UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tiểu Bá Vương Child Emperor [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "child_emperor_ur_comp_2",
+        "name": {
+          "en": "Child Emperor UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tiểu Bá Vương Child Emperor [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "child_emperor_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "child_emperor_ur_comp_3",
+        "name": {
+          "en": "Child Emperor UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tiểu Bá Vương Child Emperor [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "child_emperor_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "mosquito_girl_ur",
@@ -2973,7 +4744,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "mosquito_girl_ur_comp_1",
+        "name": {
+          "en": "Mosquito Girl UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Nữ Chúa Muỗi Mosquito Girl [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "mosquito_girl_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Mosquito Girl UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Nữ Chúa Muỗi Mosquito Girl [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "mosquito_girl_ur_comp_2",
+        "name": {
+          "en": "Mosquito Girl UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Nữ Chúa Muỗi Mosquito Girl [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "mosquito_girl_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "mosquito_girl_ur_comp_3",
+        "name": {
+          "en": "Mosquito Girl UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Nữ Chúa Muỗi Mosquito Girl [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "mosquito_girl_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "flashy_flash_ur",
@@ -3097,7 +4945,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "flashy_flash_ur_comp_1",
+        "name": {
+          "en": "Flashy Flash UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Flash Quang Tốc [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "flashy_flash_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Flashy Flash UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Flash Quang Tốc [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "flashy_flash_ur_comp_2",
+        "name": {
+          "en": "Flashy Flash UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Flash Quang Tốc [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "flashy_flash_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "flashy_flash_ur_comp_3",
+        "name": {
+          "en": "Flashy Flash UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Flash Quang Tốc [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "flashy_flash_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "gouketsu_ur",
@@ -3221,7 +5146,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "gouketsu_ur_comp_1",
+        "name": {
+          "en": "Gouketsu UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Hào Kiệt Gouketsu [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "gouketsu_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Gouketsu UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Hào Kiệt Gouketsu [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "gouketsu_ur_comp_2",
+        "name": {
+          "en": "Gouketsu UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Hào Kiệt Gouketsu [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "gouketsu_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "gouketsu_ur_comp_3",
+        "name": {
+          "en": "Gouketsu UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Hào Kiệt Gouketsu [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "gouketsu_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "hellfire_flame_ur",
@@ -3345,7 +5347,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "hellfire_flame_ur_comp_1",
+        "name": {
+          "en": "Hellfire Flame UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Liệt Hỏa Hellfire Flame [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "hellfire_flame_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Hellfire Flame UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Liệt Hỏa Hellfire Flame [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "hellfire_flame_ur_comp_2",
+        "name": {
+          "en": "Hellfire Flame UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Liệt Hỏa Hellfire Flame [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "hellfire_flame_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "hellfire_flame_ur_comp_3",
+        "name": {
+          "en": "Hellfire Flame UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Liệt Hỏa Hellfire Flame [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "hellfire_flame_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "melzargard_ur",
@@ -3469,7 +5548,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "melzargard_ur_comp_1",
+        "name": {
+          "en": "Melzargard UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Thượng Tướng Melzargard [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "melzargard_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Melzargard UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Thượng Tướng Melzargard [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "melzargard_ur_comp_2",
+        "name": {
+          "en": "Melzargard UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Thượng Tướng Melzargard [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "melzargard_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "melzargard_ur_comp_3",
+        "name": {
+          "en": "Melzargard UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Thượng Tướng Melzargard [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "melzargard_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "gale_wind_ur",
@@ -3593,7 +5749,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "gale_wind_ur_comp_1",
+        "name": {
+          "en": "Gale Wind UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Thiên Phong Gale Wind [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "gale_wind_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Gale Wind UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Thiên Phong Gale Wind [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "gale_wind_ur_comp_2",
+        "name": {
+          "en": "Gale Wind UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Thiên Phong Gale Wind [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "gale_wind_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "gale_wind_ur_comp_3",
+        "name": {
+          "en": "Gale Wind UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Thiên Phong Gale Wind [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "gale_wind_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "king_ur",
@@ -3717,7 +5950,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "king_ur_comp_1",
+        "name": {
+          "en": "King UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Vua May Mắn King [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "king_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting King UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Vua May Mắn King [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "king_ur_comp_2",
+        "name": {
+          "en": "King UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Vua May Mắn King [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "king_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "king_ur_comp_3",
+        "name": {
+          "en": "King UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Vua May Mắn King [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "king_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "bom_bengpu_ur",
@@ -3841,7 +6151,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "bom_bengpu_ur_comp_1",
+        "name": {
+          "en": "Bom/Bengpu UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bom/Bengpu [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bom_bengpu_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Bom/Bengpu UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bom/Bengpu [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "bom_bengpu_ur_comp_2",
+        "name": {
+          "en": "Bom/Bengpu UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bom/Bengpu [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "bom_bengpu_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "bom_bengpu_ur_comp_3",
+        "name": {
+          "en": "Bom/Bengpu UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bom/Bengpu [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "bom_bengpu_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "metal_bat_ur",
@@ -3965,7 +6352,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "metal_bat_ur_comp_1",
+        "name": {
+          "en": "Metal Bat UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Chày Sắt Metal Bat [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "metal_bat_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Metal Bat UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Chày Sắt Metal Bat [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "metal_bat_ur_comp_2",
+        "name": {
+          "en": "Metal Bat UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Chày Sắt Metal Bat [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "metal_bat_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "metal_bat_ur_comp_3",
+        "name": {
+          "en": "Metal Bat UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Chày Sắt Metal Bat [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "metal_bat_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "suiryu_ur",
@@ -4089,7 +6553,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "suiryu_ur_comp_1",
+        "name": {
+          "en": "Suiryu UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Thủy Long Suiryu [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "suiryu_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Suiryu UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Thủy Long Suiryu [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "suiryu_ur_comp_2",
+        "name": {
+          "en": "Suiryu UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Thủy Long Suiryu [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "suiryu_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "suiryu_ur_comp_3",
+        "name": {
+          "en": "Suiryu UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Thủy Long Suiryu [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "suiryu_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "g4_ur",
@@ -4213,7 +6754,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "g4_ur_comp_1",
+        "name": {
+          "en": "G4 UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Ma Thần Cơ Khí G4 [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "g4_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting G4 UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Ma Thần Cơ Khí G4 [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "g4_ur_comp_2",
+        "name": {
+          "en": "G4 UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Ma Thần Cơ Khí G4 [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "g4_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "g4_ur_comp_3",
+        "name": {
+          "en": "G4 UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Ma Thần Cơ Khí G4 [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "g4_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "sonic_v1_ur",
@@ -4337,7 +6955,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "sonic_v1_ur_comp_1",
+        "name": {
+          "en": "Sonic V1 UR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Sonic V1 [UR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "sonic_v1_ur",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Sonic V1 UR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Sonic V1 [UR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "sonic_v1_ur_comp_2",
+        "name": {
+          "en": "Sonic V1 UR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Sonic V1 [UR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "sonic_v1_ur",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "sonic_v1_ur_comp_3",
+        "name": {
+          "en": "Sonic V1 UR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Sonic V1 [UR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "sonic_v1_ur",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "superalloy_darkshine_ssrplus",
@@ -4461,7 +7156,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "superalloy_darkshine_ssrplus_comp_1",
+        "name": {
+          "en": "Superalloy Darkshine SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Hợp Kim Đen Bóng Darkshine [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "superalloy_darkshine_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Superalloy Darkshine SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Hợp Kim Đen Bóng Darkshine [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "superalloy_darkshine_ssrplus_comp_2",
+        "name": {
+          "en": "Superalloy Darkshine SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Hợp Kim Đen Bóng Darkshine [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "superalloy_darkshine_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "superalloy_darkshine_ssrplus_comp_3",
+        "name": {
+          "en": "Superalloy Darkshine SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Hợp Kim Đen Bóng Darkshine [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "superalloy_darkshine_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "metal_knight_ssrplus",
@@ -4585,7 +7357,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "metal_knight_ssrplus_comp_1",
+        "name": {
+          "en": "Metal Knight SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Hiệp Sĩ Kim Loại Bofoi [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "metal_knight_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Metal Knight SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Hiệp Sĩ Kim Loại Bofoi [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "metal_knight_ssrplus_comp_2",
+        "name": {
+          "en": "Metal Knight SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Hiệp Sĩ Kim Loại Bofoi [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "metal_knight_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "metal_knight_ssrplus_comp_3",
+        "name": {
+          "en": "Metal Knight SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Hiệp Sĩ Kim Loại Bofoi [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "metal_knight_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "puri_puri_prisoner_ssrplus",
@@ -4709,7 +7558,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "puri_puri_prisoner_ssrplus_comp_1",
+        "name": {
+          "en": "Puri-Puri Prisoner SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tù Nhân Sexy Puri-Puri [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "puri_puri_prisoner_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Puri-Puri Prisoner SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tù Nhân Sexy Puri-Puri [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "puri_puri_prisoner_ssrplus_comp_2",
+        "name": {
+          "en": "Puri-Puri Prisoner SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tù Nhân Sexy Puri-Puri [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "puri_puri_prisoner_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "puri_puri_prisoner_ssrplus_comp_3",
+        "name": {
+          "en": "Puri-Puri Prisoner SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tù Nhân Sexy Puri-Puri [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "puri_puri_prisoner_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "groribas_ssrplus",
@@ -4833,7 +7759,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "groribas_ssrplus_comp_1",
+        "name": {
+          "en": "Groribas SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Groribas [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "groribas_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Groribas SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Groribas [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "groribas_ssrplus_comp_2",
+        "name": {
+          "en": "Groribas SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Groribas [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "groribas_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "groribas_ssrplus_comp_3",
+        "name": {
+          "en": "Groribas SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Groribas [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "groribas_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "watchdog_man_ssrplus",
@@ -4957,7 +7960,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "watchdog_man_ssrplus_comp_1",
+        "name": {
+          "en": "Watchdog Man SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Chó Canh Cổng Watchdog Man [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "watchdog_man_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Watchdog Man SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Chó Canh Cổng Watchdog Man [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "watchdog_man_ssrplus_comp_2",
+        "name": {
+          "en": "Watchdog Man SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Chó Canh Cổng Watchdog Man [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "watchdog_man_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "watchdog_man_ssrplus_comp_3",
+        "name": {
+          "en": "Watchdog Man SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Chó Canh Cổng Watchdog Man [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "watchdog_man_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "tank_top_master_ssrplus",
@@ -5081,7 +8161,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "tank_top_master_ssrplus_comp_1",
+        "name": {
+          "en": "Tank Top Master SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tank Top Master [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_master_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Tank Top Master SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tank Top Master [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "tank_top_master_ssrplus_comp_2",
+        "name": {
+          "en": "Tank Top Master SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tank Top Master [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_master_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "tank_top_master_ssrplus_comp_3",
+        "name": {
+          "en": "Tank Top Master SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tank Top Master [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "tank_top_master_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "phoenix_man_ssrplus",
@@ -5205,7 +8362,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "phoenix_man_ssrplus_comp_1",
+        "name": {
+          "en": "Phoenix Man SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Phượng Hoàng Lửa Phoenix Man [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "phoenix_man_ssrplus",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Phoenix Man SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Phượng Hoàng Lửa Phoenix Man [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "phoenix_man_ssrplus_comp_2",
+        "name": {
+          "en": "Phoenix Man SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Phượng Hoàng Lửa Phoenix Man [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "phoenix_man_ssrplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "phoenix_man_ssrplus_comp_3",
+        "name": {
+          "en": "Phoenix Man SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Phượng Hoàng Lửa Phoenix Man [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "phoenix_man_ssrplus",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "bang_ssrplus",
@@ -5329,7 +8563,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "bang_ssrplus_comp_1",
+        "name": {
+          "en": "Bang SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bang [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Bang SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bang [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "bang_ssrplus_comp_2",
+        "name": {
+          "en": "Bang SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bang [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "bang_ssrplus_comp_3",
+        "name": {
+          "en": "Bang SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bang [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "geryuganshoop_ssrplus",
@@ -5453,7 +8764,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "geryuganshoop_ssrplus_comp_1",
+        "name": {
+          "en": "Geryuganshoop SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bậc Thầy Trọng Lực Geryuganshoop [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "geryuganshoop_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Geryuganshoop SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bậc Thầy Trọng Lực Geryuganshoop [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "geryuganshoop_ssrplus_comp_2",
+        "name": {
+          "en": "Geryuganshoop SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bậc Thầy Trọng Lực Geryuganshoop [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "geryuganshoop_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "geryuganshoop_ssrplus_comp_3",
+        "name": {
+          "en": "Geryuganshoop SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bậc Thầy Trọng Lực Geryuganshoop [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "geryuganshoop_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "monsterized_bakuzan_ssrplus",
@@ -5577,7 +8965,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "monsterized_bakuzan_ssrplus_comp_1",
+        "name": {
+          "en": "Monsterized Bakuzan SSR+ Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Monsterized Bakuzan [SSR+]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "monsterized_bakuzan_ssrplus",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Monsterized Bakuzan SSR+ with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Monsterized Bakuzan [SSR+] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "monsterized_bakuzan_ssrplus_comp_2",
+        "name": {
+          "en": "Monsterized Bakuzan SSR+ Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Monsterized Bakuzan [SSR+]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "monsterized_bakuzan_ssrplus",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "monsterized_bakuzan_ssrplus_comp_3",
+        "name": {
+          "en": "Monsterized Bakuzan SSR+ F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Monsterized Bakuzan [SSR+]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "monsterized_bakuzan_ssrplus",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "choze_ssr",
@@ -5701,7 +9166,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "choze_ssr_comp_1",
+        "name": {
+          "en": "Choze SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Choze [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "choze_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Choze SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Choze [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "choze_ssr_comp_2",
+        "name": {
+          "en": "Choze SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Choze [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "choze_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "choze_ssr_comp_3",
+        "name": {
+          "en": "Choze SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Choze [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "choze_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "eyesight_ssr",
@@ -5825,7 +9367,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "eyesight_ssr_comp_1",
+        "name": {
+          "en": "Eyesight SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Eyesight [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "eyesight_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Eyesight SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Eyesight [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "eyesight_ssr_comp_2",
+        "name": {
+          "en": "Eyesight SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Eyesight [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "eyesight_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "eyesight_ssr_comp_3",
+        "name": {
+          "en": "Eyesight SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Eyesight [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "eyesight_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "speed_o_sound_sonic_v1_ssr",
@@ -5949,7 +9568,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "speed_o_sound_sonic_v1_ssr_comp_1",
+        "name": {
+          "en": "Speed-o-Sound Sonic V1 SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Speed-o-Sound Sonic V1 [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "speed_o_sound_sonic_v1_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Speed-o-Sound Sonic V1 SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Speed-o-Sound Sonic V1 [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "speed_o_sound_sonic_v1_ssr_comp_2",
+        "name": {
+          "en": "Speed-o-Sound Sonic V1 SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Speed-o-Sound Sonic V1 [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "speed_o_sound_sonic_v1_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "speed_o_sound_sonic_v1_ssr_comp_3",
+        "name": {
+          "en": "Speed-o-Sound Sonic V1 SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Speed-o-Sound Sonic V1 [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "speed_o_sound_sonic_v1_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "speed_o_sound_sonic_v2_ssr",
@@ -6073,7 +9769,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "speed_o_sound_sonic_v2_ssr_comp_1",
+        "name": {
+          "en": "Speed-o-Sound Sonic V2 SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Speed-o-Sound Sonic V2 [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "speed_o_sound_sonic_v2_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Speed-o-Sound Sonic V2 SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Speed-o-Sound Sonic V2 [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "speed_o_sound_sonic_v2_ssr_comp_2",
+        "name": {
+          "en": "Speed-o-Sound Sonic V2 SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Speed-o-Sound Sonic V2 [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "speed_o_sound_sonic_v2_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "speed_o_sound_sonic_v2_ssr_comp_3",
+        "name": {
+          "en": "Speed-o-Sound Sonic V2 SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Speed-o-Sound Sonic V2 [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "speed_o_sound_sonic_v2_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "tatsumaki_terrible_tornado_v1_ssr",
@@ -6197,7 +9970,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "tatsumaki_terrible_tornado_v1_ssr_comp_1",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado V1 SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tatsumaki/Terrible Tornado V1 [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "tatsumaki_terrible_tornado_v1_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Tatsumaki/Terrible Tornado V1 SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tatsumaki/Terrible Tornado V1 [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "tatsumaki_terrible_tornado_v1_ssr_comp_2",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado V1 SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tatsumaki/Terrible Tornado V1 [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "tatsumaki_terrible_tornado_v1_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "tatsumaki_terrible_tornado_v1_ssr_comp_3",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado V1 SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tatsumaki/Terrible Tornado V1 [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "tatsumaki_terrible_tornado_v1_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "tatsumaki_terrible_tornado_v2_ssr",
@@ -6321,7 +10171,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "tatsumaki_terrible_tornado_v2_ssr_comp_1",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado V2 SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tatsumaki/Terrible Tornado V2 [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "tatsumaki_terrible_tornado_v2_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Tatsumaki/Terrible Tornado V2 SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tatsumaki/Terrible Tornado V2 [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "tatsumaki_terrible_tornado_v2_ssr_comp_2",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado V2 SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tatsumaki/Terrible Tornado V2 [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "tatsumaki_terrible_tornado_v2_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "tatsumaki_terrible_tornado_v2_ssr_comp_3",
+        "name": {
+          "en": "Tatsumaki/Terrible Tornado V2 SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tatsumaki/Terrible Tornado V2 [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "tatsumaki_terrible_tornado_v2_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "vaccine_man_v1_ssr",
@@ -6445,7 +10372,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "vaccine_man_v1_ssr_comp_1",
+        "name": {
+          "en": "Vaccine Man V1 SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Vaccine Man V1 [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "vaccine_man_v1_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Vaccine Man V1 SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Vaccine Man V1 [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "vaccine_man_v1_ssr_comp_2",
+        "name": {
+          "en": "Vaccine Man V1 SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Vaccine Man V1 [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "vaccine_man_v1_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "vaccine_man_v1_ssr_comp_3",
+        "name": {
+          "en": "Vaccine Man V1 SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Vaccine Man V1 [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "vaccine_man_v1_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "vaccine_man_v2_ssr",
@@ -6569,7 +10573,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "vaccine_man_v2_ssr_comp_1",
+        "name": {
+          "en": "Vaccine Man V2 SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Vaccine Man V2 [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "vaccine_man_v2_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Vaccine Man V2 SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Vaccine Man V2 [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "vaccine_man_v2_ssr_comp_2",
+        "name": {
+          "en": "Vaccine Man V2 SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Vaccine Man V2 [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "vaccine_man_v2_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "vaccine_man_v2_ssr_comp_3",
+        "name": {
+          "en": "Vaccine Man V2 SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Vaccine Man V2 [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "vaccine_man_v2_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "armored_gorilla_sr",
@@ -6693,7 +10774,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "armored_gorilla_sr_comp_1",
+        "name": {
+          "en": "Armored Gorilla SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Khỉ Đột Thiết Giáp [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "armored_gorilla_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Armored Gorilla SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Khỉ Đột Thiết Giáp [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "armored_gorilla_sr_comp_2",
+        "name": {
+          "en": "Armored Gorilla SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Khỉ Đột Thiết Giáp [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "armored_gorilla_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "armored_gorilla_sr_comp_3",
+        "name": {
+          "en": "Armored Gorilla SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Khỉ Đột Thiết Giáp [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "armored_gorilla_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "awakened_cockroach_sr",
@@ -6817,7 +10975,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "awakened_cockroach_sr_comp_1",
+        "name": {
+          "en": "Awakened Cockroach SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Awakened Cockroach [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "awakened_cockroach_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Awakened Cockroach SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Awakened Cockroach [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "awakened_cockroach_sr_comp_2",
+        "name": {
+          "en": "Awakened Cockroach SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Awakened Cockroach [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "awakened_cockroach_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "awakened_cockroach_sr_comp_3",
+        "name": {
+          "en": "Awakened Cockroach SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Awakened Cockroach [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "awakened_cockroach_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "bakuzan_sr",
@@ -6941,7 +11176,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "bakuzan_sr_comp_1",
+        "name": {
+          "en": "Bakuzan SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bakuzan [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bakuzan_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Bakuzan SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bakuzan [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "bakuzan_sr_comp_2",
+        "name": {
+          "en": "Bakuzan SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bakuzan [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "bakuzan_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "bakuzan_sr_comp_3",
+        "name": {
+          "en": "Bakuzan SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bakuzan [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "bakuzan_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "beast_king_sr",
@@ -7065,7 +11377,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "beast_king_sr_comp_1",
+        "name": {
+          "en": "Beast King SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Vua Thú Beast King [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "beast_king_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Beast King SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Vua Thú Beast King [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "beast_king_sr_comp_2",
+        "name": {
+          "en": "Beast King SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Vua Thú Beast King [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "beast_king_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "beast_king_sr_comp_3",
+        "name": {
+          "en": "Beast King SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Vua Thú Beast King [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "beast_king_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "blue_fire_sr",
@@ -7189,7 +11578,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "blue_fire_sr_comp_1",
+        "name": {
+          "en": "Blue Fire SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Ngọn Lửa Xanh Blue Fire [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "blue_fire_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Blue Fire SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Ngọn Lửa Xanh Blue Fire [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "blue_fire_sr_comp_2",
+        "name": {
+          "en": "Blue Fire SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Ngọn Lửa Xanh Blue Fire [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "blue_fire_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "blue_fire_sr_comp_3",
+        "name": {
+          "en": "Blue Fire SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Ngọn Lửa Xanh Blue Fire [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "blue_fire_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "bushidoriru_sr",
@@ -7313,7 +11779,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "bushidoriru_sr_comp_1",
+        "name": {
+          "en": "Bushidoriru SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bushidoriru [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bushidoriru_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Bushidoriru SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bushidoriru [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "bushidoriru_sr_comp_2",
+        "name": {
+          "en": "Bushidoriru SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bushidoriru [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "bushidoriru_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "bushidoriru_sr_comp_3",
+        "name": {
+          "en": "Bushidoriru SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bushidoriru [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "bushidoriru_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "butterfly_dx_sr",
@@ -7437,7 +11980,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "butterfly_dx_sr_comp_1",
+        "name": {
+          "en": "Butterfly DX SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Butterfly DX [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "butterfly_dx_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Butterfly DX SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Butterfly DX [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "butterfly_dx_sr_comp_2",
+        "name": {
+          "en": "Butterfly DX SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Butterfly DX [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "butterfly_dx_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "butterfly_dx_sr_comp_3",
+        "name": {
+          "en": "Butterfly DX SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Butterfly DX [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "butterfly_dx_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "death_gatling_sr",
@@ -7561,7 +12181,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "death_gatling_sr_comp_1",
+        "name": {
+          "en": "Death Gatling SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Súng Sáu Nòng Death Gatling [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "death_gatling_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Death Gatling SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Súng Sáu Nòng Death Gatling [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "death_gatling_sr_comp_2",
+        "name": {
+          "en": "Death Gatling SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Súng Sáu Nòng Death Gatling [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "death_gatling_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "death_gatling_sr_comp_3",
+        "name": {
+          "en": "Death Gatling SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Súng Sáu Nòng Death Gatling [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "death_gatling_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "doctor_genus_sr",
@@ -7685,7 +12382,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "doctor_genus_sr_comp_1",
+        "name": {
+          "en": "Doctor Genus SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tiến Sĩ Genus [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Doctor Genus SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tiến Sĩ Genus [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "doctor_genus_sr_comp_2",
+        "name": {
+          "en": "Doctor Genus SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tiến Sĩ Genus [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "doctor_genus_sr_comp_3",
+        "name": {
+          "en": "Doctor Genus SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tiến Sĩ Genus [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "face_ripper_sr",
@@ -7809,7 +12583,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "face_ripper_sr_comp_1",
+        "name": {
+          "en": "Face Ripper SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Face Ripper [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "face_ripper_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Face Ripper SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Face Ripper [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "face_ripper_sr_comp_2",
+        "name": {
+          "en": "Face Ripper SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Face Ripper [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "face_ripper_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "face_ripper_sr_comp_3",
+        "name": {
+          "en": "Face Ripper SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Face Ripper [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "face_ripper_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "fist_fight_djinn_sr",
@@ -7933,7 +12784,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "fist_fight_djinn_sr_comp_1",
+        "name": {
+          "en": "Fist Fight Djinn SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Fist Fight Djinn [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "fist_fight_djinn_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Fist Fight Djinn SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Fist Fight Djinn [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "fist_fight_djinn_sr_comp_2",
+        "name": {
+          "en": "Fist Fight Djinn SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Fist Fight Djinn [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "fist_fight_djinn_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "fist_fight_djinn_sr_comp_3",
+        "name": {
+          "en": "Fist Fight Djinn SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Fist Fight Djinn [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "fist_fight_djinn_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "fukegao_sr",
@@ -8057,7 +12985,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "fukegao_sr_comp_1",
+        "name": {
+          "en": "Fukegao SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bác Sĩ Khổng Lồ Fukegao [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "fukegao_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Fukegao SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bác Sĩ Khổng Lồ Fukegao [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "fukegao_sr_comp_2",
+        "name": {
+          "en": "Fukegao SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bác Sĩ Khổng Lồ Fukegao [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "fukegao_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "fukegao_sr_comp_3",
+        "name": {
+          "en": "Fukegao SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bác Sĩ Khổng Lồ Fukegao [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "fukegao_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "golden_ball_sr",
@@ -8181,7 +13186,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "golden_ball_sr_comp_1",
+        "name": {
+          "en": "Golden Ball SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bi Vàng Golden Ball [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "golden_ball_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Golden Ball SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bi Vàng Golden Ball [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "golden_ball_sr_comp_2",
+        "name": {
+          "en": "Golden Ball SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bi Vàng Golden Ball [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "golden_ball_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "golden_ball_sr_comp_3",
+        "name": {
+          "en": "Golden Ball SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bi Vàng Golden Ball [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "golden_ball_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "hammerhead_sr",
@@ -8305,7 +13387,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "hammerhead_sr_comp_1",
+        "name": {
+          "en": "Hammerhead SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Hammerhead [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "hammerhead_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Hammerhead SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Hammerhead [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "hammerhead_sr_comp_2",
+        "name": {
+          "en": "Hammerhead SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Hammerhead [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "hammerhead_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "hammerhead_sr_comp_3",
+        "name": {
+          "en": "Hammerhead SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Hammerhead [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "hammerhead_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "hamukichi_sr",
@@ -8429,7 +13588,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "hamukichi_sr_comp_1",
+        "name": {
+          "en": "Hamukichi SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Hamukichi [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "hamukichi_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Hamukichi SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Hamukichi [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "hamukichi_sr_comp_2",
+        "name": {
+          "en": "Hamukichi SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Hamukichi [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "hamukichi_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "hamukichi_sr_comp_3",
+        "name": {
+          "en": "Hamukichi SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Hamukichi [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "hamukichi_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "heavy_tank_loincloth_sr",
@@ -8553,7 +13789,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "heavy_tank_loincloth_sr_comp_1",
+        "name": {
+          "en": "Heavy Tank Loincloth SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Heavy Tank Loincloth [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "heavy_tank_loincloth_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Heavy Tank Loincloth SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Heavy Tank Loincloth [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "heavy_tank_loincloth_sr_comp_2",
+        "name": {
+          "en": "Heavy Tank Loincloth SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Heavy Tank Loincloth [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "heavy_tank_loincloth_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "heavy_tank_loincloth_sr_comp_3",
+        "name": {
+          "en": "Heavy Tank Loincloth SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Heavy Tank Loincloth [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "heavy_tank_loincloth_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "iairon_sr",
@@ -8677,7 +13990,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "iairon_sr_comp_1",
+        "name": {
+          "en": "Iairon SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Cư Hợp Thiết Iairon [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "iairon_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Iairon SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Cư Hợp Thiết Iairon [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "iairon_sr_comp_2",
+        "name": {
+          "en": "Iairon SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Cư Hợp Thiết Iairon [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "iairon_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "iairon_sr_comp_3",
+        "name": {
+          "en": "Iairon SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Cư Hợp Thiết Iairon [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "iairon_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "konbu_infinity_sr",
@@ -8801,7 +14191,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "konbu_infinity_sr_comp_1",
+        "name": {
+          "en": "Konbu Infinity SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tảo Bẹ Vô Tận [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "konbu_infinity_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Konbu Infinity SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tảo Bẹ Vô Tận [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "konbu_infinity_sr_comp_2",
+        "name": {
+          "en": "Konbu Infinity SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tảo Bẹ Vô Tận [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "konbu_infinity_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "konbu_infinity_sr_comp_3",
+        "name": {
+          "en": "Konbu Infinity SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tảo Bẹ Vô Tận [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "konbu_infinity_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "lightning_genji_sr",
@@ -8925,7 +14392,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "lightning_genji_sr_comp_1",
+        "name": {
+          "en": "Lightning Genji SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Lightning Genji [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "lightning_genji_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Lightning Genji SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Lightning Genji [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "lightning_genji_sr_comp_2",
+        "name": {
+          "en": "Lightning Genji SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Lightning Genji [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "lightning_genji_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "lightning_genji_sr_comp_3",
+        "name": {
+          "en": "Lightning Genji SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Lightning Genji [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "lightning_genji_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "lightning_max_sr",
@@ -9049,7 +14593,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "lightning_max_sr_comp_1",
+        "name": {
+          "en": "Lightning Max SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tia Chớp Lightning Max [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "lightning_max_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Lightning Max SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tia Chớp Lightning Max [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "lightning_max_sr_comp_2",
+        "name": {
+          "en": "Lightning Max SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tia Chớp Lightning Max [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "lightning_max_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "lightning_max_sr_comp_3",
+        "name": {
+          "en": "Lightning Max SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tia Chớp Lightning Max [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "lightning_max_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "magicman_sr",
@@ -9173,7 +14794,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "magicman_sr_comp_1",
+        "name": {
+          "en": "Magicman SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Magicman [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "magicman_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Magicman SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Magicman [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "magicman_sr_comp_2",
+        "name": {
+          "en": "Magicman SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Magicman [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "magicman_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "magicman_sr_comp_3",
+        "name": {
+          "en": "Magicman SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Magicman [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "magicman_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "messenger_of_the_seafolk_sr",
@@ -9297,7 +14995,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "messenger_of_the_seafolk_sr_comp_1",
+        "name": {
+          "en": "Messenger of the Seafolk SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Messenger of the Seafolk [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "messenger_of_the_seafolk_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Messenger of the Seafolk SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Messenger of the Seafolk [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "messenger_of_the_seafolk_sr_comp_2",
+        "name": {
+          "en": "Messenger of the Seafolk SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Messenger of the Seafolk [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "messenger_of_the_seafolk_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "messenger_of_the_seafolk_sr_comp_3",
+        "name": {
+          "en": "Messenger of the Seafolk SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Messenger of the Seafolk [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "messenger_of_the_seafolk_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "rinrin_sr",
@@ -9421,7 +15196,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "rinrin_sr_comp_1",
+        "name": {
+          "en": "Rinrin SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Rinrin [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "rinrin_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Rinrin SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Rinrin [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "rinrin_sr_comp_2",
+        "name": {
+          "en": "Rinrin SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Rinrin [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "rinrin_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "rinrin_sr_comp_3",
+        "name": {
+          "en": "Rinrin SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Rinrin [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "rinrin_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "sky_king_sr",
@@ -9545,7 +15397,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Lightning or Monk set. Every single SPD substat is vital for turn-1 initiative.",
         "vi": "Trang bị 4 món set Tia Chớp (Lightning) hoặc Tăng Lữ (Monk). Từng điểm Tốc Độ là yếu tố sống còn để cướp lượt đầu."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "sky_king_sr_comp_1",
+        "name": {
+          "en": "Sky King SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Vua Bầu Trời Sky King [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "sky_king_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Sky King SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Vua Bầu Trời Sky King [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "sky_king_sr_comp_2",
+        "name": {
+          "en": "Sky King SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Vua Bầu Trời Sky King [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "sky_king_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "sky_king_sr_comp_3",
+        "name": {
+          "en": "Sky King SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Vua Bầu Trời Sky King [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "sky_king_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "smile_man_sr",
@@ -9669,7 +15598,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "smile_man_sr_comp_1",
+        "name": {
+          "en": "Smile Man SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Người Mặt Cười Smile Man [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "smile_man_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Smile Man SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Người Mặt Cười Smile Man [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "smile_man_sr_comp_2",
+        "name": {
+          "en": "Smile Man SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Người Mặt Cười Smile Man [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "smile_man_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "smile_man_sr_comp_3",
+        "name": {
+          "en": "Smile Man SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Người Mặt Cười Smile Man [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "smile_man_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "snek_sr",
@@ -9793,7 +15799,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "snek_sr_comp_1",
+        "name": {
+          "en": "Snek SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Rắn Cắn Snek [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "snek_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Snek SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Rắn Cắn Snek [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "snek_sr_comp_2",
+        "name": {
+          "en": "Snek SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Rắn Cắn Snek [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "snek_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "snek_sr_comp_3",
+        "name": {
+          "en": "Snek SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Rắn Cắn Snek [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "snek_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "spring_mustachio_sr",
@@ -9917,7 +16000,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "spring_mustachio_sr_comp_1",
+        "name": {
+          "en": "Spring Mustachio SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Râu Lò Xo Spring Mustachio [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "spring_mustachio_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Spring Mustachio SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Râu Lò Xo Spring Mustachio [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "spring_mustachio_sr_comp_2",
+        "name": {
+          "en": "Spring Mustachio SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Râu Lò Xo Spring Mustachio [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "spring_mustachio_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "spring_mustachio_sr_comp_3",
+        "name": {
+          "en": "Spring Mustachio SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Râu Lò Xo Spring Mustachio [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "spring_mustachio_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "stinger_sr",
@@ -10041,7 +16201,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "stinger_sr_comp_1",
+        "name": {
+          "en": "Stinger SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Gia Táo Đình Stinger [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "stinger_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Stinger SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Gia Táo Đình Stinger [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "stinger_sr_comp_2",
+        "name": {
+          "en": "Stinger SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Gia Táo Đình Stinger [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "stinger_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "stinger_sr_comp_3",
+        "name": {
+          "en": "Stinger SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Gia Táo Đình Stinger [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "stinger_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "subterranean_sr",
@@ -10165,7 +16402,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "subterranean_sr_comp_1",
+        "name": {
+          "en": "Subterranean SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Subterranean [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "subterranean_sr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Subterranean SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Subterranean [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "subterranean_sr_comp_2",
+        "name": {
+          "en": "Subterranean SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Subterranean [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "subterranean_sr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "subterranean_sr_comp_3",
+        "name": {
+          "en": "Subterranean SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Subterranean [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "subterranean_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "tank_top_vegan_sr",
@@ -10289,7 +16603,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "tank_top_vegan_sr_comp_1",
+        "name": {
+          "en": "Tank Top Vegan SR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tank Top Vegan [SR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_vegan_sr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Tank Top Vegan SR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tank Top Vegan [SR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "tank_top_vegan_sr_comp_2",
+        "name": {
+          "en": "Tank Top Vegan SR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tank Top Vegan [SR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_vegan_sr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "tank_top_vegan_sr_comp_3",
+        "name": {
+          "en": "Tank Top Vegan SR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tank Top Vegan [SR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "tank_top_vegan_sr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "bunbun_man_r",
@@ -10413,7 +16804,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "bunbun_man_r_comp_1",
+        "name": {
+          "en": "Bunbun Man R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Bunbun Man [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bunbun_man_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Bunbun Man R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Bunbun Man [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "bunbun_man_r_comp_2",
+        "name": {
+          "en": "Bunbun Man R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Bunbun Man [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "bunbun_man_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "bunbun_man_r_comp_3",
+        "name": {
+          "en": "Bunbun Man R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Bunbun Man [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "bunbun_man_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "crablante_r",
@@ -10537,7 +17005,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "crablante_r_comp_1",
+        "name": {
+          "en": "Crablante R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Crablante [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "crablante_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Crablante R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Crablante [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "crablante_r_comp_2",
+        "name": {
+          "en": "Crablante R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Crablante [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "crablante_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "crablante_r_comp_3",
+        "name": {
+          "en": "Crablante R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Crablante [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "crablante_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "d_pad_r",
@@ -10661,7 +17206,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "d_pad_r_comp_1",
+        "name": {
+          "en": "D-pad R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng D-pad [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "d_pad_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting D-pad R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc D-pad [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "d_pad_r_comp_2",
+        "name": {
+          "en": "D-pad R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng D-pad [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "d_pad_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "d_pad_r_comp_3",
+        "name": {
+          "en": "D-pad R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng D-pad [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "d_pad_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "dark_matter_thief_r",
@@ -10785,7 +17407,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "dark_matter_thief_r_comp_1",
+        "name": {
+          "en": "Dark Matter Thief R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Dark Matter Thief [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "dark_matter_thief_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Dark Matter Thief R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Dark Matter Thief [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "dark_matter_thief_r_comp_2",
+        "name": {
+          "en": "Dark Matter Thief R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Dark Matter Thief [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "dark_matter_thief_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "dark_matter_thief_r_comp_3",
+        "name": {
+          "en": "Dark Matter Thief R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Dark Matter Thief [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "dark_matter_thief_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "eyelashes_r",
@@ -10909,7 +17608,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "eyelashes_r_comp_1",
+        "name": {
+          "en": "Eyelashes R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Eyelashes [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "eyelashes_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Eyelashes R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Eyelashes [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "eyelashes_r_comp_2",
+        "name": {
+          "en": "Eyelashes R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Eyelashes [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "eyelashes_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "eyelashes_r_comp_3",
+        "name": {
+          "en": "Eyelashes R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Eyelashes [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "eyelashes_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "funeral_suspenders_r",
@@ -11033,7 +17809,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "funeral_suspenders_r_comp_1",
+        "name": {
+          "en": "Funeral Suspenders R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Funeral Suspenders [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "funeral_suspenders_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Funeral Suspenders R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Funeral Suspenders [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "funeral_suspenders_r_comp_2",
+        "name": {
+          "en": "Funeral Suspenders R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Funeral Suspenders [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "funeral_suspenders_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "funeral_suspenders_r_comp_3",
+        "name": {
+          "en": "Funeral Suspenders R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Funeral Suspenders [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "funeral_suspenders_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "ground_dragon_r",
@@ -11157,7 +18010,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "ground_dragon_r_comp_1",
+        "name": {
+          "en": "Ground Dragon R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Ground Dragon [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "ground_dragon_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Ground Dragon R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Ground Dragon [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "ground_dragon_r_comp_2",
+        "name": {
+          "en": "Ground Dragon R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Ground Dragon [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "ground_dragon_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "ground_dragon_r_comp_3",
+        "name": {
+          "en": "Ground Dragon R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Ground Dragon [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "ground_dragon_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "jet_niceguy_r",
@@ -11281,7 +18211,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "jet_niceguy_r_comp_1",
+        "name": {
+          "en": "Jet Niceguy R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Jet Niceguy [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "jet_niceguy_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Jet Niceguy R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Jet Niceguy [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "jet_niceguy_r_comp_2",
+        "name": {
+          "en": "Jet Niceguy R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Jet Niceguy [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "jet_niceguy_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "jet_niceguy_r_comp_3",
+        "name": {
+          "en": "Jet Niceguy R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Jet Niceguy [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "jet_niceguy_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "kamakyuri_r",
@@ -11405,7 +18412,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "kamakyuri_r_comp_1",
+        "name": {
+          "en": "Kamakyuri R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Kamakyuri [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "kamakyuri_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Kamakyuri R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Kamakyuri [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "kamakyuri_r_comp_2",
+        "name": {
+          "en": "Kamakyuri R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Kamakyuri [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "kamakyuri_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "kamakyuri_r_comp_3",
+        "name": {
+          "en": "Kamakyuri R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Kamakyuri [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "kamakyuri_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "maiko_plasma_r",
@@ -11529,7 +18613,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "maiko_plasma_r_comp_1",
+        "name": {
+          "en": "Maiko Plasma R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Maiko Plasma [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "maiko_plasma_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Maiko Plasma R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Maiko Plasma [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "maiko_plasma_r_comp_2",
+        "name": {
+          "en": "Maiko Plasma R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Maiko Plasma [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "maiko_plasma_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "maiko_plasma_r_comp_3",
+        "name": {
+          "en": "Maiko Plasma R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Maiko Plasma [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "maiko_plasma_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "mumen_rider_r",
@@ -11653,7 +18814,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "mumen_rider_r_comp_1",
+        "name": {
+          "en": "Mumen Rider R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Hiệp Sĩ Không Bằng Lái [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "mumen_rider_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Mumen Rider R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Hiệp Sĩ Không Bằng Lái [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "mumen_rider_r_comp_2",
+        "name": {
+          "en": "Mumen Rider R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Hiệp Sĩ Không Bằng Lái [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "mumen_rider_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "mumen_rider_r_comp_3",
+        "name": {
+          "en": "Mumen Rider R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Hiệp Sĩ Không Bằng Lái [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "mumen_rider_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "sourface_r",
@@ -11777,7 +19015,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "sourface_r_comp_1",
+        "name": {
+          "en": "Sourface R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Sourface [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "sourface_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Sourface R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Sourface [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "sourface_r_comp_2",
+        "name": {
+          "en": "Sourface R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Sourface [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "sourface_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "sourface_r_comp_3",
+        "name": {
+          "en": "Sourface R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Sourface [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "sourface_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "tank_top_blackhole_r",
@@ -11901,7 +19216,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "tank_top_blackhole_r_comp_1",
+        "name": {
+          "en": "Tank Top Blackhole R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tank Top Blackhole [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_blackhole_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Tank Top Blackhole R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tank Top Blackhole [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "tank_top_blackhole_r_comp_2",
+        "name": {
+          "en": "Tank Top Blackhole R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tank Top Blackhole [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_blackhole_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "tank_top_blackhole_r_comp_3",
+        "name": {
+          "en": "Tank Top Blackhole R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tank Top Blackhole [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "tank_top_blackhole_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "tank_top_tiger_r",
@@ -12025,7 +19417,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "tank_top_tiger_r_comp_1",
+        "name": {
+          "en": "Tank Top Tiger R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Tank Top Tiger [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_tiger_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Tank Top Tiger R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Tank Top Tiger [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "tank_top_tiger_r_comp_2",
+        "name": {
+          "en": "Tank Top Tiger R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Tank Top Tiger [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "tank_top_tiger_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "tank_top_tiger_r_comp_3",
+        "name": {
+          "en": "Tank Top Tiger R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Tank Top Tiger [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "tank_top_tiger_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "triple_staff_lilly_r",
@@ -12149,7 +19618,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "triple_staff_lilly_r_comp_1",
+        "name": {
+          "en": "Triple-Staff Lilly R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Triple-Staff Lilly [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "triple_staff_lilly_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Triple-Staff Lilly R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Triple-Staff Lilly [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "triple_staff_lilly_r_comp_2",
+        "name": {
+          "en": "Triple-Staff Lilly R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Triple-Staff Lilly [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "triple_staff_lilly_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "triple_staff_lilly_r_comp_3",
+        "name": {
+          "en": "Triple-Staff Lilly R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Triple-Staff Lilly [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "triple_staff_lilly_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "wild_monkey_r",
@@ -12273,7 +19819,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "wild_monkey_r_comp_1",
+        "name": {
+          "en": "Wild Monkey R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Wild Monkey [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "wild_monkey_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Wild Monkey R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Wild Monkey [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "wild_monkey_r_comp_2",
+        "name": {
+          "en": "Wild Monkey R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Wild Monkey [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "wild_monkey_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "wild_monkey_r_comp_3",
+        "name": {
+          "en": "Wild Monkey R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Wild Monkey [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "wild_monkey_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "yo649z_mk_ii_r",
@@ -12397,7 +20020,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "yo649z_mk_ii_r_comp_1",
+        "name": {
+          "en": "YO649Z Mk. II R Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng YO649Z Mk. II [R]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "yo649z_mk_ii_r",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting YO649Z Mk. II R with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc YO649Z Mk. II [R] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "yo649z_mk_ii_r_comp_2",
+        "name": {
+          "en": "YO649Z Mk. II R Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng YO649Z Mk. II [R]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "yo649z_mk_ii_r",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "yo649z_mk_ii_r_comp_3",
+        "name": {
+          "en": "YO649Z Mk. II R F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng YO649Z Mk. II [R]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "yo649z_mk_ii_r",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "allback_man_ssr",
@@ -12521,7 +20221,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "allback_man_ssr_comp_1",
+        "name": {
+          "en": "Allback-man SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Allback-man [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "allback_man_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Allback-man SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Allback-man [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "allback_man_ssr_comp_2",
+        "name": {
+          "en": "Allback-man SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Allback-man [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "allback_man_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "allback_man_ssr_comp_3",
+        "name": {
+          "en": "Allback-man SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Allback-man [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "allback_man_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "charanko_ssr",
@@ -12645,7 +20422,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "charanko_ssr_comp_1",
+        "name": {
+          "en": "Charanko SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Charanko [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "charanko_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Charanko SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Charanko [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "charanko_ssr_comp_2",
+        "name": {
+          "en": "Charanko SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Charanko [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "charanko_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "charanko_ssr_comp_3",
+        "name": {
+          "en": "Charanko SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Charanko [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "charanko_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "clone_ssr",
@@ -12769,7 +20623,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "clone_ssr_comp_1",
+        "name": {
+          "en": "Clone SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Clone [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "clone_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Clone SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Clone [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "clone_ssr_comp_2",
+        "name": {
+          "en": "Clone SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Clone [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "clone_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "clone_ssr_comp_3",
+        "name": {
+          "en": "Clone SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Clone [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "clone_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "deep_sea_destroyer_ssr",
@@ -12893,7 +20824,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "deep_sea_destroyer_ssr_comp_1",
+        "name": {
+          "en": "Deep Sea Destroyer SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Deep Sea Destroyer [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_destroyer_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Deep Sea Destroyer SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Deep Sea Destroyer [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "deep_sea_destroyer_ssr_comp_2",
+        "name": {
+          "en": "Deep Sea Destroyer SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Deep Sea Destroyer [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_destroyer_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "deep_sea_destroyer_ssr_comp_3",
+        "name": {
+          "en": "Deep Sea Destroyer SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Deep Sea Destroyer [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "deep_sea_destroyer_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "deep_sea_invader_ssr",
@@ -13017,7 +21025,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "deep_sea_invader_ssr_comp_1",
+        "name": {
+          "en": "Deep Sea Invader SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Deep Sea Invader [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_invader_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Deep Sea Invader SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Deep Sea Invader [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "deep_sea_invader_ssr_comp_2",
+        "name": {
+          "en": "Deep Sea Invader SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Deep Sea Invader [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_invader_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "deep_sea_invader_ssr_comp_3",
+        "name": {
+          "en": "Deep Sea Invader SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Deep Sea Invader [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "deep_sea_invader_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "deep_sea_ravager_ssr",
@@ -13141,7 +21226,84 @@ export const defaultCharacters = [
         "en": "Upgrade Core Level in Laboratory to Level 4/7/10 for massive +40% HP Tenacity and energy generation.",
         "vi": "Nâng cấp Cấp Độ Lõi trong Viện Nghiên Cứu lên mốc Cấp 4/7/10 để mở khóa khiên Kiên Cường 40% Máu và nộ vô tận."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "deep_sea_ravager_ssr_comp_1",
+        "name": {
+          "en": "Deep Sea Ravager SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Deep Sea Ravager [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_ravager_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Deep Sea Ravager SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Deep Sea Ravager [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "deep_sea_ravager_ssr_comp_2",
+        "name": {
+          "en": "Deep Sea Ravager SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Deep Sea Ravager [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "deep_sea_ravager_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "deep_sea_ravager_ssr_comp_3",
+        "name": {
+          "en": "Deep Sea Ravager SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Deep Sea Ravager [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "deep_sea_ravager_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "don_pacino_ssr",
@@ -13265,7 +21427,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "don_pacino_ssr_comp_1",
+        "name": {
+          "en": "Don Pacino SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Don Pacino [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "don_pacino_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Don Pacino SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Don Pacino [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "don_pacino_ssr_comp_2",
+        "name": {
+          "en": "Don Pacino SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Don Pacino [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "don_pacino_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "don_pacino_ssr_comp_3",
+        "name": {
+          "en": "Don Pacino SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Don Pacino [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "don_pacino_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "frog_man_ssr",
@@ -13389,7 +21628,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "frog_man_ssr_comp_1",
+        "name": {
+          "en": "Frog Man SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Frog Man [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "frog_man_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Frog Man SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Frog Man [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "frog_man_ssr_comp_2",
+        "name": {
+          "en": "Frog Man SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Frog Man [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "frog_man_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "frog_man_ssr_comp_3",
+        "name": {
+          "en": "Frog Man SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Frog Man [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "frog_man_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "men_x27_s_esthetician_man_ssr",
@@ -13513,7 +21829,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "men_x27_s_esthetician_man_ssr_comp_1",
+        "name": {
+          "en": "Men&#x27;s Esthetician Man SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Men&#x27;s Esthetician Man [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "men_x27_s_esthetician_man_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Men&#x27;s Esthetician Man SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Men&#x27;s Esthetician Man [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "men_x27_s_esthetician_man_ssr_comp_2",
+        "name": {
+          "en": "Men&#x27;s Esthetician Man SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Men&#x27;s Esthetician Man [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "men_x27_s_esthetician_man_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "men_x27_s_esthetician_man_ssr_comp_3",
+        "name": {
+          "en": "Men&#x27;s Esthetician Man SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Men&#x27;s Esthetician Man [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "men_x27_s_esthetician_man_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "paradiser_footsoldier_ssr",
@@ -13637,7 +22030,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "paradiser_footsoldier_ssr_comp_1",
+        "name": {
+          "en": "Paradiser Footsoldier SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Paradiser Footsoldier [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "paradiser_footsoldier_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Paradiser Footsoldier SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Paradiser Footsoldier [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "paradiser_footsoldier_ssr_comp_2",
+        "name": {
+          "en": "Paradiser Footsoldier SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Paradiser Footsoldier [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "paradiser_footsoldier_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "paradiser_footsoldier_ssr_comp_3",
+        "name": {
+          "en": "Paradiser Footsoldier SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Paradiser Footsoldier [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "paradiser_footsoldier_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "paradiser_thug_ssr",
@@ -13761,7 +22231,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "paradiser_thug_ssr_comp_1",
+        "name": {
+          "en": "Paradiser Thug SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Paradiser Thug [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "paradiser_thug_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Paradiser Thug SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Paradiser Thug [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "paradiser_thug_ssr_comp_2",
+        "name": {
+          "en": "Paradiser Thug SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Paradiser Thug [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "paradiser_thug_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "paradiser_thug_ssr_comp_3",
+        "name": {
+          "en": "Paradiser Thug SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Paradiser Thug [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "paradiser_thug_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "paradiser_trooper_ssr",
@@ -13885,7 +22432,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "paradiser_trooper_ssr_comp_1",
+        "name": {
+          "en": "Paradiser Trooper SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Paradiser Trooper [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "paradiser_trooper_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Paradiser Trooper SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Paradiser Trooper [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "paradiser_trooper_ssr_comp_2",
+        "name": {
+          "en": "Paradiser Trooper SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Paradiser Trooper [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "paradiser_trooper_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "paradiser_trooper_ssr_comp_3",
+        "name": {
+          "en": "Paradiser Trooper SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Paradiser Trooper [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "paradiser_trooper_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "skyfolk_raider_ssr",
@@ -14009,7 +22633,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "skyfolk_raider_ssr_comp_1",
+        "name": {
+          "en": "Skyfolk Raider SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Skyfolk Raider [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "skyfolk_raider_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Skyfolk Raider SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Skyfolk Raider [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "skyfolk_raider_ssr_comp_2",
+        "name": {
+          "en": "Skyfolk Raider SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Skyfolk Raider [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "skyfolk_raider_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "skyfolk_raider_ssr_comp_3",
+        "name": {
+          "en": "Skyfolk Raider SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Skyfolk Raider [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "skyfolk_raider_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "skyfolk_rogue_ssr",
@@ -14133,7 +22834,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "skyfolk_rogue_ssr_comp_1",
+        "name": {
+          "en": "Skyfolk Rogue SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Skyfolk Rogue [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "skyfolk_rogue_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Skyfolk Rogue SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Skyfolk Rogue [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "skyfolk_rogue_ssr_comp_2",
+        "name": {
+          "en": "Skyfolk Rogue SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Skyfolk Rogue [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "skyfolk_rogue_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "skyfolk_rogue_ssr_comp_3",
+        "name": {
+          "en": "Skyfolk Rogue SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Skyfolk Rogue [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "skyfolk_rogue_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "skyfolk_striker_ssr",
@@ -14257,7 +23035,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "skyfolk_striker_ssr_comp_1",
+        "name": {
+          "en": "Skyfolk Striker SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Skyfolk Striker [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "skyfolk_striker_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Skyfolk Striker SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Skyfolk Striker [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "skyfolk_striker_ssr_comp_2",
+        "name": {
+          "en": "Skyfolk Striker SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Skyfolk Striker [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "skyfolk_striker_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "skyfolk_striker_ssr_comp_3",
+        "name": {
+          "en": "Skyfolk Striker SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Skyfolk Striker [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "skyfolk_striker_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "slugrus_ssr",
@@ -14381,7 +23236,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Suit or Casual set. Stack HP% to convert survival into team damage mitigation.",
         "vi": "Trang bị 4 món set Âu Phục (Suit) hoặc Thường Phục (Casual). Dồn tối đa chỉ số Máu % để chuyển hóa thành khiên đỡ cho toàn đội."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "slugrus_ssr_comp_1",
+        "name": {
+          "en": "Slugrus SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Slugrus [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "slugrus_ssr",
+            "overgrown_rover_urplus",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "ur_saitama",
+            "tatsumaki_terrible_tornado_urplus",
+            "king_ur"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Slugrus SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Slugrus [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "slugrus_ssr_comp_2",
+        "name": {
+          "en": "Slugrus SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Slugrus [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "slugrus_ssr",
+            "carnage_kabuto_ur",
+            "tank_top_master_ssrplus"
+          ],
+          "backRow": [
+            "zombieman_urplus",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "slugrus_ssr_comp_3",
+        "name": {
+          "en": "Slugrus SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Slugrus [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "slugrus_ssr",
+            "armored_gorilla_sr",
+            "smile_man_sr"
+          ],
+          "backRow": [
+            "doctor_genus_sr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "subterranean_brute_ssr",
@@ -14505,7 +23437,84 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "subterranean_brute_ssr_comp_1",
+        "name": {
+          "en": "Subterranean Brute SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Subterranean Brute [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "subterranean_brute_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Subterranean Brute SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Subterranean Brute [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "subterranean_brute_ssr_comp_2",
+        "name": {
+          "en": "Subterranean Brute SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Subterranean Brute [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "subterranean_brute_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "subterranean_brute_ssr_comp_3",
+        "name": {
+          "en": "Subterranean Brute SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Subterranean Brute [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "subterranean_brute_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   },
   {
     "id": "subterranean_champion_ssr",
@@ -14629,6 +23638,83 @@ export const defaultCharacters = [
         "en": "Equip 4-piece Knight or Primal set. Maximize ATK and SPD substats to outspeed enemy backline.",
         "vi": "Trang bị 4 món set Hiệp Sĩ (Knight) hoặc Dã Thú (Primal). Tối đa hóa dòng phụ Công % và Tốc Độ để quét sạch hàng sau đối thủ."
       }
-    }
+    },
+    "recommendedTeams": [
+      {
+        "id": "subterranean_champion_ssr_comp_1",
+        "name": {
+          "en": "Subterranean Champion SSR Peak Meta Synergy Comp",
+          "vi": "Đội Hình Meta Đỉnh Cao Cùng Subterranean Champion [SSR]"
+        },
+        "tier": "SSS",
+        "coreHero": "Bomb Core / Gyoro Core",
+        "formation": {
+          "frontRow": [
+            "bang_ssrplus",
+            "superalloy_darkshine_ssrplus",
+            "garou_ur"
+          ],
+          "backRow": [
+            "subterranean_champion_ssr",
+            "tatsumaki_terrible_tornado_urplus",
+            "ur_saitama"
+          ]
+        },
+        "strategy": {
+          "en": "Optimized high-tier synergy formation protecting Subterranean Champion SSR with frontline damage share while accelerating energy output.",
+          "vi": "Đội hình phối hợp đỉnh cao bảo bọc Subterranean Champion [SSR] với dàn chắn hàng trước kiên cố và đẩy mạnh tốc độ hồi nộ toàn đội."
+        }
+      },
+      {
+        "id": "subterranean_champion_ssr_comp_2",
+        "name": {
+          "en": "Subterranean Champion SSR Boss & Expedition Assault",
+          "vi": "Đội Hình Viễn Chinh & Săn Boss Cùng Subterranean Champion [SSR]"
+        },
+        "tier": "SS",
+        "coreHero": "Zombieman Core / Genus Core",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "carnage_kabuto_ur",
+            "superalloy_darkshine_ssrplus"
+          ],
+          "backRow": [
+            "subterranean_champion_ssr",
+            "golden_ball_sr",
+            "amai_mask_urplus"
+          ]
+        },
+        "strategy": {
+          "en": "Sustain-heavy PvE build using Zombieman core for infinite resurrection and Amai Mask for backline boss assassinations.",
+          "vi": "Đội hình PvE bền bỉ tận dụng Lõi Zombieman bất tử hồi máu và Amai Mask dồn sát thương đơn mục tiêu diệt Boss."
+        }
+      },
+      {
+        "id": "subterranean_champion_ssr_comp_3",
+        "name": {
+          "en": "Subterranean Champion SSR F2P Friendly Starter Setup",
+          "vi": "Đội Hình Khởi Đầu Thân Thiện F2P Cùng Subterranean Champion [SSR]"
+        },
+        "tier": "S",
+        "coreHero": "Doctor Genus Core / Mumen Rider",
+        "formation": {
+          "frontRow": [
+            "armored_gorilla_sr",
+            "smile_man_sr",
+            "mumen_rider_r"
+          ],
+          "backRow": [
+            "subterranean_champion_ssr",
+            "golden_ball_sr",
+            "beast_king_sr"
+          ]
+        },
+        "strategy": {
+          "en": "High efficiency F2P setup using Doctor Genus core for free turn-1 energy and Beast King 5x pursuit triggers upon injury.",
+          "vi": "Đội hình F2P siêu tiết kiệm tận dụng Lõi Tiến Sĩ Genus hồi nộ miễn phí và Vua Thú tung 5 đòn cào truy kích khi địch bị Tổn Thương."
+        }
+      }
+    ]
   }
 ];

@@ -20,8 +20,9 @@ export const MetaDataProvider = ({ children }) => {
       return {
         ...defChar,
         ...existing,
-        // Always enforce authentic local avatar, gameplay guide, recommended teams, mechanics, and counterMatchups
+        // Always enforce authentic local avatar, skills, gameplay guide, recommended teams, mechanics, and counterMatchups
         avatar: defChar.avatar,
+        skills: defChar.skills,
         recommendedTeams: defChar.recommendedTeams,
         gameplayGuide: defChar.gameplayGuide,
         mechanics: defChar.mechanics,

@@ -1,0 +1,828 @@
+{
+  "ur_saitama": {
+    "name": "Saitama UR",
+    "rarity": "UR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "black_sperm_urplus": {
+    "name": "Tinh Trùng Đen (Black Sperm) [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100318-urplus",
+    "officialName": "Black Sperm",
+    "officialTier": "UR+"
+  },
+  "zombieman_urplus": {
+    "name": "Thám Tử Bất Tử Zombieman [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100317-urplus",
+    "officialName": "Zombieman",
+    "officialTier": "UR+"
+  },
+  "overgrown_rover_urplus": {
+    "name": "Chó Quái Thú Rover [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100316-urplus",
+    "officialName": "Overgrown Rover",
+    "officialTier": "UR+"
+  },
+  "bang_bomb_urplus": {
+    "name": "Song Tông Sư Bang & Bomb [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "g5_urplus": {
+    "name": "Robot Ma Thần G5 [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100314-urplus",
+    "officialName": "G5",
+    "officialTier": "UR+"
+  },
+  "atomic_samurai_urplus": {
+    "name": "Kiếm Thánh Atomic Samurai [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100313-urplus",
+    "officialName": "Atomic Samurai",
+    "officialTier": "UR+"
+  },
+  "nyan_urplus": {
+    "name": "Miêu Vương Nyan [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100312-urplus",
+    "officialName": "Nyan",
+    "officialTier": "UR+"
+  },
+  "tatsumaki_terrible_tornado_urplus": {
+    "name": "Lốc Xoáy Kinh Hoàng Tatsumaki [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100311-urplus",
+    "officialName": "Tatsumaki/Terrible Tornado",
+    "officialTier": "UR+"
+  },
+  "amai_mask_urplus": {
+    "name": "Mặt Nạ Mật Amai Mask [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100310-urplus",
+    "officialName": "Amai Mask",
+    "officialTier": "UR+"
+  },
+  "boros_urplus": {
+    "name": "Bá Chủ Vũ Trụ Boros [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100309-urplus",
+    "officialName": "Boros",
+    "officialTier": "UR+"
+  },
+  "genos_urplus": {
+    "name": "Cyborg Hủy Diệt Genos [UR+]",
+    "rarity": "UR+",
+    "mappedSlug": "100308-urplus",
+    "officialName": "Genos",
+    "officialTier": "UR+"
+  },
+  "gyoro_gyoro_ur": {
+    "name": "Quân Sư Gyoro-Gyoro [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100307-ur",
+    "officialName": "Gyoro-Gyoro",
+    "officialTier": "UR"
+  },
+  "metal_bat_v2_ur": {
+    "name": "Chày Sắt Metal Bat V2 [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100306-ur",
+    "officialName": "Metal Bat V2",
+    "officialTier": "UR"
+  },
+  "sonic_v2_ur": {
+    "name": "Sonic V2 Siêu Thanh [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100305-ur",
+    "officialName": "Sonic V2",
+    "officialTier": "UR"
+  },
+  "garou_ur": {
+    "name": "Kẻ Săn Anh Hùng Garou [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100304-ur",
+    "officialName": "Garou",
+    "officialTier": "UR"
+  },
+  "pig_god_ur": {
+    "name": "Thần Ăn Pig God [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100303-ur",
+    "officialName": "Pig God",
+    "officialTier": "UR"
+  },
+  "carnage_kabuto_ur": {
+    "name": "Bọ Hung Carnage Kabuto [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100302-ur",
+    "officialName": "Carnage Kabuto",
+    "officialTier": "UR"
+  },
+  "subterranean_king_ur": {
+    "name": "Vua Lòng Đất [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100301-ur",
+    "officialName": "Subterranean King",
+    "officialTier": "UR"
+  },
+  "drive_knight_ur": {
+    "name": "Hiệp Sĩ Cơ Giới Drive Knight [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100300-ur",
+    "officialName": "Drive Knight",
+    "officialTier": "UR"
+  },
+  "hellish_blizzard_ur": {
+    "name": "Bão Tuyết Fubuki [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100199-ur",
+    "officialName": "Hellish Blizzard",
+    "officialTier": "UR"
+  },
+  "deep_sea_king_ur": {
+    "name": "Vua Biển Sâu [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100187-ur",
+    "officialName": "King",
+    "officialTier": "UR"
+  },
+  "child_emperor_ur": {
+    "name": "Tiểu Bá Vương Child Emperor [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100196-ur",
+    "officialName": "Child Emperor",
+    "officialTier": "UR"
+  },
+  "mosquito_girl_ur": {
+    "name": "Nữ Chúa Muỗi Mosquito Girl [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100195-ur",
+    "officialName": "Mosquito Girl",
+    "officialTier": "UR"
+  },
+  "flashy_flash_ur": {
+    "name": "Flash Quang Tốc [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100194-ur",
+    "officialName": "Flashy Flash",
+    "officialTier": "UR"
+  },
+  "gouketsu_ur": {
+    "name": "Hào Kiệt Gouketsu [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100193-ur",
+    "officialName": "Gouketsu",
+    "officialTier": "UR"
+  },
+  "hellfire_flame_ur": {
+    "name": "Liệt Hỏa Hellfire Flame [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100191-ur",
+    "officialName": "Hellfire Flame",
+    "officialTier": "UR"
+  },
+  "melzargard_ur": {
+    "name": "Thượng Tướng Melzargard [UR]",
+    "rarity": "UR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "gale_wind_ur": {
+    "name": "Thiên Phong Gale Wind [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100189-ur",
+    "officialName": "Gale Wind",
+    "officialTier": "UR"
+  },
+  "king_ur": {
+    "name": "Vua May Mắn King [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100187-ur",
+    "officialName": "King",
+    "officialTier": "UR"
+  },
+  "bom_bengpu_ur": {
+    "name": "Bom/Bengpu [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100186-ur",
+    "officialName": "Bom/Bengpu",
+    "officialTier": "UR"
+  },
+  "metal_bat_ur": {
+    "name": "Chày Sắt Metal Bat [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100185-ur",
+    "officialName": "Metal Bat",
+    "officialTier": "UR"
+  },
+  "suiryu_ur": {
+    "name": "Thủy Long Suiryu [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100183-ur",
+    "officialName": "Suiryu",
+    "officialTier": "UR"
+  },
+  "g4_ur": {
+    "name": "Ma Thần Cơ Khí G4 [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100182-ur",
+    "officialName": "G4",
+    "officialTier": "UR"
+  },
+  "sonic_v1_ur": {
+    "name": "Sonic V1 [UR]",
+    "rarity": "UR",
+    "mappedSlug": "100181-ur",
+    "officialName": "Sonic V1",
+    "officialTier": "UR"
+  },
+  "superalloy_darkshine_ssrplus": {
+    "name": "Hợp Kim Đen Bóng Darkshine [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": "100177-ssrplus",
+    "officialName": "Superalloy Darkshine",
+    "officialTier": "SSR+"
+  },
+  "metal_knight_ssrplus": {
+    "name": "Hiệp Sĩ Kim Loại Bofoi [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "puri_puri_prisoner_ssrplus": {
+    "name": "Tù Nhân Sexy Puri-Puri [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": "100175-ssrplus",
+    "officialName": "Puri-Puri Prisoner",
+    "officialTier": "SSR+"
+  },
+  "groribas_ssrplus": {
+    "name": "Groribas [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": "100174-ssrplus",
+    "officialName": "Groribas",
+    "officialTier": "SSR+"
+  },
+  "watchdog_man_ssrplus": {
+    "name": "Chó Canh Cổng Watchdog Man [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": "100172-ssrplus",
+    "officialName": "Watchdog Man",
+    "officialTier": "SSR+"
+  },
+  "tank_top_master_ssrplus": {
+    "name": "Tank Top Master [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "phoenix_man_ssrplus": {
+    "name": "Phượng Hoàng Lửa Phoenix Man [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "bang_ssrplus": {
+    "name": "Bang [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": "100160-ssrplus",
+    "officialName": "Bang",
+    "officialTier": "SSR+"
+  },
+  "geryuganshoop_ssrplus": {
+    "name": "Bậc Thầy Trọng Lực Geryuganshoop [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": "100159-ssrplus",
+    "officialName": "Geryuganshoop",
+    "officialTier": "SSR+"
+  },
+  "monsterized_bakuzan_ssrplus": {
+    "name": "Monsterized Bakuzan [SSR+]",
+    "rarity": "SSR+",
+    "mappedSlug": "100101-ssrplus",
+    "officialName": "Monsterized Bakuzan",
+    "officialTier": "SSR+"
+  },
+  "choze_ssr": {
+    "name": "Choze [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100115-ssr",
+    "officialName": "Choze",
+    "officialTier": "SSR"
+  },
+  "eyesight_ssr": {
+    "name": "Eyesight [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100149-ssr",
+    "officialName": "Eyesight",
+    "officialTier": "SSR"
+  },
+  "speed_o_sound_sonic_v1_ssr": {
+    "name": "Speed-o-Sound Sonic V1 [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100002-ssr",
+    "officialName": "Speed-o-Sound Sonic V1",
+    "officialTier": "SSR"
+  },
+  "speed_o_sound_sonic_v2_ssr": {
+    "name": "Speed-o-Sound Sonic V2 [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100069-ssr",
+    "officialName": "Speed-o-Sound Sonic V2",
+    "officialTier": "SSR"
+  },
+  "tatsumaki_terrible_tornado_v1_ssr": {
+    "name": "Tatsumaki/Terrible Tornado V1 [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100004-ssr",
+    "officialName": "Tatsumaki/Terrible Tornado V1",
+    "officialTier": "SSR"
+  },
+  "tatsumaki_terrible_tornado_v2_ssr": {
+    "name": "Tatsumaki/Terrible Tornado V2 [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100151-ssr",
+    "officialName": "Tatsumaki/Terrible Tornado V2",
+    "officialTier": "SSR"
+  },
+  "vaccine_man_v1_ssr": {
+    "name": "Vaccine Man V1 [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100060-ssr",
+    "officialName": "Vaccine Man V1",
+    "officialTier": "SSR"
+  },
+  "vaccine_man_v2_ssr": {
+    "name": "Vaccine Man V2 [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": "100085-ssr",
+    "officialName": "Vaccine Man V2",
+    "officialTier": "SSR"
+  },
+  "armored_gorilla_sr": {
+    "name": "Khỉ Đột Thiết Giáp [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100047-sr",
+    "officialName": "Armored Gorilla",
+    "officialTier": "SR"
+  },
+  "awakened_cockroach_sr": {
+    "name": "Awakened Cockroach [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100135-sr",
+    "officialName": "Awakened Cockroach",
+    "officialTier": "SR"
+  },
+  "bakuzan_sr": {
+    "name": "Bakuzan [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100092-sr",
+    "officialName": "Bakuzan",
+    "officialTier": "SR"
+  },
+  "beast_king_sr": {
+    "name": "Vua Thú Beast King [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100049-sr",
+    "officialName": "Beast King",
+    "officialTier": "SR"
+  },
+  "blue_fire_sr": {
+    "name": "Ngọn Lửa Xanh Blue Fire [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100046-sr",
+    "officialName": "Blue Fire",
+    "officialTier": "SR"
+  },
+  "bushidoriru_sr": {
+    "name": "Bushidoriru [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100096-sr",
+    "officialName": "Bushidoriru",
+    "officialTier": "SR"
+  },
+  "butterfly_dx_sr": {
+    "name": "Butterfly DX [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100154-sr",
+    "officialName": "Butterfly DX",
+    "officialTier": "SR"
+  },
+  "death_gatling_sr": {
+    "name": "Súng Sáu Nòng Death Gatling [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100136-sr",
+    "officialName": "Death Gatling",
+    "officialTier": "SR"
+  },
+  "doctor_genus_sr": {
+    "name": "Tiến Sĩ Genus [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100083-sr",
+    "officialName": "Doctor Genus",
+    "officialTier": "SR"
+  },
+  "face_ripper_sr": {
+    "name": "Face Ripper [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100111-sr",
+    "officialName": "Face Ripper",
+    "officialTier": "SR"
+  },
+  "fist_fight_djinn_sr": {
+    "name": "Fist Fight Djinn [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100097-sr",
+    "officialName": "Fist Fight Djinn",
+    "officialTier": "SR"
+  },
+  "fukegao_sr": {
+    "name": "Bác Sĩ Khổng Lồ Fukegao [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100084-sr",
+    "officialName": "Fukegao",
+    "officialTier": "SR"
+  },
+  "golden_ball_sr": {
+    "name": "Bi Vàng Golden Ball [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100015-sr",
+    "officialName": "Golden Ball",
+    "officialTier": "SR"
+  },
+  "hammerhead_sr": {
+    "name": "Hammerhead [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100007-sr",
+    "officialName": "Hammerhead",
+    "officialTier": "SR"
+  },
+  "hamukichi_sr": {
+    "name": "Hamukichi [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100148-sr",
+    "officialName": "Hamukichi",
+    "officialTier": "SR"
+  },
+  "heavy_tank_loincloth_sr": {
+    "name": "Heavy Tank Loincloth [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100110-sr",
+    "officialName": "Heavy Tank Loincloth",
+    "officialTier": "SR"
+  },
+  "iairon_sr": {
+    "name": "Cư Hợp Thiết Iairon [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100018-sr",
+    "officialName": "Iairon",
+    "officialTier": "SR"
+  },
+  "konbu_infinity_sr": {
+    "name": "Tảo Bẹ Vô Tận [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100063-sr",
+    "officialName": "Konbu Infinity",
+    "officialTier": "SR"
+  },
+  "lightning_genji_sr": {
+    "name": "Lightning Genji [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100051-sr",
+    "officialName": "Lightning Genji",
+    "officialTier": "SR"
+  },
+  "lightning_max_sr": {
+    "name": "Tia Chớp Lightning Max [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100005-sr",
+    "officialName": "Lightning Max",
+    "officialTier": "SR"
+  },
+  "magicman_sr": {
+    "name": "Magicman [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100091-sr",
+    "officialName": "Magicman",
+    "officialTier": "SR"
+  },
+  "messenger_of_the_seafolk_sr": {
+    "name": "Messenger of the Seafolk [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100034-sr",
+    "officialName": "Messenger of the Seafolk",
+    "officialTier": "SR"
+  },
+  "rinrin_sr": {
+    "name": "Rinrin [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100120-sr",
+    "officialName": "Rinrin",
+    "officialTier": "SR"
+  },
+  "sky_king_sr": {
+    "name": "Vua Bầu Trời Sky King [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100061-sr",
+    "officialName": "Sky King",
+    "officialTier": "SR"
+  },
+  "smile_man_sr": {
+    "name": "Người Mặt Cười Smile Man [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100019-sr",
+    "officialName": "Smile Man",
+    "officialTier": "SR"
+  },
+  "snek_sr": {
+    "name": "Rắn Cắn Snek [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100030-sr",
+    "officialName": "Snek",
+    "officialTier": "SR"
+  },
+  "spring_mustachio_sr": {
+    "name": "Râu Lò Xo Spring Mustachio [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100016-sr",
+    "officialName": "Spring Mustachio",
+    "officialTier": "SR"
+  },
+  "stinger_sr": {
+    "name": "Gia Táo Đình Stinger [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100014-sr",
+    "officialName": "Stinger",
+    "officialTier": "SR"
+  },
+  "subterranean_sr": {
+    "name": "Subterranean [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100086-sr",
+    "officialName": "Subterranean",
+    "officialTier": "SR"
+  },
+  "tank_top_vegan_sr": {
+    "name": "Tank Top Vegan [SR]",
+    "rarity": "SR",
+    "mappedSlug": "100104-sr",
+    "officialName": "Tank Top Vegan",
+    "officialTier": "SR"
+  },
+  "bunbun_man_r": {
+    "name": "Bunbun Man [R]",
+    "rarity": "R",
+    "mappedSlug": "100038-r",
+    "officialName": "Bunbun Man",
+    "officialTier": "R"
+  },
+  "crablante_r": {
+    "name": "Crablante [R]",
+    "rarity": "R",
+    "mappedSlug": "100039-r",
+    "officialName": "Crablante",
+    "officialTier": "R"
+  },
+  "d_pad_r": {
+    "name": "D-pad [R]",
+    "rarity": "R",
+    "mappedSlug": "100032-r",
+    "officialName": "D-pad",
+    "officialTier": "R"
+  },
+  "dark_matter_thief_r": {
+    "name": "Dark Matter Thief [R]",
+    "rarity": "R",
+    "mappedSlug": "100068-r",
+    "officialName": "Dark Matter Thief",
+    "officialTier": "R"
+  },
+  "eyelashes_r": {
+    "name": "Eyelashes [R]",
+    "rarity": "R",
+    "mappedSlug": "100021-r",
+    "officialName": "Eyelashes",
+    "officialTier": "R"
+  },
+  "funeral_suspenders_r": {
+    "name": "Funeral Suspenders [R]",
+    "rarity": "R",
+    "mappedSlug": "100033-r",
+    "officialName": "Funeral Suspenders",
+    "officialTier": "R"
+  },
+  "ground_dragon_r": {
+    "name": "Ground Dragon [R]",
+    "rarity": "R",
+    "mappedSlug": "100065-r",
+    "officialName": "Ground Dragon",
+    "officialTier": "R"
+  },
+  "jet_niceguy_r": {
+    "name": "Jet Niceguy [R]",
+    "rarity": "R",
+    "mappedSlug": "100050-r",
+    "officialName": "Jet Niceguy",
+    "officialTier": "R"
+  },
+  "kamakyuri_r": {
+    "name": "Kamakyuri [R]",
+    "rarity": "R",
+    "mappedSlug": "100064-r",
+    "officialName": "Kamakyuri",
+    "officialTier": "R"
+  },
+  "maiko_plasma_r": {
+    "name": "Maiko Plasma [R]",
+    "rarity": "R",
+    "mappedSlug": "100106-r",
+    "officialName": "Maiko Plasma",
+    "officialTier": "R"
+  },
+  "mumen_rider_r": {
+    "name": "Hiệp Sĩ Không Bằng Lái [R]",
+    "rarity": "R",
+    "mappedSlug": "100031-r",
+    "officialName": "Mumen Rider",
+    "officialTier": "R"
+  },
+  "sourface_r": {
+    "name": "Sourface [R]",
+    "rarity": "R",
+    "mappedSlug": "100093-r",
+    "officialName": "Sourface",
+    "officialTier": "R"
+  },
+  "tank_top_blackhole_r": {
+    "name": "Tank Top Blackhole [R]",
+    "rarity": "R",
+    "mappedSlug": "100035-r",
+    "officialName": "Tank Top Blackhole",
+    "officialTier": "R"
+  },
+  "tank_top_tiger_r": {
+    "name": "Tank Top Tiger [R]",
+    "rarity": "R",
+    "mappedSlug": "100041-r",
+    "officialName": "Tank Top Tiger",
+    "officialTier": "R"
+  },
+  "triple_staff_lilly_r": {
+    "name": "Triple-Staff Lilly [R]",
+    "rarity": "R",
+    "mappedSlug": "100020-r",
+    "officialName": "Triple-Staff Lilly",
+    "officialTier": "R"
+  },
+  "wild_monkey_r": {
+    "name": "Wild Monkey [R]",
+    "rarity": "R",
+    "mappedSlug": "100036-r",
+    "officialName": "Wild Monkey",
+    "officialTier": "R"
+  },
+  "yo649z_mk_ii_r": {
+    "name": "YO649Z Mk. II [R]",
+    "rarity": "R",
+    "mappedSlug": "100053-r",
+    "officialName": "YO649Z Mk. II",
+    "officialTier": "R"
+  },
+  "allback_man_ssr": {
+    "name": "Allback-man [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "charanko_ssr": {
+    "name": "Charanko [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "clone_ssr": {
+    "name": "Clone [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "deep_sea_destroyer_ssr": {
+    "name": "Deep Sea Destroyer [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "deep_sea_invader_ssr": {
+    "name": "Deep Sea Invader [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "deep_sea_ravager_ssr": {
+    "name": "Deep Sea Ravager [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "don_pacino_ssr": {
+    "name": "Don Pacino [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "frog_man_ssr": {
+    "name": "Frog Man [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "men_x27_s_esthetician_man_ssr": {
+    "name": "Men&#x27;s Esthetician Man [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "paradiser_footsoldier_ssr": {
+    "name": "Paradiser Footsoldier [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "paradiser_thug_ssr": {
+    "name": "Paradiser Thug [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "paradiser_trooper_ssr": {
+    "name": "Paradiser Trooper [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "skyfolk_raider_ssr": {
+    "name": "Skyfolk Raider [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "skyfolk_rogue_ssr": {
+    "name": "Skyfolk Rogue [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "skyfolk_striker_ssr": {
+    "name": "Skyfolk Striker [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "slugrus_ssr": {
+    "name": "Slugrus [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "subterranean_brute_ssr": {
+    "name": "Subterranean Brute [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  },
+  "subterranean_champion_ssr": {
+    "name": "Subterranean Champion [SSR]",
+    "rarity": "SSR",
+    "mappedSlug": null,
+    "officialName": null,
+    "officialTier": null
+  }
+}

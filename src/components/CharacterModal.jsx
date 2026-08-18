@@ -537,6 +537,118 @@ export const CharacterModal = ({
                   </div>
                 </div>
               )}
+
+              {/* Extreme Passive (5★ Vàng) */}
+              {character.skills?.extremePassive && (
+                <div className="p-4 rounded-2xl bg-gradient-to-br from-amber-950/30 via-opm-bg to-amber-950/10 border border-amber-500/50 space-y-2.5">
+                  <div className="flex items-center justify-between gap-2 border-b border-amber-500/30 pb-2">
+                    <span className="px-2 py-0.5 text-[10px] font-black rounded bg-amber-950 text-amber-300 border border-amber-500/50 flex items-center gap-1 uppercase">
+                      <span>★★★★★</span>
+                      <span>{language === 'vi' ? 'Bị Động Cực Hạn' : 'Extreme Passive'}</span>
+                    </span>
+                    <span className="font-bold text-xs text-amber-300">
+                      {getLocalized(character.skills.extremePassive.name)}
+                    </span>
+                  </div>
+                  
+                  <p className="text-xs text-slate-200 leading-relaxed font-mono whitespace-pre-line">
+                    {getLocalized(character.skills.extremePassive.desc)}
+                  </p>
+
+                  <div className="p-2.5 rounded-xl bg-amber-950/40 border border-amber-500/30 text-[11px] text-amber-200">
+                    💡 {language === 'vi' ? 'Mở khóa tại mốc 5 Sao Vàng — Tăng mạnh hiệu quả bị động và khả năng sống sót.' : 'Unlocked at 5-Star Gold — Drastically amplifies passive scaling and survivability.'}
+                  </div>
+                </div>
+              )}
+
+              {/* 5P Purple Passive (5★ Tím) */}
+              {character.skills?.fivePurplePassive && (
+                <div className="p-4 rounded-2xl bg-gradient-to-br from-purple-950/40 via-opm-bg to-purple-950/20 border border-purple-400/50 space-y-2.5">
+                  <div className="flex items-center justify-between gap-2 border-b border-purple-400/30 pb-2">
+                    <span className="px-2 py-0.5 text-[10px] font-black rounded bg-purple-900 text-purple-200 border border-purple-400/50 flex items-center gap-1 uppercase">
+                      <span>★★★★★</span>
+                      <span>{language === 'vi' ? 'Bị Động 5 Sao Tím (5P)' : '5P Passive'}</span>
+                    </span>
+                    <span className="font-bold text-xs text-purple-200">
+                      {getLocalized(character.skills.fivePurplePassive.name)}
+                    </span>
+                  </div>
+                  
+                  <p className="text-xs text-slate-200 leading-relaxed font-mono whitespace-pre-line">
+                    {getLocalized(character.skills.fivePurplePassive.desc)}
+                  </p>
+
+                  <div className="p-2.5 rounded-xl bg-purple-950/40 border border-purple-400/30 text-[11px] text-purple-200">
+                    🔮 {language === 'vi' ? 'Mở khóa tại mốc 5 Sao Tím — Kéo dài số lượt duy trì và đẩy giới hạn kỹ năng lên tối đa.' : 'Unlocked at 5-Star Purple — Maximizes turn duration and unlocks peak combat potential.'}
+                  </div>
+                </div>
+              )}
+
+              {/* Awakening Stage 1 & 2 */}
+              {character.skills?.awakening && (
+                <div className="p-4 rounded-2xl bg-gradient-to-br from-cyan-950/40 via-opm-bg to-cyan-950/20 border border-cyan-500/50 space-y-2.5 md:col-span-2">
+                  <div className="flex items-center justify-between gap-2 border-b border-cyan-500/30 pb-2">
+                    <span className="px-2.5 py-0.5 text-[10px] font-black rounded bg-cyan-950 text-cyan-300 border border-cyan-500/50 flex items-center gap-1 uppercase">
+                      <Zap className="w-3 h-3 text-cyan-400" />
+                      <span>{language === 'vi' ? 'Nội Tại Thức Tỉnh (Awakening Stages)' : 'Awakening Passives'}</span>
+                    </span>
+                    <span className="font-bold text-xs text-cyan-300">
+                      {character.rarity.includes('UR') ? 'UR Evolution Matrix' : 'Awakening Power'}
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                    {character.skills.awakening.stage1 && (
+                      <div className="p-3 rounded-xl bg-slate-950/70 border border-cyan-500/30 space-y-1">
+                        <span className="text-[11px] font-black text-cyan-300 block">
+                          ⚡ {language === 'vi' ? 'Thức Tỉnh Cấp 1:' : 'Awaken Stage 1:'}
+                        </span>
+                        <p className="text-xs text-slate-200 leading-relaxed">
+                          {getLocalized(character.skills.awakening.stage1)}
+                        </p>
+                      </div>
+                    )}
+                    {character.skills.awakening.stage2 && (
+                      <div className="p-3 rounded-xl bg-slate-950/70 border border-cyan-500/30 space-y-1">
+                        <span className="text-[11px] font-black text-cyan-300 block">
+                          ⚡⚡ {language === 'vi' ? 'Thức Tỉnh Cấp 2:' : 'Awaken Stage 2:'}
+                        </span>
+                        <p className="text-xs text-slate-200 leading-relaxed">
+                          {getLocalized(character.skills.awakening.stage2)}
+                        </p>
+                      </div>
+                    )}
+                    {character.skills.awakening.stage3 && (
+                      <div className="p-3 rounded-xl bg-slate-950/70 border border-cyan-500/30 space-y-1 sm:col-span-2">
+                        <span className="text-[11px] font-black text-cyan-300 block">
+                          ⚡⚡⚡ {language === 'vi' ? 'Thức Tỉnh Cấp 3:' : 'Awaken Stage 3:'}
+                        </span>
+                        <p className="text-xs text-slate-200 leading-relaxed">
+                          {getLocalized(character.skills.awakening.stage3)}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* Core Skill */}
+              {character.skills?.core && (
+                <div className="p-4 rounded-2xl bg-gradient-to-br from-indigo-950/40 via-opm-bg to-indigo-950/20 border border-indigo-500/50 space-y-2.5 md:col-span-2">
+                  <div className="flex items-center justify-between gap-2 border-b border-indigo-500/30 pb-2">
+                    <span className="px-2.5 py-0.5 text-[10px] font-black rounded bg-indigo-950 text-indigo-300 border border-indigo-500/50 flex items-center gap-1 uppercase">
+                      <Crown className="w-3 h-3 text-indigo-400" />
+                      <span>{language === 'vi' ? 'Kỹ Năng Lõi (Core Skill)' : 'Core Skill Master'}</span>
+                    </span>
+                    <span className="font-bold text-xs text-indigo-300">
+                      {getLocalized(character.skills.core.name)}
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-200 leading-relaxed">
+                    {getLocalized(character.skills.core.desc)}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
 
